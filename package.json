@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
+    "deploy": "wrangler deploy --assets=./dist",
     "preview": "astro preview",
     "astro": "astro"
   },
