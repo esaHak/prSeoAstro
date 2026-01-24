@@ -1,0 +1,158 @@
+---
+// Dynamic page template with recursive cluster support
+// Generates pages at any depth: /pillar/, /pillar/cluster/, /pillar/cluster/sub-cluster/, etc.
+// Each page shows its title, description, child clusters, and breadcrumb navigation
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import content from '../../data/content.json';
+
+// Generate all static paths
+export function getStaticPaths() {
+  // Recursive function to generate all possible paths
+  // Builds an array of all page paths at any depth
+  function generateAllPaths(data, parentPath = []) {
+    const paths = [];
+
+    for (const item of data) {
+      const currentPath = [...parentPath, item.slug];
+
+      // Add this page
+      paths.push({
+        params: { slug: currentPath.join('/') },
+        props: {
+          slugPath: currentPath,
+          page: item
+        }
+      });
+
+      // Recurse into clusters if they exist
+      if (item.clusters && item.clusters.length > 0) {
+        const childPaths = generateAllPaths(item.clusters, currentPath);
+        paths.push(...childPaths);
+      }
+    }
+
+    return paths;
+  }
+
+  return generateAllPaths(content);
+}
+
+// Recursive function to find a page by its slug path
+// slugPath: array of slugs like ['crm-software', 'crm-for-startups', 'free-crm-for-startups']
+function findPageByPath(data, slugPath) {
+  if (slugPath.length === 0) return null;
+
+  // Find the current slug in the data
+  const currentSlug = slugPath[0];
+  const currentPage = data.find((item) => item.slug === currentSlug);
+
+  if (!currentPage) return null;
+
+  // If this is the last slug in the path, return this page
+  if (slugPath.length === 1) {
+    return currentPage;
+  }
+
+  // Otherwise, recurse into clusters
+  if (currentPage.clusters && currentPage.clusters.length > 0) {
+    return findPageByPath(currentPage.clusters, slugPath.slice(1));
+  }
+
+  return null;
+}
+
+const { slugPath, page } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+
+// Build breadcrumb trail
+const breadcrumbs = [];
+for (let i = 0; i < slugPath.length; i++) {
+  const path = slugPath.slice(0, i + 1);
+  const pageAtPath = findPageByPath(content, path);
+  breadcrumbs.push({
+    title: pageAtPath?.title || path[i],
+    url: `${base}${path.join('/')}/`
+  });
+}
+
+const description = page.description || `Learn about ${page.title}.`;
+---
+
+<BaseLayout title={page.title} description={description}>
+  <nav>
+    <a href={base}>Home</a>
+    {breadcrumbs.slice(0, -1).map((crumb) => (
+      <>
+        {' → '}
+        <a href={crumb.url}>{crumb.title}</a>
+      </>
+    ))}
+  </nav>
+
+  <h1>{page.title}</h1>
+  <p style="font-size: 1.1rem; line-height: 1.6;">{description}</p>
+
+  <section style="margin: 2rem 0;">
+    <h2>Overview</h2>
+    <p>This page covers everything you need to know about {page.title.toLowerCase()}. We've compiled comprehensive information, best practices, and recommendations to help you make informed decisions.</p>
+
+    <p>Whether you're just getting started or looking to optimize your existing setup, you'll find valuable insights and detailed guidance throughout this resource.</p>
+  </section>
+
+  {page.clusters && page.clusters.length > 0 && (
+    <section style="margin: 2rem 0;">
+      <h2>Explore {page.title} Topics</h2>
+      <p style="margin-bottom: 1.5rem;">Dive deeper into specific aspects of {page.title.toLowerCase()} with our detailed guides below:</p>
+
+      <div>
+        {page.clusters.map((cluster) => (
+          <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
+            <h3 style="margin-top: 0;">
+              <a href={`${base}${[...slugPath, cluster.slug].join('/')}/`} style="text-decoration: none; color: #0066cc;">
+                {cluster.title}
+              </a>
+            </h3>
+            {cluster.description && (
+              <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
+                {cluster.description}
+              </p>
+            )}
+            <p style="margin: 0.75rem 0 0 0;">
+              <a href={`${base}${[...slugPath, cluster.slug].join('/')}/`} style="color: #0066cc;">
+                Learn more about {cluster.title.toLowerCase()} →
+              </a>
+            </p>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section style="margin: 2rem 0;">
+    <h2>Key Features</h2>
+    <ul style="line-height: 1.8;">
+      <li>Comprehensive coverage of {page.title.toLowerCase()}</li>
+      <li>Up-to-date information and best practices</li>
+      <li>Practical examples and use cases</li>
+      <li>Expert recommendations and insights</li>
+    </ul>
+  </section>
+
+  <section style="margin: 2rem 0;">
+    <h2>Why Choose {page.title}?</h2>
+    <p>When evaluating options for {page.title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. This guide helps you understand these considerations in depth.</p>
+
+    <p>Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively.</p>
+  </section>
+
+  <hr />
+  {slugPath.length > 1 ? (
+    <a href={`${base}${slugPath.slice(0, -1).join('/')}/`}>
+      ← Back to {breadcrumbs[breadcrumbs.length - 2].title}
+    </a>
+  ) : (
+    <a href={base}>← Back to Home</a>
+  )}
+</BaseLayout>

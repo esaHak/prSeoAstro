@@ -1,0 +1,47 @@
+---
+// Homepage
+// Lists all pillar pages
+// Links to each pillar page using the pillar title as anchor text
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import content from '../data/content.json';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="Programmatic SEO Demo"
+  description="A demonstration of pillar and cluster page structure for programmatic SEO">
+  <h1>Programmatic SEO Demo</h1>
+  <p style="font-size: 1.1rem; line-height: 1.6;">This site demonstrates a pillar and cluster content structure for programmatic SEO. Explore our comprehensive guides on various software tools and platforms.</p>
+
+  <section style="margin: 2rem 0;">
+    <h2>Browse Our Guides</h2>
+    <p style="margin-bottom: 1.5rem;">Select a topic below to discover in-depth information, comparisons, and recommendations:</p>
+
+    <div>
+      {content.map((pillar) => (
+        <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
+          <h3 style="margin-top: 0;">
+            <a href={`${base}${pillar.slug}/`} style="text-decoration: none; color: #0066cc;">
+              {pillar.title}
+            </a>
+          </h3>
+          <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
+            {pillar.description}
+          </p>
+          <p style="margin: 0.75rem 0 0 0;">
+            <a href={`${base}${pillar.slug}/`} style="color: #0066cc;">
+              Explore {pillar.title} →
+            </a>
+          </p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section style="margin: 2rem 0;">
+    <h2>About This Site</h2>
+    <p>This demonstration showcases how programmatic SEO can be implemented using Astro with a hierarchical content structure. Each page is statically generated from JSON data, ensuring fast load times and excellent SEO performance.</p>
+  </section>
+</BaseLayout>
