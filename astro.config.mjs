@@ -6,8 +6,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://username.github.io',
-  base: '/repo-name',
+  site: 'https://esahak.github.io',
+  base: '/prSeoAstro',
   trailingSlash: 'always',
   output: 'static'
 });
