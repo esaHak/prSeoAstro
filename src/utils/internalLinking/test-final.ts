@@ -37,7 +37,6 @@ const testContext: PageContext = {
     description: 'CRM solutions designed for early-stage companies.',
     parentCategoryId: 'crm-software',
     relatedCategoryIds: ['project-management', 'email-marketing'],
-    childSubcategoryIds: ['free-crm-for-startups', 'crm-with-funding-tracking'],
   },
   id: 'crm-for-startups',
   slug: 'crm-for-startups',

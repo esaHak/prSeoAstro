@@ -1,12 +1,20 @@
 import categoriesData from '../data/categories.json';
 import subcategoriesData from '../data/subcategories.json';
 
+export type ContentSection = {
+  overview?: string[];
+  keyBenefits?: string[];
+  whyChoose?: string[];
+  gettingStarted?: string[];
+};
+
 export type Category = {
   id: string;
   slug: string;
   title: string;
   description: string;
   subcategoryIds: string[];
+  content?: ContentSection;
 };
 
 export type Subcategory = {
@@ -16,7 +24,7 @@ export type Subcategory = {
   description: string;
   parentCategoryId: string;
   relatedCategoryIds: string[];
-  childSubcategoryIds: string[];
+  content?: ContentSection;
 };
 
 // Type-safe data imports
@@ -69,9 +77,7 @@ export class DB {
   }
 
   static getChildSubcategories(subcategory: Subcategory): Subcategory[] {
-    return subcategory.childSubcategoryIds
-      .map(id => this.getSubcategoryById(id))
-      .filter((sub): sub is Subcategory => sub !== undefined);
+    return subcategories.filter(sub => sub.parentCategoryId === subcategory.id);
   }
 
   /**

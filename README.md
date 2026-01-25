@@ -102,7 +102,6 @@ Content is organized in **three JSON files** that work together:
   "description": "CRM solutions for early-stage companies.",
   "parentCategoryId": "crm-software",
   "relatedCategoryIds": ["project-management", "email-marketing"],
-  "childSubcategoryIds": ["free-crm-for-startups"]
 }
 ```
 
@@ -164,7 +163,6 @@ URLs are built automatically from the hierarchy:
   "description": "Track website traffic and user behavior.",
   "parentCategoryId": "analytics-software",
   "relatedCategoryIds": ["crm-software", "email-marketing"],
-  "childSubcategoryIds": []
 }
 ```
 

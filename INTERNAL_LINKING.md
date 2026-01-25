@@ -37,7 +37,7 @@ For each page, the system determines eligible link targets based on database rel
 {
   "id": "crm-for-startups",
   "parentCategoryId": "crm-software",  // ❌ Won't link to parent
-  "childSubcategoryIds": [...],         // ❌ Won't link to children
+  // Child subcategories are computed automatically from parentCategoryId - won't link to them
   "relatedCategoryIds": [
     "project-management",                // ✅ WILL link here!
     "email-marketing"                    // ✅ WILL link here!

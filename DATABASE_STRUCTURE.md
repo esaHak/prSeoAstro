@@ -29,8 +29,7 @@ Second and third-level items with parent and cross-references
   "title": "CRM for Startups",
   "description": "CRM solutions designed for early-stage companies.",
   "parentCategoryId": "crm-software",
-  "relatedCategoryIds": ["project-management"],
-  "childSubcategoryIds": ["free-crm-for-startups"]
+  "relatedCategoryIds": ["project-management"]
 }
 ```
 
@@ -39,7 +38,7 @@ Second and third-level items with parent and cross-references
 ### 1. Hierarchical Relationships
 - Categories contain subcategories via `subcategoryIds`
 - Subcategories reference their parent via `parentCategoryId`
-- Subcategories can have child subcategories via `childSubcategoryIds`
+- Child subcategories are automatically computed from `parentCategoryId` relationships (no manual list needed)
 - This creates a tree structure of unlimited depth
 
 ### 2. Cross-References (Relational Links)
@@ -112,7 +111,6 @@ DB.getBreadcrumbs(subcategory)     // Get breadcrumb trail
   "description": "Track and analyze website traffic.",
   "parentCategoryId": "analytics",
   "relatedCategoryIds": ["crm-software", "email-marketing"],
-  "childSubcategoryIds": []
 }
 ```
 

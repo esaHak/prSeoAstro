@@ -47,8 +47,7 @@ Edit `src/data/subcategories.json`:
   "title": "Web Analytics",
   "description": "Track and analyze website traffic and user behavior.",
   "parentCategoryId": "analytics-software",
-  "relatedCategoryIds": ["crm-software", "email-marketing"],
-  "childSubcategoryIds": ["google-analytics-alternatives", "privacy-focused-analytics"]
+  "relatedCategoryIds": ["crm-software", "email-marketing"]
 }
 ```
 
@@ -59,7 +58,8 @@ Edit `src/data/subcategories.json`:
 - `description`: Short description
 - `parentCategoryId`: ID of parent (can be category or subcategory)
 - `relatedCategoryIds`: **IMPORTANT!** Cross-references for internal linking
-- `childSubcategoryIds`: IDs of child subcategories (for deeper hierarchy)
+
+**Note:** Child subcategories are automatically determined by their `parentCategoryId` - you don't need to manually maintain a list.
 
 ### Step 3: Add Synonyms for Internal Linking
 
@@ -243,8 +243,7 @@ For unique content on each page, you can add a `content` field to your entities.
     ]
   },
   "parentCategoryId": "crm-software",
-  "relatedCategoryIds": ["project-management", "email-marketing"],
-  "childSubcategoryIds": []
+  "relatedCategoryIds": ["project-management", "email-marketing"]
 }
 ```
 
@@ -384,9 +383,11 @@ Related Topics:
 
 1. Find parent category/subcategory ID
 2. Add new subcategory with `parentCategoryId` = parent's ID
-3. Add parent's ID to `subcategoryIds` or `childSubcategoryIds`
+3. If parent is a top-level category, add the new subcategory's ID to the category's `subcategoryIds` array
 4. Add synonyms to `anchors.json`
 5. Build and test
+
+**Note:** Child relationships are automatically computed from `parentCategoryId`, so you only need to update the parent category's `subcategoryIds` if adding a direct child of a category.
 
 ### Creating Deep Hierarchies (4+ levels)
 
@@ -394,8 +395,7 @@ Related Topics:
 {
   "id": "advanced-crm-features",
   "parentCategoryId": "free-crm-for-startups",  // Parent is Level 3
-  "relatedCategoryIds": ["automation-tools"],
-  "childSubcategoryIds": []
+  "relatedCategoryIds": ["automation-tools"]
 }
 ```
 
@@ -423,9 +423,8 @@ Before building, verify:
 - [ ] Every `subcategoryIds` entry exists in `subcategories.json`
 - [ ] Every `parentCategoryId` exists (in either file)
 - [ ] Every `relatedCategoryIds` entry exists
-- [ ] All `childSubcategoryIds` entries exist
 - [ ] Slugs are URL-friendly (lowercase, hyphens only)
-- [ ] No circular references (A→B→A)
+- [ ] No circular references (A→B→A in parentCategoryId chain)
 
 **Quick validation:**
 ```bash
@@ -460,8 +459,19 @@ For large-scale programmatic SEO:
 {
   "id": "seo-tools",
   "parentCategoryId": "marketing-tools",
-  "relatedCategoryIds": ["analytics-software", "content-management"],
-  "childSubcategoryIds": ["keyword-research", "backlink-analysis"]
+  "relatedCategoryIds": ["analytics-software", "content-management"]
+}
+
+// Then add child subcategories:
+{
+  "id": "keyword-research",
+  "parentCategoryId": "seo-tools",
+  ...
+},
+{
+  "id": "backlink-analysis",
+  "parentCategoryId": "seo-tools",
+  ...
 }
 
 // anchors.json
@@ -488,8 +498,7 @@ For large-scale programmatic SEO:
 {
   "id": "ehr-systems",
   "parentCategoryId": "healthcare-software",
-  "relatedCategoryIds": ["practice-management", "patient-engagement"],
-  "childSubcategoryIds": ["cloud-ehr", "on-premise-ehr"]
+  "relatedCategoryIds": ["practice-management", "patient-engagement"]
 }
 ```
 
@@ -498,9 +507,10 @@ For large-scale programmatic SEO:
 ### Pages Not Generating
 
 **Check:**
-1. ID exists in parent's `subcategoryIds` or `childSubcategoryIds`
-2. `parentCategoryId` points to existing entity
-3. JSON is valid (no trailing commas, quotes matched)
+1. If the parent is a category: ID exists in parent's `subcategoryIds` array
+2. If the parent is a subcategory: Child's `parentCategoryId` matches parent's `id` (children are computed automatically)
+3. `parentCategoryId` points to existing entity
+4. JSON is valid (no trailing commas, quotes matched)
 
 ### Internal Links Not Appearing
 

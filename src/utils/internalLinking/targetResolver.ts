@@ -104,9 +104,10 @@ function getExcludedEntityIds(context: PageContext, config: InternalLinkingConfi
     // Exclude parent
     excluded.add(subcategory.parentCategoryId);
 
-    // Exclude children
-    for (const childId of subcategory.childSubcategoryIds) {
-      excluded.add(childId);
+    // Exclude children (computed from parentCategoryId relationships)
+    const children = DB.getChildSubcategories(subcategory);
+    for (const child of children) {
+      excluded.add(child.id);
     }
 
     // Exclude all descendants
@@ -117,13 +118,13 @@ function getExcludedEntityIds(context: PageContext, config: InternalLinkingConfi
     const ancestors = getAllAncestors(subcategory);
     ancestors.forEach(id => excluded.add(id));
 
-    // Exclude siblings
+    // Exclude siblings (computed from shared parentCategoryId)
     const parent = DB.getSubcategoryById(subcategory.parentCategoryId) ||
                    DB.getCategoryById(subcategory.parentCategoryId);
     if (parent) {
       const siblingIds = 'subcategoryIds' in parent
         ? parent.subcategoryIds
-        : parent.childSubcategoryIds;
+        : DB.getChildSubcategories(parent as Subcategory).map(s => s.id);
       siblingIds.forEach(id => {
         if (id !== context.id) excluded.add(id);
       });
@@ -144,7 +145,7 @@ function getAllDescendants(entityId: string): Set<string> {
 
   const childIds = 'subcategoryIds' in entity
     ? entity.subcategoryIds
-    : ('childSubcategoryIds' in entity ? entity.childSubcategoryIds : []);
+    : DB.getChildSubcategories(entity as Subcategory).map(s => s.id);
 
   for (const childId of childIds) {
     descendants.add(childId);
@@ -201,8 +202,9 @@ function getRelation(context: PageContext, target: Entity): RelationType {
       return 'parent';
     }
 
-    // Check if target is child
-    if (subcategory.childSubcategoryIds.includes(target.id)) {
+    // Check if target is child (computed from parentCategoryId)
+    const children = DB.getChildSubcategories(subcategory);
+    if (children.some(child => child.id === target.id)) {
       return 'child';
     }
 
@@ -223,13 +225,13 @@ function getRelation(context: PageContext, target: Entity): RelationType {
       return 'relatedCategoryIds';
     }
 
-    // Check if target is a sibling
+    // Check if target is a sibling (computed from shared parentCategoryId)
     const parent = DB.getSubcategoryById(subcategory.parentCategoryId) ||
                    DB.getCategoryById(subcategory.parentCategoryId);
     if (parent) {
       const siblingIds = 'subcategoryIds' in parent
         ? parent.subcategoryIds
-        : ('childSubcategoryIds' in parent ? parent.childSubcategoryIds : []);
+        : DB.getChildSubcategories(parent as Subcategory).map(s => s.id);
       if (siblingIds.includes(target.id) && target.id !== context.id) {
         return 'sibling';
       }
