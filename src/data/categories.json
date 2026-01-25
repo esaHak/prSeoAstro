@@ -12,6 +12,13 @@
     "content": {
       "overview": [
         "Customer Relationship Management (CRM) software has become essential for businesses of all sizes looking to streamline customer interactions, improve sales processes, and deliver exceptional customer experiences. Modern CRM platforms combine contact management, sales automation, marketing tools, and analytics into unified systems that help teams work more efficiently.",
+        {
+          "type": "video",
+          "videoId": "example-youtube-1",
+          "caption": "Watch a quick introduction to CRM software",
+          "variant": "inline",
+          "mode": "lite"
+        },
         "Whether you're managing a handful of customers or thousands of enterprise accounts, the right CRM solution can transform how your business operates. From tracking customer communications to forecasting revenue and automating workflows, CRM software provides the foundation for sustainable growth and customer retention."
       ],
       "keyBenefits": [
@@ -41,6 +48,18 @@
     "content": {
       "overview": [
         "Email marketing remains one of the most effective digital marketing channels, delivering an average ROI of $36 for every dollar spent. Modern email marketing platforms go far beyond simple bulk email sending, offering sophisticated automation, personalization, segmentation, and analytics capabilities that help businesses engage customers throughout their entire lifecycle.",
+        {
+          "type": "image",
+          "imageId": "example-inline-remote",
+          "caption": "Email marketing campaign dashboard",
+          "align": "center"
+        },
+        {
+          "type": "video",
+          "videoId": "example-vimeo-1",
+          "caption": "Email automation workflow tutorial",
+          "variant": "inline"
+        },
         "From welcome sequences and promotional campaigns to behavioral triggers and re-engagement initiatives, email marketing software enables businesses to deliver the right message to the right person at the right time. Advanced platforms integrate seamlessly with CRM software, ecommerce systems, and other marketing tools to create cohesive customer experiences."
       ],
       "keyBenefits": [

@@ -226,6 +226,8 @@ For unique content on each page, you can add a `content` field to your entities.
 
 #### Option A: Add Content to subcategories.json
 
+Content arrays now support **mixed media**: paragraphs (strings), video blocks, and image blocks can be combined in any order.
+
 ```json
 {
   "id": "crm-for-startups",
@@ -235,6 +237,18 @@ For unique content on each page, you can add a `content` field to your entities.
   "content": {
     "overview": [
       "Choosing the right CRM is crucial for startup success. As your business grows, managing customer relationships becomes complex. The best CRM platforms offer intuitive interfaces and seamless integrations with project management tools.",
+      {
+        "type": "image",
+        "imageId": "crm-dashboard-screenshot",
+        "caption": "Modern CRM dashboard",
+        "align": "center"
+      },
+      {
+        "type": "video",
+        "videoId": "crm-tutorial-intro",
+        "caption": "Quick start guide",
+        "mode": "lite"
+      },
       "Early-stage companies need affordable, scalable solutions. Look for platforms with free tiers or startup pricing, along with features that won't limit your growth."
     ],
     "whyChoose": [
@@ -246,6 +260,11 @@ For unique content on each page, you can add a `content` field to your entities.
   "relatedCategoryIds": ["project-management", "email-marketing"]
 }
 ```
+
+**Content Item Types:**
+- **String** - Regular paragraph with automatic internal linking
+- **Video Block** - `{ "type": "video", "videoId": "...", "caption": "...", "mode": "lite" }`
+- **Image Block** - `{ "type": "image", "imageId": "...", "caption": "...", "align": "center" }`
 
 #### Option B: Separate Content Library
 
@@ -266,6 +285,83 @@ Create `src/data/content-library.json`:
 ```
 
 **Recommendation:** Use **Option A** (content in subcategories.json) for simplicity.
+
+### Media Blocks: Videos and Images
+
+You can now embed videos and images inline within your content arrays, positioned exactly where you want them between paragraphs.
+
+#### Video Blocks
+
+```json
+{
+  "type": "video",
+  "videoId": "tutorial-video-1",
+  "caption": "Watch the tutorial",
+  "variant": "inline",
+  "mode": "lite"
+}
+```
+
+**Supported platforms:** YouTube, Vimeo, Loom, Wistia, Vidyard, Twitch, Dailymotion
+
+**Key features:**
+- **YouTube lite mode** - Thumbnail-only until clicked (improves performance)
+- **Responsive embeds** - Adapts to all screen sizes
+- **Lazy loading** - Only loads when needed
+
+See [VIDEO_LIBRARY.md](./VIDEO_LIBRARY.md) for complete documentation.
+
+#### Image Blocks
+
+```json
+{
+  "type": "image",
+  "imageId": "dashboard-screenshot",
+  "caption": "Dashboard overview",
+  "align": "center"
+}
+```
+
+**Alignment options:** `left`, `right`, `center`
+
+**Key features:**
+- **Responsive images** - Proper sizing on all devices
+- **Lazy loading** - Performance optimized
+- **Credit attribution** - Automatic for third-party images
+
+See [IMAGE_LIBRARY.md](./IMAGE_LIBRARY.md) for image management.
+
+#### Mixed Content Example
+
+```json
+{
+  "overview": [
+    "Introduction paragraph with natural mentions of project management tools.",
+    {
+      "type": "image",
+      "imageId": "feature-comparison",
+      "caption": "Feature comparison chart"
+    },
+    "Middle paragraph explaining the features in detail.",
+    {
+      "type": "video",
+      "videoId": "demo-walkthrough",
+      "caption": "Full walkthrough (3 minutes)",
+      "mode": "lite"
+    },
+    "Conclusion paragraph about email marketing platforms and integration."
+  ]
+}
+```
+
+**Result:**
+1. Paragraph with internal link → "project management tools"
+2. Image with caption
+3. Paragraph
+4. YouTube lite video with caption
+5. Paragraph with internal link → "email marketing platforms"
+
+All media appears exactly where specified, maintaining natural content flow.
 
 ## 🎨 Content Best Practices
 
@@ -537,6 +633,8 @@ npm run build
 
 - [DATABASE_STRUCTURE.md](./DATABASE_STRUCTURE.md) - Technical database details
 - [INTERNAL_LINKING.md](./INTERNAL_LINKING.md) - Internal linking system
+- [VIDEO_LIBRARY.md](./VIDEO_LIBRARY.md) - Video embedding (inline blocks)
+- [IMAGE_LIBRARY.md](./IMAGE_LIBRARY.md) - Image management (inline blocks)
 - [README.md](./README.md) - Project overview
 
 ## 💡 Tips for Success

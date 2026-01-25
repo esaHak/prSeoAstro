@@ -19,8 +19,12 @@ The Image Library system provides a scalable, database-driven approach to managi
 
 ### 3. Inline Images
 - **Optional** images within page content
+- **Two usage methods:**
+  - **Inline blocks** - Embedded directly in content arrays (recommended)
+  - **Reference by ID** - Referenced via `inlineImageIds` field
 - Various dimensions supported
 - Loaded with `loading="lazy"` for performance
+- Can be positioned exactly between paragraphs
 
 ## Directory Structure
 
@@ -127,6 +131,100 @@ Page: /crm-software/crm-for-startups/
 Hero and inline images are **optional** and have no fallback:
 - If `heroImageId` is set, the hero image displays
 - If not set, no hero image is shown
+
+## Inline Image Blocks (NEW)
+
+You can now embed images directly within content arrays, positioned exactly where you want them between paragraphs. This provides precise control over image placement and works seamlessly with videos and text.
+
+### Using Inline Image Blocks
+
+#### Step 1: Add Image to `src/data/images.json`
+
+```json
+{
+  "id": "crm-dashboard-screenshot",
+  "kind": "inline",
+  "sourceType": "self",
+  "src": "/images/inline/crm-dashboard.jpg",
+  "width": 800,
+  "height": 450,
+  "alt": "CRM dashboard interface showing key features"
+}
+```
+
+#### Step 2: Embed in Content Array
+
+Add directly to your content sections in `categories.json` or `subcategories.json`:
+
+```json
+{
+  "id": "crm-software",
+  "content": {
+    "overview": [
+      "Introduction paragraph about CRM software and its benefits.",
+      {
+        "type": "image",
+        "imageId": "crm-dashboard-screenshot",
+        "caption": "Modern CRM dashboard interface",
+        "align": "center"
+      },
+      "Continuation paragraph explaining the features shown above."
+    ]
+  }
+}
+```
+
+### Image Block Syntax
+
+```json
+{
+  "type": "image",
+  "imageId": "unique-image-id",
+  "caption": "Optional caption text",
+  "align": "left" | "right" | "center"
+}
+```
+
+**Fields:**
+- `type` - Must be `"image"` for image blocks
+- `imageId` - ID from `images.json`
+- `caption` - Optional caption (overrides image description from JSON)
+- `align` - Alignment: `left`, `right`, or `center` (default: `center`)
+
+### Mixed Content Example
+
+Combine paragraphs, images, and videos in one array:
+
+```json
+{
+  "overview": [
+    "CRM software has become essential for businesses of all sizes.",
+    {
+      "type": "image",
+      "imageId": "feature-comparison",
+      "caption": "Feature comparison chart",
+      "align": "center"
+    },
+    "The best platforms offer automation and integration capabilities.",
+    {
+      "type": "video",
+      "videoId": "crm-tutorial",
+      "caption": "Quick start guide",
+      "mode": "lite"
+    },
+    "Whether managing startups or enterprises, the right CRM transforms operations."
+  ]
+}
+```
+
+**Renders as:**
+1. Paragraph
+2. Centered image with caption
+3. Paragraph
+4. Video embed (YouTube lite mode)
+5. Paragraph
+
+All internal linking is preserved in paragraphs; media blocks are skipped.
 
 ## Third-Party Images & Attribution
 
@@ -330,8 +428,16 @@ The system automatically validates all images on build:
   - `src/components/SEO.astro`
   - `src/components/HeroImage.astro`
   - `src/components/InlineImage.astro`
+  - `src/components/ContentRenderer.astro`
 - **Layout:** `src/layouts/BaseLayout.astro`
 - **Database Types:** `src/utils/db.ts` (includes image fields)
+
+## Related Documentation
+
+- [CONTENT_MANAGEMENT.md](./CONTENT_MANAGEMENT.md) - Content structure and management (media blocks)
+- [VIDEO_LIBRARY.md](./VIDEO_LIBRARY.md) - Video embedding (inline blocks)
+- [INTERNAL_LINKING.md](./INTERNAL_LINKING.md) - Automated internal linking
+- [DATABASE_STRUCTURE.md](./DATABASE_STRUCTURE.md) - Technical database details
 
 ---
 

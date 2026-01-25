@@ -1,0 +1,101 @@
+---
+/**
+ * ContentRenderer Component
+ * Renders mixed content arrays containing:
+ * - String paragraphs (with internal linking applied)
+ * - Video blocks (rendered as VideoEmbed)
+ * - Image blocks (rendered as InlineImage)
+ *
+ * Preserves existing internal linking behavior:
+ * - Links only inserted in <p> paragraph content
+ * - Media blocks (video/image) are NOT processed by internal linker
+ */
+import VideoEmbed from './VideoEmbed.astro';
+import InlineImage from './InlineImage.astro';
+import type { ContentItem, VideoBlock, ImageBlock } from '../utils/videos/types';
+import { getVideoById } from '../utils/videos';
+import { loadImageById } from '../utils/images';
+import { addInternalLinks, defaultConfig } from '../utils/internalLinking';
+import type { PageContext } from '../utils/internalLinking/targetResolver';
+
+interface Props {
+  items: ContentItem[];
+  linkContext: PageContext;
+}
+
+const { items, linkContext } = Astro.props;
+
+/**
+ * Type guard to check if content item is a video block
+ */
+function isVideoBlock(item: ContentItem): item is VideoBlock {
+  return typeof item === 'object' && item !== null && 'type' in item && item.type === 'video';
+}
+
+/**
+ * Type guard to check if content item is an image block
+ */
+function isImageBlock(item: ContentItem): item is ImageBlock {
+  return typeof item === 'object' && item !== null && 'type' in item && item.type === 'image';
+}
+
+/**
+ * Process a single paragraph with internal linking
+ */
+function processParagraph(text: string): string {
+  const html = `<p>${text}</p>`;
+  const result = addInternalLinks(html, linkContext, defaultConfig);
+  return result.html;
+}
+---
+
+{items.map((item) => {
+  if (typeof item === 'string') {
+    // String paragraph - apply internal linking
+    return (
+      <Fragment set:html={processParagraph(item)} />
+    );
+  } else if (isVideoBlock(item)) {
+    // Video block - render VideoEmbed component
+    const video = getVideoById(item.videoId);
+    if (!video) {
+      console.warn(`Video not found: ${item.videoId}`);
+      return null;
+    }
+
+    return (
+      <VideoEmbed
+        video={video}
+        variant={item.variant || 'inline'}
+        mode={item.mode}
+        aspectRatio={item.aspectRatio}
+        caption={item.caption}
+      />
+    );
+  } else if (isImageBlock(item)) {
+    // Image block - render InlineImage component
+    const image = loadImageById(item.imageId);
+    if (!image) {
+      console.warn(`Image not found: ${item.imageId}`);
+      return null;
+    }
+
+    // Need to add absolute URL for InlineImage component
+    const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
+    const imageWithUrl = {
+      ...image,
+      absoluteUrl: image.src.startsWith('http') ? image.src : `${siteBase}${image.src}`
+    };
+
+    return (
+      <InlineImage
+        image={imageWithUrl}
+        align={item.align || 'center'}
+      />
+    );
+  }
+
+  // Unknown content type - skip
+  console.warn('Unknown content item type:', item);
+  return null;
+})}

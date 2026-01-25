@@ -48,12 +48,12 @@
     "id": "example-inline-remote",
     "kind": "inline",
     "sourceType": "remote",
-    "src": "https://via.placeholder.com/800x450",
+    "src": "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/inline-images/creatio_0.png",
     "width": 800,
     "height": 450,
     "alt": "Example inline image from external source",
     "creditName": "Placeholder.com",
-    "creditUrl": "https://placeholder.com",
+    "creditUrl": "https://www.creatio.com/glossary/crm-software",
     "license": "Public Domain"
   }
 ]

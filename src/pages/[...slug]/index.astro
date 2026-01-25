@@ -4,10 +4,12 @@
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
+import ContentRenderer from '../../components/ContentRenderer.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
 import { addInternalLinks, defaultConfig } from '../../utils/internalLinking';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
 import { resolveOgImage, resolveHeroImage } from '../../utils/images';
+import type { ContentItem } from '../../utils/videos/types';
 
 // Generate all static paths from relational database
 export function getStaticPaths() {
@@ -112,25 +114,25 @@ function processWithLinks(htmlContent: string): string {
 // Get content from database or use fallback templates
 const content = data.content || {};
 
-// Overview content
-const overviewHtml = content.overview
-  ? content.overview.map(p => `<p>${p}</p>`).join('\n')
-  : `<p>This comprehensive guide covers everything you need to know about ${title.toLowerCase()}, including key features, implementation strategies, and best practices for success. We've compiled detailed information and expert recommendations to help you make informed decisions about your tools and workflows.</p>
-     <p>Whether you're just getting started with your first implementation or looking to optimize your existing setup, you'll find valuable insights throughout this resource. Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively, helping you choose the right solutions for your specific needs and business objectives.</p>`;
+// Overview content - now supports ContentItem[] (strings or video blocks)
+const overviewItems: ContentItem[] = content.overview || [
+  "This comprehensive guide covers everything you need to know about ${title.toLowerCase()}, including key features, implementation strategies, and best practices for success. We've compiled detailed information and expert recommendations to help you make informed decisions about your tools and workflows.",
+  "Whether you're just getting started with your first implementation or looking to optimize your existing setup, you'll find valuable insights throughout this resource. Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively, helping you choose the right solutions for your specific needs and business objectives."
+];
 
-// Key Benefits content
+// Key Benefits content - still rendered as list items (does not support video blocks)
 const keyBenefitsHtml = content.keyBenefits
-  ? content.keyBenefits.map(b => `<li>${b}</li>`).join('\n')
+  ? content.keyBenefits.filter(item => typeof item === 'string').map(b => `<li>${b}</li>`).join('\n')
   : `<li>Comprehensive coverage of ${title.toLowerCase()}</li>
      <li>Up-to-date information and best practices</li>
      <li>Practical examples and use cases</li>
      <li>Expert recommendations and insights</li>`;
 
-// Why Choose content
-const whyChooseHtml = content.whyChoose
-  ? content.whyChoose.map(p => `<p>${p}</p>`).join('\n')
-  : `<p>When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.</p>
-     <p>Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints.</p>`;
+// Why Choose content - now supports ContentItem[] (strings or video blocks)
+const whyChooseItems: ContentItem[] = content.whyChoose || [
+  "When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.",
+  "Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints."
+];
 ---
 
 <BaseLayout title={title} description={description} ogImage={ogImage}>
@@ -151,7 +153,7 @@ const whyChooseHtml = content.whyChoose
 
   <section style="margin: 2rem 0;">
     <h2>Overview</h2>
-    <Fragment set:html={processWithLinks(overviewHtml)} />
+    <ContentRenderer items={overviewItems} linkContext={linkContext} />
   </section>
 
   {childItems.length > 0 && (
@@ -208,7 +210,7 @@ const whyChooseHtml = content.whyChoose
 
   <section style="margin: 2rem 0;">
     <h2>Why Choose {title}?</h2>
-    <Fragment set:html={processWithLinks(whyChooseHtml)} />
+    <ContentRenderer items={whyChooseItems} linkContext={linkContext} />
   </section>
 
   <hr />

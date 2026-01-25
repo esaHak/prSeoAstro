@@ -1,11 +1,12 @@
 import categoriesData from '../data/categories.json';
 import subcategoriesData from '../data/subcategories.json';
+import type { ContentItem } from './videos/types';
 
 export type ContentSection = {
-  overview?: string[];
-  keyBenefits?: string[];
-  whyChoose?: string[];
-  gettingStarted?: string[];
+  overview?: ContentItem[];
+  keyBenefits?: ContentItem[];
+  whyChoose?: ContentItem[];
+  gettingStarted?: ContentItem[];
 };
 
 export type Category = {
@@ -19,6 +20,9 @@ export type Category = {
   ogImageId?: string;      // OG image for social sharing
   heroImageId?: string;     // Optional hero image
   inlineImageIds?: string[]; // Optional inline content images
+  // Video fields for Video Library
+  heroVideoId?: string;    // Optional hero video
+  videoIds?: string[];     // Optional video gallery
 };
 
 export type Subcategory = {
@@ -33,6 +37,9 @@ export type Subcategory = {
   ogImageId?: string;      // OG image override
   heroImageId?: string;     // Optional hero image
   inlineImageIds?: string[]; // Optional inline content images
+  // Video fields for Video Library
+  heroVideoId?: string;    // Optional hero video
+  videoIds?: string[];     // Optional video gallery
 };
 
 // Type-safe data imports

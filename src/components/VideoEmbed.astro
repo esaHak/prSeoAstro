@@ -1,0 +1,134 @@
+---
+/**
+ * VideoEmbed Component
+ * Renders video embeds with support for:
+ * - Multiple platforms (YouTube, Vimeo, Loom, etc.)
+ * - Lite mode (YouTube) - thumbnail + click to load iframe
+ * - Standard mode - responsive iframe embed
+ * - Proper accessibility and performance attributes
+ */
+import type { VideoRecord } from '../utils/videos/types';
+import { buildEmbedUrl, getVideoThumbnail } from '../utils/videos';
+
+interface Props {
+  video: VideoRecord;
+  variant?: 'inline' | 'hero';
+  mode?: 'lite' | 'standard';
+  aspectRatio?: string;
+  caption?: string;
+}
+
+const {
+  video,
+  variant = 'inline',
+  mode = video.privacy?.mode || (video.platform === 'youtube' ? 'lite' : 'standard'),
+  aspectRatio = video.aspectRatio || '16/9',
+  caption,
+} = Astro.props;
+
+const embedUrl = buildEmbedUrl(video);
+const thumbnail = getVideoThumbnail(video);
+const useYouTubeLite = mode === 'lite' && video.platform === 'youtube';
+
+// Calculate padding-bottom percentage from aspect ratio
+const [width, height] = aspectRatio.split('/').map(Number);
+const paddingBottom = (height / width) * 100;
+
+// Generate unique ID for lite embed swap
+const videoEmbedId = `video-embed-${video.id}`;
+---
+
+<div
+  class={`video-embed-container ${variant === 'hero' ? 'video-hero' : 'video-inline'}`}
+  style={`margin: ${variant === 'hero' ? '2rem 0' : '1.5rem 0'};`}
+>
+  {useYouTubeLite ? (
+    <!-- YouTube Lite Mode: Thumbnail with click-to-load iframe -->
+    <div
+      id={videoEmbedId}
+      class="video-lite-embed"
+      style={`position: relative; padding-bottom: ${paddingBottom}%; height: 0; overflow: hidden; border-radius: 8px; cursor: pointer; background: #000;`}
+      data-embed-url={embedUrl}
+      onclick={`
+        const container = document.getElementById('${videoEmbedId}');
+        const iframe = document.createElement('iframe');
+        iframe.src = container.dataset.embedUrl;
+        iframe.title = '${video.title.replace(/'/g, "\\'")}';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        iframe.style.cssText = 'position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;';
+        container.innerHTML = '';
+        container.appendChild(iframe);
+        container.style.cursor = 'default';
+      `}
+    >
+      {thumbnail && (
+        <img
+          src={thumbnail}
+          alt={video.title}
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"
+          loading="lazy"
+          decoding="async"
+        />
+      )}
+      <!-- Play button overlay -->
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(255, 0, 0, 0.8); border-radius: 14px; transition: background 0.3s;"
+        onmouseover="this.style.background='rgba(255, 0, 0, 1)'"
+        onmouseout="this.style.background='rgba(255, 0, 0, 0.8)'"
+      >
+        <svg viewBox="0 0 68 48" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%;">
+          <path d="M 26,18 L 42,24 L 26,30 Z" fill="#fff"></path>
+        </svg>
+      </div>
+    </div>
+  ) : (
+    <!-- Standard Mode: Responsive iframe embed -->
+    <div
+      class="video-responsive-container"
+      style={`position: relative; padding-bottom: ${paddingBottom}%; height: 0; overflow: hidden; border-radius: 8px;`}
+    >
+      <iframe
+        src={embedUrl}
+        title={video.title}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+      ></iframe>
+    </div>
+  )}
+
+  {caption && (
+    <p class="video-caption" style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666; font-style: italic;">
+      {caption}
+    </p>
+  )}
+
+  {video.description && !caption && (
+    <p class="video-description" style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: #666;">
+      {video.description}
+    </p>
+  )}
+</div>
+
+<style>
+  .video-embed-container {
+    max-width: 100%;
+  }
+
+  .video-hero {
+    max-width: 1200px;
+  }
+
+  .video-inline {
+    max-width: 800px;
+  }
+
+  .video-lite-embed:hover {
+    opacity: 0.95;
+  }
+</style>
