@@ -1,12 +1,12 @@
 ---
 // Homepage
-// Lists all pillar pages
-// Links to each pillar page using the pillar title as anchor text
+// Lists all top-level categories from the relational database
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-import content from '../data/content.json';
+import { DB } from '../utils/db';
 
 const base = import.meta.env.BASE_URL;
+const categories = DB.getAllCategories();
 ---
 
 <BaseLayout
@@ -20,19 +20,19 @@ const base = import.meta.env.BASE_URL;
     <p style="margin-bottom: 1.5rem;">Select a topic below to discover in-depth information, comparisons, and recommendations:</p>
 
     <div>
-      {content.map((pillar) => (
+      {categories.map((category) => (
         <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
           <h3 style="margin-top: 0;">
-            <a href={`${base}${pillar.slug}/`} style="text-decoration: none; color: #0066cc;">
-              {pillar.title}
+            <a href={`${base}${category.slug}/`} style="text-decoration: none; color: #0066cc;">
+              {category.title}
             </a>
           </h3>
           <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
-            {pillar.description}
+            {category.description}
           </p>
           <p style="margin: 0.75rem 0 0 0;">
-            <a href={`${base}${pillar.slug}/`} style="color: #0066cc;">
-              Explore {pillar.title} →
+            <a href={`${base}${category.slug}/`} style="color: #0066cc;">
+              Explore {category.title} →
             </a>
           </p>
         </article>

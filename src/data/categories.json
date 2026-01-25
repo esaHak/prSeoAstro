@@ -1,0 +1,23 @@
+[
+  {
+    "id": "crm-software",
+    "slug": "crm-software",
+    "title": "CRM Software",
+    "description": "Customer Relationship Management software helps businesses manage interactions with customers and prospects.",
+    "subcategoryIds": ["crm-for-startups", "crm-for-small-businesses", "crm-for-enterprises"]
+  },
+  {
+    "id": "email-marketing",
+    "slug": "email-marketing",
+    "title": "Email Marketing",
+    "description": "Email marketing platforms enable businesses to create, send, and track email campaigns.",
+    "subcategoryIds": ["email-marketing-for-ecommerce", "email-marketing-for-saas", "email-marketing-automation"]
+  },
+  {
+    "id": "project-management",
+    "slug": "project-management",
+    "title": "Project Management",
+    "description": "Project management tools help teams plan, organize, and track work efficiently.",
+    "subcategoryIds": ["project-management-for-agencies", "project-management-for-developers", "agile-project-management"]
+  }
+]

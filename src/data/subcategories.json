@@ -1,0 +1,110 @@
+[
+  {
+    "id": "crm-for-startups",
+    "slug": "crm-for-startups",
+    "title": "CRM for Startups",
+    "description": "CRM solutions designed for early-stage companies.",
+    "parentCategoryId": "crm-software",
+    "relatedCategoryIds": ["project-management"],
+    "childSubcategoryIds": ["free-crm-for-startups", "crm-with-funding-tracking"]
+  },
+  {
+    "id": "crm-for-small-businesses",
+    "slug": "crm-for-small-businesses",
+    "title": "CRM for Small Businesses",
+    "description": "CRM platforms tailored for small business needs.",
+    "parentCategoryId": "crm-software",
+    "relatedCategoryIds": ["email-marketing"],
+    "childSubcategoryIds": ["affordable-crm-for-small-businesses"]
+  },
+  {
+    "id": "crm-for-enterprises",
+    "slug": "crm-for-enterprises",
+    "title": "CRM for Enterprises",
+    "description": "Enterprise-grade CRM systems for large organizations.",
+    "parentCategoryId": "crm-software",
+    "relatedCategoryIds": ["project-management", "email-marketing"],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "email-marketing-for-ecommerce",
+    "slug": "email-marketing-for-ecommerce",
+    "title": "Email Marketing for Ecommerce",
+    "description": "Email tools optimized for online stores.",
+    "parentCategoryId": "email-marketing",
+    "relatedCategoryIds": ["crm-software"],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "email-marketing-for-saas",
+    "slug": "email-marketing-for-saas",
+    "title": "Email Marketing for SaaS",
+    "description": "Email platforms built for software companies.",
+    "parentCategoryId": "email-marketing",
+    "relatedCategoryIds": ["crm-software"],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "email-marketing-automation",
+    "slug": "email-marketing-automation",
+    "title": "Email Marketing Automation",
+    "description": "Automated email campaign tools.",
+    "parentCategoryId": "email-marketing",
+    "relatedCategoryIds": ["crm-software"],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "project-management-for-agencies",
+    "slug": "project-management-for-agencies",
+    "title": "Project Management for Agencies",
+    "description": "Project tools designed for agency workflows.",
+    "parentCategoryId": "project-management",
+    "relatedCategoryIds": ["crm-software"],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "project-management-for-developers",
+    "slug": "project-management-for-developers",
+    "title": "Project Management for Developers",
+    "description": "Development-focused project management platforms.",
+    "parentCategoryId": "project-management",
+    "relatedCategoryIds": [],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "agile-project-management",
+    "slug": "agile-project-management",
+    "title": "Agile Project Management",
+    "description": "Tools for agile and scrum methodologies.",
+    "parentCategoryId": "project-management",
+    "relatedCategoryIds": [],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "free-crm-for-startups",
+    "slug": "free-crm-for-startups",
+    "title": "Free CRM for Startups",
+    "description": "No-cost CRM options for bootstrapped startups.",
+    "parentCategoryId": "crm-for-startups",
+    "relatedCategoryIds": [],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "crm-with-funding-tracking",
+    "slug": "crm-with-funding-tracking",
+    "title": "CRM with Funding Tracking",
+    "description": "CRM tools that help track investor relationships.",
+    "parentCategoryId": "crm-for-startups",
+    "relatedCategoryIds": [],
+    "childSubcategoryIds": []
+  },
+  {
+    "id": "affordable-crm-for-small-businesses",
+    "slug": "affordable-crm-for-small-businesses",
+    "title": "Affordable CRM for Small Businesses",
+    "description": "Budget-friendly CRM options for small teams.",
+    "parentCategoryId": "crm-for-small-businesses",
+    "relatedCategoryIds": [],
+    "childSubcategoryIds": []
+  }
+]
