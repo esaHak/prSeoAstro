@@ -3,7 +3,9 @@
 ## 2026-01-25 - Major Refactoring
 
 ### 🎯 Summary
-Removed redundant `childSubcategoryIds` field from the database structure. Child relationships are now automatically computed from `parentCategoryId`, eliminating data duplication and potential mismatches.
+1. Removed redundant `childSubcategoryIds` field from the database structure. Child relationships are now automatically computed from `parentCategoryId`, eliminating data duplication and potential mismatches.
+2. Added automatic XML sitemap generation with SEO-optimized priorities based on page hierarchy.
+3. All page content moved from templates to JSON database for unique content on every page.
 
 ### ✅ What Changed
 
@@ -67,6 +69,22 @@ All page content is now stored in the JSON database instead of hardcoded templat
 ✓ No TypeScript errors
 ```
 
+#### 4. Sitemap Generation
+
+**Files Modified:**
+- `astro.config.mjs` - Added @astrojs/sitemap integration with custom priority logic
+- `public/robots.txt` - Updated sitemap URL to match Cloudflare Pages domain
+
+**Sitemap Features:**
+- Automatically includes all 16 pages
+- SEO-optimized priorities:
+  - Homepage: priority 1.0, changefreq daily
+  - Top-level categories: priority 0.9, changefreq weekly
+  - Subcategories: priority 0.7, changefreq weekly
+  - Deep pages: priority 0.5, changefreq monthly
+- Includes lastmod timestamp
+- Accessible at `/sitemap-index.xml`
+
 ### 📝 Testing Checklist for Deployment
 
 After deploying to Cloudflare Pages, verify:
@@ -77,6 +95,8 @@ After deploying to Cloudflare Pages, verify:
 - [ ] Internal links are inserted in paragraph content
 - [ ] Unique content appears on each page (no duplicate content)
 - [ ] Related topics section displays on subcategory pages
+- [ ] Sitemap accessible at `https://prseoastro.pages.dev/sitemap-index.xml`
+- [ ] robots.txt accessible at `https://prseoastro.pages.dev/robots.txt`
 
 ### 🔄 Migration Notes
 
