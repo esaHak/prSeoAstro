@@ -1,0 +1,49 @@
+---
+/**
+ * Inline Image Component
+ * Renders inline content images with lazy loading and optional credit link (nofollow)
+ */
+import type { ImageWithUrl } from '../utils/images/types';
+
+interface Props {
+  image: ImageWithUrl;
+  align?: 'left' | 'right' | 'center';
+}
+
+const { image, align = 'center' } = Astro.props;
+
+const alignmentStyles = {
+  left: 'margin: 1rem 1rem 1rem 0; float: left;',
+  right: 'margin: 1rem 0 1rem 1rem; float: right;',
+  center: 'margin: 1.5rem auto; display: block;'
+};
+
+const imgStyle = `${alignmentStyles[align]} max-width: 100%; height: auto; border-radius: 4px;`;
+---
+
+<figure style="margin: 0;">
+  <img
+    src={image.absoluteUrl}
+    alt={image.alt}
+    width={image.width}
+    height={image.height}
+    loading="lazy"
+    decoding="async"
+    style={imgStyle}
+  />
+
+  {image.creditName && image.creditUrl && (
+    <figcaption style="font-size: 0.875rem; color: #666; text-align: center; margin-top: 0.5rem;">
+      Image:
+      <a
+        href={image.creditUrl}
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+        style="color: #0066cc;"
+      >
+        {image.creditName}
+      </a>
+      {image.license && ` (${image.license})`}
+    </figcaption>
+  )}
+</figure>

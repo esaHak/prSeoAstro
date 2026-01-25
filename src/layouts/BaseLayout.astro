@@ -1,20 +1,42 @@
 ---
-// Base layout component
-// Wraps all pages with common HTML structure and meta tags
-// Props:
-//   title: page title for <title> and SEO
-//   description: meta description for SEO
+/**
+ * Base Layout Component
+ * Wraps all pages with common HTML structure and SEO meta tags
+ * Now includes SEO component for Open Graph and Twitter Cards
+ */
+import SEO from '../components/SEO.astro';
+import type { ImageWithUrl } from '../utils/images/types';
 
-const { title, description } = Astro.props;
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogImage: ImageWithUrl; // Required from SEO component
+  pageType?: 'website' | 'article';
+}
+
+const {
+  title,
+  description,
+  canonical,
+  noindex = false,
+  ogImage,
+  pageType = 'website'
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <title>{title}</title>
+    <SEO
+      title={title}
+      description={description}
+      canonical={canonical}
+      noindex={noindex}
+      ogImage={ogImage}
+      pageType={pageType}
+    />
   </head>
   <body>
     <main>

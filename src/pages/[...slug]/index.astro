@@ -3,9 +3,11 @@
 // Generates pages for categories and subcategories with cross-references
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroImage from '../../components/HeroImage.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
 import { addInternalLinks, defaultConfig } from '../../utils/internalLinking';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
+import { resolveOgImage, resolveHeroImage } from '../../utils/images';
 
 // Generate all static paths from relational database
 export function getStaticPaths() {
@@ -39,6 +41,7 @@ export function getStaticPaths() {
 
 const { type, data } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
 
 // Build page-specific data based on type
 let title: string;
@@ -46,6 +49,7 @@ let description: string;
 let breadcrumbs: Array<{ title: string; url: string }>;
 let childItems: Array<{ title: string; description: string; url: string }> = [];
 let relatedCategories: Category[] = [];
+let parentCategory: Category | undefined;
 
 if (type === 'category') {
   const category = data as Category;
@@ -82,7 +86,14 @@ if (type === 'category') {
 
   // Get related categories
   relatedCategories = DB.getRelatedCategories(subcategory);
+
+  // Get parent category for image fallback
+  parentCategory = DB.getCategoryById(subcategory.parentCategoryId);
 }
+
+// Resolve images with fallback chain
+const ogImage = resolveOgImage(data, parentCategory, siteBase);
+const heroImage = resolveHeroImage(data, siteBase);
 
 // Build page context for internal linking
 const linkContext: PageContext = {
@@ -122,7 +133,7 @@ const whyChooseHtml = content.whyChoose
      <p>Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints.</p>`;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} ogImage={ogImage}>
   <nav>
     <a href={base}>Home</a>
     {breadcrumbs.slice(0, -1).map((crumb) => (
@@ -135,6 +146,8 @@ const whyChooseHtml = content.whyChoose
 
   <h1>{title}</h1>
   <p style="font-size: 1.1rem; line-height: 1.6;">{description}</p>
+
+  {heroImage && <HeroImage image={heroImage} />}
 
   <section style="margin: 2rem 0;">
     <h2>Overview</h2>

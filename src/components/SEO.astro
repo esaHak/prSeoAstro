@@ -1,0 +1,70 @@
+---
+/**
+ * SEO Component
+ * Generates meta tags for Open Graph, Twitter Cards, and standard SEO
+ * Requires og:image for all indexable pages
+ */
+import type { ImageWithUrl } from '../utils/images/types';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogImage: ImageWithUrl; // Required for indexable pages
+  pageType?: 'website' | 'article';
+}
+
+const {
+  title,
+  description,
+  canonical,
+  noindex = false,
+  ogImage,
+  pageType = 'website'
+} = Astro.props;
+
+const site = Astro.site?.toString() || 'https://prseoastro.pages.dev';
+const currentUrl = canonical || new URL(Astro.url.pathname, site).toString();
+
+// Validate og:image is provided for indexable pages
+if (!noindex && !ogImage) {
+  throw new Error(`og:image is required for indexable page: ${Astro.url.pathname}`);
+}
+---
+
+<!-- Standard Meta Tags -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content={description} />
+<title>{title}</title>
+
+<!-- Canonical URL -->
+{canonical && <link rel="canonical" href={canonical} />}
+
+<!-- Robots -->
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:type" content={pageType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={currentUrl} />
+<meta property="og:site_name" content="prSeoAstro" />
+
+<!-- OG Image - Required for indexable pages -->
+{ogImage && (
+  <>
+    <meta property="og:image" content={ogImage.absoluteUrl} />
+    <meta property="og:image:width" content={ogImage.width.toString()} />
+    <meta property="og:image:height" content={ogImage.height.toString()} />
+    <meta property="og:image:alt" content={ogImage.alt} />
+  </>
+)}
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{ogImage && <meta name="twitter:image" content={ogImage.absoluteUrl} />}
+{ogImage && <meta name="twitter:image:alt" content={ogImage.alt} />}

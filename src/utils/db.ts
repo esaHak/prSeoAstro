@@ -15,6 +15,10 @@ export type Category = {
   description: string;
   subcategoryIds: string[];
   content?: ContentSection;
+  // Image fields for Image Library
+  ogImageId?: string;      // OG image for social sharing
+  heroImageId?: string;     // Optional hero image
+  inlineImageIds?: string[]; // Optional inline content images
 };
 
 export type Subcategory = {
@@ -25,6 +29,10 @@ export type Subcategory = {
   parentCategoryId: string;
   relatedCategoryIds: string[];
   content?: ContentSection;
+  // Image fields for Image Library
+  ogImageId?: string;      // OG image override
+  heroImageId?: string;     // Optional hero image
+  inlineImageIds?: string[]; // Optional inline content images
 };
 
 // Type-safe data imports

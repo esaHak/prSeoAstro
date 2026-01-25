@@ -1,0 +1,59 @@
+[
+  {
+    "id": "default-og",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "/images/og/default-og.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "prSeoAstro - Programmatic SEO Platform"
+  },
+  {
+    "id": "crm-og",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "/images/og/categories/crm-software.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "CRM Software - Customer Relationship Management Solutions"
+  },
+  {
+    "id": "crm-hero",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "/images/hero/categories/crm-software.jpg",
+    "width": 1200,
+    "height": 400,
+    "alt": "CRM Software Dashboard Interface"
+  },
+  {
+    "id": "email-marketing-og",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "/images/og/categories/email-marketing.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Email Marketing Platforms - Email Campaign Tools"
+  },
+  {
+    "id": "project-management-og",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "/images/og/categories/project-management.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Project Management Tools - Team Collaboration Software"
+  },
+  {
+    "id": "example-inline-remote",
+    "kind": "inline",
+    "sourceType": "remote",
+    "src": "https://via.placeholder.com/800x450",
+    "width": 800,
+    "height": 450,
+    "alt": "Example inline image from external source",
+    "creditName": "Placeholder.com",
+    "creditUrl": "https://placeholder.com",
+    "license": "Public Domain"
+  }
+]

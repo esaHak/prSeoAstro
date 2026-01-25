@@ -1,0 +1,43 @@
+---
+/**
+ * Hero Image Component
+ * Renders hero image with optional credit link (nofollow for third-party)
+ */
+import type { ImageWithUrl } from '../utils/images/types';
+
+interface Props {
+  image: ImageWithUrl;
+  priority?: boolean; // For loading="eager" vs "lazy"
+}
+
+const { image, priority = true } = Astro.props;
+
+const loadingAttr = priority ? 'eager' : 'lazy';
+---
+
+<div class="hero-image-container" style="margin: 2rem 0;">
+  <img
+    src={image.absoluteUrl}
+    alt={image.alt}
+    width={image.width}
+    height={image.height}
+    loading={loadingAttr}
+    decoding="async"
+    style="width: 100%; height: auto; border-radius: 8px;"
+  />
+
+  {image.creditName && image.creditUrl && (
+    <p class="image-credit" style="margin: 0.5rem 0; font-size: 0.875rem; color: #666;">
+      Image:
+      <a
+        href={image.creditUrl}
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+        style="color: #0066cc;"
+      >
+        {image.creditName}
+      </a>
+      {image.license && ` (${image.license})`}
+    </p>
+  )}
+</div>
