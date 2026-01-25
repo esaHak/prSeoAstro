@@ -1,0 +1,86 @@
+---
+/**
+ * LanguageSwitcher Component
+ * Displays language switcher only when multiple locale variants exist
+ * Renders nothing if page has only one locale
+ */
+import { localeLabels, type Locale } from '../utils/i18n/config';
+
+interface AlternateUrl {
+  locale: Locale;
+  url: string;
+}
+
+interface Props {
+  currentLocale: Locale;
+  alternateUrls: AlternateUrl[];
+}
+
+const { currentLocale, alternateUrls } = Astro.props;
+
+// Only show switcher if there are multiple locales
+const shouldShow = alternateUrls.length > 1;
+
+if (!shouldShow) {
+  // Render nothing when only one locale exists
+}
+---
+
+{shouldShow && (
+  <div class="language-switcher" role="navigation" aria-label="Language switcher">
+    {alternateUrls.map(({ locale, url }) => {
+      const isCurrent = locale === currentLocale;
+      const label = localeLabels[locale];
+
+      return (
+        <a
+          href={url}
+          class:list={['language-link', { 'current': isCurrent }]}
+          aria-current={isCurrent ? 'page' : undefined}
+          hreflang={locale}
+          lang={locale}
+        >
+          {label.short}
+        </a>
+      );
+    })}
+  </div>
+)}
+
+<style>
+  .language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+  }
+
+  .language-link {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .language-link:hover {
+    background: #f5f5f5;
+    border-color: #999;
+  }
+
+  .language-link.current {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+    cursor: default;
+  }
+
+  .language-link.current:hover {
+    background: #333;
+    border-color: #333;
+  }
+</style>

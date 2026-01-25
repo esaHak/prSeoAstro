@@ -6,6 +6,13 @@
 import { DB, type Category, type Subcategory } from '../db';
 import type { InternalLinkingConfig, RelationType } from './config';
 import { getSynonymsForEntity as loadSynonyms } from './synonymLoader';
+import {
+  getAvailableLocalesForEntity,
+  getLocalizedField,
+  buildLocalizedUrl,
+  linkPolicyConfig,
+  type Locale
+} from '../i18n';
 
 export type Entity = Category | Subcategory;
 
@@ -14,6 +21,7 @@ export interface PageContext {
   entity: Entity;
   id: string;
   slug: string;
+  locale?: Locale; // Optional locale for localized linking
 }
 
 export interface LinkTarget {
@@ -49,7 +57,7 @@ export function getEligibleTargets(
     const relation = getRelation(context, category);
     if (!isRelationAllowed(relation, config)) continue;
 
-    const target = createLinkTarget(category, 'category', relation, config);
+    const target = createLinkTarget(category, 'category', relation, config, context.locale);
     if (target) targets.push(target);
   }
 
@@ -61,7 +69,7 @@ export function getEligibleTargets(
     const relation = getRelation(context, subcategory);
     if (!isRelationAllowed(relation, config)) continue;
 
-    const target = createLinkTarget(subcategory, 'subcategory', relation, config);
+    const target = createLinkTarget(subcategory, 'subcategory', relation, config, context.locale);
     if (target) targets.push(target);
   }
 
@@ -261,21 +269,44 @@ function isRelationAllowed(relation: RelationType, config: InternalLinkingConfig
 
 /**
  * Create a link target from an entity
+ * Now supports locale-aware URL building and filtering
  */
 function createLinkTarget(
   entity: Entity,
   type: 'category' | 'subcategory',
   relation: RelationType,
-  config: InternalLinkingConfig
+  config: InternalLinkingConfig,
+  currentLocale?: Locale
 ): LinkTarget | null {
-  // Build URL
-  const url = type === 'category'
-    ? `/${entity.slug}/`
-    : `/${DB.getFullPath(entity as Subcategory)}/`;
+  // If locale is provided, check if target has that locale
+  if (currentLocale) {
+    const availableLocales = getAvailableLocalesForEntity(entity);
 
-  // Get anchors
-  const anchors = getAnchorsForEntity(entity, config);
+    // Check link policy for missing locale targets
+    if (!availableLocales.includes(currentLocale)) {
+      if (linkPolicyConfig.missingLocaleTarget === 'skip') {
+        // Skip linking to entities that don't exist in current locale
+        return null;
+      }
+      // Otherwise, fall through to use default locale URL (not implemented yet)
+    }
+  }
+
+  // Build URL (locale-aware if locale is provided)
+  const url = currentLocale
+    ? buildLocalizedUrl(currentLocale, entity)
+    : (type === 'category'
+        ? `/${entity.slug}/`
+        : `/${DB.getFullPath(entity as Subcategory)}/`);
+
+  // Get anchors (localized if locale is provided)
+  const anchors = getAnchorsForEntity(entity, config, currentLocale);
   if (anchors.length === 0) return null;
+
+  // Get localized title
+  const title = currentLocale
+    ? getLocalizedField<string>(entity, 'title', currentLocale) || entity.id
+    : (typeof entity.title === 'string' ? entity.title : entity.id);
 
   // Calculate priority
   const priority = calculatePriority(relation, type, config);
@@ -283,7 +314,7 @@ function createLinkTarget(
   return {
     id: entity.id,
     url,
-    title: entity.title,
+    title,
     anchors,
     relation,
     priority,
@@ -291,14 +322,24 @@ function createLinkTarget(
 }
 
 /**
- * Get anchor phrases for an entity
+ * Get anchor phrases for an entity (now locale-aware)
  */
-function getAnchorsForEntity(entity: Entity, config: InternalLinkingConfig): string[] {
+function getAnchorsForEntity(
+  entity: Entity,
+  config: InternalLinkingConfig,
+  locale?: Locale
+): string[] {
   const anchors: string[] = [];
 
-  // Add title
+  // Add title (localized if locale is provided)
   if (config.anchorPolicy.source === 'title' || config.anchorPolicy.source === 'both') {
-    anchors.push(entity.title);
+    const title = locale
+      ? getLocalizedField<string>(entity, 'title', locale)
+      : (typeof entity.title === 'string' ? entity.title : undefined);
+
+    if (title) {
+      anchors.push(title);
+    }
   }
 
   // Add synonyms from file

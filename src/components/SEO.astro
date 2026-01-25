@@ -3,8 +3,11 @@
  * SEO Component
  * Generates meta tags for Open Graph, Twitter Cards, and standard SEO
  * Requires og:image for all indexable pages
+ * Now supports hreflang and self-referential canonical per locale
  */
 import type { ImageWithUrl } from '../utils/images/types';
+import type { HreflangLink } from '../utils/i18n';
+import type { Locale } from '../utils/i18n/config';
 
 interface Props {
   title: string;
@@ -13,6 +16,8 @@ interface Props {
   noindex?: boolean;
   ogImage: ImageWithUrl; // Required for indexable pages
   pageType?: 'website' | 'article';
+  locale?: Locale;
+  hreflangLinks?: HreflangLink[];
 }
 
 const {
@@ -21,7 +26,9 @@ const {
   canonical,
   noindex = false,
   ogImage,
-  pageType = 'website'
+  pageType = 'website',
+  locale = 'en',
+  hreflangLinks = []
 } = Astro.props;
 
 const site = Astro.site?.toString() || 'https://prseoastro.pages.dev';
@@ -39,8 +46,13 @@ if (!noindex && !ogImage) {
 <meta name="description" content={description} />
 <title>{title}</title>
 
-<!-- Canonical URL -->
-{canonical && <link rel="canonical" href={canonical} />}
+<!-- Canonical URL - Self-referential per locale -->
+<link rel="canonical" href={currentUrl} />
+
+<!-- hreflang Links - Only for existing locale variants -->
+{hreflangLinks.map(link => (
+  <link rel="alternate" hreflang={link.hreflang} href={link.href} />
+))}
 
 <!-- Robots -->
 {noindex && <meta name="robots" content="noindex, nofollow" />}
@@ -51,6 +63,7 @@ if (!noindex && !ogImage) {
 <meta property="og:description" content={description} />
 <meta property="og:url" content={currentUrl} />
 <meta property="og:site_name" content="prSeoAstro" />
+<meta property="og:locale" content={locale} />
 
 <!-- OG Image - Required for indexable pages -->
 {ogImage && (

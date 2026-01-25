@@ -1,53 +1,83 @@
 ---
 // Dynamic page template using relational database structure
 // Generates pages for categories and subcategories with cross-references
+// Now supports multi-locale content with optional per-page variants
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
 import ContentRenderer from '../../components/ContentRenderer.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
-import { addInternalLinks, defaultConfig } from '../../utils/internalLinking';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
 import { resolveOgImage, resolveHeroImage } from '../../utils/images';
 import type { ContentItem } from '../../utils/videos/types';
+import {
+  getAvailableLocalesForEntity,
+  getLocalizedField,
+  buildLocalizedUrl,
+  buildHreflangLinks,
+  getLocalizedContentSection
+} from '../../utils/i18n';
 
 // Generate all static paths from relational database
+// Now includes locale-specific routes
 export function getStaticPaths() {
   const paths = [];
 
-  // Add all category pages
+  // Add all category pages (with locale variants)
   for (const category of DB.getAllCategories()) {
-    paths.push({
-      params: { slug: category.slug },
-      props: {
-        type: 'category' as const,
-        data: category
-      }
-    });
+    const availableLocales = getAvailableLocalesForEntity(category);
+
+    for (const locale of availableLocales) {
+      paths.push({
+        params: { slug: `${locale}/${category.slug}` },
+        props: {
+          type: 'category' as const,
+          data: category,
+          locale
+        }
+      });
+    }
   }
 
-  // Add all subcategory pages
+  // Add all subcategory pages (with locale variants)
   for (const subcategory of DB.getAllSubcategories()) {
+    const availableLocales = getAvailableLocalesForEntity(subcategory);
     const fullPath = DB.getFullPath(subcategory);
-    paths.push({
-      params: { slug: fullPath },
-      props: {
-        type: 'subcategory' as const,
-        data: subcategory
-      }
-    });
+
+    for (const locale of availableLocales) {
+      paths.push({
+        params: { slug: `${locale}/${fullPath}` },
+        props: {
+          type: 'subcategory' as const,
+          data: subcategory,
+          locale
+        }
+      });
+    }
   }
 
   return paths;
 }
 
-const { type, data } = Astro.props;
+const { type, data, locale } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
 
+// Get available locales and build alternate URLs
+const availableLocales = getAvailableLocalesForEntity(data);
+const hreflangLinks = buildHreflangLinks(data, siteBase, base);
+
+// Build alternate URLs for language switcher
+const alternateUrls = availableLocales.map(loc => ({
+  locale: loc,
+  url: buildLocalizedUrl(loc, data, base)
+}));
+
+// Get localized fields
+const title = getLocalizedField<string>(data, 'title', locale) || data.id;
+const description = getLocalizedField<string>(data, 'description', locale) || '';
+
 // Build page-specific data based on type
-let title: string;
-let description: string;
 let breadcrumbs: Array<{ title: string; url: string }>;
 let childItems: Array<{ title: string; description: string; url: string }> = [];
 let relatedCategories: Category[] = [];
@@ -55,39 +85,47 @@ let parentCategory: Category | undefined;
 
 if (type === 'category') {
   const category = data as Category;
-  title = category.title;
-  description = category.description;
-  breadcrumbs = [{ title: category.title, url: `${base}${category.slug}/` }];
+  breadcrumbs = [{ title, url: `${base}/${locale}/${category.slug}/` }];
 
-  // Get subcategories for this category
+  // Get subcategories for this category (only if they have the current locale)
   const subcategories = DB.getSubcategoriesByCategory(category.id);
-  childItems = subcategories.map(sub => ({
-    title: sub.title,
-    description: sub.description,
-    url: `${base}${DB.getFullPath(sub)}/`
-  }));
+  childItems = subcategories
+    .filter(sub => getAvailableLocalesForEntity(sub).includes(locale))
+    .map(sub => ({
+      title: getLocalizedField<string>(sub, 'title', locale) || sub.id,
+      description: getLocalizedField<string>(sub, 'description', locale) || '',
+      url: buildLocalizedUrl(locale, sub, base)
+    }));
 } else {
   const subcategory = data as Subcategory;
-  title = subcategory.title;
-  description = subcategory.description;
 
-  // Get breadcrumbs from database
+  // Get breadcrumbs from database (localized)
   const crumbs = DB.getBreadcrumbs(subcategory);
-  breadcrumbs = crumbs.map(crumb => ({
-    title: crumb.title,
-    url: `${base}${crumb.path}/`
-  }));
+  breadcrumbs = crumbs.map(crumb => {
+    const entity = DB.getCategoryById(crumb.slug) || DB.getSubcategoryById(crumb.slug);
+    const localizedTitle = entity
+      ? getLocalizedField<string>(entity, 'title', locale) || (typeof crumb.title === 'string' ? crumb.title : '')
+      : (typeof crumb.title === 'string' ? crumb.title : '');
 
-  // Get child subcategories
+    return {
+      title: localizedTitle,
+      url: `${base}/${locale}/${crumb.path}/`
+    };
+  });
+
+  // Get child subcategories (only if they have the current locale)
   const children = DB.getChildSubcategories(subcategory);
-  childItems = children.map(child => ({
-    title: child.title,
-    description: child.description,
-    url: `${base}${DB.getFullPath(child)}/`
-  }));
+  childItems = children
+    .filter(child => getAvailableLocalesForEntity(child).includes(locale))
+    .map(child => ({
+      title: getLocalizedField<string>(child, 'title', locale) || child.id,
+      description: getLocalizedField<string>(child, 'description', locale) || '',
+      url: buildLocalizedUrl(locale, child, base)
+    }));
 
-  // Get related categories
-  relatedCategories = DB.getRelatedCategories(subcategory);
+  // Get related categories (only if they have the current locale)
+  relatedCategories = DB.getRelatedCategories(subcategory)
+    .filter(cat => getAvailableLocalesForEntity(cat).includes(locale));
 
   // Get parent category for image fallback
   parentCategory = DB.getCategoryById(subcategory.parentCategoryId);
@@ -97,27 +135,23 @@ if (type === 'category') {
 const ogImage = resolveOgImage(data, parentCategory, siteBase);
 const heroImage = resolveHeroImage(data, siteBase);
 
-// Build page context for internal linking
+// Build page context for internal linking (now includes locale)
 const linkContext: PageContext = {
   type,
   entity: data,
   id: data.id,
   slug: data.slug,
+  locale
 };
 
-// Helper function to process HTML with internal linking
-function processWithLinks(htmlContent: string): string {
-  const result = addInternalLinks(htmlContent, linkContext, defaultConfig);
-  return result.html;
-}
-
-// Get content from database or use fallback templates
-const content = data.content || {};
+// Get localized content from database or use fallback templates
+const localizedContent = getLocalizedContentSection(data, locale);
+const content = localizedContent || {};
 
 // Overview content - now supports ContentItem[] (strings or video blocks)
 const overviewItems: ContentItem[] = content.overview || [
-  "This comprehensive guide covers everything you need to know about ${title.toLowerCase()}, including key features, implementation strategies, and best practices for success. We've compiled detailed information and expert recommendations to help you make informed decisions about your tools and workflows.",
-  "Whether you're just getting started with your first implementation or looking to optimize your existing setup, you'll find valuable insights throughout this resource. Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively, helping you choose the right solutions for your specific needs and business objectives."
+  `This comprehensive guide covers everything you need to know about ${title.toLowerCase()}, including key features, implementation strategies, and best practices for success. We've compiled detailed information and expert recommendations to help you make informed decisions about your tools and workflows.`,
+  `Whether you're just getting started with your first implementation or looking to optimize your existing setup, you'll find valuable insights throughout this resource. Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively, helping you choose the right solutions for your specific needs and business objectives.`
 ];
 
 // Key Benefits content - still rendered as list items (does not support video blocks)
@@ -130,12 +164,19 @@ const keyBenefitsHtml = content.keyBenefits
 
 // Why Choose content - now supports ContentItem[] (strings or video blocks)
 const whyChooseItems: ContentItem[] = content.whyChoose || [
-  "When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.",
-  "Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints."
+  `When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.`,
+  `Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints.`
 ];
 ---
 
-<BaseLayout title={title} description={description} ogImage={ogImage}>
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  locale={locale}
+  hreflangLinks={hreflangLinks}
+  alternateUrls={alternateUrls}
+>
   <nav>
     <a href={base}>Home</a>
     {breadcrumbs.slice(0, -1).map((crumb) => (

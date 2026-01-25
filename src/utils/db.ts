@@ -1,6 +1,7 @@
 import categoriesData from '../data/categories.json';
 import subcategoriesData from '../data/subcategories.json';
 import type { ContentItem } from './videos/types';
+import type { Locale } from './i18n/config';
 
 export type ContentSection = {
   overview?: ContentItem[];
@@ -9,13 +10,20 @@ export type ContentSection = {
   gettingStarted?: ContentItem[];
 };
 
+/**
+ * Localizable field type - can be either:
+ * - A single value (legacy/non-localized)
+ * - An object keyed by locale (new localized format)
+ */
+export type Localizable<T> = T | Partial<Record<Locale, T>>;
+
 export type Category = {
   id: string;
   slug: string;
-  title: string;
-  description: string;
+  title: Localizable<string>;
+  description: Localizable<string>;
   subcategoryIds: string[];
-  content?: ContentSection;
+  content?: Localizable<ContentSection>;
   // Image fields for Image Library
   ogImageId?: string;      // OG image for social sharing
   heroImageId?: string;     // Optional hero image
@@ -28,11 +36,11 @@ export type Category = {
 export type Subcategory = {
   id: string;
   slug: string;
-  title: string;
-  description: string;
+  title: Localizable<string>;
+  description: Localizable<string>;
   parentCategoryId: string;
   relatedCategoryIds: string[];
-  content?: ContentSection;
+  content?: Localizable<ContentSection>;
   // Image fields for Image Library
   ogImageId?: string;      // OG image override
   heroImageId?: string;     // Optional hero image
@@ -164,9 +172,11 @@ export class DB {
 
   /**
    * Get breadcrumb trail for a subcategory
+   * Note: Returns raw entities with potentially localized titles.
+   * Caller should use getLocalizedField() to extract the correct title for their locale.
    */
-  static getBreadcrumbs(subcategory: Subcategory): Array<{ title: string; slug: string; path: string }> {
-    const breadcrumbs: Array<{ title: string; slug: string; path: string }> = [];
+  static getBreadcrumbs(subcategory: Subcategory): Array<{ title: Localizable<string>; slug: string; path: string }> {
+    const breadcrumbs: Array<{ title: Localizable<string>; slug: string; path: string }> = [];
     let current: Subcategory | Category | undefined = subcategory;
     const pathSegments: string[] = [subcategory.slug];
 

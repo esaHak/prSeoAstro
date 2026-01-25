@@ -3,9 +3,18 @@
  * Base Layout Component
  * Wraps all pages with common HTML structure and SEO meta tags
  * Now includes SEO component for Open Graph and Twitter Cards
+ * Supports multi-locale with hreflang and language switcher
  */
 import SEO from '../components/SEO.astro';
+import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 import type { ImageWithUrl } from '../utils/images/types';
+import type { HreflangLink } from '../utils/i18n';
+import type { Locale } from '../utils/i18n/config';
+
+interface AlternateUrl {
+  locale: Locale;
+  url: string;
+}
 
 interface Props {
   title: string;
@@ -14,6 +23,9 @@ interface Props {
   noindex?: boolean;
   ogImage: ImageWithUrl; // Required from SEO component
   pageType?: 'website' | 'article';
+  locale?: Locale;
+  hreflangLinks?: HreflangLink[];
+  alternateUrls?: AlternateUrl[];
 }
 
 const {
@@ -22,12 +34,15 @@ const {
   canonical,
   noindex = false,
   ogImage,
-  pageType = 'website'
+  pageType = 'website',
+  locale = 'en',
+  hreflangLinks = [],
+  alternateUrls = []
 } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={locale}>
   <head>
     <SEO
       title={title}
@@ -36,10 +51,18 @@ const {
       noindex={noindex}
       ogImage={ogImage}
       pageType={pageType}
+      locale={locale}
+      hreflangLinks={hreflangLinks}
     />
   </head>
   <body>
     <main>
+      {alternateUrls.length > 0 && (
+        <LanguageSwitcher
+          currentLocale={locale}
+          alternateUrls={alternateUrls}
+        />
+      )}
       <slot />
     </main>
   </body>

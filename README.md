@@ -8,9 +8,10 @@ A production-ready Astro project for programmatic SEO using a **pseudo-relationa
 - 🔗 **Automated Internal Linking** - Smart contextual links based on semantic relationships
 - 🎯 **Hierarchy-Aware** - Excludes parent/child links, includes cross-category relations
 - 📊 **Unlimited Depth** - Support for 2, 3, 4+ level hierarchies
+- 🌍 **Multi-Language Support** - Optional per-page locale variants with proper SEO
 - ⚡ **Static Generation** - All pages pre-rendered for maximum performance
 - 🚀 **Cloudflare Pages Ready** - Deploy to Cloudflare Pages or GitHub Pages
-- 🔍 **SEO Optimized** - Clean URLs, meta tags, breadcrumbs, internal linking
+- 🔍 **SEO Optimized** - Clean URLs, meta tags, breadcrumbs, internal linking, hreflang
 
 ## 🚀 Quick Start
 
@@ -75,6 +76,7 @@ A production-ready Astro project for programmatic SEO using a **pseudo-relationa
 - **[CONTENT_MANAGEMENT.md](./CONTENT_MANAGEMENT.md)** - 📝 **START HERE!** Complete guide to adding and managing content
 - **[DATABASE_STRUCTURE.md](./DATABASE_STRUCTURE.md)** - Technical details of the relational database
 - **[INTERNAL_LINKING.md](./INTERNAL_LINKING.md)** - How automated internal linking works
+- **[LOCALIZATION.md](./docs/LOCALIZATION.md)** - 🌍 Multi-language support and internationalization guide
 
 ## 🎯 How It Works
 
