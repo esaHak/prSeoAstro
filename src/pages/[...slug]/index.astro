@@ -131,6 +131,13 @@ if (type === 'category') {
   parentCategory = DB.getCategoryById(subcategory.parentCategoryId);
 }
 
+// Pre-compute related category items for rendering
+const relatedItems = relatedCategories.map(cat => ({
+  title: getLocalizedField<string>(cat, 'title', locale) || cat.id,
+  description: getLocalizedField<string>(cat, 'description', locale) || '',
+  url: buildLocalizedUrl(locale, cat, base)
+}));
+
 // Resolve images with fallback chain
 const ogImage = resolveOgImage(data, parentCategory, siteBase);
 const heroImage = resolveHeroImage(data, siteBase);
@@ -224,18 +231,18 @@ const whyChooseItems: ContentItem[] = content.whyChoose || [
     </section>
   )}
 
-  {relatedCategories.length > 0 && (
+  {relatedItems.length > 0 && (
     <section style="margin: 2rem 0; padding: 1.5rem; background: #e8f4f8; border-radius: 8px;">
       <h2>Related Topics</h2>
       <p style="margin-bottom: 1rem;">You might also be interested in these related categories:</p>
       <ul style="line-height: 1.8;">
-        {relatedCategories.map((cat) => (
+        {relatedItems.map((item) => (
           <li>
-            <a href={`${base}${cat.slug}/`} style="color: #0066cc;">
-              {cat.title}
+            <a href={item.url} style="color: #0066cc;">
+              {item.title}
             </a>
             {' - '}
-            {cat.description}
+            {item.description}
           </li>
         ))}
       </ul>

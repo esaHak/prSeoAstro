@@ -98,7 +98,10 @@ export function buildLocalizedUrl(
     ? DB.getFullPath(entity as Subcategory)
     : entity.slug;
 
-  return `${base}/${locale}/${path}/`;
+  // Normalize base to avoid double slashes
+  const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;
+
+  return `${normalizedBase}/${locale}/${path}/`;
 }
 
 /**
@@ -116,9 +119,12 @@ export function buildHreflangLinks(
 ): HreflangLink[] {
   const availableLocales = getAvailableLocalesForEntity(entity);
 
+  // Normalize siteBase to avoid double slashes
+  const normalizedSiteBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
   return availableLocales.map(locale => ({
     hreflang: locale,
-    href: `${siteBase}${buildLocalizedUrl(locale, entity, base)}`
+    href: `${normalizedSiteBase}${buildLocalizedUrl(locale, entity, base)}`
   }));
 }
 

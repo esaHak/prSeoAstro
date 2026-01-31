@@ -1,0 +1,121 @@
+---
+// Locale-specific Homepage
+// Lists all top-level categories in the current locale
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { DB } from '../../utils/db';
+import { resolveOgImage } from '../../utils/images';
+import {
+  supportedLocales,
+  getLocalizedField,
+  getAvailableLocalesForEntity,
+  buildLocalizedUrl,
+  buildHreflangLinks,
+  type Locale
+} from '../../utils/i18n';
+
+export function getStaticPaths() {
+  return supportedLocales.map(locale => ({
+    params: { locale },
+    props: { locale }
+  }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const base = import.meta.env.BASE_URL;
+const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
+const categories = DB.getAllCategories();
+
+// Resolve OG image for homepage (uses default)
+const ogImage = resolveOgImage({}, undefined, siteBase);
+
+// Build hreflang links for language switcher
+const hreflangLinks = supportedLocales.map(loc => ({
+  hreflang: loc,
+  href: `${siteBase.replace(/\/$/, '')}/${loc}/`
+}));
+
+// Build alternate URLs for language switcher
+const alternateUrls = supportedLocales.map(loc => ({
+  locale: loc,
+  url: `/${loc}/`
+}));
+
+// Pre-compute category data with localized fields
+// Only include categories that have content in the current locale
+const categoryItems = categories
+  .filter(category => getAvailableLocalesForEntity(category).includes(locale))
+  .map((category) => ({
+    title: getLocalizedField<string>(category, 'title', locale) || category.id,
+    description: getLocalizedField<string>(category, 'description', locale) || '',
+    url: buildLocalizedUrl(locale, category, base)
+  }));
+
+// Localized page content
+const pageContent = {
+  en: {
+    title: 'Programmatic SEO Demo',
+    description: 'A demonstration of pillar and cluster page structure for programmatic SEO',
+    intro: 'This site demonstrates a pillar and cluster content structure for programmatic SEO. Explore our comprehensive guides on various software tools and platforms.',
+    browseTitle: 'Browse Our Guides',
+    browseIntro: 'Select a topic below to discover in-depth information, comparisons, and recommendations:',
+    explore: 'Explore',
+    aboutTitle: 'About This Site',
+    aboutText: 'This demonstration showcases how programmatic SEO can be implemented using Astro with a hierarchical content structure. Each page is statically generated from JSON data, ensuring fast load times and excellent SEO performance.'
+  },
+  fi: {
+    title: 'Ohjelmallinen SEO Demo',
+    description: 'Esittely pilari- ja klusterisivurakenteesta ohjelmalliseen hakukoneoptimointiin',
+    intro: 'Tämä sivusto esittelee pilari- ja klusterisisältörakennetta ohjelmalliseen hakukoneoptimointiin. Tutustu kattaviin oppaisiin erilaisista ohjelmistotyökaluista ja alustoista.',
+    browseTitle: 'Selaa oppaitamme',
+    browseIntro: 'Valitse aihe alta löytääksesi syvällistä tietoa, vertailuja ja suosituksia:',
+    explore: 'Tutustu',
+    aboutTitle: 'Tietoa sivustosta',
+    aboutText: 'Tämä esittely näyttää, miten ohjelmallinen hakukoneoptimointi voidaan toteuttaa Astrolla hierarkkisella sisältörakenteella. Jokainen sivu generoidaan staattisesti JSON-datasta, mikä takaa nopeat latausajat ja erinomaisen SEO-suorituskyvyn.'
+  }
+};
+
+const content = pageContent[locale] || pageContent.en;
+---
+
+<BaseLayout
+  title={content.title}
+  description={content.description}
+  ogImage={ogImage}
+  locale={locale}
+  hreflangLinks={hreflangLinks}
+  alternateUrls={alternateUrls}
+>
+  <h1>{content.title}</h1>
+  <p style="font-size: 1.1rem; line-height: 1.6;">{content.intro}</p>
+
+  <section style="margin: 2rem 0;">
+    <h2>{content.browseTitle}</h2>
+    <p style="margin-bottom: 1.5rem;">{content.browseIntro}</p>
+
+    <div>
+      {categoryItems.map((item) => (
+        <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
+          <h3 style="margin-top: 0;">
+            <a href={item.url} style="text-decoration: none; color: #0066cc;">
+              {item.title}
+            </a>
+          </h3>
+          <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
+            {item.description}
+          </p>
+          <p style="margin: 0.75rem 0 0 0;">
+            <a href={item.url} style="color: #0066cc;">
+              {content.explore} {item.title} →
+            </a>
+          </p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section style="margin: 2rem 0;">
+    <h2>{content.aboutTitle}</h2>
+    <p>{content.aboutText}</p>
+  </section>
+</BaseLayout>

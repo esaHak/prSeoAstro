@@ -1,53 +1,49 @@
 ---
-// Homepage
-// Lists all top-level categories from the relational database
+// Root Page - Language Selector
+// Allows users to choose their preferred language
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { DB } from '../utils/db';
 import { resolveOgImage } from '../utils/images';
+import { supportedLocales, localeLabels } from '../utils/i18n';
 
 const base = import.meta.env.BASE_URL;
 const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
-const categories = DB.getAllCategories();
 
 // Resolve OG image for homepage (uses default)
 const ogImage = resolveOgImage({}, undefined, siteBase);
+
+// Build language options
+const languageOptions = supportedLocales.map(locale => ({
+  locale,
+  label: localeLabels[locale].full,
+  url: `${base}${locale}/`
+}));
 ---
 
 <BaseLayout
   title="Programmatic SEO Demo"
   description="A demonstration of pillar and cluster page structure for programmatic SEO"
-  ogImage={ogImage}>
-  <h1>Programmatic SEO Demo</h1>
-  <p style="font-size: 1.1rem; line-height: 1.6;">This site demonstrates a pillar and cluster content structure for programmatic SEO. Explore our comprehensive guides on various software tools and platforms.</p>
+  ogImage={ogImage}
+>
+  <div style="text-align: center; padding: 3rem 1rem;">
+    <h1>Welcome / Tervetuloa</h1>
+    <p style="font-size: 1.2rem; margin: 1.5rem 0 2.5rem;">
+      Please select your language / Valitse kielesi
+    </p>
 
-  <section style="margin: 2rem 0;">
-    <h2>Browse Our Guides</h2>
-    <p style="margin-bottom: 1.5rem;">Select a topic below to discover in-depth information, comparisons, and recommendations:</p>
-
-    <div>
-      {categories.map((category) => (
-        <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
-          <h3 style="margin-top: 0;">
-            <a href={`${base}${category.slug}/`} style="text-decoration: none; color: #0066cc;">
-              {category.title}
-            </a>
-          </h3>
-          <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
-            {category.description}
-          </p>
-          <p style="margin: 0.75rem 0 0 0;">
-            <a href={`${base}${category.slug}/`} style="color: #0066cc;">
-              Explore {category.title} →
-            </a>
-          </p>
-        </article>
+    <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+      {languageOptions.map((option) => (
+        <a
+          href={option.url}
+          style="display: block; padding: 2rem 3rem; background: #f9f9f9; border: 2px solid #333; border-radius: 8px; text-decoration: none; color: #333; font-size: 1.3rem; font-weight: 500; transition: all 0.2s ease;"
+        >
+          {option.label}
+        </a>
       ))}
     </div>
-  </section>
 
-  <section style="margin: 2rem 0;">
-    <h2>About This Site</h2>
-    <p>This demonstration showcases how programmatic SEO can be implemented using Astro with a hierarchical content structure. Each page is statically generated from JSON data, ensuring fast load times and excellent SEO performance.</p>
-  </section>
+    <p style="margin-top: 3rem; color: #666; font-size: 0.9rem;">
+      You will be redirected to the homepage in your selected language.
+    </p>
+  </div>
 </BaseLayout>
