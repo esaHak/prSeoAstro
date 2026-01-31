@@ -7,6 +7,7 @@ import type { RichResultsConfig } from './schemas/types';
 export type ContentSection = {
   overview?: ContentItem[];
   keyBenefits?: ContentItem[];
+  keyTakeawaysTitle?: string;
   whyChoose?: ContentItem[];
   gettingStarted?: ContentItem[];
 };

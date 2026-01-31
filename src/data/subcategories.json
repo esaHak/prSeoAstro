@@ -3,7 +3,7 @@
     "id": "experience-signals",
     "slug": "experience-signals",
     "title": "Experience Signals: Demonstrating First-Hand Knowledge in Programmatic Content",
-    "description": "Learn how to integrate authentic experience signals into programmatic SEO content, transforming organizational knowledge into E-E-A-T compliant pages at scale.",
+    "description": "Learn how to integrate authentic experience signals into programmatic SEO content, transforming organizational knowledge into E-E-A-T compliant pages at scale. [S1]",
     "parentCategoryId": "eeat",
     "relatedCategoryIds": [
       "expertise-signals",
@@ -55,7 +55,7 @@
     "id": "sign-up-queries",
     "slug": "sign-up-queries",
     "title": "Sign-Up Queries: Capturing Final-Funnel Conversion Intent",
-    "description": "Target search queries where users seek account creation and registration, representing the critical handoff from content to product experience.",
+    "description": "Target search queries where users seek account creation and registration, representing the critical handoff from content to product experience. [S1]",
     "parentCategoryId": "transactional",
     "relatedCategoryIds": [
       "purchase-queries",
@@ -101,7 +101,7 @@
     "id": "foundational-concepts",
     "slug": "foundational-concepts",
     "title": "Programmatic SEO Fundamentals: Essential Concepts & Principles",
-    "description": "Master the foundational concepts of programmatic SEO including core principles, search engine mechanics, and Google policy compliance for sustainable scaled content.",
+    "description": "Master the foundational concepts of programmatic SEO including core principles, search engine mechanics, and Google policy compliance for sustainable scaled content. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "definition-core-principles",
@@ -199,7 +199,7 @@
     "id": "strategic-planning",
     "slug": "strategic-planning",
     "title": "Programmatic SEO Strategy: Planning for Scalable Success",
-    "description": "Develop a strategic foundation for programmatic SEO including business case assessment, use case identification, and risk evaluation before implementation.",
+    "description": "Develop a strategic foundation for programmatic SEO including business case assessment, use case identification, and risk evaluation before implementation. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "business-case",
@@ -283,7 +283,7 @@
     "id": "keyword-research",
     "slug": "keyword-research",
     "title": "Keyword Research for Programmatic SEO: Patterns at Scale",
-    "description": "Master keyword research for programmatic SEO including pattern discovery, long-tail strategy, and tools for identifying scalable keyword opportunities.",
+    "description": "Master keyword research for programmatic SEO including pattern discovery, long-tail strategy, and tools for identifying scalable keyword opportunities. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "pattern-discovery",
@@ -365,7 +365,7 @@
     "id": "search-intent-analysis",
     "slug": "search-intent-analysis",
     "title": "Search Intent Analysis: Matching Content to User Needs",
-    "description": "Master search intent analysis for programmatic SEO including primary intent categories, extended types, and intent modifiers to create content that satisfies searchers.",
+    "description": "Master search intent analysis for programmatic SEO including primary intent categories, extended types, and intent modifiers to create content that satisfies searchers. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "primary-categories",
@@ -443,7 +443,7 @@
     "id": "topical-authority",
     "slug": "topical-authority",
     "title": "Topical Authority & Content Architecture for SEO",
-    "description": "Build topical authority through strategic content architecture including topic clusters, content hierarchies, and semantic relationship mapping for programmatic SEO.",
+    "description": "Build topical authority through strategic content architecture including topic clusters, content hierarchies, and semantic relationship mapping for programmatic SEO. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "topic-clusters",
@@ -518,7 +518,7 @@
     "id": "serp-analysis",
     "slug": "serp-analysis",
     "title": "SERP Analysis: Understanding Search Result Landscapes",
-    "description": "Master SERP analysis for programmatic SEO including feature analysis, competitor evaluation, and extracting content requirements from search results.",
+    "description": "Master SERP analysis for programmatic SEO including feature analysis, competitor evaluation, and extracting content requirements from search results. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "serp-features",
@@ -588,7 +588,7 @@
     "id": "content-requirements",
     "slug": "content-requirements",
     "title": "SEO Content Requirements: Quality Standards at Scale",
-    "description": "Define content requirements for programmatic SEO including quality frameworks, E-E-A-T implementation, unique value creation, and avoiding quality problems.",
+    "description": "Define content requirements for programmatic SEO including quality frameworks, E-E-A-T implementation, unique value creation, and avoiding quality problems. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "quality-framework",
@@ -667,7 +667,7 @@
     "id": "template-design",
     "slug": "template-design",
     "title": "SEO Page Template Design: Building Scalable Structures",
-    "description": "Master template design for programmatic SEO including architecture principles, intent-matched templates, and content block strategies for scalable pages.",
+    "description": "Master template design for programmatic SEO including architecture principles, intent-matched templates, and content block strategies for scalable pages. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "architecture",
@@ -739,7 +739,7 @@
     "id": "internal-linking",
     "slug": "internal-linking",
     "title": "Internal Linking Architecture: Connecting Pages at Scale",
-    "description": "Build effective internal linking architecture for programmatic SEO including vertical and horizontal linking, link equity distribution, and anchor text strategy.",
+    "description": "Build effective internal linking architecture for programmatic SEO including vertical and horizontal linking, link equity distribution, and anchor text strategy. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "vertical-linking",
@@ -814,7 +814,7 @@
     "id": "structured-data",
     "slug": "structured-data",
     "title": "Structured Data & Schema for SEO: Rich Results at Scale",
-    "description": "Implement structured data and schema markup for programmatic SEO including JSON-LD implementation, schema types, and rich result optimization strategies.",
+    "description": "Implement structured data and schema markup for programmatic SEO including JSON-LD implementation, schema types, and rich result optimization strategies. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "schema-implementation",
@@ -884,7 +884,7 @@
     "id": "technical-implementation",
     "slug": "technical-implementation",
     "title": "Technical SEO Implementation: Infrastructure at Scale",
-    "description": "Master technical implementation for programmatic SEO including URL architecture, indexation strategy, crawl optimization, rendering, and data infrastructure.",
+    "description": "Master technical implementation for programmatic SEO including URL architecture, indexation strategy, crawl optimization, rendering, and data infrastructure. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "url-architecture",
@@ -969,7 +969,7 @@
     "id": "tools",
     "slug": "tools",
     "title": "Programmatic SEO Tools & Platforms: Building Your Stack",
-    "description": "Discover essential tools for programmatic SEO including content generation platforms, SEO analysis tools, and validation solutions for scaled implementations.",
+    "description": "Discover essential tools for programmatic SEO including content generation platforms, SEO analysis tools, and validation solutions for scaled implementations. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "content-generation",
@@ -1046,7 +1046,7 @@
     "id": "monitoring",
     "slug": "monitoring",
     "title": "SEO Monitoring & Optimization: Continuous Improvement",
-    "description": "Implement monitoring and optimization for programmatic SEO including performance tracking, quality assurance, and iterative improvement strategies.",
+    "description": "Implement monitoring and optimization for programmatic SEO including performance tracking, quality assurance, and iterative improvement strategies. [S1]",
     "parentCategoryId": "programmatic-seo",
     "subcategoryIds": [
       "performance-tracking",
@@ -1123,7 +1123,7 @@
     "id": "distinction-from-traditional-seo",
     "slug": "distinction-from-traditional-seo",
     "title": "Programmatic SEO vs Traditional SEO: Key Differences",
-    "description": "Understand the fundamental differences between programmatic and traditional SEO including scale, methodology, resource requirements, and when to use each approach.",
+    "description": "Understand the fundamental differences between programmatic and traditional SEO including scale, methodology, resource requirements, and when to use each approach. [S1]",
     "parentCategoryId": "foundational-concepts",
     "relatedCategoryIds": [
       "definition-core-principles",
@@ -1179,7 +1179,7 @@
     "id": "search-engine-mechanics",
     "slug": "search-engine-mechanics",
     "title": "How Search Engines Work: Crawling, Indexing & Ranking",
-    "description": "Understand search engine mechanics including crawling, indexing, retrieval, ranking, and serving to build programmatic SEO that works with these systems.",
+    "description": "Understand search engine mechanics including crawling, indexing, retrieval, ranking, and serving to build programmatic SEO that works with these systems. [S1]",
     "parentCategoryId": "foundational-concepts",
     "relatedCategoryIds": [
       "definition-core-principles",
@@ -1238,7 +1238,7 @@
     "id": "google-policy-framework",
     "slug": "google-policy-framework",
     "title": "Google Policy Framework: Guidelines for Scaled Content",
-    "description": "Navigate Google's policy framework including helpful content guidelines, scaled content abuse policies, E-E-A-T requirements, and spam policies for programmatic SEO.",
+    "description": "Navigate Google's policy framework including helpful content guidelines, scaled content abuse policies, E-E-A-T requirements, and spam policies for programmatic SEO. [S1]",
     "parentCategoryId": "foundational-concepts",
     "relatedCategoryIds": [
       "definition-core-principles",
@@ -1296,7 +1296,7 @@
     "id": "business-case",
     "slug": "business-case",
     "title": "Programmatic SEO Business Case Assessment",
-    "description": "Evaluate the business case for programmatic SEO including data asset assessment, competitive analysis, and resource requirements for informed investment decisions.",
+    "description": "Evaluate the business case for programmatic SEO including data asset assessment, competitive analysis, and resource requirements for informed investment decisions. [S1]",
     "parentCategoryId": "strategic-planning",
     "relatedCategoryIds": [
       "use-cases",
@@ -1352,7 +1352,7 @@
     "id": "use-cases",
     "slug": "use-cases",
     "title": "Programmatic SEO Use Cases: Proven Patterns",
-    "description": "Explore proven programmatic SEO use cases including location-based pages, product variations, integrations, data-driven content, and educational resources.",
+    "description": "Explore proven programmatic SEO use cases including location-based pages, product variations, integrations, data-driven content, and educational resources. [S1]",
     "parentCategoryId": "strategic-planning",
     "relatedCategoryIds": [
       "business-case",
@@ -1413,7 +1413,7 @@
     "id": "risk-assessment",
     "slug": "risk-assessment",
     "title": "Programmatic SEO Risk Assessment: Identifying & Mitigating",
-    "description": "Assess and mitigate programmatic SEO risks including thin content, duplicate content, cannibalization, and index bloat for sustainable implementations.",
+    "description": "Assess and mitigate programmatic SEO risks including thin content, duplicate content, cannibalization, and index bloat for sustainable implementations. [S1]",
     "parentCategoryId": "strategic-planning",
     "relatedCategoryIds": [
       "business-case",
@@ -1473,7 +1473,7 @@
     "id": "pattern-discovery",
     "slug": "pattern-discovery",
     "title": "Keyword Pattern Discovery for Programmatic SEO",
-    "description": "Master keyword pattern discovery including head term identification, modifier discovery, and pattern validation for scalable keyword targeting.",
+    "description": "Master keyword pattern discovery including head term identification, modifier discovery, and pattern validation for scalable keyword targeting. [S1]",
     "parentCategoryId": "keyword-research",
     "relatedCategoryIds": [
       "long-tail-strategy",
@@ -1528,7 +1528,7 @@
     "id": "long-tail-strategy",
     "slug": "long-tail-strategy",
     "title": "Long-Tail Keyword Strategy for Programmatic SEO",
-    "description": "Develop effective long-tail keyword strategies including understanding long-tail characteristics, difficulty assessment, and conversion potential analysis.",
+    "description": "Develop effective long-tail keyword strategies including understanding long-tail characteristics, difficulty assessment, and conversion potential analysis. [S1]",
     "parentCategoryId": "keyword-research",
     "relatedCategoryIds": [
       "pattern-discovery",
@@ -1582,7 +1582,7 @@
     "id": "keyword-tools",
     "slug": "tools",
     "title": "Keyword Research Tools for Programmatic SEO",
-    "description": "Master essential keyword research tools including Google Keyword Planner, Semrush, Ahrefs, and autocomplete mining for pattern-based research.",
+    "description": "Master essential keyword research tools including Google Keyword Planner, Semrush, Ahrefs, and autocomplete mining for pattern-based research. [S1]",
     "parentCategoryId": "keyword-research",
     "relatedCategoryIds": [
       "pattern-discovery",
@@ -1643,7 +1643,7 @@
     "id": "primary-categories",
     "slug": "primary-categories",
     "title": "Types of Search Intent: Primary Intent Categories",
-    "description": "Master the four primary search intent categories—informational, navigational, commercial, and transactional—for effective template design.",
+    "description": "Master the four primary search intent categories—informational, navigational, commercial, and transactional—for effective template design. [S1]",
     "parentCategoryId": "search-intent-analysis",
     "relatedCategoryIds": [
       "extended-types",
@@ -1699,7 +1699,7 @@
     "id": "extended-types",
     "slug": "extended-types",
     "title": "Extended Search Intent Types Beyond the Primary Four",
-    "description": "Explore extended search intent types including local, news, entertainment, educational, and visual intent for specialized content targeting.",
+    "description": "Explore extended search intent types including local, news, entertainment, educational, and visual intent for specialized content targeting. [S1]",
     "parentCategoryId": "search-intent-analysis",
     "relatedCategoryIds": [
       "primary-categories",
@@ -1752,7 +1752,7 @@
     "id": "intent-modifiers",
     "slug": "intent-modifiers",
     "title": "Intent Modifiers for Programmatic SEO Keywords",
-    "description": "Apply intent modifiers to seed keywords to capture searches at different stages of the customer journey.",
+    "description": "Apply intent modifiers to seed keywords to capture searches at different stages of the customer journey. [S1]",
     "parentCategoryId": "modifier-discovery",
     "relatedCategoryIds": [
       "attribute-modifiers",
@@ -1807,7 +1807,7 @@
     "id": "topic-clusters",
     "slug": "topic-clusters",
     "title": "Topic Cluster Strategy for Programmatic SEO",
-    "description": "Build topical authority through topic cluster strategy including pillar pages, cluster content, and hub-and-spoke models for programmatic implementations.",
+    "description": "Build topical authority through topic cluster strategy including pillar pages, cluster content, and hub-and-spoke models for programmatic implementations. [S1]",
     "parentCategoryId": "topical-authority",
     "relatedCategoryIds": [
       "content-hierarchy",
@@ -1858,7 +1858,7 @@
     "id": "content-hierarchy",
     "slug": "content-hierarchy",
     "title": "SEO Content Hierarchy Design Principles",
-    "description": "Design effective content hierarchies including depth determination, subdivision principles, variable depth handling, and terminal node identification.",
+    "description": "Design effective content hierarchies including depth determination, subdivision principles, variable depth handling, and terminal node identification. [S1]",
     "parentCategoryId": "topical-authority",
     "relatedCategoryIds": [
       "topic-clusters",
@@ -1914,7 +1914,7 @@
     "id": "semantic-relationships",
     "slug": "semantic-relationships",
     "title": "Semantic Relationship Mapping for SEO",
-    "description": "Map semantic relationships including hierarchical, sibling, cross-cluster, and entity relationships to build comprehensive internal linking strategies.",
+    "description": "Map semantic relationships including hierarchical, sibling, cross-cluster, and entity relationships to build comprehensive internal linking strategies. [S1]",
     "parentCategoryId": "topical-authority",
     "relatedCategoryIds": [
       "content-hierarchy",
@@ -1970,7 +1970,7 @@
     "id": "serp-features",
     "slug": "serp-features",
     "title": "SERP Feature Analysis: Featured Snippets to AI Overviews",
-    "description": "Analyze SERP features including featured snippets, People Also Ask, AI Overviews, knowledge panels, and local packs for optimization opportunities.",
+    "description": "Analyze SERP features including featured snippets, People Also Ask, AI Overviews, knowledge panels, and local packs for optimization opportunities. [S1]",
     "parentCategoryId": "serp-analysis",
     "relatedCategoryIds": [
       "competitor-analysis",
@@ -2031,7 +2031,7 @@
     "id": "competitor-analysis",
     "slug": "competitor-analysis",
     "title": "Competitor Analysis for Programmatic SEO Keywords",
-    "description": "Analyze competitor keyword strategies and rankings to identify keyword opportunities and competitive positioning gaps.",
+    "description": "Analyze competitor keyword strategies and rankings to identify keyword opportunities and competitive positioning gaps. [S1]",
     "parentCategoryId": "head-terms",
     "relatedCategoryIds": [
       "seed-keyword-brainstorming",
@@ -2086,7 +2086,7 @@
     "id": "serp-derived-requirements",
     "slug": "serp-derived-requirements",
     "title": "SERP-Derived Content Requirements",
-    "description": "Extract actionable content requirements from SERP analysis including format requirements, authority signals, and feature optimization priorities.",
+    "description": "Extract actionable content requirements from SERP analysis including format requirements, authority signals, and feature optimization priorities. [S1]",
     "parentCategoryId": "serp-analysis",
     "relatedCategoryIds": [
       "serp-features",
@@ -2143,7 +2143,7 @@
     "id": "quality-framework",
     "slug": "quality-framework",
     "title": "SEO Content Quality Framework",
-    "description": "Define content quality standards including topical completeness, depth appropriateness, information gain, accuracy, and clarity for programmatic content.",
+    "description": "Define content quality standards including topical completeness, depth appropriateness, information gain, accuracy, and clarity for programmatic content. [S1]",
     "parentCategoryId": "content-requirements",
     "relatedCategoryIds": [
       "eeat",
@@ -2204,7 +2204,7 @@
     "id": "eeat",
     "slug": "eeat",
     "title": "E-E-A-T Implementation for Programmatic SEO",
-    "description": "Implement E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) systematically across programmatic content templates.",
+    "description": "Implement E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) systematically across programmatic content templates. [S1]",
     "parentCategoryId": "content-requirements",
     "relatedCategoryIds": [
       "quality-framework",
@@ -2261,7 +2261,7 @@
     "id": "unique-value",
     "slug": "unique-value",
     "title": "Unique Value Requirements for Programmatic Content",
-    "description": "Create unique content value through proprietary data, unique analysis, user-generated content, and interactive elements for competitive differentiation.",
+    "description": "Create unique content value through proprietary data, unique analysis, user-generated content, and interactive elements for competitive differentiation. [S1]",
     "parentCategoryId": "content-requirements",
     "relatedCategoryIds": [
       "quality-framework",
@@ -2318,7 +2318,7 @@
     "id": "quality-problems",
     "slug": "quality-problems",
     "title": "SEO Content Quality Problems to Avoid",
-    "description": "Identify and prevent content quality problems including thin content, duplicate content, keyword stuffing, and template bloat in programmatic implementations.",
+    "description": "Identify and prevent content quality problems including thin content, duplicate content, keyword stuffing, and template bloat in programmatic implementations. [S1]",
     "parentCategoryId": "content-requirements",
     "relatedCategoryIds": [
       "quality-framework",
@@ -2375,7 +2375,7 @@
     "id": "architecture",
     "slug": "architecture",
     "title": "SEO Template Architecture Principles",
-    "description": "Design template architecture including page structure, dynamic content zones, and static zones for scalable programmatic page generation.",
+    "description": "Design template architecture including page structure, dynamic content zones, and static zones for scalable programmatic page generation. [S1]",
     "parentCategoryId": "template-design",
     "relatedCategoryIds": [
       "types-by-intent",
@@ -2432,7 +2432,7 @@
     "id": "types-by-intent",
     "slug": "types-by-intent",
     "title": "Template Types by Search Intent",
-    "description": "Match template designs to search intent with category, comparison, location, product, and integration templates for different user needs.",
+    "description": "Match template designs to search intent with category, comparison, location, product, and integration templates for different user needs. [S1]",
     "parentCategoryId": "template-design",
     "relatedCategoryIds": [
       "architecture",
@@ -2485,7 +2485,7 @@
     "id": "content-blocks",
     "slug": "content-blocks",
     "title": "Template Content Blocks for SEO",
-    "description": "Build modular templates with reusable content blocks including title, introduction, data display, FAQ, related content, and schema blocks.",
+    "description": "Build modular templates with reusable content blocks including title, introduction, data display, FAQ, related content, and schema blocks. [S1]",
     "parentCategoryId": "template-design",
     "relatedCategoryIds": [
       "architecture",
@@ -2546,7 +2546,7 @@
     "id": "vertical-linking",
     "slug": "vertical-linking",
     "title": "Vertical Internal Linking Strategies",
-    "description": "Implement vertical linking through parent-child relationships, skip-level links, and breadcrumb navigation for hierarchical content structures.",
+    "description": "Implement vertical linking through parent-child relationships, skip-level links, and breadcrumb navigation for hierarchical content structures. [S1]",
     "parentCategoryId": "internal-linking",
     "relatedCategoryIds": [
       "horizontal-linking",
@@ -2602,7 +2602,7 @@
     "id": "horizontal-linking",
     "slug": "horizontal-linking",
     "title": "Horizontal Internal Linking Strategies",
-    "description": "Build horizontal connections through sibling links, cousin links, cross-branch connections, and related content linking for comprehensive internal link networks.",
+    "description": "Build horizontal connections through sibling links, cousin links, cross-branch connections, and related content linking for comprehensive internal link networks. [S1]",
     "parentCategoryId": "internal-linking",
     "relatedCategoryIds": [
       "vertical-linking",
@@ -2658,7 +2658,7 @@
     "id": "link-equity",
     "slug": "link-equity",
     "title": "Link Equity Distribution for Programmatic SEO",
-    "description": "Strategically distribute link equity through hub page authority, deep page support, and orphan prevention for optimal ranking across page sets.",
+    "description": "Strategically distribute link equity through hub page authority, deep page support, and orphan prevention for optimal ranking across page sets. [S1]",
     "parentCategoryId": "internal-linking",
     "relatedCategoryIds": [
       "vertical-linking",
@@ -2709,7 +2709,7 @@
     "id": "anchor-text",
     "slug": "anchor-text",
     "title": "Internal Link Anchor Text Strategy",
-    "description": "Optimize internal link anchor text with descriptive anchors, keyword-rich text, and contextual placement for improved ranking signals.",
+    "description": "Optimize internal link anchor text with descriptive anchors, keyword-rich text, and contextual placement for improved ranking signals. [S1]",
     "parentCategoryId": "internal-linking",
     "relatedCategoryIds": [
       "vertical-linking",
@@ -2765,7 +2765,7 @@
     "id": "schema-implementation",
     "slug": "schema-implementation",
     "title": "Schema.org Implementation for Programmatic SEO",
-    "description": "Implement Schema.org structured data including JSON-LD format, schema types, and dynamic generation for programmatic pages.",
+    "description": "Implement Schema.org structured data including JSON-LD format, schema types, and dynamic generation for programmatic pages. [S1]",
     "parentCategoryId": "structured-data",
     "relatedCategoryIds": [
       "rich-results",
@@ -2816,7 +2816,7 @@
     "id": "rich-results",
     "slug": "rich-results",
     "title": "Rich Results Optimization for Programmatic Pages",
-    "description": "Optimize for rich results including featured snippets, FAQ results, review ratings, and AI Overview citations for enhanced search visibility.",
+    "description": "Optimize for rich results including featured snippets, FAQ results, review ratings, and AI Overview citations for enhanced search visibility. [S1]",
     "parentCategoryId": "structured-data",
     "relatedCategoryIds": [
       "schema-implementation",
@@ -2872,7 +2872,7 @@
     "id": "url-architecture",
     "slug": "url-architecture",
     "title": "SEO URL Architecture for Programmatic Sites",
-    "description": "Design scalable URL structures including patterns, slug optimization, hierarchy reflection, and parameter handling for programmatic implementations.",
+    "description": "Design scalable URL structures including patterns, slug optimization, hierarchy reflection, and parameter handling for programmatic implementations. [S1]",
     "parentCategoryId": "technical-implementation",
     "relatedCategoryIds": [
       "indexation",
@@ -2928,7 +2928,7 @@
     "id": "indexation",
     "slug": "indexation",
     "title": "SEO Indexation Strategy for Large Sites",
-    "description": "Develop indexation strategy including index/noindex criteria, canonical implementation, pagination handling, and bloat prevention for programmatic sites.",
+    "description": "Develop indexation strategy including index/noindex criteria, canonical implementation, pagination handling, and bloat prevention for programmatic sites. [S1]",
     "parentCategoryId": "technical-implementation",
     "relatedCategoryIds": [
       "url-architecture",
@@ -2984,7 +2984,7 @@
     "id": "crawl-optimization",
     "slug": "crawl-optimization",
     "title": "Crawl Budget Optimization for Programmatic SEO",
-    "description": "Optimize crawl efficiency through sitemap architecture, robots.txt configuration, crawl budget management, and click depth optimization.",
+    "description": "Optimize crawl efficiency through sitemap architecture, robots.txt configuration, crawl budget management, and click depth optimization. [S1]",
     "parentCategoryId": "technical-implementation",
     "relatedCategoryIds": [
       "indexation",
@@ -3040,7 +3040,7 @@
     "id": "rendering",
     "slug": "rendering",
     "title": "Rendering & Performance for Programmatic SEO",
-    "description": "Choose rendering approaches (SSR, SSG, ISR) and optimize Core Web Vitals for programmatic content performance and search visibility.",
+    "description": "Choose rendering approaches (SSR, SSG, ISR) and optimize Core Web Vitals for programmatic content performance and search visibility. [S1]",
     "parentCategoryId": "technical-implementation",
     "relatedCategoryIds": [
       "data-infrastructure",
@@ -3091,7 +3091,7 @@
     "id": "data-infrastructure",
     "slug": "data-infrastructure",
     "title": "Data Infrastructure for Programmatic SEO",
-    "description": "Build data infrastructure including database design, CMS integration, and API connections to power programmatic content generation.",
+    "description": "Build data infrastructure including database design, CMS integration, and API connections to power programmatic content generation. [S1]",
     "parentCategoryId": "technical-implementation",
     "relatedCategoryIds": [
       "rendering",
@@ -3142,7 +3142,7 @@
     "id": "content-generation",
     "slug": "content-generation",
     "title": "Programmatic Content Generation Tools",
-    "description": "Evaluate content generation tools including WP All Import, Whalesync, Webflow CMS, and custom solutions for automated page creation.",
+    "description": "Evaluate content generation tools including WP All Import, Whalesync, Webflow CMS, and custom solutions for automated page creation. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "seo-analysis",
@@ -3198,7 +3198,7 @@
     "id": "seo-analysis",
     "slug": "seo-analysis",
     "title": "SEO Analysis Tools for Programmatic Content",
-    "description": "Select and implement SEO analysis tools including Ahrefs, Semrush, Screaming Frog, and Google Search Console for programmatic site analysis.",
+    "description": "Select and implement SEO analysis tools including Ahrefs, Semrush, Screaming Frog, and Google Search Console for programmatic site analysis. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "content-generation",
@@ -3262,7 +3262,7 @@
     "id": "validation-testing",
     "slug": "validation-testing",
     "title": "SEO Validation & Testing Tools",
-    "description": "Implement validation and testing tools for schema markup, mobile usability, Core Web Vitals, and content quality assurance.",
+    "description": "Implement validation and testing tools for schema markup, mobile usability, Core Web Vitals, and content quality assurance. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "seo-analysis",
@@ -3322,7 +3322,7 @@
     "id": "performance-tracking",
     "slug": "performance-tracking",
     "title": "SEO Performance Tracking for Programmatic Content",
-    "description": "Track SEO performance including rankings, organic traffic, indexation rates, and conversion metrics across programmatic page sets.",
+    "description": "Track SEO performance including rankings, organic traffic, indexation rates, and conversion metrics across programmatic page sets. [S1]",
     "parentCategoryId": "monitoring",
     "relatedCategoryIds": [
       "quality-assurance",
@@ -3382,7 +3382,7 @@
     "id": "quality-assurance",
     "slug": "quality-assurance",
     "title": "Quality Assurance for Programmatic SEO Content",
-    "description": "Implement quality assurance processes including content audits, template reviews, data validation, and automated quality checks.",
+    "description": "Implement quality assurance processes including content audits, template reviews, data validation, and automated quality checks. [S1]",
     "parentCategoryId": "monitoring",
     "relatedCategoryIds": [
       "performance-tracking",
@@ -3442,7 +3442,7 @@
     "id": "iterative-optimization",
     "slug": "iterative-optimization",
     "title": "Iterative Optimization for Programmatic SEO",
-    "description": "Implement continuous improvement through A/B testing, template refinement, content updates, and data-driven optimization cycles.",
+    "description": "Implement continuous improvement through A/B testing, template refinement, content updates, and data-driven optimization cycles. [S1]",
     "parentCategoryId": "monitoring",
     "relatedCategoryIds": [
       "performance-tracking",
@@ -3502,7 +3502,7 @@
     "id": "structured-data-integration",
     "slug": "structured-data-integration",
     "title": "Structured Data Integration in Programmatic SEO",
-    "description": "Integrate structured data with programmatic content to enhance search visibility through schema markup and rich results.",
+    "description": "Integrate structured data with programmatic content to enhance search visibility through schema markup and rich results. [S1]",
     "parentCategoryId": "definition-core-principles",
     "relatedCategoryIds": [
       "schema-implementation",
@@ -3544,7 +3544,7 @@
     "id": "automation-at-scale",
     "slug": "automation-at-scale",
     "title": "SEO Automation at Scale",
-    "description": "Implement automation strategies for creating and maintaining thousands of SEO-optimized pages efficiently.",
+    "description": "Implement automation strategies for creating and maintaining thousands of SEO-optimized pages efficiently. [S1]",
     "parentCategoryId": "definition-core-principles",
     "relatedCategoryIds": [
       "content-generation",
@@ -3596,7 +3596,7 @@
     "id": "query-driven-architecture",
     "slug": "query-driven-architecture",
     "title": "Query-Driven Page Architecture",
-    "description": "Design page architecture based on search query patterns to match user intent with targeted content.",
+    "description": "Design page architecture based on search query patterns to match user intent with targeted content. [S1]",
     "parentCategoryId": "definition-core-principles",
     "relatedCategoryIds": [
       "pattern-discovery",
@@ -3647,7 +3647,7 @@
     "id": "scale-vs-manual",
     "slug": "scale-vs-manual",
     "title": "Scale vs. Manual Content Creation",
-    "description": "Compare programmatic scale approaches with traditional manual content creation for SEO.",
+    "description": "Compare programmatic scale approaches with traditional manual content creation for SEO. [S1]",
     "parentCategoryId": "distinction-from-traditional-seo",
     "relatedCategoryIds": [
       "automation-at-scale",
@@ -3705,7 +3705,7 @@
     "id": "template-vs-individual",
     "slug": "template-vs-individual",
     "title": "Template Logic vs. Individual Optimization",
-    "description": "Compare template-based optimization patterns with individual page SEO approaches.",
+    "description": "Compare template-based optimization patterns with individual page SEO approaches. [S1]",
     "parentCategoryId": "distinction-from-traditional-seo",
     "relatedCategoryIds": [
       "template-design",
@@ -3762,7 +3762,7 @@
     "id": "database-vs-content-driven",
     "slug": "database-vs-content-driven",
     "title": "Database-Driven vs. Content-Driven SEO",
-    "description": "Understand the difference between database-driven programmatic SEO and traditional content-driven approaches.",
+    "description": "Understand the difference between database-driven programmatic SEO and traditional content-driven approaches. [S1]",
     "parentCategoryId": "distinction-from-traditional-seo",
     "relatedCategoryIds": [
       "data-infrastructure",
@@ -3821,7 +3821,7 @@
     "id": "longtail-vs-head-term",
     "slug": "longtail-vs-head-term",
     "title": "Long-Tail Focus vs. Head Term Focus",
-    "description": "Compare programmatic SEO's long-tail keyword strategy with traditional head term targeting.",
+    "description": "Compare programmatic SEO's long-tail keyword strategy with traditional head term targeting. [S1]",
     "parentCategoryId": "distinction-from-traditional-seo",
     "relatedCategoryIds": [
       "long-tail-strategy",
@@ -3883,7 +3883,7 @@
     "id": "crawling",
     "slug": "crawling",
     "title": "How Search Engine Crawling Works",
-    "description": "Understand search engine crawling processes and how they affect programmatic content discovery.",
+    "description": "Understand search engine crawling processes and how they affect programmatic content discovery. [S1]",
     "parentCategoryId": "search-engine-mechanics",
     "relatedCategoryIds": [
       "crawl-optimization",
@@ -3940,7 +3940,7 @@
     "id": "indexing",
     "slug": "indexing",
     "title": "How Search Engine Indexing Works",
-    "description": "Understand search engine indexing processes and factors affecting programmatic page inclusion.",
+    "description": "Understand search engine indexing processes and factors affecting programmatic page inclusion. [S1]",
     "parentCategoryId": "search-engine-mechanics",
     "relatedCategoryIds": [
       "indexation",
@@ -4003,7 +4003,7 @@
     "id": "retrieval",
     "slug": "retrieval",
     "title": "Search Engine Retrieval Mechanisms",
-    "description": "Understand how search engines retrieve relevant pages from their index for user queries.",
+    "description": "Understand how search engines retrieve relevant pages from their index for user queries. [S1]",
     "parentCategoryId": "search-engine-mechanics",
     "relatedCategoryIds": [
       "ranking",
@@ -4066,7 +4066,7 @@
     "id": "ranking",
     "slug": "ranking",
     "title": "Search Engine Ranking Factors",
-    "description": "Understand the signals search engines use to rank retrieved pages for user queries.",
+    "description": "Understand the signals search engines use to rank retrieved pages for user queries. [S1]",
     "parentCategoryId": "search-engine-mechanics",
     "relatedCategoryIds": [
       "quality-framework",
@@ -4129,7 +4129,7 @@
     "id": "serving",
     "slug": "serving",
     "title": "Search Engine Serving and Query Processing",
-    "description": "Understand how search engines process queries and serve results to users.",
+    "description": "Understand how search engines process queries and serve results to users. [S1]",
     "parentCategoryId": "search-engine-mechanics",
     "relatedCategoryIds": [
       "serp-features",
@@ -4192,7 +4192,7 @@
     "id": "helpful-content",
     "slug": "helpful-content",
     "title": "Helpful Content Guidelines: Architectural Compliance for Programmatic Infrastructure",
-    "description": "Understand Google's Helpful Content Guidelines as architectural requirements that programmatic SEO systems must satisfy by design—not page-by-page, but through systematic quality enforcement.",
+    "description": "Understand Google's Helpful Content Guidelines as architectural requirements that programmatic SEO systems must satisfy by design—not page-by-page, but through systematic quality enforcement. [S1]",
     "parentCategoryId": "google-policy-framework",
     "relatedCategoryIds": [
       "eeat-requirements",
@@ -4249,7 +4249,7 @@
     "id": "scaled-content-abuse",
     "slug": "scaled-content-abuse",
     "title": "Scaled Content Abuse: Distinguishing Compliant Programmatic SEO From Policy Violations",
-    "description": "Navigate Google's March 2024 scaled content abuse policy with case study evidence, operational risk assessment, and practical differentiation between compliant and abusive programmatic approaches.",
+    "description": "Navigate Google's March 2024 scaled content abuse policy with case study evidence, operational risk assessment, and practical differentiation between compliant and abusive programmatic approaches. [S1]",
     "parentCategoryId": "google-policy-framework",
     "relatedCategoryIds": [
       "helpful-content",
@@ -4314,7 +4314,7 @@
     "id": "eeat-requirements",
     "slug": "eeat-requirements",
     "title": "E-E-A-T Requirements: Engineering Trust Signals Into Programmatic Content Infrastructure",
-    "description": "Implement Google's Experience, Expertise, Authoritativeness, and Trustworthiness framework as systematic signal generation that programmatic infrastructure produces by design.",
+    "description": "Implement Google's Experience, Expertise, Authoritativeness, and Trustworthiness framework as systematic signal generation that programmatic infrastructure produces by design. [S1]",
     "parentCategoryId": "google-policy-framework",
     "relatedCategoryIds": [
       "experience-signals",
@@ -4372,7 +4372,7 @@
     "id": "spam-policies",
     "slug": "spam-policies",
     "title": "Google Search Spam Policies: Enforcement Mechanisms and Programmatic Compliance Architecture",
-    "description": "Understand Google's spam policies with technical enforcement breakdown, pattern detection mechanisms, and practical compliance architecture for programmatic content systems.",
+    "description": "Understand Google's spam policies with technical enforcement breakdown, pattern detection mechanisms, and practical compliance architecture for programmatic content systems. [S1]",
     "parentCategoryId": "google-policy-framework",
     "relatedCategoryIds": [
       "scaled-content-abuse",
@@ -4439,7 +4439,7 @@
     "id": "data-asset-evaluation",
     "slug": "data-asset-evaluation",
     "title": "Data Asset Evaluation: Assessing Programmatic SEO Viability Through Quantitative Data Analysis",
-    "description": "Systematically evaluate existing data assets for programmatic SEO potential including quality assessment, uniqueness validation, scale sufficiency, and freshness requirements.",
+    "description": "Systematically evaluate existing data assets for programmatic SEO potential including quality assessment, uniqueness validation, scale sufficiency, and freshness requirements. [S1]",
     "parentCategoryId": "business-case",
     "relatedCategoryIds": [
       "proprietary-data",
@@ -4505,7 +4505,7 @@
     "id": "competitive-landscape",
     "slug": "competitive-landscape",
     "title": "Competitive Landscape Analysis: Assessing Programmatic SEO Viability and Opportunity Identification",
-    "description": "Analyze competitive SERP composition, programmatic saturation, and differentiation requirements to assess programmatic SEO viability and identify defensible opportunities.",
+    "description": "Analyze competitive SERP composition, programmatic saturation, and differentiation requirements to assess programmatic SEO viability and identify defensible opportunities. [S1]",
     "parentCategoryId": "business-case",
     "relatedCategoryIds": [
       "competitor-analysis",
@@ -4567,7 +4567,7 @@
     "id": "resource-requirements",
     "slug": "resource-requirements",
     "title": "Programmatic SEO Resource Requirements: Technical, Operational, and Staffing Assessment",
-    "description": "Systematically assess technical infrastructure, engineering effort, content resources, and ongoing operational requirements for programmatic SEO program viability.",
+    "description": "Systematically assess technical infrastructure, engineering effort, content resources, and ongoing operational requirements for programmatic SEO program viability. [S1]",
     "parentCategoryId": "business-case",
     "relatedCategoryIds": [
       "data-infrastructure",
@@ -4640,7 +4640,7 @@
     "id": "location-based",
     "slug": "location-based",
     "title": "Location-Based Pages: Scaling Location Content With Genuine Local Differentiation",
-    "description": "Create programmatic location pages targeting geographic search patterns with authentic local data preventing thin content compliance violations.",
+    "description": "Create programmatic location pages targeting geographic search patterns with authentic local data preventing thin content compliance violations. [S1]",
     "parentCategoryId": "use-cases",
     "relatedCategoryIds": [
       "local-intent",
@@ -4694,7 +4694,7 @@
     "id": "product-variations",
     "slug": "product-variations",
     "title": "Product Variation Pages: Scaling Attribute-Based Content Without Cannibalization Risk",
-    "description": "Create programmatic product variation pages targeting specific product attributes while managing duplicate content and preventing ranking cannibalization of canonical products.",
+    "description": "Create programmatic product variation pages targeting specific product attributes while managing duplicate content and preventing ranking cannibalization of canonical products. [S1]",
     "parentCategoryId": "use-cases",
     "relatedCategoryIds": [
       "product-entity",
@@ -4749,7 +4749,7 @@
     "id": "integration-pages",
     "slug": "integration-pages",
     "title": "Integration Pages: Scaling Partnership Visibility With Authentic Integration Validation",
-    "description": "Create programmatic integration pages for tool connections requiring authentic partnership validation and maintained integration currency.",
+    "description": "Create programmatic integration pages for tool connections requiring authentic partnership validation and maintained integration currency. [S1]",
     "parentCategoryId": "use-cases",
     "relatedCategoryIds": [
       "api-documentation"
@@ -4791,7 +4791,7 @@
     "id": "commercial-investigation",
     "slug": "commercial-investigation",
     "title": "Commercial Investigation Intent: Buyer Research and Comparisons",
-    "description": "Understanding commercial investigation searches where users evaluate options before purchasing, and developing content to win business from high-intent searchers.",
+    "description": "Understanding commercial investigation searches where users evaluate options before purchasing, and developing content to win business from high-intent searchers. [S1]",
     "parentCategoryId": "primary-categories",
     "relatedCategoryIds": [],
     "datePublished": "2026-01-31",
@@ -4846,7 +4846,7 @@
     "id": "transactional",
     "slug": "transactional",
     "title": "Transactional Intent",
-    "description": "Transactional search intent occurs when users are ready to complete a specific action, such as making a purchase, signing up, or downloading something. These searches indicate high commercial value and strong purchase intent.",
+    "description": "Transactional search intent occurs when users are ready to complete a specific action, such as making a purchase, signing up, or downloading something. These searches indicate high commercial value and strong purchase intent. [S1]",
     "parentCategoryId": "primary-categories",
     "relatedCategoryIds": [
       "local-intent"
@@ -4899,7 +4899,7 @@
     "id": "local-intent",
     "slug": "local-intent",
     "title": "Local Intent",
-    "description": "Local search intent occurs when users search for products, services, or information with a geographic component. These searches indicate users are looking for local businesses, nearby locations, or place-specific information within their area.",
+    "description": "Local search intent occurs when users search for products, services, or information with a geographic component. These searches indicate users are looking for local businesses, nearby locations, or place-specific information within their area. [S1]",
     "parentCategoryId": "extended-types",
     "relatedCategoryIds": [
       "entertainment-intent"
@@ -4956,7 +4956,7 @@
     "id": "news-trending-intent",
     "slug": "news-trending-intent",
     "title": "News/Trending Intent",
-    "description": "News and trending search intent occurs when users search for current events, breaking news, viral topics, and time-sensitive information. These searches spike around major events and reflect users' desire to learn about what's happening right now.",
+    "description": "News and trending search intent occurs when users search for current events, breaking news, viral topics, and time-sensitive information. These searches spike around major events and reflect users' desire to learn about what's happening right now. [S1]",
     "parentCategoryId": "extended-types",
     "relatedCategoryIds": [
       "year-modifier",
@@ -4993,7 +4993,7 @@
     "id": "entertainment-intent",
     "slug": "entertainment-intent",
     "title": "Entertainment Intent",
-    "description": "Entertainment search intent occurs when users search for entertainment content, reviews, recommendations, and information about movies, TV shows, music, games, and other entertainment media.",
+    "description": "Entertainment search intent occurs when users search for entertainment content, reviews, recommendations, and information about movies, TV shows, music, games, and other entertainment media. [S1]",
     "parentCategoryId": "extended-types",
     "relatedCategoryIds": [
       "visual-media-intent",
@@ -5030,7 +5030,7 @@
     "id": "educational-intent",
     "slug": "educational-intent",
     "title": "Educational Intent",
-    "description": "Educational search intent occurs when users search to learn, understand, or develop new knowledge and skills. These searches show users in learning mode, seeking explanations, tutorials, guides, and educational resources.",
+    "description": "Educational search intent occurs when users search to learn, understand, or develop new knowledge and skills. These searches show users in learning mode, seeking explanations, tutorials, guides, and educational resources. [S1]",
     "parentCategoryId": "extended-types",
     "relatedCategoryIds": [
       "informational-intent",
@@ -5067,7 +5067,7 @@
     "id": "visual-media-intent",
     "slug": "visual-media-intent",
     "title": "Visual/Media Intent",
-    "description": "Visual search intent occurs when users search for images, videos, or visual information. This includes image search queries, video discovery, visual problem-solving, and content seeking through visual rather than text-based means.",
+    "description": "Visual search intent occurs when users search for images, videos, or visual information. This includes image search queries, video discovery, visual problem-solving, and content seeking through visual rather than text-based means. [S1]",
     "parentCategoryId": "extended-types",
     "relatedCategoryIds": [
       "entertainment-intent",
@@ -5104,7 +5104,7 @@
     "id": "best-top-modifier",
     "slug": "best-top-modifier",
     "title": "Best/Top Modifiers: Building Authority Through Transparent Evaluation Methodology",
-    "description": "Target high-intent 'best' and 'top' queries by demonstrating authentic evaluation processes that differentiate expert recommendations from commodity comparison content.",
+    "description": "Target high-intent 'best' and 'top' queries by demonstrating authentic evaluation processes that differentiate expert recommendations from commodity comparison content. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "commercial-investigation",
@@ -5161,7 +5161,7 @@
     "id": "vs-compared-modifier",
     "slug": "vs-compared-modifier",
     "title": "VS/Compared Modifiers: Scaling Decision-Support Through Structured Comparison Infrastructure",
-    "description": "Capture high-intent comparison queries by building systematic comparison infrastructure that transforms organizational competitive intelligence into decision-support content users trust.",
+    "description": "Capture high-intent comparison queries by building systematic comparison infrastructure that transforms organizational competitive intelligence into decision-support content users trust. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "best-top-modifier",
@@ -5218,7 +5218,7 @@
     "id": "for-audience-modifier",
     "slug": "for-audience-modifier",
     "title": "\"for [audience]\"",
-    "description": "Audience modifiers like 'for beginners,' 'for kids,' or 'for small business' show users are seeking solutions tailored to specific groups. These modifiers indicate users want guidance appropriate for their particular situation or skill level.",
+    "description": "Audience modifiers like 'for beginners,' 'for kids,' or 'for small business' show users are seeking solutions tailored to specific groups. These modifiers indicate users want guidance appropriate for their particular situation or skill level. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "educational-intent",
@@ -5255,7 +5255,7 @@
     "id": "pricing-cost-modifier",
     "slug": "pricing-cost-modifier",
     "title": "\"pricing\" / \"cost\"",
-    "description": "Pricing and cost modifiers indicate users are evaluating financial aspects of solutions. These keywords show users narrowing decisions to understand affordability and value, representing high commercial intent.",
+    "description": "Pricing and cost modifiers indicate users are evaluating financial aspects of solutions. These keywords show users narrowing decisions to understand affordability and value, representing high commercial intent. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "vs-compared-modifier",
@@ -5291,7 +5291,7 @@
     "id": "near-me-location-modifier",
     "slug": "near-me-location-modifier",
     "title": "\"near me\" / \"[location]\"",
-    "description": "Near me and location modifiers show users searching for local solutions immediately available. These high-intent queries drive foot traffic and local engagement from geographically qualified users.",
+    "description": "Near me and location modifiers show users searching for local solutions immediately available. These high-intent queries drive foot traffic and local engagement from geographically qualified users. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "local-intent",
@@ -5327,7 +5327,7 @@
     "id": "year-modifier",
     "slug": "year-modifier",
     "title": "\"[year]\"",
-    "description": "Year modifiers indicate users seeking current, up-to-date information relevant to specific years. These time-sensitive queries show users want fresh data, updated guides, and current-year specific information.",
+    "description": "Year modifiers indicate users seeking current, up-to-date information relevant to specific years. These time-sensitive queries show users want fresh data, updated guides, and current-year specific information. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "news-trending-intent",
@@ -5364,7 +5364,7 @@
     "id": "free-open-source-modifier",
     "slug": "free-open-source-modifier",
     "title": "\"free\" / \"open source\"",
-    "description": "Free and open source modifiers indicate users seeking zero-cost or transparent solutions. These keywords show users with budget constraints or transparency preferences, representing distinct audience segments.",
+    "description": "Free and open source modifiers indicate users seeking zero-cost or transparent solutions. These keywords show users with budget constraints or transparency preferences, representing distinct audience segments. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "pricing-cost-modifier",
@@ -5400,7 +5400,7 @@
     "id": "alternative-to-modifier",
     "slug": "alternative-to-modifier",
     "title": "\"alternative to\"",
-    "description": "Alternative to queries show users actively seeking substitutes for current solutions. These queries indicate dissatisfaction with existing options and readiness to switch, representing high-value replacement opportunity.",
+    "description": "Alternative to queries show users actively seeking substitutes for current solutions. These queries indicate dissatisfaction with existing options and readiness to switch, representing high-value replacement opportunity. [S1]",
     "parentCategoryId": "intent-modifiers",
     "relatedCategoryIds": [
       "vs-compared-modifier",
@@ -5436,7 +5436,7 @@
     "id": "pillar-page-design",
     "slug": "pillar-page-design",
     "title": "Pillar Page Design",
-    "description": "Pillar pages are comprehensive, authority-building resources covering broad topics at foundational level. They form the core of topic cluster architectures, linking to specialized subtopic pages and establishing topical authority.",
+    "description": "Pillar pages are comprehensive, authority-building resources covering broad topics at foundational level. They form the core of topic cluster architectures, linking to specialized subtopic pages and establishing topical authority. [S1]",
     "parentCategoryId": "topic-clusters",
     "relatedCategoryIds": [
       "cluster-page-design",
@@ -5473,7 +5473,7 @@
     "id": "cluster-page-design",
     "slug": "cluster-page-design",
     "title": "Cluster Page Design",
-    "description": "Cluster pages are specialized content resources focusing on specific subtopics within broader domains. They link back to pillar pages and to each other, creating semantic networks that strengthen topical authority.",
+    "description": "Cluster pages are specialized content resources focusing on specific subtopics within broader domains. They link back to pillar pages and to each other, creating semantic networks that strengthen topical authority. [S1]",
     "parentCategoryId": "topic-clusters",
     "relatedCategoryIds": [
       "pillar-page-design",
@@ -5510,7 +5510,7 @@
     "id": "hub-and-spoke-model",
     "slug": "hub-and-spoke-model",
     "title": "Hub-and-Spoke Model",
-    "description": "Hub-and-spoke models organize content with central hubs (pillars) connected to specialized spokes (clusters), creating efficient topical authority structures that scale across multiple topic domains.",
+    "description": "Hub-and-spoke models organize content with central hubs (pillars) connected to specialized spokes (clusters), creating efficient topical authority structures that scale across multiple topic domains. [S1]",
     "parentCategoryId": "topic-clusters",
     "relatedCategoryIds": [
       "pillar-page-design",
@@ -5547,7 +5547,7 @@
     "id": "hierarchy-depth-determination",
     "slug": "hierarchy-depth-determination",
     "title": "Hierarchy Depth Determination",
-    "description": "Content hierarchy depth determines how many levels exist between broad topics and specific subtopics. Determining appropriate depth balances organizational clarity with content coverage breadth.",
+    "description": "Content hierarchy depth determines how many levels exist between broad topics and specific subtopics. Determining appropriate depth balances organizational clarity with content coverage breadth. [S1]",
     "parentCategoryId": "content-hierarchy",
     "relatedCategoryIds": [
       "subdivision-principles",
@@ -5584,7 +5584,7 @@
     "id": "subdivision-principles",
     "slug": "subdivision-principles",
     "title": "Subdivision Principles",
-    "description": "Subdivision principles guide how topics are logically divided into hierarchical levels. Effective subdivision follows consistent patterns that align with user mental models and search behaviors.",
+    "description": "Subdivision principles guide how topics are logically divided into hierarchical levels. Effective subdivision follows consistent patterns that align with user mental models and search behaviors. [S1]",
     "parentCategoryId": "content-hierarchy",
     "relatedCategoryIds": [
       "hierarchy-depth-determination",
@@ -5621,7 +5621,7 @@
     "id": "variable-depth-handling",
     "slug": "variable-depth-handling",
     "title": "Variable Depth Handling",
-    "description": "Variable depth handling accommodates topics with different natural subdivision depths within single content hierarchies. Some topics subdivide deeply, others remain relatively simple, requiring flexible organizational approaches.",
+    "description": "Variable depth handling accommodates topics with different natural subdivision depths within single content hierarchies. Some topics subdivide deeply, others remain relatively simple, requiring flexible organizational approaches. [S1]",
     "parentCategoryId": "content-hierarchy",
     "relatedCategoryIds": [
       "hierarchy-depth-determination",
@@ -5658,7 +5658,7 @@
     "id": "depth-appropriateness",
     "slug": "depth-appropriateness",
     "title": "Content Depth Appropriateness for SEO",
-    "description": "Ensuring your programmatic content matches user intent and search query requirements while maintaining optimal depth levels.",
+    "description": "Ensuring your programmatic content matches user intent and search query requirements while maintaining optimal depth levels. [S1]",
     "parentCategoryId": "quality-framework",
     "relatedCategoryIds": [
       "information-gain",
@@ -5701,7 +5701,7 @@
     "id": "information-gain",
     "slug": "information-gain",
     "title": "Information Gain for SEO Content Quality",
-    "description": "Creating content that genuinely advances user knowledge and provides insights beyond what's already available in search results.",
+    "description": "Creating content that genuinely advances user knowledge and provides insights beyond what's already available in search results. [S1]",
     "parentCategoryId": "quality-framework",
     "relatedCategoryIds": [
       "unique-analysis",
@@ -5744,7 +5744,7 @@
     "id": "accuracy-freshness",
     "slug": "accuracy-freshness",
     "title": "Content Accuracy and Freshness in Programmatic SEO",
-    "description": "Maintaining factual accuracy and regular updates across your programmatic content to sustain rankings and user trust.",
+    "description": "Maintaining factual accuracy and regular updates across your programmatic content to sustain rankings and user trust. [S1]",
     "parentCategoryId": "quality-framework",
     "relatedCategoryIds": [
       "trustworthiness",
@@ -5787,7 +5787,7 @@
     "id": "clarity-readability",
     "slug": "clarity-readability",
     "title": "Content Clarity and Readability for SEO",
-    "description": "Structuring programmatic content for maximum comprehension with clear language, visual hierarchy, and accessible formatting.",
+    "description": "Structuring programmatic content for maximum comprehension with clear language, visual hierarchy, and accessible formatting. [S1]",
     "parentCategoryId": "quality-framework",
     "relatedCategoryIds": [
       "depth-appropriateness",
@@ -5830,7 +5830,7 @@
     "id": "trustworthiness",
     "slug": "trustworthiness",
     "title": "Content Trustworthiness Signals for SEO",
-    "description": "Building trust through citations, author credentials, transparent methodologies, and user social proof in programmatic content.",
+    "description": "Building trust through citations, author credentials, transparent methodologies, and user social proof in programmatic content. [S1]",
     "parentCategoryId": "quality-framework",
     "relatedCategoryIds": [
       "expertise-signals",
@@ -5873,7 +5873,7 @@
     "id": "expertise-signals",
     "slug": "expertise-signals",
     "title": "Expertise Signals in E-E-A-T for Programmatic SEO",
-    "description": "Demonstrating deep knowledge and specialized skills through credentials, education, and expert-level insights in programmatic content.",
+    "description": "Demonstrating deep knowledge and specialized skills through credentials, education, and expert-level insights in programmatic content. [S1]",
     "parentCategoryId": "eeat",
     "relatedCategoryIds": [
       "authoritativeness-signals",
@@ -5933,7 +5933,7 @@
     "id": "authoritativeness-signals",
     "slug": "authoritativeness-signals",
     "title": "Authoritativeness Signals in E-E-A-T for Programmatic SEO",
-    "description": "Building domain authority, backlink profiles, and recognition as an industry leader through content and off-page signals.",
+    "description": "Building domain authority, backlink profiles, and recognition as an industry leader through content and off-page signals. [S1]",
     "parentCategoryId": "eeat",
     "relatedCategoryIds": [
       "expertise-signals",
@@ -5993,7 +5993,7 @@
     "id": "trustworthiness-signals-eeat",
     "slug": "trustworthiness-signals-eeat",
     "title": "Trustworthiness Signals in E-E-A-T Framework",
-    "description": "Building user trust through transparent practices, safety signals, and verified information in programmatic SEO content.",
+    "description": "Building user trust through transparent practices, safety signals, and verified information in programmatic SEO content. [S1]",
     "parentCategoryId": "eeat",
     "relatedCategoryIds": [
       "expertise-signals",
@@ -6054,7 +6054,7 @@
     "id": "proprietary-data",
     "slug": "proprietary-data",
     "title": "Proprietary Data Integration in Programmatic SEO",
-    "description": "Using unique datasets, research, and exclusive information to differentiate programmatic content from competitors.",
+    "description": "Using unique datasets, research, and exclusive information to differentiate programmatic content from competitors. [S1]",
     "parentCategoryId": "unique-value",
     "relatedCategoryIds": [
       "information-gain",
@@ -6110,7 +6110,7 @@
     "id": "unique-analysis",
     "slug": "unique-analysis",
     "title": "Unique Analysis in Programmatic SEO Content",
-    "description": "Creating original insights and analysis frameworks that transform public information into proprietary strategic recommendations.",
+    "description": "Creating original insights and analysis frameworks that transform public information into proprietary strategic recommendations. [S1]",
     "parentCategoryId": "unique-value",
     "relatedCategoryIds": [
       "information-gain",
@@ -6166,7 +6166,7 @@
     "id": "user-generated-content",
     "slug": "user-generated-content",
     "title": "User-Generated Content in Programmatic SEO",
-    "description": "Leveraging reviews, testimonials, and community content to build authenticity and trust in programmatic pages.",
+    "description": "Leveraging reviews, testimonials, and community content to build authenticity and trust in programmatic pages. [S1]",
     "parentCategoryId": "unique-value",
     "relatedCategoryIds": [
       "experience-signals",
@@ -6222,7 +6222,7 @@
     "id": "interactive-elements",
     "slug": "interactive-elements",
     "title": "Interactive Elements in Programmatic SEO Content",
-    "description": "Adding calculators, filters, tools, and interactive features to programmatic pages for enhanced user engagement and SEO value.",
+    "description": "Adding calculators, filters, tools, and interactive features to programmatic pages for enhanced user engagement and SEO value. [S1]",
     "parentCategoryId": "unique-value",
     "relatedCategoryIds": [
       "unique-value",
@@ -6278,7 +6278,7 @@
     "id": "thin-content",
     "slug": "thin-content",
     "title": "Avoiding Thin Content in Programmatic SEO",
-    "description": "Identifying and eliminating low-value pages that fail to provide sufficient depth, utility, or unique information.",
+    "description": "Identifying and eliminating low-value pages that fail to provide sufficient depth, utility, or unique information. [S1]",
     "parentCategoryId": "quality-problems",
     "relatedCategoryIds": [
       "information-gain",
@@ -6334,7 +6334,7 @@
     "id": "duplicate-content",
     "slug": "duplicate-content",
     "title": "Managing Duplicate Content in Programmatic SEO",
-    "description": "Preventing content duplication and implementing proper canonicalization strategies in large-scale programmatic systems.",
+    "description": "Preventing content duplication and implementing proper canonicalization strategies in large-scale programmatic systems. [S1]",
     "parentCategoryId": "quality-problems",
     "relatedCategoryIds": [
       "thin-content",
@@ -6390,7 +6390,7 @@
     "id": "keyword-stuffing",
     "slug": "keyword-stuffing",
     "title": "Avoiding Keyword Stuffing in Programmatic SEO",
-    "description": "Maintaining natural keyword density and readability while optimizing programmatic content for target keywords.",
+    "description": "Maintaining natural keyword density and readability while optimizing programmatic content for target keywords. [S1]",
     "parentCategoryId": "quality-problems",
     "relatedCategoryIds": [
       "clarity-readability",
@@ -6446,7 +6446,7 @@
     "id": "template-bloat",
     "slug": "template-bloat",
     "title": "Preventing Template Bloat in Programmatic SEO",
-    "description": "Keeping programmatic templates lean and focused rather than including unnecessary sections that dilute content value.",
+    "description": "Keeping programmatic templates lean and focused rather than including unnecessary sections that dilute content value. [S1]",
     "parentCategoryId": "quality-problems",
     "relatedCategoryIds": [
       "thin-content",
@@ -6502,7 +6502,7 @@
     "id": "page-structure",
     "slug": "page-structure",
     "title": "SEO-Optimized Page Structure Design for Programmatic Content",
-    "description": "Creating optimal page structure and layout that supports both user experience and search engine requirements.",
+    "description": "Creating optimal page structure and layout that supports both user experience and search engine requirements. [S1]",
     "parentCategoryId": "architecture",
     "relatedCategoryIds": [
       "dynamic-zones",
@@ -6558,7 +6558,7 @@
     "id": "dynamic-zones",
     "slug": "dynamic-zones",
     "title": "Dynamic Content Zones in Programmatic SEO Templates",
-    "description": "Using dynamic content blocks that adjust based on data, context, and content parameters to maximize relevance.",
+    "description": "Using dynamic content blocks that adjust based on data, context, and content parameters to maximize relevance. [S1]",
     "parentCategoryId": "architecture",
     "relatedCategoryIds": [
       "static-zones",
@@ -6614,7 +6614,7 @@
     "id": "static-zones",
     "slug": "static-zones",
     "title": "Static Content Zones in Programmatic SEO Templates",
-    "description": "Using consistent static sections to maintain quality, authority signals, and template integrity across programmatic pages.",
+    "description": "Using consistent static sections to maintain quality, authority signals, and template integrity across programmatic pages. [S1]",
     "parentCategoryId": "architecture",
     "relatedCategoryIds": [
       "dynamic-zones",
@@ -6670,7 +6670,7 @@
     "id": "category-hub",
     "slug": "category-hub",
     "title": "Category Hub Page Template",
-    "description": "Design and structure templates for category hub pages that organize and link to child category pages, maximizing internal link equity and content discoverability.",
+    "description": "Design and structure templates for category hub pages that organize and link to child category pages, maximizing internal link equity and content discoverability. [S1]",
     "parentCategoryId": "types-by-intent",
     "relatedCategoryIds": [
       "comparison",
@@ -6729,7 +6729,7 @@
     "id": "comparison",
     "slug": "comparison",
     "title": "Comparison Page Template",
-    "description": "Template structure for comparison pages that highlight differences and similarities between products, services, or concepts with SEO-optimized layouts.",
+    "description": "Template structure for comparison pages that highlight differences and similarities between products, services, or concepts with SEO-optimized layouts. [S1]",
     "parentCategoryId": "types-by-intent",
     "relatedCategoryIds": [
       "category-hub",
@@ -6787,7 +6787,7 @@
     "id": "location",
     "slug": "location",
     "title": "Location Page Template",
-    "description": "Template structure for location-based pages that target geo-specific keywords and local search intent with SEO-optimized content and local markup.",
+    "description": "Template structure for location-based pages that target geo-specific keywords and local search intent with SEO-optimized content and local markup. [S1]",
     "parentCategoryId": "types-by-intent",
     "relatedCategoryIds": [
       "category-hub",
@@ -6845,7 +6845,7 @@
     "id": "product-entity",
     "slug": "product-entity",
     "title": "Product/Entity Page Template",
-    "description": "Template structure for individual product or entity pages that showcase specific items with detailed information, specifications, and SEO-optimized content.",
+    "description": "Template structure for individual product or entity pages that showcase specific items with detailed information, specifications, and SEO-optimized content. [S1]",
     "parentCategoryId": "types-by-intent",
     "relatedCategoryIds": [
       "comparison",
@@ -6903,7 +6903,7 @@
     "id": "integration",
     "slug": "integration",
     "title": "Integration Page Template",
-    "description": "Template structure for integration pages that showcase connections between products, services, or platforms with detailed technical and practical information.",
+    "description": "Template structure for integration pages that showcase connections between products, services, or platforms with detailed technical and practical information. [S1]",
     "parentCategoryId": "types-by-intent",
     "relatedCategoryIds": [
       "comparison",
@@ -6961,7 +6961,7 @@
     "id": "title-meta",
     "slug": "title-meta",
     "title": "Title/Meta Block Template",
-    "description": "Content block templates for SEO title tags and meta descriptions with keyword optimization patterns and character limit best practices.",
+    "description": "Content block templates for SEO title tags and meta descriptions with keyword optimization patterns and character limit best practices. [S1]",
     "parentCategoryId": "content-blocks",
     "relatedCategoryIds": [
       "introduction",
@@ -7019,7 +7019,7 @@
     "id": "introduction",
     "slug": "introduction",
     "title": "Introduction Block Template",
-    "description": "Content block templates for page introductions that establish context, incorporate primary keywords naturally, and engage readers while signaling content relevance.",
+    "description": "Content block templates for page introductions that establish context, incorporate primary keywords naturally, and engage readers while signaling content relevance. [S1]",
     "parentCategoryId": "content-blocks",
     "relatedCategoryIds": [
       "title-meta",
@@ -7077,7 +7077,7 @@
     "id": "data-display",
     "slug": "data-display",
     "title": "Data Display Block Template",
-    "description": "Content block templates for presenting data, specifications, comparisons, and factual information through tables, charts, and structured layouts.",
+    "description": "Content block templates for presenting data, specifications, comparisons, and factual information through tables, charts, and structured layouts. [S1]",
     "parentCategoryId": "content-blocks",
     "relatedCategoryIds": [
       "comparison",
@@ -7135,7 +7135,7 @@
     "id": "faq",
     "slug": "faq",
     "title": "FAQ Block Template",
-    "description": "Content block templates for FAQ sections that address common questions, incorporate related keywords, and enable rich snippet positioning.",
+    "description": "Content block templates for FAQ sections that address common questions, incorporate related keywords, and enable rich snippet positioning. [S1]",
     "parentCategoryId": "content-blocks",
     "relatedCategoryIds": [
       "introduction",
@@ -7193,7 +7193,7 @@
     "id": "related-content",
     "slug": "related-content",
     "title": "Related Content Links",
-    "description": "Internal linking strategy for connecting pages based on content similarity, keyword relevance, and topical relatedness to improve discoverability and engagement.",
+    "description": "Internal linking strategy for connecting pages based on content similarity, keyword relevance, and topical relatedness to improve discoverability and engagement. [S1]",
     "parentCategoryId": "horizontal-linking",
     "relatedCategoryIds": [
       "cross-branch",
@@ -7250,7 +7250,7 @@
     "id": "schema-markup",
     "slug": "schema-markup",
     "title": "Schema Markup Block Template",
-    "description": "Content block templates for structured data and schema markup implementation that enables rich snippets, knowledge panels, and search engine feature positioning.",
+    "description": "Content block templates for structured data and schema markup implementation that enables rich snippets, knowledge panels, and search engine feature positioning. [S1]",
     "parentCategoryId": "content-blocks",
     "relatedCategoryIds": [
       "title-meta",
@@ -7309,7 +7309,7 @@
     "id": "parent-to-child",
     "slug": "parent-to-child",
     "title": "Parent-to-Child Links",
-    "description": "Internal linking strategy for linking from parent category pages to specific child pages, distributing link equity and improving child page discoverability.",
+    "description": "Internal linking strategy for linking from parent category pages to specific child pages, distributing link equity and improving child page discoverability. [S1]",
     "parentCategoryId": "vertical-linking",
     "relatedCategoryIds": [
       "child-to-parent",
@@ -7367,7 +7367,7 @@
     "id": "child-to-parent",
     "slug": "child-to-parent",
     "title": "Child-to-Parent Links",
-    "description": "Internal linking strategy for linking from child pages back to parent category and hub pages, concentrating link equity and supporting parent page rankings.",
+    "description": "Internal linking strategy for linking from child pages back to parent category and hub pages, concentrating link equity and supporting parent page rankings. [S1]",
     "parentCategoryId": "vertical-linking",
     "relatedCategoryIds": [
       "parent-to-child",
@@ -7425,7 +7425,7 @@
     "id": "skip-level",
     "slug": "skip-level",
     "title": "Skip-Level Links",
-    "description": "Internal linking strategy for connecting pages that skip hierarchical levels, connecting grandchild pages directly to grandparent pages and supporting cross-level topical relationships.",
+    "description": "Internal linking strategy for connecting pages that skip hierarchical levels, connecting grandchild pages directly to grandparent pages and supporting cross-level topical relationships. [S1]",
     "parentCategoryId": "vertical-linking",
     "relatedCategoryIds": [
       "parent-to-child",
@@ -7483,7 +7483,7 @@
     "id": "breadcrumbs",
     "slug": "breadcrumbs",
     "title": "Breadcrumb Navigation",
-    "description": "SEO implementation of breadcrumb navigation that provides internal linking, improves user experience, and enables rich snippet positioning.",
+    "description": "SEO implementation of breadcrumb navigation that provides internal linking, improves user experience, and enables rich snippet positioning. [S1]",
     "parentCategoryId": "vertical-linking",
     "relatedCategoryIds": [
       "parent-to-child",
@@ -7541,7 +7541,7 @@
     "id": "sibling-links",
     "slug": "sibling-links",
     "title": "Sibling Links",
-    "description": "Internal linking strategy for connecting pages at the same hierarchical level, improving navigation between related content and enabling topical cluster linking.",
+    "description": "Internal linking strategy for connecting pages at the same hierarchical level, improving navigation between related content and enabling topical cluster linking. [S1]",
     "parentCategoryId": "horizontal-linking",
     "relatedCategoryIds": [
       "cousin-links",
@@ -7599,7 +7599,7 @@
     "id": "cousin-links",
     "slug": "cousin-links",
     "title": "Cousin Links",
-    "description": "Internal linking strategy for connecting pages in different parent branches at the same hierarchical level, supporting cross-category navigation and topical bridges.",
+    "description": "Internal linking strategy for connecting pages in different parent branches at the same hierarchical level, supporting cross-category navigation and topical bridges. [S1]",
     "parentCategoryId": "horizontal-linking",
     "relatedCategoryIds": [
       "sibling-links",
@@ -7657,7 +7657,7 @@
     "id": "cross-branch",
     "slug": "cross-branch",
     "title": "Parallel/Cross-Branch Links",
-    "description": "Internal linking strategy for connecting pages across different taxonomic branches at varying hierarchical levels, supporting thematic clusters and comprehensive topic coverage.",
+    "description": "Internal linking strategy for connecting pages across different taxonomic branches at varying hierarchical levels, supporting thematic clusters and comprehensive topic coverage. [S1]",
     "parentCategoryId": "horizontal-linking",
     "relatedCategoryIds": [
       "cousin-links",
@@ -7715,7 +7715,7 @@
     "id": "hub-page-equity",
     "slug": "hub-page-equity",
     "title": "Hub Page Equity",
-    "description": "Link equity distribution strategy for concentrating authority in hub pages through strategic internal linking that supports broad keyword rankings.",
+    "description": "Link equity distribution strategy for concentrating authority in hub pages through strategic internal linking that supports broad keyword rankings. [S1]",
     "parentCategoryId": "link-equity",
     "relatedCategoryIds": [
       "parent-to-child",
@@ -7773,7 +7773,7 @@
     "id": "deep-page-support",
     "slug": "deep-page-support",
     "title": "Deep Page Support: Maximizing Link Equity Distribution",
-    "description": "Strategic linking architecture to distribute link equity to deep internal pages and improve their SEO performance in programmatic sites.",
+    "description": "Strategic linking architecture to distribute link equity to deep internal pages and improve their SEO performance in programmatic sites. [S1]",
     "parentCategoryId": "link-equity",
     "relatedCategoryIds": [
       "internal-linking",
@@ -7828,7 +7828,7 @@
     "id": "orphan-prevention",
     "slug": "orphan-prevention",
     "title": "Orphan Prevention: Ensuring All Pages Receive Internal Links",
-    "description": "Strategies and systems for preventing orphan pages in programmatic SEO by guaranteeing every generated page receives internal linking support.",
+    "description": "Strategies and systems for preventing orphan pages in programmatic SEO by guaranteeing every generated page receives internal linking support. [S1]",
     "parentCategoryId": "link-equity",
     "relatedCategoryIds": [
       "indexation"
@@ -7882,7 +7882,7 @@
     "id": "descriptive-anchors",
     "slug": "descriptive-anchors",
     "title": "Descriptive Anchors: Creating Semantic Link Text",
-    "description": "Best practices for writing descriptive anchor text that provides context and relevance signals to search engines in internal linking strategies.",
+    "description": "Best practices for writing descriptive anchor text that provides context and relevance signals to search engines in internal linking strategies. [S1]",
     "parentCategoryId": "anchor-text",
     "relatedCategoryIds": [
       "keyword-rich-anchors",
@@ -7937,7 +7937,7 @@
     "id": "keyword-rich-anchors",
     "slug": "keyword-rich-anchors",
     "title": "Keyword-Rich Anchors: Strategic Keyword Integration",
-    "description": "Strategies for incorporating target keywords into anchor text while maintaining natural, user-focused linking in programmatic SEO.",
+    "description": "Strategies for incorporating target keywords into anchor text while maintaining natural, user-focused linking in programmatic SEO. [S1]",
     "parentCategoryId": "anchor-text",
     "relatedCategoryIds": [
       "descriptive-anchors",
@@ -7992,7 +7992,7 @@
     "id": "contextual-placement",
     "slug": "contextual-placement",
     "title": "Contextual Placement: Positioning Anchors for Maximum Impact",
-    "description": "Strategic placement of anchor links within content context to maximize relevance signals and user engagement in programmatic SEO.",
+    "description": "Strategic placement of anchor links within content context to maximize relevance signals and user engagement in programmatic SEO. [S1]",
     "parentCategoryId": "anchor-text",
     "relatedCategoryIds": [],
     "datePublished": "2026-01-31",
@@ -8044,7 +8044,7 @@
     "id": "json-ld-format",
     "slug": "json-ld-format",
     "title": "JSON-LD Format: Implementing Structured Data Standards",
-    "description": "Best practices for implementing JSON-LD structured data to communicate page content meaning to search engines and rich result systems.",
+    "description": "Best practices for implementing JSON-LD structured data to communicate page content meaning to search engines and rich result systems. [S1]",
     "parentCategoryId": "schema-implementation",
     "relatedCategoryIds": [
       "schema-markup"
@@ -8098,7 +8098,7 @@
     "id": "schema-types",
     "slug": "schema-types",
     "title": "Schema Types: Selecting Appropriate Schema.org Vocabularies",
-    "description": "Guide to choosing the correct schema.org types and properties for different content categories in programmatic SEO implementation.",
+    "description": "Guide to choosing the correct schema.org types and properties for different content categories in programmatic SEO implementation. [S1]",
     "parentCategoryId": "schema-implementation",
     "relatedCategoryIds": [
       "json-ld-format",
@@ -8153,7 +8153,7 @@
     "id": "dynamic-schema-generation",
     "slug": "dynamic-schema-generation",
     "title": "Dynamic Schema Generation: Automating Structured Data Creation",
-    "description": "Systems and approaches for automatically generating accurate schema markup at scale for programmatic SEO content.",
+    "description": "Systems and approaches for automatically generating accurate schema markup at scale for programmatic SEO content. [S1]",
     "parentCategoryId": "schema-implementation",
     "relatedCategoryIds": [
       "json-ld-format",
@@ -8208,7 +8208,7 @@
     "id": "featured-snippet-targeting",
     "slug": "featured-snippet-targeting",
     "title": "Featured Snippet Targeting: Optimizing for Search Position Zero",
-    "description": "Strategies for implementing structured data and content optimization to earn featured snippet positions in search results.",
+    "description": "Strategies for implementing structured data and content optimization to earn featured snippet positions in search results. [S1]",
     "parentCategoryId": "rich-results",
     "relatedCategoryIds": [
       "schema-markup"
@@ -8262,7 +8262,7 @@
     "id": "faq-rich-results",
     "slug": "faq-rich-results",
     "title": "FAQ Rich Results: Structured Question-Answer Content",
-    "description": "Implementation of FAQPage schema markup to display frequently asked questions as rich results in search.",
+    "description": "Implementation of FAQPage schema markup to display frequently asked questions as rich results in search. [S1]",
     "parentCategoryId": "rich-results",
     "relatedCategoryIds": [
       "structured-data"
@@ -8316,7 +8316,7 @@
     "id": "review-rating-rich-results",
     "slug": "review-rating-rich-results",
     "title": "Review and Rating Rich Results: Displaying User Ratings",
-    "description": "Implementation of Review and AggregateRating schema markup to display ratings and reviews in search results.",
+    "description": "Implementation of Review and AggregateRating schema markup to display ratings and reviews in search results. [S1]",
     "parentCategoryId": "rich-results",
     "relatedCategoryIds": [
       "user-generated-content"
@@ -8370,7 +8370,7 @@
     "id": "ai-overview-optimization",
     "slug": "ai-overview-optimization",
     "title": "AI Overview Optimization: Preparing Content for AI Summaries",
-    "description": "Strategies for optimizing content to appear in Google's AI-generated overviews and similar AI summary features.",
+    "description": "Strategies for optimizing content to appear in Google's AI-generated overviews and similar AI summary features. [S1]",
     "parentCategoryId": "rich-results",
     "relatedCategoryIds": [],
     "datePublished": "2026-01-31",
@@ -8422,7 +8422,7 @@
     "id": "url-structure-patterns",
     "slug": "url-structure-patterns",
     "title": "URL Structure Patterns: Designing SEO-Friendly Architecture",
-    "description": "Best practices for creating URL structures that reflect site hierarchy and support SEO goals in programmatic content systems.",
+    "description": "Best practices for creating URL structures that reflect site hierarchy and support SEO goals in programmatic content systems. [S1]",
     "parentCategoryId": "structure-patterns",
     "relatedCategoryIds": [
       "url-architecture",
@@ -8478,7 +8478,7 @@
     "id": "slug-optimization",
     "slug": "slug-optimization",
     "title": "Slug Optimization: Creating Effective URL Identifiers",
-    "description": "Strategies for generating and optimizing URL slugs that incorporate keywords while remaining concise and user-friendly.",
+    "description": "Strategies for generating and optimizing URL slugs that incorporate keywords while remaining concise and user-friendly. [S1]",
     "parentCategoryId": "structure-patterns",
     "relatedCategoryIds": [
       "url-architecture",
@@ -8533,7 +8533,7 @@
     "id": "hierarchy-reflection",
     "slug": "hierarchy-reflection",
     "title": "Hierarchy Reflection: URLs as Content Structure Indicators",
-    "description": "Best practices for ensuring URL structure accurately reflects your site's content hierarchy and taxonomical organization.",
+    "description": "Best practices for ensuring URL structure accurately reflects your site's content hierarchy and taxonomical organization. [S1]",
     "parentCategoryId": "structure-patterns",
     "relatedCategoryIds": [
       "url-structure-patterns",
@@ -8589,7 +8589,7 @@
     "id": "parameter-handling",
     "slug": "parameter-handling",
     "title": "Parameter Handling: Managing Query Strings for SEO",
-    "description": "Strategies for handling URL parameters and query strings in ways that don't harm crawlability, indexation, and SEO performance.",
+    "description": "Strategies for handling URL parameters and query strings in ways that don't harm crawlability, indexation, and SEO performance. [S1]",
     "parentCategoryId": "structure-patterns",
     "relatedCategoryIds": [
       "url-architecture",
@@ -8645,7 +8645,7 @@
     "id": "index-noindex-criteria",
     "slug": "index-noindex-criteria",
     "title": "Index/Noindex Criteria: Strategic Indexation Decisions",
-    "description": "Framework for determining which pages should be indexed and which should be marked noindex in programmatic SEO systems.",
+    "description": "Framework for determining which pages should be indexed and which should be marked noindex in programmatic SEO systems. [S1]",
     "parentCategoryId": "index-noindex",
     "relatedCategoryIds": [
       "indexation"
@@ -8699,7 +8699,7 @@
     "id": "canonical-strategy",
     "slug": "canonical-strategy",
     "title": "Canonical Strategy: Consolidating Duplicate Content Authority",
-    "description": "Systematic approach to using canonical tags to manage duplicate content and consolidate link equity in programmatic SEO.",
+    "description": "Systematic approach to using canonical tags to manage duplicate content and consolidate link equity in programmatic SEO. [S1]",
     "parentCategoryId": "canonical",
     "relatedCategoryIds": [
       "duplicate-content",
@@ -8754,7 +8754,7 @@
     "id": "pagination-handling",
     "slug": "pagination-handling",
     "title": "Pagination Handling: SEO Best Practices for Multi-Page Content",
-    "description": "Strategies for implementing pagination in ways that maintain SEO value and don't fragment rankings across page components.",
+    "description": "Strategies for implementing pagination in ways that maintain SEO value and don't fragment rankings across page components. [S1]",
     "parentCategoryId": "pagination",
     "relatedCategoryIds": [
       "duplicate-content",
@@ -8809,7 +8809,7 @@
     "id": "index-bloat-prevention",
     "slug": "index-bloat-prevention",
     "title": "Index Bloat Prevention: Controlling Indexable Page Volume",
-    "description": "Strategies for preventing index bloat and maintaining efficient indexation when scaling programmatic content systems.",
+    "description": "Strategies for preventing index bloat and maintaining efficient indexation when scaling programmatic content systems. [S1]",
     "parentCategoryId": "bloat-prevention",
     "relatedCategoryIds": [
       "indexation"
@@ -8863,7 +8863,7 @@
     "id": "mobile-friendly-test",
     "slug": "mobile-friendly-test",
     "title": "Mobile-Friendly Test",
-    "description": "Validate your website's mobile responsiveness and user experience performance with Google's Mobile-Friendly Test tool.",
+    "description": "Validate your website's mobile responsiveness and user experience performance with Google's Mobile-Friendly Test tool. [S1]",
     "parentCategoryId": "validation-testing",
     "relatedCategoryIds": [
       "core-web-vitals"
@@ -8921,7 +8921,7 @@
     "id": "ranking-monitoring",
     "slug": "ranking-monitoring",
     "title": "Ranking Monitoring",
-    "description": "Track keyword positions and search result rankings over time to measure SEO campaign effectiveness.",
+    "description": "Track keyword positions and search result rankings over time to measure SEO campaign effectiveness. [S1]",
     "parentCategoryId": "performance-tracking",
     "relatedCategoryIds": [
       "traffic-analysis",
@@ -8981,7 +8981,7 @@
     "id": "traffic-analysis",
     "slug": "traffic-analysis",
     "title": "Traffic Analysis",
-    "description": "Analyze organic search traffic trends and visitor patterns to understand content performance and user behavior.",
+    "description": "Analyze organic search traffic trends and visitor patterns to understand content performance and user behavior. [S1]",
     "parentCategoryId": "performance-tracking",
     "relatedCategoryIds": [
       "ranking-monitoring",
@@ -9041,7 +9041,7 @@
     "id": "indexation-monitoring",
     "slug": "indexation-monitoring",
     "title": "Indexation Monitoring",
-    "description": "Track which pages are indexed by search engines and monitor indexation health across your entire website.",
+    "description": "Track which pages are indexed by search engines and monitor indexation health across your entire website. [S1]",
     "parentCategoryId": "performance-tracking",
     "relatedCategoryIds": [
       "duplicate-detection",
@@ -9100,7 +9100,7 @@
     "id": "conversion-tracking",
     "slug": "conversion-tracking",
     "title": "Conversion Tracking",
-    "description": "Measure and optimize conversions from organic search traffic to demonstrate SEO ROI.",
+    "description": "Measure and optimize conversions from organic search traffic to demonstrate SEO ROI. [S1]",
     "parentCategoryId": "performance-tracking",
     "relatedCategoryIds": [
       "traffic-analysis",
@@ -9160,7 +9160,7 @@
     "id": "content-audits",
     "slug": "content-audits",
     "title": "Content Quality Audits",
-    "description": "Systematically audit content quality across your site to identify and improve low-quality, thin, or underperforming pages.",
+    "description": "Systematically audit content quality across your site to identify and improve low-quality, thin, or underperforming pages. [S1]",
     "parentCategoryId": "quality-assurance",
     "relatedCategoryIds": [
       "thin-content-identification",
@@ -9220,7 +9220,7 @@
     "id": "duplicate-detection",
     "slug": "duplicate-detection",
     "title": "Duplicate Detection",
-    "description": "Identify and manage duplicate content across your website to prevent search visibility dilution and indexation issues.",
+    "description": "Identify and manage duplicate content across your website to prevent search visibility dilution and indexation issues. [S1]",
     "parentCategoryId": "quality-assurance",
     "relatedCategoryIds": [
       "content-audits",
@@ -9280,7 +9280,7 @@
     "id": "thin-content-identification",
     "slug": "thin-content-identification",
     "title": "Thin Content Identification",
-    "description": "Identify pages with insufficient content depth and substance to improve quality and ranking potential.",
+    "description": "Identify pages with insufficient content depth and substance to improve quality and ranking potential. [S1]",
     "parentCategoryId": "quality-assurance",
     "relatedCategoryIds": [
       "content-audits",
@@ -9340,7 +9340,7 @@
     "id": "cannibalization-detection",
     "slug": "cannibalization-detection",
     "title": "Cannibalization Detection",
-    "description": "Identify and resolve keyword cannibalization where multiple pages compete for the same search terms.",
+    "description": "Identify and resolve keyword cannibalization where multiple pages compete for the same search terms. [S1]",
     "parentCategoryId": "quality-assurance",
     "relatedCategoryIds": [
       "duplicate-detection",
@@ -9400,7 +9400,7 @@
     "id": "template-refinement",
     "slug": "template-refinement",
     "title": "Template Refinement",
-    "description": "Continuously improve content templates to enhance SEO performance across all generated pages.",
+    "description": "Continuously improve content templates to enhance SEO performance across all generated pages. [S1]",
     "parentCategoryId": "iterative-optimization",
     "relatedCategoryIds": [
       "content-expansion",
@@ -9459,7 +9459,7 @@
     "id": "content-expansion",
     "slug": "content-expansion",
     "title": "Content Expansion",
-    "description": "Strategically expand underperforming content to improve ranking potential and search visibility.",
+    "description": "Strategically expand underperforming content to improve ranking potential and search visibility. [S1]",
     "parentCategoryId": "iterative-optimization",
     "relatedCategoryIds": [
       "thin-content-identification",
@@ -9519,7 +9519,7 @@
     "id": "link-architecture-updates",
     "slug": "link-architecture-updates",
     "title": "Link Architecture Updates",
-    "description": "Optimize internal link structure and anchor text to improve page authority distribution and site navigation.",
+    "description": "Optimize internal link structure and anchor text to improve page authority distribution and site navigation. [S1]",
     "parentCategoryId": "iterative-optimization",
     "relatedCategoryIds": [
       "template-refinement",
@@ -9579,7 +9579,7 @@
     "id": "discovery-mechanisms",
     "slug": "discovery-mechanisms",
     "title": "Search Engine Discovery Mechanisms",
-    "description": "How search engines find and discover new web content through sitemaps, links, and direct submissions.",
+    "description": "How search engines find and discover new web content through sitemaps, links, and direct submissions. [S1]",
     "parentCategoryId": "crawling",
     "relatedCategoryIds": [
       "crawl-scheduling-politeness",
@@ -9632,7 +9632,7 @@
     "id": "crawl-scheduling-politeness",
     "slug": "crawl-scheduling-politeness",
     "title": "Crawl Scheduling & Politeness",
-    "description": "Managing crawl budget, robots.txt, crawl-delay directives, and server load considerations for search engine crawlers.",
+    "description": "Managing crawl budget, robots.txt, crawl-delay directives, and server load considerations for search engine crawlers. [S1]",
     "parentCategoryId": "crawling",
     "relatedCategoryIds": [
       "discovery-mechanisms",
@@ -9685,7 +9685,7 @@
     "id": "canonicalization",
     "slug": "canonicalization",
     "title": "Canonicalization",
-    "description": "URL canonicalization strategies for handling duplicate content and consolidating search signals across multiple URL variations.",
+    "description": "URL canonicalization strategies for handling duplicate content and consolidating search signals across multiple URL variations. [S1]",
     "parentCategoryId": "crawling",
     "relatedCategoryIds": [
       "deduplication",
@@ -9738,7 +9738,7 @@
     "id": "deduplication",
     "slug": "deduplication",
     "title": "Deduplication",
-    "description": "How search engines identify and handle duplicate content across the web, with implications for programmatic content.",
+    "description": "How search engines identify and handle duplicate content across the web, with implications for programmatic content. [S1]",
     "parentCategoryId": "crawling",
     "relatedCategoryIds": [
       "canonicalization",
@@ -9791,7 +9791,7 @@
     "id": "content-parsing",
     "slug": "content-parsing",
     "title": "Content Parsing",
-    "description": "How search engines extract and interpret text, structure, metadata, and semantic meaning from web pages.",
+    "description": "How search engines extract and interpret text, structure, metadata, and semantic meaning from web pages. [S1]",
     "parentCategoryId": "indexing",
     "relatedCategoryIds": [
       "inverted-index-construction",
@@ -9844,7 +9844,7 @@
     "id": "inverted-index-construction",
     "slug": "inverted-index-construction",
     "title": "Inverted Index Construction",
-    "description": "How search engines build inverted indexes to enable fast full-text search across billions of indexed documents.",
+    "description": "How search engines build inverted indexes to enable fast full-text search across billions of indexed documents. [S1]",
     "parentCategoryId": "indexing",
     "relatedCategoryIds": [
       "content-parsing",
@@ -9897,7 +9897,7 @@
     "id": "link-graph-analysis",
     "slug": "link-graph-analysis",
     "title": "Link Graph Analysis",
-    "description": "How search engines analyze link structures to determine page authority, relevance, and topical relationships.",
+    "description": "How search engines analyze link structures to determine page authority, relevance, and topical relationships. [S1]",
     "parentCategoryId": "indexing",
     "relatedCategoryIds": [
       "content-parsing",
@@ -9950,7 +9950,7 @@
     "id": "lexical-bm25",
     "slug": "lexical-bm25",
     "title": "Lexical Retrieval (BM25)",
-    "description": "BM25 algorithm and lexical matching techniques for identifying documents relevant to search queries.",
+    "description": "BM25 algorithm and lexical matching techniques for identifying documents relevant to search queries. [S1]",
     "parentCategoryId": "retrieval",
     "relatedCategoryIds": [
       "neural-semantic-retrieval",
@@ -10003,7 +10003,7 @@
     "id": "neural-semantic-retrieval",
     "slug": "neural-semantic-retrieval",
     "title": "Neural/Semantic Retrieval",
-    "description": "Deep learning and semantic matching methods for understanding meaning beyond exact keyword matching.",
+    "description": "Deep learning and semantic matching methods for understanding meaning beyond exact keyword matching. [S1]",
     "parentCategoryId": "retrieval",
     "relatedCategoryIds": [
       "lexical-bm25",
@@ -10056,7 +10056,7 @@
     "id": "text-relevance-signals",
     "slug": "text-relevance-signals",
     "title": "Text Relevance Signals",
-    "description": "On-page factors and content characteristics that signal relevance to search queries.",
+    "description": "On-page factors and content characteristics that signal relevance to search queries. [S1]",
     "parentCategoryId": "ranking",
     "relatedCategoryIds": [
       "quality-authority-signals",
@@ -10110,7 +10110,7 @@
     "id": "quality-authority-signals",
     "slug": "quality-authority-signals",
     "title": "Quality/Authority Signals",
-    "description": "Signals indicating domain authority, content expertise, trustworthiness, and topical expertise.",
+    "description": "Signals indicating domain authority, content expertise, trustworthiness, and topical expertise. [S1]",
     "parentCategoryId": "ranking",
     "relatedCategoryIds": [
       "text-relevance-signals",
@@ -10164,7 +10164,7 @@
     "id": "freshness-signals",
     "slug": "freshness-signals",
     "title": "Freshness Signals",
-    "description": "How content recency, update frequency, and publication timing influence search rankings.",
+    "description": "How content recency, update frequency, and publication timing influence search rankings. [S1]",
     "parentCategoryId": "ranking",
     "relatedCategoryIds": [
       "quality-authority-signals",
@@ -10218,7 +10218,7 @@
     "id": "user-satisfaction-signals",
     "slug": "user-satisfaction-signals",
     "title": "User Satisfaction Signals",
-    "description": "Click-through rates, dwell time, bounce rates, and engagement metrics as ranking factors.",
+    "description": "Click-through rates, dwell time, bounce rates, and engagement metrics as ranking factors. [S1]",
     "parentCategoryId": "ranking",
     "relatedCategoryIds": [
       "freshness-signals",
@@ -10272,7 +10272,7 @@
     "id": "spam-safety-signals",
     "slug": "spam-safety-signals",
     "title": "Spam/Safety Signals",
-    "description": "Signals detecting spam, malware, manipulative tactics, and safety issues that suppress rankings.",
+    "description": "Signals detecting spam, malware, manipulative tactics, and safety issues that suppress rankings. [S1]",
     "parentCategoryId": "ranking",
     "relatedCategoryIds": [
       "user-satisfaction-signals",
@@ -10326,7 +10326,7 @@
     "id": "query-understanding",
     "slug": "query-understanding",
     "title": "Query Understanding",
-    "description": "How search engines parse and understand user search intent behind queries.",
+    "description": "How search engines parse and understand user search intent behind queries. [S1]",
     "parentCategoryId": "serving",
     "relatedCategoryIds": [
       "snippet-generation",
@@ -10380,7 +10380,7 @@
     "id": "snippet-generation",
     "slug": "snippet-generation",
     "title": "Snippet Generation",
-    "description": "Creating and optimizing search result snippets and rich results for visibility and click-through.",
+    "description": "Creating and optimizing search result snippets and rich results for visibility and click-through. [S1]",
     "parentCategoryId": "serving",
     "relatedCategoryIds": [
       "query-understanding",
@@ -10435,7 +10435,7 @@
     "id": "result-blending",
     "slug": "result-blending",
     "title": "Result Blending",
-    "description": "How search engines combine organic results with specialized verticals like news, images, videos, and local results.",
+    "description": "How search engines combine organic results with specialized verticals like news, images, videos, and local results. [S1]",
     "parentCategoryId": "serving",
     "relatedCategoryIds": [
       "snippet-generation",
@@ -10490,7 +10490,7 @@
     "id": "city-region-pages",
     "slug": "city-region-pages",
     "title": "City/Region Pages",
-    "description": "Creating and optimizing programmatic location-based landing pages for local search visibility.",
+    "description": "Creating and optimizing programmatic location-based landing pages for local search visibility. [S1]",
     "parentCategoryId": "location-based",
     "relatedCategoryIds": [
       "query-understanding",
@@ -10545,7 +10545,7 @@
     "id": "service-area-pages",
     "slug": "service-area-pages",
     "title": "Service Area Pages for Programmatic SEO",
-    "description": "Create scalable service area pages that target location-based search intent and establish geographic authority for service-based businesses.",
+    "description": "Create scalable service area pages that target location-based search intent and establish geographic authority for service-based businesses. [S1]",
     "parentCategoryId": "location-based",
     "relatedCategoryIds": [
       "local-directory-pages"
@@ -10599,7 +10599,7 @@
     "id": "local-directory-pages",
     "slug": "local-directory-pages",
     "title": "Local Directory Pages for Programmatic SEO",
-    "description": "Build comprehensive local business directory pages that aggregate location-specific businesses, services, and information while capturing directory search intent.",
+    "description": "Build comprehensive local business directory pages that aggregate location-specific businesses, services, and information while capturing directory search intent. [S1]",
     "parentCategoryId": "location-based",
     "relatedCategoryIds": [
       "service-area-pages"
@@ -10653,7 +10653,7 @@
     "id": "category-pages",
     "slug": "category-pages",
     "title": "Category Pages for Programmatic SEO",
-    "description": "Build comprehensive product category pages that organize and present product variations at scale while capturing broad and specific search intent.",
+    "description": "Build comprehensive product category pages that organize and present product variations at scale while capturing broad and specific search intent. [S1]",
     "parentCategoryId": "product-variations",
     "relatedCategoryIds": [
       "filter-attribute-pages",
@@ -10708,7 +10708,7 @@
     "id": "filter-attribute-pages",
     "slug": "filter-attribute-pages",
     "title": "Filter and Attribute Pages for Programmatic SEO",
-    "description": "Create dedicated pages for specific product attributes and filters that capture long-tail search queries and user refinement intent.",
+    "description": "Create dedicated pages for specific product attributes and filters that capture long-tail search queries and user refinement intent. [S1]",
     "parentCategoryId": "product-variations",
     "relatedCategoryIds": [
       "category-pages",
@@ -10763,7 +10763,7 @@
     "id": "comparison-pages",
     "slug": "comparison-pages",
     "title": "Comparison Pages for Programmatic SEO",
-    "description": "Build programmatic product comparison pages that target comparison search intent and capture users evaluating multiple products or solutions.",
+    "description": "Build programmatic product comparison pages that target comparison search intent and capture users evaluating multiple products or solutions. [S1]",
     "parentCategoryId": "product-variations",
     "relatedCategoryIds": [
       "category-pages",
@@ -10818,7 +10818,7 @@
     "id": "tool-integration-pages",
     "slug": "tool-integration-pages",
     "title": "Tool Integration Pages for Programmatic SEO",
-    "description": "Create dedicated pages for software tool integrations that target users searching for connection and compatibility information.",
+    "description": "Create dedicated pages for software tool integrations that target users searching for connection and compatibility information. [S1]",
     "parentCategoryId": "integration-pages",
     "relatedCategoryIds": [
       "api-documentation",
@@ -10873,7 +10873,7 @@
     "id": "api-documentation",
     "slug": "api-documentation",
     "title": "API Documentation for Programmatic SEO",
-    "description": "Optimize API documentation pages for search visibility while providing essential technical information for developers and integrators.",
+    "description": "Optimize API documentation pages for search visibility while providing essential technical information for developers and integrators. [S1]",
     "parentCategoryId": "integration-pages",
     "relatedCategoryIds": [
       "tool-integration-pages",
@@ -10928,7 +10928,7 @@
     "id": "workflow-pages",
     "slug": "workflow-pages",
     "title": "Workflow Pages for Programmatic SEO",
-    "description": "Create programmatic pages showcasing specific workflows, automation sequences, and process implementations across your platform.",
+    "description": "Create programmatic pages showcasing specific workflows, automation sequences, and process implementations across your platform. [S1]",
     "parentCategoryId": "integration-pages",
     "relatedCategoryIds": [
       "tool-integration-pages",
@@ -10983,7 +10983,7 @@
     "id": "statistics-pages",
     "slug": "statistics-pages",
     "title": "Statistics Pages for Programmatic SEO",
-    "description": "Build data-driven statistics pages that present industry data, trends, and metrics while capturing search demand for specific statistics.",
+    "description": "Build data-driven statistics pages that present industry data, trends, and metrics while capturing search demand for specific statistics. [S1]",
     "parentCategoryId": "data-driven-content",
     "relatedCategoryIds": [
       "research-aggregation",
@@ -11038,7 +11038,7 @@
     "id": "research-aggregation",
     "slug": "research-aggregation",
     "title": "Research Aggregation Pages for Programmatic SEO",
-    "description": "Create comprehensive research aggregation pages that compile industry studies, findings, and research across specific topics or niches.",
+    "description": "Create comprehensive research aggregation pages that compile industry studies, findings, and research across specific topics or niches. [S1]",
     "parentCategoryId": "data-driven-content",
     "relatedCategoryIds": [
       "statistics-pages",
@@ -11093,7 +11093,7 @@
     "id": "benchmark-pages",
     "slug": "benchmark-pages",
     "title": "Benchmark Pages for Programmatic SEO",
-    "description": "Build benchmark comparison pages that help users understand how their metrics compare to industry standards and competitor performance.",
+    "description": "Build benchmark comparison pages that help users understand how their metrics compare to industry standards and competitor performance. [S1]",
     "parentCategoryId": "data-driven-content",
     "relatedCategoryIds": [
       "statistics-pages",
@@ -11148,7 +11148,7 @@
     "id": "glossary-pages",
     "slug": "glossary-pages",
     "title": "Glossary Pages for Programmatic SEO",
-    "description": "Create comprehensive glossary pages that define industry terminology, concepts, and technical terms while capturing definitional search intent.",
+    "description": "Create comprehensive glossary pages that define industry terminology, concepts, and technical terms while capturing definitional search intent. [S1]",
     "parentCategoryId": "educational-content",
     "relatedCategoryIds": [
       "how-to-pages",
@@ -11203,7 +11203,7 @@
     "id": "how-to-pages",
     "slug": "how-to-pages",
     "title": "How-To Page Templates for Programmatic SEO",
-    "description": "Build templated how-to pages that teach users how to accomplish specific tasks while capturing high-intent instructional search queries.",
+    "description": "Build templated how-to pages that teach users how to accomplish specific tasks while capturing high-intent instructional search queries. [S1]",
     "parentCategoryId": "educational-content",
     "relatedCategoryIds": [
       "glossary-pages",
@@ -11258,7 +11258,7 @@
     "id": "faq-aggregation",
     "slug": "faq-aggregation",
     "title": "FAQ Aggregation Pages for Programmatic SEO",
-    "description": "Create comprehensive FAQ aggregation pages that answer common questions within specific topics, products, or industries.",
+    "description": "Create comprehensive FAQ aggregation pages that answer common questions within specific topics, products, or industries. [S1]",
     "parentCategoryId": "educational-content",
     "relatedCategoryIds": [
       "how-to-pages",
@@ -11313,7 +11313,7 @@
     "id": "seed-keyword-brainstorming",
     "slug": "seed-keyword-brainstorming",
     "title": "Seed Keyword Brainstorming for Programmatic SEO",
-    "description": "Develop seed keyword lists and brainstorming strategies that form the foundation for programmatic content generation.",
+    "description": "Develop seed keyword lists and brainstorming strategies that form the foundation for programmatic content generation. [S1]",
     "parentCategoryId": "head-terms",
     "relatedCategoryIds": [
       "competitor-analysis",
@@ -11368,7 +11368,7 @@
     "id": "search-console-mining",
     "slug": "search-console-mining",
     "title": "Search Console Mining for Programmatic SEO Keywords",
-    "description": "Extract valuable keyword insights from Google Search Console data to inform programmatic content strategy and identify hidden opportunities.",
+    "description": "Extract valuable keyword insights from Google Search Console data to inform programmatic content strategy and identify hidden opportunities. [S1]",
     "parentCategoryId": "head-terms",
     "relatedCategoryIds": [
       "seed-keyword-brainstorming",
@@ -11423,7 +11423,7 @@
     "id": "location-modifiers",
     "slug": "location-modifiers",
     "title": "Location Modifiers for Programmatic SEO Keywords",
-    "description": "Identify and use geographic modifiers to expand seed keywords into location-specific variations for multi-market content generation.",
+    "description": "Identify and use geographic modifiers to expand seed keywords into location-specific variations for multi-market content generation. [S1]",
     "parentCategoryId": "modifier-discovery",
     "relatedCategoryIds": [
       "attribute-modifiers",
@@ -11478,7 +11478,7 @@
     "id": "attribute-modifiers",
     "slug": "attribute-modifiers",
     "title": "Attribute Modifiers for Programmatic SEO Keywords",
-    "description": "Develop comprehensive lists of product attribute modifiers to expand seed keywords into specific product variation queries.",
+    "description": "Develop comprehensive lists of product attribute modifiers to expand seed keywords into specific product variation queries. [S1]",
     "parentCategoryId": "modifier-discovery",
     "relatedCategoryIds": [
       "location-modifiers",
@@ -11533,7 +11533,7 @@
     "id": "audience-modifiers",
     "slug": "audience-modifiers",
     "title": "Audience Modifiers",
-    "description": "Target keywords by specific audience segments, demographics, and user personas to create highly relevant content for niche markets.",
+    "description": "Target keywords by specific audience segments, demographics, and user personas to create highly relevant content for niche markets. [S1]",
     "parentCategoryId": "modifier-discovery",
     "relatedCategoryIds": [
       "temporal-modifiers",
@@ -11587,7 +11587,7 @@
     "id": "temporal-modifiers",
     "slug": "temporal-modifiers",
     "title": "Temporal Modifiers",
-    "description": "Capture time-sensitive search intent using date-based, seasonal, and trend-focused keyword modifiers that align with user urgency and seasonal demand patterns.",
+    "description": "Capture time-sensitive search intent using date-based, seasonal, and trend-focused keyword modifiers that align with user urgency and seasonal demand patterns. [S1]",
     "parentCategoryId": "modifier-discovery",
     "relatedCategoryIds": [
       "audience-modifiers",
@@ -11641,7 +11641,7 @@
     "id": "search-volume-assessment",
     "slug": "search-volume-assessment",
     "title": "Search Volume Assessment",
-    "description": "Evaluate keyword demand through search volume analysis to identify high-potential opportunities and filter keywords with insufficient traffic for content investment.",
+    "description": "Evaluate keyword demand through search volume analysis to identify high-potential opportunities and filter keywords with insufficient traffic for content investment. [S1]",
     "parentCategoryId": "pattern-validation",
     "relatedCategoryIds": [
       "competition-analysis",
@@ -11695,7 +11695,7 @@
     "id": "scalability-testing",
     "slug": "scalability-testing",
     "title": "Scalability Testing",
-    "description": "Validate whether keyword patterns can sustain programmatic content production at scale by testing template consistency, ranking potential, and traffic viability across keyword clusters.",
+    "description": "Validate whether keyword patterns can sustain programmatic content production at scale by testing template consistency, ranking potential, and traffic viability across keyword clusters. [S1]",
     "parentCategoryId": "pattern-validation",
     "relatedCategoryIds": [
       "search-volume-assessment",
@@ -11749,7 +11749,7 @@
     "id": "competition-analysis",
     "slug": "competition-analysis",
     "title": "Competition Analysis",
-    "description": "Assess SERP difficulty, competitor content quality, and ranking requirements to determine feasibility and identify opportunities where your site can realistically achieve top positions.",
+    "description": "Assess SERP difficulty, competitor content quality, and ranking requirements to determine feasibility and identify opportunities where your site can realistically achieve top positions. [S1]",
     "parentCategoryId": "pattern-validation",
     "relatedCategoryIds": [
       "search-volume-assessment",
@@ -11803,7 +11803,7 @@
     "id": "definitional-queries",
     "slug": "definitional-queries",
     "title": "Definitional Queries: Building Topical Authority Through Systematic Concept Coverage",
-    "description": "Target searches where users seek clear definitions and explanations of concepts, using structured knowledge architecture to establish authority foundations that support broader content strategies.",
+    "description": "Target searches where users seek clear definitions and explanations of concepts, using structured knowledge architecture to establish authority foundations that support broader content strategies. [S1]",
     "parentCategoryId": "informational",
     "relatedCategoryIds": [
       "how-to-queries",
@@ -11856,7 +11856,7 @@
     "id": "how-to-queries",
     "slug": "how-to-queries",
     "title": "How-To Queries: Converting Process Knowledge Into Searchable Documentation",
-    "description": "Capture searches for step-by-step instructions by systematically transforming operational knowledge and process documentation into structured, actionable content that ranks for procedural intent.",
+    "description": "Capture searches for step-by-step instructions by systematically transforming operational knowledge and process documentation into structured, actionable content that ranks for procedural intent. [S1]",
     "parentCategoryId": "informational",
     "relatedCategoryIds": [
       "definitional-queries",
@@ -11908,7 +11908,7 @@
     "id": "explanatory-queries",
     "slug": "explanatory-queries",
     "title": "Explanatory Queries: Demonstrating Expertise Through Mechanism Documentation",
-    "description": "Address searches for deeper understanding by documenting mechanisms, causality, and underlying processes—the technical depth that distinguishes expert content from surface-level explanations.",
+    "description": "Address searches for deeper understanding by documenting mechanisms, causality, and underlying processes—the technical depth that distinguishes expert content from surface-level explanations. [S1]",
     "parentCategoryId": "informational",
     "relatedCategoryIds": [
       "definitional-queries",
@@ -11960,7 +11960,7 @@
     "id": "research-queries",
     "slug": "research-queries",
     "title": "Research Queries: Establishing Authority Through Data-Driven Decision Support",
-    "description": "Capture searches where users gather comparative information and statistics to make informed decisions through competitive intelligence content that demonstrates expertise and builds topical authority.",
+    "description": "Capture searches where users gather comparative information and statistics to make informed decisions through competitive intelligence content that demonstrates expertise and builds topical authority. [S1]",
     "parentCategoryId": "informational",
     "relatedCategoryIds": [
       "definitional-queries",
@@ -12012,7 +12012,7 @@
     "id": "brand-queries",
     "slug": "brand-queries",
     "title": "Brand Queries: SERP Real Estate Ownership and Consideration-Stage Traffic Capture",
-    "description": "Strategically own your brand's SERP real estate while capturing competitor brand traffic through defensive and offensive positioning that controls consideration-stage user journeys.",
+    "description": "Strategically own your brand's SERP real estate while capturing competitor brand traffic through defensive and offensive positioning that controls consideration-stage user journeys. [S1]",
     "parentCategoryId": "navigational",
     "relatedCategoryIds": [
       "product-specific-queries",
@@ -12063,7 +12063,7 @@
     "id": "product-specific-queries",
     "slug": "product-specific-queries",
     "title": "Product-Specific Queries: Peak-Intent Purchase Funnel Capture",
-    "description": "Systematically rank for specific product, model, and SKU searches using rich result optimization and comprehensive product information architecture to capture users at maximum purchase readiness.",
+    "description": "Systematically rank for specific product, model, and SKU searches using rich result optimization and comprehensive product information architecture to capture users at maximum purchase readiness. [S1]",
     "parentCategoryId": "navigational",
     "relatedCategoryIds": [
       "brand-queries",
@@ -12116,7 +12116,7 @@
     "id": "website-feature-queries",
     "slug": "website-feature-queries",
     "title": "Website Feature Queries: Customer Lifecycle Documentation and Adoption Infrastructure",
-    "description": "Optimize for feature and capability queries to improve customer adoption, reduce support burden, and increase lifetime value through comprehensive, searchable feature documentation.",
+    "description": "Optimize for feature and capability queries to improve customer adoption, reduce support burden, and increase lifetime value through comprehensive, searchable feature documentation. [S1]",
     "parentCategoryId": "navigational",
     "relatedCategoryIds": [
       "brand-queries",
@@ -12167,7 +12167,7 @@
     "id": "comparison-queries",
     "slug": "comparison-queries",
     "title": "Comparison Queries: Decision-Stage Traffic Capture Through Objective Evaluation",
-    "description": "Systematically rank for comparison queries by creating objective, data-driven comparison content that controls purchasing narratives and captures high-conversion consideration-stage traffic.",
+    "description": "Systematically rank for comparison queries by creating objective, data-driven comparison content that controls purchasing narratives and captures high-conversion consideration-stage traffic. [S1]",
     "parentCategoryId": "commercial",
     "relatedCategoryIds": [
       "review-queries",
@@ -12212,7 +12212,7 @@
     "id": "review-queries",
     "slug": "review-queries",
     "title": "Review Queries: Final-Decision-Gate Authority Through Authentic Critical Evaluation",
-    "description": "Systematically rank for review queries by providing balanced, hands-on testing perspectives that establish trust and directly influence purchasing decisions at the final evaluation stage.",
+    "description": "Systematically rank for review queries by providing balanced, hands-on testing perspectives that establish trust and directly influence purchasing decisions at the final evaluation stage. [S1]",
     "parentCategoryId": "commercial",
     "relatedCategoryIds": [
       "comparison-queries",
@@ -12257,7 +12257,7 @@
     "id": "best-queries",
     "slug": "best-queries",
     "title": "\"Best\" Queries: Trusted Recommender Authority Through Transparent Curation",
-    "description": "Systematically rank for 'best' queries by creating curated recommendations with transparent selection methodology and use-case matching that establishes authority as trusted recommender.",
+    "description": "Systematically rank for 'best' queries by creating curated recommendations with transparent selection methodology and use-case matching that establishes authority as trusted recommender. [S1]",
     "parentCategoryId": "commercial",
     "relatedCategoryIds": [
       "comparison-queries",
@@ -12302,7 +12302,7 @@
     "id": "alternative-queries",
     "slug": "alternative-queries",
     "title": "Alternative Queries: Switching-Decision Capture Through Dissatisfaction-Driven Positioning",
-    "description": "Systematically rank for alternative queries by addressing specific dissatisfaction drivers that motivate switching, positioning your solution as superior through clear advantage communication.",
+    "description": "Systematically rank for alternative queries by addressing specific dissatisfaction drivers that motivate switching, positioning your solution as superior through clear advantage communication. [S1]",
     "parentCategoryId": "commercial",
     "relatedCategoryIds": [
       "comparison-queries",
@@ -12348,7 +12348,7 @@
     "id": "purchase-queries",
     "slug": "purchase-queries",
     "title": "Purchase Queries: Revenue-Capture Optimization at Purchase-Intent Moments",
-    "description": "Systematically optimize for purchase queries by reducing conversion friction, enabling frictionless transactions, and maximizing revenue from users expressing explicit purchase intent.",
+    "description": "Systematically optimize for purchase queries by reducing conversion friction, enabling frictionless transactions, and maximizing revenue from users expressing explicit purchase intent. [S1]",
     "parentCategoryId": "transactional",
     "relatedCategoryIds": [
       "pricing-queries",
@@ -12393,7 +12393,7 @@
     "id": "pricing-queries",
     "slug": "pricing-queries",
     "title": "Pricing Queries: Budget Validation and Price-Objection Elimination",
-    "description": "Systematically rank for pricing queries by providing transparent, detailed pricing information that removes budget objections and enables confident purchasing decisions.",
+    "description": "Systematically rank for pricing queries by providing transparent, detailed pricing information that removes budget objections and enables confident purchasing decisions. [S1]",
     "parentCategoryId": "transactional",
     "relatedCategoryIds": [
       "purchase-queries",
@@ -12438,7 +12438,7 @@
     "id": "download-queries",
     "slug": "download-queries",
     "title": "Download Queries: Friction-Free Activation and Trial Adoption Optimization",
-    "description": "Systematically rank for download queries by providing friction-free software access that enables immediate value delivery and increases downstream trial-to-paid conversion.",
+    "description": "Systematically rank for download queries by providing friction-free software access that enables immediate value delivery and increases downstream trial-to-paid conversion. [S1]",
     "parentCategoryId": "transactional",
     "relatedCategoryIds": [
       "purchase-queries",
@@ -12483,7 +12483,7 @@
     "id": "pillar-page-overview-content",
     "slug": "pillar-page-overview-content",
     "title": "Comprehensive Overview Content for Pillar Pages",
-    "description": "Best practices for creating overview content that establishes your pillar page as a complete authority resource on a topic.",
+    "description": "Best practices for creating overview content that establishes your pillar page as a complete authority resource on a topic. [S1]",
     "parentCategoryId": "pillar-pages",
     "relatedCategoryIds": [
       "pillar-page-navigation-structure",
@@ -12532,7 +12532,7 @@
     "id": "pillar-page-navigation-structure",
     "slug": "pillar-page-navigation-structure",
     "title": "Navigation Structure for Pillar Pages",
-    "description": "Strategic design of navigation systems that guide users and search engines through pillar pages and connected cluster content.",
+    "description": "Strategic design of navigation systems that guide users and search engines through pillar pages and connected cluster content. [S1]",
     "parentCategoryId": "pillar-pages",
     "relatedCategoryIds": [
       "pillar-page-overview-content",
@@ -12576,7 +12576,7 @@
     "id": "pillar-page-link-distribution",
     "slug": "pillar-page-link-distribution",
     "title": "Link Distribution Strategy for Pillar Pages",
-    "description": "Strategic approaches to distributing internal links from pillar pages to cluster pages for optimal topical authority and SEO performance.",
+    "description": "Strategic approaches to distributing internal links from pillar pages to cluster pages for optimal topical authority and SEO performance. [S1]",
     "parentCategoryId": "pillar-pages",
     "relatedCategoryIds": [
       "pillar-page-navigation-structure"
@@ -12618,7 +12618,7 @@
     "id": "cluster-page-subtopic-deep-dives",
     "slug": "cluster-page-subtopic-deep-dives",
     "title": "Subtopic Deep-Dive Content for Cluster Pages",
-    "description": "Creating comprehensive, focused content that explores specific subtopics in detail while supporting overall pillar page authority.",
+    "description": "Creating comprehensive, focused content that explores specific subtopics in detail while supporting overall pillar page authority. [S1]",
     "parentCategoryId": "cluster-pages",
     "relatedCategoryIds": [
       "pillar-page-overview-content",
@@ -12661,7 +12661,7 @@
     "id": "cluster-page-long-tail-targeting",
     "slug": "cluster-page-long-tail-targeting",
     "title": "Long-Tail Keyword Targeting for Cluster Pages",
-    "description": "Strategic optimization of cluster pages to target specific long-tail keywords that drive qualified, high-intent organic traffic.",
+    "description": "Strategic optimization of cluster pages to target specific long-tail keywords that drive qualified, high-intent organic traffic. [S1]",
     "parentCategoryId": "cluster-pages",
     "relatedCategoryIds": [
       "cluster-page-subtopic-deep-dives",
@@ -12704,7 +12704,7 @@
     "id": "cluster-page-pillar-linkback-strategy",
     "slug": "cluster-page-pillar-linkback-strategy",
     "title": "Pillar Linkback Strategy for Cluster Pages",
-    "description": "Strategic linking from cluster pages back to pillar pages to reinforce topical authority and guide users through your content ecosystem.",
+    "description": "Strategic linking from cluster pages back to pillar pages to reinforce topical authority and guide users through your content ecosystem. [S1]",
     "parentCategoryId": "cluster-pages",
     "relatedCategoryIds": [
       "pillar-page-link-distribution",
@@ -12747,7 +12747,7 @@
     "id": "hub-page-architecture",
     "slug": "hub-page-architecture",
     "title": "Hub Page Architecture and Design",
-    "description": "Structural and design principles for building effective hub pages that coordinate and centralize topic-related content clusters.",
+    "description": "Structural and design principles for building effective hub pages that coordinate and centralize topic-related content clusters. [S1]",
     "parentCategoryId": "hub-and-spoke",
     "relatedCategoryIds": [
       "pillar-page-overview-content",
@@ -12791,7 +12791,7 @@
     "id": "spoke-page-design",
     "slug": "spoke-page-design",
     "title": "Spoke Page Design and Structure",
-    "description": "Design and structural principles for spoke pages that form the content clusters within a hub-and-spoke architecture.",
+    "description": "Design and structural principles for spoke pages that form the content clusters within a hub-and-spoke architecture. [S1]",
     "parentCategoryId": "hub-and-spoke",
     "relatedCategoryIds": [
       "hub-page-architecture",
@@ -12835,7 +12835,7 @@
     "id": "hub-cross-spoke-linking",
     "slug": "hub-cross-spoke-linking",
     "title": "Cross-Spoke Internal Linking Strategy",
-    "description": "Strategic internal linking between spoke pages that reinforces topical relationships and distributes authority across hub-and-spoke content clusters.",
+    "description": "Strategic internal linking between spoke pages that reinforces topical relationships and distributes authority across hub-and-spoke content clusters. [S1]",
     "parentCategoryId": "hub-and-spoke",
     "relatedCategoryIds": [
       "hub-page-architecture",
@@ -12879,7 +12879,7 @@
     "id": "featured-snippet-paragraph",
     "slug": "featured-snippet-paragraph",
     "title": "Paragraph Featured Snippets Optimization",
-    "description": "Strategies for optimizing content to appear in Google's paragraph-style featured snippets that answer specific questions.",
+    "description": "Strategies for optimizing content to appear in Google's paragraph-style featured snippets that answer specific questions. [S1]",
     "parentCategoryId": "featured-snippets",
     "relatedCategoryIds": [
       "featured-snippet-list",
@@ -12923,7 +12923,7 @@
     "id": "featured-snippet-list",
     "slug": "featured-snippet-list",
     "title": "List Featured Snippets Optimization",
-    "description": "Strategies for optimizing content to capture Google's list-style featured snippets that display ranked or unranked lists.",
+    "description": "Strategies for optimizing content to capture Google's list-style featured snippets that display ranked or unranked lists. [S1]",
     "parentCategoryId": "featured-snippets",
     "relatedCategoryIds": [
       "featured-snippet-paragraph",
@@ -12966,7 +12966,7 @@
     "id": "featured-snippet-table",
     "slug": "featured-snippet-table",
     "title": "Table Featured Snippets Optimization",
-    "description": "Strategies for optimizing tabular data to capture Google's table-style featured snippets for comparison and reference queries.",
+    "description": "Strategies for optimizing tabular data to capture Google's table-style featured snippets for comparison and reference queries. [S1]",
     "parentCategoryId": "featured-snippets",
     "relatedCategoryIds": [
       "featured-snippet-paragraph",
@@ -13010,7 +13010,7 @@
     "id": "page-structure-header-navigation",
     "slug": "page-structure-header-navigation",
     "title": "SEO Page Header and Navigation Structure",
-    "description": "Design and implementation of header and navigation elements that support SEO objectives while improving user experience.",
+    "description": "Design and implementation of header and navigation elements that support SEO objectives while improving user experience. [S1]",
     "parentCategoryId": "page-structure",
     "relatedCategoryIds": [
       "page-structure-hero-section",
@@ -13054,7 +13054,7 @@
     "id": "page-structure-hero-section",
     "slug": "page-structure-hero-section",
     "title": "Hero Section Design for SEO",
-    "description": "Creating effective hero sections that balance visual impact with SEO optimization and user engagement.",
+    "description": "Creating effective hero sections that balance visual impact with SEO optimization and user engagement. [S1]",
     "parentCategoryId": "page-structure",
     "relatedCategoryIds": [
       "page-structure-header-navigation",
@@ -13098,7 +13098,7 @@
     "id": "page-structure-body-content",
     "slug": "page-structure-body-content",
     "title": "Body Content Blocks Structure and SEO",
-    "description": "Organizing and structuring body content blocks for optimal readability, engagement, and search engine performance.",
+    "description": "Organizing and structuring body content blocks for optimal readability, engagement, and search engine performance. [S1]",
     "parentCategoryId": "page-structure",
     "relatedCategoryIds": [
       "page-structure-hero-section"
@@ -13140,7 +13140,7 @@
     "id": "page-structure-sidebar-elements",
     "slug": "page-structure-sidebar-elements",
     "title": "Sidebar Elements for SEO Pages",
-    "description": "Design and optimization of sidebar content that enhances SEO while providing supplementary information and navigation.",
+    "description": "Design and optimization of sidebar content that enhances SEO while providing supplementary information and navigation. [S1]",
     "parentCategoryId": "page-structure",
     "relatedCategoryIds": [
       "page-structure-body-content",
@@ -13184,7 +13184,7 @@
     "id": "page-structure-footer-cta",
     "slug": "page-structure-footer-cta",
     "title": "Footer and Call-to-Action Design for SEO",
-    "description": "Strategic design of footer sections and calls-to-action that support SEO while driving user actions and conversions.",
+    "description": "Strategic design of footer sections and calls-to-action that support SEO while driving user actions and conversions. [S1]",
     "parentCategoryId": "page-structure",
     "relatedCategoryIds": [
       "page-structure-body-content",
@@ -13227,7 +13227,7 @@
     "id": "dynamic-zone-variable-placeholders",
     "slug": "dynamic-zone-variable-placeholders",
     "title": "Variable Placeholders in SEO Templates",
-    "description": "Implementation of variable placeholders in content templates that enable dynamic content generation while maintaining SEO quality.",
+    "description": "Implementation of variable placeholders in content templates that enable dynamic content generation while maintaining SEO quality. [S1]",
     "parentCategoryId": "dynamic-zones",
     "relatedCategoryIds": [
       "dynamic-zone-conditional-sections",
@@ -13270,7 +13270,7 @@
     "id": "dynamic-zone-conditional-sections",
     "slug": "dynamic-zone-conditional-sections",
     "title": "Conditional Content Sections for Dynamic Pages",
-    "description": "Implementation of conditional content logic that displays or hides sections based on page attributes, user context, or data values.",
+    "description": "Implementation of conditional content logic that displays or hides sections based on page attributes, user context, or data values. [S1]",
     "parentCategoryId": "dynamic-zones",
     "relatedCategoryIds": [
       "dynamic-zone-variable-placeholders",
@@ -13313,7 +13313,7 @@
     "id": "json-ld-syntax-structure",
     "slug": "json-ld-syntax-structure",
     "title": "JSON-LD Syntax and Structure",
-    "description": "Master the fundamentals of JSON-LD formatting, nesting rules, and structural principles for implementing structured data in your SEO strategy.",
+    "description": "Master the fundamentals of JSON-LD formatting, nesting rules, and structural principles for implementing structured data in your SEO strategy. [S1]",
     "parentCategoryId": "json-ld",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships",
@@ -13356,7 +13356,7 @@
     "id": "json-ld-nesting-relationships",
     "slug": "json-ld-nesting-relationships",
     "title": "JSON-LD Nesting and Relationships",
-    "description": "Learn how to nest objects and create relationships in JSON-LD for comprehensive structured data that captures complex content hierarchies.",
+    "description": "Learn how to nest objects and create relationships in JSON-LD for comprehensive structured data that captures complex content hierarchies. [S1]",
     "parentCategoryId": "json-ld",
     "relatedCategoryIds": [
       "json-ld-syntax-structure",
@@ -13399,7 +13399,7 @@
     "id": "json-ld-validation",
     "slug": "json-ld-validation",
     "title": "JSON-LD Validation",
-    "description": "Master validation techniques to ensure your JSON-LD implementations are error-free and conform to Schema.org standards for maximum SEO effectiveness.",
+    "description": "Master validation techniques to ensure your JSON-LD implementations are error-free and conform to Schema.org standards for maximum SEO effectiveness. [S1]",
     "parentCategoryId": "json-ld",
     "relatedCategoryIds": [
       "json-ld-syntax-structure",
@@ -13442,7 +13442,7 @@
     "id": "article-schema",
     "slug": "article-schema",
     "title": "Article Schema Markup",
-    "description": "Implement Article schema to improve visibility in Google News, achieve snippet enhancements, and signal content quality to search engines.",
+    "description": "Implement Article schema to improve visibility in Google News, achieve snippet enhancements, and signal content quality to search engines. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-syntax-structure"
@@ -13484,7 +13484,7 @@
     "id": "product-schema",
     "slug": "product-schema",
     "title": "Product Schema Markup",
-    "description": "Master Product schema to enable rich product results, shopping features, and leverage reviews, pricing, and availability for programmatic e-commerce.",
+    "description": "Master Product schema to enable rich product results, shopping features, and leverage reviews, pricing, and availability for programmatic e-commerce. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13526,7 +13526,7 @@
     "id": "organization-schema",
     "slug": "organization-schema",
     "title": "Organization Schema Markup",
-    "description": "Implement Organization schema to establish brand authority, improve knowledge panel eligibility, and enhance site-wide SEO credibility.",
+    "description": "Implement Organization schema to establish brand authority, improve knowledge panel eligibility, and enhance site-wide SEO credibility. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13568,7 +13568,7 @@
     "id": "faq-schema",
     "slug": "faq-schema",
     "title": "FAQ Schema Markup",
-    "description": "Implement FAQ schema to achieve FAQ rich snippets, improve answer visibility in search results, and boost click-through rates through enhanced SERP displays.",
+    "description": "Implement FAQ schema to achieve FAQ rich snippets, improve answer visibility in search results, and boost click-through rates through enhanced SERP displays. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13610,7 +13610,7 @@
     "id": "howto-schema",
     "slug": "howto-schema",
     "title": "HowTo Schema Markup",
-    "description": "Master HowTo schema to achieve how-to rich results, improve tutorial visibility, and leverage step-by-step instructions for programmatic content.",
+    "description": "Master HowTo schema to achieve how-to rich results, improve tutorial visibility, and leverage step-by-step instructions for programmatic content. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13652,7 +13652,7 @@
     "id": "localbusiness-schema",
     "slug": "localbusiness-schema",
     "title": "LocalBusiness Schema Markup",
-    "description": "Implement LocalBusiness schema to improve local search visibility, enhance Google Maps integration, and drive foot traffic through location-based optimization.",
+    "description": "Implement LocalBusiness schema to improve local search visibility, enhance Google Maps integration, and drive foot traffic through location-based optimization. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13694,7 +13694,7 @@
     "id": "breadcrumblist-schema",
     "slug": "breadcrumblist-schema",
     "title": "BreadcrumbList Schema Markup",
-    "description": "Implement BreadcrumbList schema to improve SERP display, enhance site navigation representation, and boost crawlability for hierarchical content structures.",
+    "description": "Implement BreadcrumbList schema to improve SERP display, enhance site navigation representation, and boost crawlability for hierarchical content structures. [S1]",
     "parentCategoryId": "schema-types",
     "relatedCategoryIds": [
       "json-ld-nesting-relationships"
@@ -13736,7 +13736,7 @@
     "id": "sitemap-segmentation",
     "slug": "sitemap-segmentation",
     "title": "Sitemap Segmentation Strategy",
-    "description": "Master sitemap segmentation to manage large-scale sites, optimize crawl budget, and improve indexation of programmatically generated content.",
+    "description": "Master sitemap segmentation to manage large-scale sites, optimize crawl budget, and improve indexation of programmatically generated content. [S1]",
     "parentCategoryId": "sitemap",
     "relatedCategoryIds": [
       "sitemap-index-structure"
@@ -13804,7 +13804,7 @@
     "id": "sitemap-index-structure",
     "slug": "sitemap-index-structure",
     "title": "Sitemap Index Structure",
-    "description": "Implement sitemap indexes to manage multiple sitemaps efficiently and provide Google with a comprehensive view of your entire URL inventory.",
+    "description": "Implement sitemap indexes to manage multiple sitemaps efficiently and provide Google with a comprehensive view of your entire URL inventory. [S1]",
     "parentCategoryId": "sitemap",
     "relatedCategoryIds": [
       "sitemap-segmentation"
@@ -13872,7 +13872,7 @@
     "id": "sitemap-update-frequency",
     "slug": "sitemap-update-frequency",
     "title": "Sitemap Update Frequency",
-    "description": "Optimize sitemap update strategies to signal content freshness, align crawl patterns with your update cadence, and maximize indexation efficiency.",
+    "description": "Optimize sitemap update strategies to signal content freshness, align crawl patterns with your update cadence, and maximize indexation efficiency. [S1]",
     "parentCategoryId": "sitemap",
     "relatedCategoryIds": [
       "sitemap-segmentation"
@@ -13941,7 +13941,7 @@
     "id": "server-side-rendering",
     "slug": "server-side-rendering",
     "title": "Server-Side Rendering for SEO",
-    "description": "Master server-side rendering techniques to ensure search engines receive fully rendered HTML with complete content for optimal crawling and indexation.",
+    "description": "Master server-side rendering techniques to ensure search engines receive fully rendered HTML with complete content for optimal crawling and indexation. [S1]",
     "parentCategoryId": "ssr-ssg-isr",
     "relatedCategoryIds": [
       "static-site-generation",
@@ -14010,7 +14010,7 @@
     "id": "static-site-generation",
     "slug": "static-site-generation",
     "title": "Static Site Generation for SEO",
-    "description": "Leverage static site generation to deliver pre-rendered pages for optimal performance, reliability, and search engine crawlability at scale.",
+    "description": "Leverage static site generation to deliver pre-rendered pages for optimal performance, reliability, and search engine crawlability at scale. [S1]",
     "parentCategoryId": "ssr-ssg-isr",
     "relatedCategoryIds": [
       "server-side-rendering",
@@ -14081,7 +14081,7 @@
     "id": "incremental-static-regeneration",
     "slug": "incremental-static-regeneration",
     "title": "Incremental Static Regeneration for SEO",
-    "description": "Master incremental static regeneration to combine static performance with dynamic content freshness for optimal programmatic SEO.",
+    "description": "Master incremental static regeneration to combine static performance with dynamic content freshness for optimal programmatic SEO. [S1]",
     "parentCategoryId": "ssr-ssg-isr",
     "relatedCategoryIds": [
       "static-site-generation",
@@ -14152,7 +14152,7 @@
     "id": "lcp-optimization",
     "slug": "lcp-optimization",
     "title": "Largest Contentful Paint Optimization",
-    "description": "Master LCP optimization to improve perceived page load speed and achieve excellent Core Web Vitals for better SEO rankings and user experience.",
+    "description": "Master LCP optimization to improve perceived page load speed and achieve excellent Core Web Vitals for better SEO rankings and user experience. [S1]",
     "parentCategoryId": "core-web-vitals",
     "relatedCategoryIds": [
       "fid-inp-optimization",
@@ -14223,7 +14223,7 @@
     "id": "fid-inp-optimization",
     "slug": "fid-inp-optimization",
     "title": "Interaction to Next Paint Optimization",
-    "description": "Optimize INP (replacing FID) to ensure responsive interactions and reduce input delay, achieving excellent Core Web Vitals and user satisfaction.",
+    "description": "Optimize INP (replacing FID) to ensure responsive interactions and reduce input delay, achieving excellent Core Web Vitals and user satisfaction. [S1]",
     "parentCategoryId": "core-web-vitals",
     "relatedCategoryIds": [
       "lcp-optimization",
@@ -14294,7 +14294,7 @@
     "id": "cls-optimization",
     "slug": "cls-optimization",
     "title": "Cumulative Layout Shift Optimization",
-    "description": "Master CLS optimization to eliminate visual instability, prevent frustrated users, and achieve excellent Core Web Vitals for better SEO performance.",
+    "description": "Master CLS optimization to eliminate visual instability, prevent frustrated users, and achieve excellent Core Web Vitals for better SEO performance. [S1]",
     "parentCategoryId": "core-web-vitals",
     "relatedCategoryIds": [
       "lcp-optimization",
@@ -14366,7 +14366,7 @@
     "id": "content-database",
     "slug": "content-database",
     "title": "Content Database for Programmatic SEO",
-    "description": "Design and manage SEO content databases to efficiently store, organize, and serve content for programmatically generated pages.",
+    "description": "Design and manage SEO content databases to efficiently store, organize, and serve content for programmatically generated pages. [S1]",
     "parentCategoryId": "database-design",
     "relatedCategoryIds": [
       "relationship-mapping",
@@ -14437,7 +14437,7 @@
     "id": "relationship-mapping",
     "slug": "relationship-mapping",
     "title": "Database Relationship Mapping for SEO",
-    "description": "Master relationship mapping to establish connections between content entities, enabling intelligent internal linking and consistent SEO signals.",
+    "description": "Master relationship mapping to establish connections between content entities, enabling intelligent internal linking and consistent SEO signals. [S1]",
     "parentCategoryId": "database-design",
     "relatedCategoryIds": [
       "content-database",
@@ -14507,7 +14507,7 @@
     "id": "dynamic-data-sources",
     "slug": "dynamic-data-sources",
     "title": "Dynamic Data Sources for Programmatic SEO",
-    "description": "Integrate external APIs and data sources to power programmatic content generation while maintaining SEO best practices and content quality.",
+    "description": "Integrate external APIs and data sources to power programmatic content generation while maintaining SEO best practices and content quality. [S1]",
     "parentCategoryId": "database-design",
     "relatedCategoryIds": [
       "content-database",
@@ -14579,7 +14579,7 @@
     "id": "headless-cms",
     "slug": "headless-cms",
     "title": "Headless CMS for Programmatic SEO",
-    "description": "Leverage headless CMS platforms to manage content centrally while powering multiple front-end implementations for flexible programmatic SEO.",
+    "description": "Leverage headless CMS platforms to manage content centrally while powering multiple front-end implementations for flexible programmatic SEO. [S1]",
     "parentCategoryId": "cms-integration",
     "relatedCategoryIds": [
       "wordpress-integration",
@@ -14652,7 +14652,7 @@
     "id": "wordpress-integration",
     "slug": "wordpress-integration",
     "title": "WordPress Integration for Programmatic SEO",
-    "description": "Optimize WordPress for programmatic content generation through custom post types, automation, and SEO best practices.",
+    "description": "Optimize WordPress for programmatic content generation through custom post types, automation, and SEO best practices. [S1]",
     "parentCategoryId": "cms-integration",
     "relatedCategoryIds": [
       "headless-cms",
@@ -14725,7 +14725,7 @@
     "id": "webflow-framer-integration",
     "slug": "webflow-framer-integration",
     "title": "Webflow and Framer for Programmatic SEO",
-    "description": "Leverage visual builders like Webflow and Framer for programmatic content while maintaining full SEO control and automated page generation.",
+    "description": "Leverage visual builders like Webflow and Framer for programmatic content while maintaining full SEO control and automated page generation. [S1]",
     "parentCategoryId": "cms-integration",
     "relatedCategoryIds": [
       "headless-cms",
@@ -14798,7 +14798,7 @@
     "id": "data-driven-content",
     "slug": "data-driven-content",
     "title": "Data-Driven Content Strategy",
-    "description": "Creating optimized content based on quantitative insights, user behavior analysis, and keyword performance metrics to maximize SEO impact.",
+    "description": "Creating optimized content based on quantitative insights, user behavior analysis, and keyword performance metrics to maximize SEO impact. [S1]",
     "parentCategoryId": "use-cases",
     "relatedCategoryIds": [
       "keyword-research"
@@ -14833,7 +14833,7 @@
     "id": "educational-content",
     "slug": "educational-content",
     "title": "Educational Content in Programmatic SEO",
-    "description": "Building scalable educational content that ranks for informational keywords while establishing authority and building audience trust through comprehensive knowledge resources.",
+    "description": "Building scalable educational content that ranks for informational keywords while establishing authority and building audience trust through comprehensive knowledge resources. [S1]",
     "parentCategoryId": "use-cases",
     "relatedCategoryIds": [
       "informational-intent"
@@ -14888,7 +14888,7 @@
     "id": "cannibalization",
     "slug": "cannibalization",
     "title": "Keyword Cannibalization Risk in Programmatic SEO",
-    "description": "Preventing multiple pages on your domain from competing for the same keywords, which fragments ranking potential and wastes content investment.",
+    "description": "Preventing multiple pages on your domain from competing for the same keywords, which fragments ranking potential and wastes content investment. [S1]",
     "parentCategoryId": "risk-assessment",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15000,7 +15000,7 @@
     "id": "index-bloat",
     "slug": "index-bloat",
     "title": "Index Bloat Risk in Programmatic SEO",
-    "description": "Managing the risk of creating thousands of low-value pages that waste crawl budget, dilute domain authority, and reduce overall site performance.",
+    "description": "Managing the risk of creating thousands of low-value pages that waste crawl budget, dilute domain authority, and reduce overall site performance. [S1]",
     "parentCategoryId": "risk-assessment",
     "relatedCategoryIds": [
       "thin-content"
@@ -15115,7 +15115,7 @@
     "id": "head-terms",
     "slug": "head-terms",
     "title": "Head Term Identification for Programmatic SEO",
-    "description": "Identifying broad, high-volume keywords that form the foundation for programmatic content expansion and topic cluster architecture.",
+    "description": "Identifying broad, high-volume keywords that form the foundation for programmatic content expansion and topic cluster architecture. [S1]",
     "parentCategoryId": "pattern-discovery",
     "relatedCategoryIds": [
       "keyword-research",
@@ -15192,7 +15192,7 @@
     "id": "modifier-discovery",
     "slug": "modifier-discovery",
     "title": "Keyword Modifier Discovery and Classification",
-    "description": "Systematically identifying word modifiers and keyword variations that expand reach into long-tail keywords with specific user intent.",
+    "description": "Systematically identifying word modifiers and keyword variations that expand reach into long-tail keywords with specific user intent. [S1]",
     "parentCategoryId": "pattern-discovery",
     "relatedCategoryIds": [
       "long-tail-strategy",
@@ -15314,7 +15314,7 @@
     "id": "pattern-validation",
     "slug": "pattern-validation",
     "title": "Keyword Pattern Validation in Programmatic SEO",
-    "description": "Verifying that identified keyword patterns generate real search demand and distinct ranking opportunities before scaling content production.",
+    "description": "Verifying that identified keyword patterns generate real search demand and distinct ranking opportunities before scaling content production. [S1]",
     "parentCategoryId": "pattern-discovery",
     "relatedCategoryIds": [
       "keyword-research",
@@ -15411,7 +15411,7 @@
     "id": "long-tail-definition",
     "slug": "long-tail-definition",
     "title": "Long-Tail Keywords: Definition and Characteristics",
-    "description": "Understanding what long-tail keywords are, their characteristics, and why they form the foundation of scalable programmatic SEO strategies.",
+    "description": "Understanding what long-tail keywords are, their characteristics, and why they form the foundation of scalable programmatic SEO strategies. [S1]",
     "parentCategoryId": "long-tail-strategy",
     "relatedCategoryIds": [
       "keyword-research",
@@ -15498,7 +15498,7 @@
     "id": "keyword-difficulty",
     "slug": "keyword-difficulty",
     "title": "Keyword Difficulty Assessment and Strategy",
-    "description": "Evaluating keyword difficulty to prioritize targets, manage expectations, and focus content resources on achievable ranking opportunities.",
+    "description": "Evaluating keyword difficulty to prioritize targets, manage expectations, and focus content resources on achievable ranking opportunities. [S1]",
     "parentCategoryId": "long-tail-strategy",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15594,7 +15594,7 @@
     "id": "search-volume-distribution",
     "slug": "search-volume-distribution",
     "title": "Search Volume Distribution in Long-Tail Strategy",
-    "description": "Understanding how search volume concentrates in long-tail keywords and leveraging this distribution for maximum ROI in programmatic content strategies.",
+    "description": "Understanding how search volume concentrates in long-tail keywords and leveraging this distribution for maximum ROI in programmatic content strategies. [S1]",
     "parentCategoryId": "long-tail-strategy",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15629,7 +15629,7 @@
     "id": "conversion-potential",
     "slug": "conversion-potential",
     "title": "Conversion Potential Analysis for Keywords",
-    "description": "Evaluating which keywords are likely to drive revenue or conversions, not just traffic, ensuring programmatic content investment aligns with business objectives.",
+    "description": "Evaluating which keywords are likely to drive revenue or conversions, not just traffic, ensuring programmatic content investment aligns with business objectives. [S1]",
     "parentCategoryId": "long-tail-strategy",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15664,7 +15664,7 @@
     "id": "google-keyword-planner",
     "slug": "google-keyword-planner",
     "title": "Google Keyword Planner Guide for SEO Research",
-    "description": "Leveraging Google's native keyword planning tool to discover keywords, assess search volume, and validate keyword research for programmatic SEO strategies.",
+    "description": "Leveraging Google's native keyword planning tool to discover keywords, assess search volume, and validate keyword research for programmatic SEO strategies. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15699,7 +15699,7 @@
     "id": "semrush-ahrefs",
     "slug": "semrush-ahrefs",
     "title": "Semrush vs Ahrefs: Keyword Research Comparison",
-    "description": "Comparing two leading SEO platforms for keyword research, competitive analysis, and programmatic SEO strategy, understanding their strengths and use cases.",
+    "description": "Comparing two leading SEO platforms for keyword research, competitive analysis, and programmatic SEO strategy, understanding their strengths and use cases. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15734,7 +15734,7 @@
     "id": "autocomplete-paa",
     "slug": "autocomplete-paa",
     "title": "Google Autocomplete and PAA for Keyword Discovery",
-    "description": "Leveraging Google's search suggestions and People Also Ask features to discover authentic user keywords and content gaps.",
+    "description": "Leveraging Google's search suggestions and People Also Ask features to discover authentic user keywords and content gaps. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15769,7 +15769,7 @@
     "id": "answer-the-public",
     "slug": "answer-the-public",
     "title": "Answer the Public: Question Mining for Content Strategy",
-    "description": "Using Answer the Public to discover questions users ask, revealing content gaps and informational keywords for programmatic content development.",
+    "description": "Using Answer the Public to discover questions users ask, revealing content gaps and informational keywords for programmatic content development. [S1]",
     "parentCategoryId": "tools",
     "relatedCategoryIds": [
       "keyword-research"
@@ -15804,7 +15804,7 @@
     "id": "informational-intent",
     "slug": "informational-intent",
     "title": "Informational Search Intent: Definition and Strategy",
-    "description": "Understanding informational intent queries where users seek knowledge and information, and developing content strategies to capture this massive search volume.",
+    "description": "Understanding informational intent queries where users seek knowledge and information, and developing content strategies to capture this massive search volume. [S1]",
     "parentCategoryId": "primary-categories",
     "relatedCategoryIds": [
       "educational-content"
@@ -15866,7 +15866,7 @@
     "id": "navigational-intent",
     "slug": "navigational-intent",
     "title": "Navigational Search Intent: Strategy and Optimization",
-    "description": "Understanding navigational searches where users seek specific websites or brands, and optimizing content for direct brand traffic.",
+    "description": "Understanding navigational searches where users seek specific websites or brands, and optimizing content for direct brand traffic. [S1]",
     "parentCategoryId": "primary-categories",
     "relatedCategoryIds": [],
     "datePublished": "2026-01-31",
@@ -15922,7 +15922,7 @@
     "id": "definition-core-principles",
     "slug": "definition-core-principles",
     "title": "Definition Core Principles",
-    "description": "Explore definition core principles concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore definition core principles concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "foundational-concepts",
     "subcategoryIds": [
       "structured-data-integration",
@@ -15949,7 +15949,7 @@
     "id": "structure-patterns",
     "slug": "structure-patterns",
     "title": "Structure Patterns",
-    "description": "Explore structure patterns concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore structure patterns concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "url-architecture",
     "subcategoryIds": [
       "url-structure-patterns",
@@ -15977,7 +15977,7 @@
     "id": "index-noindex",
     "slug": "index-noindex",
     "title": "Index Noindex",
-    "description": "Explore index noindex concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore index noindex concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "indexation",
     "subcategoryIds": [
       "index-noindex-criteria"
@@ -16002,7 +16002,7 @@
     "id": "canonical",
     "slug": "canonical",
     "title": "Canonical",
-    "description": "Explore canonical concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore canonical concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "indexation",
     "subcategoryIds": [
       "canonical-strategy"
@@ -16027,7 +16027,7 @@
     "id": "pagination",
     "slug": "pagination",
     "title": "Pagination",
-    "description": "Explore pagination concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore pagination concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "indexation",
     "subcategoryIds": [
       "pagination-handling"
@@ -16052,7 +16052,7 @@
     "id": "bloat-prevention",
     "slug": "bloat-prevention",
     "title": "Bloat Prevention",
-    "description": "Explore bloat prevention concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore bloat prevention concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "indexation",
     "subcategoryIds": [
       "index-bloat-prevention"
@@ -16077,7 +16077,7 @@
     "id": "informational",
     "slug": "informational",
     "title": "Informational",
-    "description": "Explore informational concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore informational concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "primary-categories",
     "subcategoryIds": [
       "definitional-queries",
@@ -16105,7 +16105,7 @@
     "id": "navigational",
     "slug": "navigational",
     "title": "Navigational",
-    "description": "Explore navigational concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore navigational concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "primary-categories",
     "subcategoryIds": [
       "brand-queries",
@@ -16132,7 +16132,7 @@
     "id": "commercial",
     "slug": "commercial",
     "title": "Commercial",
-    "description": "Explore commercial concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore commercial concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "primary-categories",
     "subcategoryIds": [
       "comparison-queries",
@@ -16160,7 +16160,7 @@
     "id": "pillar-pages",
     "slug": "pillar-pages",
     "title": "Pillar Pages",
-    "description": "Explore pillar pages concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore pillar pages concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "topic-clusters",
     "subcategoryIds": [
       "pillar-page-overview-content",
@@ -16187,7 +16187,7 @@
     "id": "cluster-pages",
     "slug": "cluster-pages",
     "title": "Cluster Pages",
-    "description": "Explore cluster pages concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore cluster pages concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "topic-clusters",
     "subcategoryIds": [
       "cluster-page-subtopic-deep-dives",
@@ -16214,7 +16214,7 @@
     "id": "hub-and-spoke",
     "slug": "hub-and-spoke",
     "title": "Hub And Spoke",
-    "description": "Explore hub and spoke concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore hub and spoke concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "topic-clusters",
     "subcategoryIds": [
       "hub-page-architecture",
@@ -16241,7 +16241,7 @@
     "id": "featured-snippets",
     "slug": "featured-snippets",
     "title": "Featured Snippets",
-    "description": "Explore featured snippets concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore featured snippets concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "serp-features",
     "subcategoryIds": [
       "featured-snippet-paragraph",
@@ -16268,7 +16268,7 @@
     "id": "json-ld",
     "slug": "json-ld",
     "title": "Json Ld",
-    "description": "Explore json ld concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore json ld concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "schema-implementation",
     "subcategoryIds": [
       "json-ld-syntax-structure",
@@ -16295,7 +16295,7 @@
     "id": "sitemap",
     "slug": "sitemap",
     "title": "Sitemap",
-    "description": "Explore sitemap concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore sitemap concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "crawl-optimization",
     "subcategoryIds": [
       "sitemap-segmentation",
@@ -16322,7 +16322,7 @@
     "id": "ssr-ssg-isr",
     "slug": "ssr-ssg-isr",
     "title": "Ssr Ssg Isr",
-    "description": "Explore ssr ssg isr concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore ssr ssg isr concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "rendering",
     "subcategoryIds": [
       "server-side-rendering",
@@ -16349,7 +16349,7 @@
     "id": "core-web-vitals",
     "slug": "core-web-vitals",
     "title": "Core Web Vitals",
-    "description": "Explore core web vitals concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore core web vitals concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "rendering",
     "subcategoryIds": [
       "lcp-optimization",
@@ -16376,7 +16376,7 @@
     "id": "database-design",
     "slug": "database-design",
     "title": "Database Design",
-    "description": "Explore database design concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore database design concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "data-infrastructure",
     "subcategoryIds": [
       "content-database",
@@ -16403,7 +16403,7 @@
     "id": "cms-integration",
     "slug": "cms-integration",
     "title": "Cms Integration",
-    "description": "Explore cms integration concepts and implementation strategies for programmatic SEO.",
+    "description": "Explore cms integration concepts and implementation strategies for programmatic SEO. [S1]",
     "parentCategoryId": "data-infrastructure",
     "subcategoryIds": [
       "headless-cms",
