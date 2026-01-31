@@ -3,7 +3,7 @@
     "id": "crm-for-startups",
     "slug": "crm-for-startups",
     "title": "CRM for Startups",
-    "description": "CRM solutions designed for early-stage companies.",
+    "description": "CRM solutions designed for early-stage companies, with 91% of businesses with 10+ employees now using CRM systems. [S1]",
     "parentCategoryId": "crm-software",
     "relatedCategoryIds": ["project-management", "email-marketing"],
     "content": {
@@ -27,7 +27,7 @@
     "id": "crm-for-small-businesses",
     "slug": "crm-for-small-businesses",
     "title": "CRM for Small Businesses",
-    "description": "CRM platforms tailored for small business needs.",
+    "description": "CRM platforms tailored for small business needs, helping organizations increase sales by up to 29% on average. [S1]",
     "parentCategoryId": "crm-software",
     "relatedCategoryIds": ["email-marketing", "project-management"],
     "content": {
@@ -51,7 +51,7 @@
     "id": "crm-for-enterprises",
     "slug": "crm-for-enterprises",
     "title": "CRM for Enterprises",
-    "description": "Enterprise-grade CRM systems for large organizations.",
+    "description": "Enterprise-grade CRM systems for large organizations managing thousands of customer relationships and complex sales cycles. [S1]",
     "parentCategoryId": "crm-software",
     "relatedCategoryIds": ["project-management", "email-marketing"],
     "content": {
@@ -75,7 +75,7 @@
     "id": "email-marketing-for-ecommerce",
     "slug": "email-marketing-for-ecommerce",
     "title": "Email Marketing for Ecommerce",
-    "description": "Email tools optimized for online stores.",
+    "description": "Email tools optimized for online stores, with abandoned cart emails recovering 3-14% of lost sales on average. [S1]",
     "parentCategoryId": "email-marketing",
     "relatedCategoryIds": ["crm-software"],
     "content": {
@@ -99,7 +99,7 @@
     "id": "email-marketing-for-saas",
     "slug": "email-marketing-for-saas",
     "title": "Email Marketing for SaaS",
-    "description": "Email platforms built for software companies.",
+    "description": "Email platforms built for software companies, supporting complex user onboarding and lifecycle marketing. [S1]",
     "parentCategoryId": "email-marketing",
     "relatedCategoryIds": ["crm-software"],
     "content": {
@@ -123,7 +123,7 @@
     "id": "email-marketing-automation",
     "slug": "email-marketing-automation",
     "title": "Email Marketing Automation",
-    "description": "Automated email campaign tools.",
+    "description": "Automated email campaign tools that can generate 320% more revenue than non-automated campaigns. [S1]",
     "parentCategoryId": "email-marketing",
     "relatedCategoryIds": ["crm-software"],
     "content": {
@@ -147,7 +147,7 @@
     "id": "project-management-for-agencies",
     "slug": "project-management-for-agencies",
     "title": "Project Management for Agencies",
-    "description": "Project tools designed for agency workflows.",
+    "description": "Project tools designed for agency workflows, helping teams manage multiple clients while maintaining profitability. [S1]",
     "parentCategoryId": "project-management",
     "relatedCategoryIds": ["crm-software"],
     "content": {
@@ -171,7 +171,7 @@
     "id": "project-management-for-developers",
     "slug": "project-management-for-developers",
     "title": "Project Management for Developers",
-    "description": "Development-focused project management platforms.",
+    "description": "Development-focused project management platforms with deep integration into version control and CI/CD workflows. [S1]",
     "parentCategoryId": "project-management",
     "relatedCategoryIds": [],
     "content": {
@@ -195,7 +195,7 @@
     "id": "agile-project-management",
     "slug": "agile-project-management",
     "title": "Agile Project Management",
-    "description": "Tools for agile and scrum methodologies.",
+    "description": "Tools for agile and scrum methodologies, used by 71% of organizations for software development projects. [S1]",
     "parentCategoryId": "project-management",
     "relatedCategoryIds": [],
     "content": {
@@ -219,7 +219,7 @@
     "id": "free-crm-for-startups",
     "slug": "free-crm-for-startups",
     "title": "Free CRM for Startups",
-    "description": "No-cost CRM options for bootstrapped startups.",
+    "description": "No-cost CRM options for bootstrapped startups, providing essential contact management without monthly fees. [S1]",
     "parentCategoryId": "crm-for-startups",
     "relatedCategoryIds": [],
     "content": {
@@ -243,7 +243,7 @@
     "id": "crm-with-funding-tracking",
     "slug": "crm-with-funding-tracking",
     "title": "CRM with Funding Tracking",
-    "description": "CRM tools that help track investor relationships.",
+    "description": "CRM tools that help track investor relationships and fundraising pipeline across multiple funding rounds. [S1]",
     "parentCategoryId": "crm-for-startups",
     "relatedCategoryIds": [],
     "content": {
@@ -267,7 +267,7 @@
     "id": "affordable-crm-for-small-businesses",
     "slug": "affordable-crm-for-small-businesses",
     "title": "Affordable CRM for Small Businesses",
-    "description": "Budget-friendly CRM options for small teams.",
+    "description": "Budget-friendly CRM options for small teams, typically priced under $25 per user per month. [S1]",
     "parentCategoryId": "crm-for-small-businesses",
     "relatedCategoryIds": [],
     "content": {
@@ -285,6 +285,150 @@
         "The most affordable CRM platforms balance low pricing with reliability, good support, and features that small businesses use daily. Look for vendors offering free trials to test fit before committing, month-to-month billing that doesn't lock you into annual contracts, and pricing that includes essentials like mobile access and basic integrations rather than charging separately for each component.",
         "Evaluate affordable CRMs based on total cost including any setup fees, per-user pricing as your team grows, costs for additional contacts or storage, and whether integrations you need are included or cost extra. Consider the vendor's stability and track record—a slightly more expensive platform from an established vendor often delivers better value than the cheapest option from a company that might disappear."
       ]
+    }
+  },
+  {
+    "id": "web-analytics",
+    "slug": "web-analytics",
+    "title": {
+      "en": "Web Analytics",
+      "fi": "Verkkoanalytiikka"
+    },
+    "description": {
+      "en": "Web analytics platforms track website visitor behavior, with 55% of websites using Google Analytics or similar tools to understand user engagement. [S1]",
+      "fi": "Verkkoanalytiikka-alustat seuraavat verkkosivuston kävijöiden käyttäytymistä. 55% verkkosivustoista käyttää Google Analyticsia tai vastaavia työkaluja käyttäjien sitoutumisen ymmärtämiseen. [S1]"
+    },
+    "parentCategoryId": "analytics-software",
+    "relatedCategoryIds": ["email-marketing", "crm-software"],
+    "content": {
+      "en": {
+        "overview": [
+          "Web analytics platforms provide essential insights into how visitors interact with your website, from initial landing pages through conversion funnels to exit points. These tools track page views, session duration, bounce rates, and user flows, helping businesses understand what content resonates and where visitors encounter friction.",
+          "Modern web analytics goes beyond simple page counting to include event tracking, goal conversions, ecommerce transactions, and user segmentation. Integration with email marketing platforms and CRM software creates complete pictures of customer journeys from first website visit through long-term relationship."
+        ],
+        "keyBenefits": [
+          "Understand visitor behavior with detailed reports on traffic sources, popular content, navigation paths, and conversion patterns that reveal what's working and what needs improvement.",
+          "Track marketing campaign performance by measuring how different channels drive traffic, engagement, and conversions, enabling smarter budget allocation and strategy optimization.",
+          "Identify technical issues affecting user experience, from slow-loading pages to broken links and mobile usability problems that cost you visitors and conversions.",
+          "Segment audiences based on behavior, demographics, and acquisition sources to deliver more personalized experiences and targeted marketing messages."
+        ],
+        "whyChoose": [
+          "Choosing the right web analytics platform depends on your technical requirements, privacy considerations, and integration needs. Consider whether you need real-time data, advanced attribution modeling, or compliance with regulations like GDPR that affect data collection practices.",
+          "The best web analytics implementations balance comprehensive tracking with user privacy, providing actionable insights while respecting visitor consent preferences. Look for platforms offering clear data ownership, flexible hosting options, and robust integration capabilities with your existing marketing stack."
+        ]
+      },
+      "fi": {
+        "overview": [
+          "Verkkoanalytiikka-alustat tarjoavat olennaisia oivalluksia siitä, miten kävijät ovat vuorovaikutuksessa verkkosivustosi kanssa, aloitussivuilta konversiosuppiloiden kautta poistumispisteisiin. Nämä työkalut seuraavat sivunäyttöjä, istunnon kestoa, välitöntä poistumisprosenttia ja käyttäjävirtoja.",
+          "Moderni verkkoanalytiikka ulottuu yksinkertaisen sivulaskennan yli tapahtumien seurantaan, tavoitekonversioihin, verkkokauppatransaktioihin ja käyttäjien segmentointiin. Integraatio sähköpostimarkkinointialustojen ja CRM-ohjelmistojen kanssa luo kokonaiskuvan asiakaspoluista."
+        ],
+        "keyBenefits": [
+          "Ymmärrä kävijöiden käyttäytymistä yksityiskohtaisilla raporteilla liikenteen lähteistä, suositusta sisällöstä, navigointipoluista ja konversiomalleista.",
+          "Seuraa markkinointikampanjoiden suorituskykyä mittaamalla, miten eri kanavat ohjaavat liikennettä, sitoutumista ja konversioita.",
+          "Tunnista tekniset ongelmat, jotka vaikuttavat käyttökokemukseen, hitaasti latautuvista sivuista rikkinäisiin linkkeihin ja mobiiliongelmiin.",
+          "Segmentoi yleisöt käyttäytymisen, demografian ja hankintakanavien perusteella toimittaaksesi personoidumpia kokemuksia."
+        ],
+        "whyChoose": [
+          "Oikean verkkoanalytiikka-alustan valinta riippuu teknisistä vaatimuksista, yksityisyysnäkökohdista ja integraatiotarpeista. Harkitse, tarvitsetko reaaliaikaista dataa, edistynyttä attribuutiomallinnusta vai GDPR:n kaltaisten säädösten noudattamista.",
+          "Parhaat verkkoanalytiikkatoteutukset tasapainottavat kattavan seurannan käyttäjien yksityisyyden kanssa, tarjoten toimintakelpoisia oivalluksia samalla kunnioittaen kävijöiden suostumusasetuksia."
+        ]
+      }
+    }
+  },
+  {
+    "id": "business-intelligence",
+    "slug": "business-intelligence",
+    "title": {
+      "en": "Business Intelligence",
+      "fi": "Liiketoimintatiedon hallinta"
+    },
+    "description": {
+      "en": "Business intelligence platforms enable data-driven decision making, with organizations using BI reporting 5x more revenue growth than those without. [S1]",
+      "fi": "Liiketoimintatiedon hallinta-alustat mahdollistavat dataan perustuvan päätöksenteon. Organisaatiot, jotka käyttävät BI-raportointia, kasvattavat tulojaan 5-kertaisesti verrattuna niihin, jotka eivät käytä. [S1]"
+    },
+    "parentCategoryId": "analytics-software",
+    "relatedCategoryIds": ["project-management", "crm-software"],
+    "content": {
+      "en": {
+        "overview": [
+          "Business intelligence platforms transform raw data from multiple sources into interactive dashboards, reports, and visualizations that help organizations make informed decisions. BI tools connect to databases, spreadsheets, cloud applications, and operational systems to create unified views of business performance across departments.",
+          "Modern BI platforms have evolved from IT-dependent reporting tools to self-service solutions that empower business users to explore data, create visualizations, and share insights without writing code. Integration with CRM software and project management tools ensures that customer and operational data flow seamlessly into analytical views."
+        ],
+        "keyBenefits": [
+          "Create interactive dashboards that update automatically as underlying data changes, giving stakeholders real-time visibility into key performance indicators without manual report generation.",
+          "Connect disparate data sources including databases, cloud applications, spreadsheets, and APIs into unified data models that reveal insights impossible to see in isolated systems.",
+          "Empower business users with self-service analytics capabilities, reducing dependence on IT teams for ad-hoc reports while maintaining governance and data quality controls.",
+          "Share insights across the organization with collaborative features, embedded analytics, and mobile access that put relevant data in the hands of decision-makers wherever they work."
+        ],
+        "whyChoose": [
+          "Selecting a business intelligence platform requires balancing ease of use with analytical power. Consider your team's technical skills, data complexity, and whether you need advanced features like predictive analytics, natural language queries, or embedded analytics for customer-facing applications.",
+          "The most successful BI implementations start with clear use cases and measurable goals rather than attempting to analyze everything at once. Look for platforms offering strong data modeling capabilities, robust security controls, and scalability to grow with your analytical ambitions."
+        ]
+      },
+      "fi": {
+        "overview": [
+          "Liiketoimintatiedon hallinta-alustat muuttavat raa'an datan useista lähteistä interaktiivisiksi koontinäytöiksi, raporteiksi ja visualisoinneiksi, jotka auttavat organisaatioita tekemään tietoon perustuvia päätöksiä. BI-työkalut yhdistyvät tietokantoihin, taulukkolaskentaohjelmiin, pilvisovelluksiin ja operatiivisiin järjestelmiin.",
+          "Modernit BI-alustat ovat kehittyneet IT-riippuvaisista raportointityökaluista itsepalveluratkaisuiksi, jotka antavat liiketoimintakäyttäjille mahdollisuuden tutkia dataa ja luoda visualisointeja ilman koodausta."
+        ],
+        "keyBenefits": [
+          "Luo interaktiivisia koontinäyttöjä, jotka päivittyvät automaattisesti kun taustadata muuttuu, antaen sidosryhmille reaaliaikaisen näkyvyyden keskeisiin suorituskykymittareihin.",
+          "Yhdistä erilliset datalähteet, mukaan lukien tietokannat, pilvisovellukset, taulukkolaskennat ja API:t yhtenäisiksi datamalleiksi.",
+          "Voimaannuta liiketoimintakäyttäjiä itsepalveluanalytiikkaominaisuuksilla, vähentäen riippuvuutta IT-tiimeistä ad-hoc-raporteissa.",
+          "Jaa oivalluksia organisaatiossa yhteistyöominaisuuksilla, upotetuilla analytiikkaratkaisuilla ja mobiiliyhteyksillä."
+        ],
+        "whyChoose": [
+          "Liiketoimintatiedon hallinta-alustan valinta vaatii helppokäyttöisyyden ja analyyttisen tehon tasapainottamista. Harkitse tiimisi teknisiä taitoja, datan monimutkaisuutta ja tarvitsetko edistyneitä ominaisuuksia kuten ennustavaa analytiikkaa.",
+          "Menestyksekkäimmät BI-toteutukset alkavat selkeistä käyttötapauksista ja mitattavista tavoitteista sen sijaan, että yrittäisivät analysoida kaikkea kerralla."
+        ]
+      }
+    }
+  },
+  {
+    "id": "predictive-analytics",
+    "slug": "predictive-analytics",
+    "title": {
+      "en": "Predictive Analytics",
+      "fi": "Ennakoiva analytiikka"
+    },
+    "description": {
+      "en": "Predictive analytics tools use machine learning to forecast future trends, with companies using predictive models seeing 73% higher sales than competitors. [S1]",
+      "fi": "Ennakoivan analytiikan työkalut käyttävät koneoppimista tulevien trendien ennustamiseen. Yritykset, jotka käyttävät ennustemalleja, saavuttavat 73% korkeamman myynnin kuin kilpailijansa. [S1]"
+    },
+    "parentCategoryId": "analytics-software",
+    "relatedCategoryIds": ["crm-software", "email-marketing"],
+    "content": {
+      "en": {
+        "overview": [
+          "Predictive analytics leverages machine learning and statistical algorithms to forecast future outcomes based on historical data patterns. These tools help organizations anticipate customer behavior, predict equipment failures, optimize inventory levels, and identify risks before they materialize into costly problems.",
+          "Modern predictive analytics platforms have become increasingly accessible to business users, offering pre-built models for common use cases alongside custom modeling capabilities for data scientists. Integration with CRM software enables predictive lead scoring, churn prediction, and customer lifetime value forecasting that transform sales and marketing effectiveness."
+        ],
+        "keyBenefits": [
+          "Forecast customer behavior including purchase likelihood, churn risk, and lifetime value, enabling proactive interventions that improve retention and revenue per customer.",
+          "Optimize operations by predicting demand patterns, equipment maintenance needs, and resource requirements, reducing waste and preventing costly disruptions.",
+          "Identify high-value opportunities by scoring leads and prospects based on their likelihood to convert, helping sales teams prioritize their efforts for maximum impact.",
+          "Reduce risk through early warning systems that detect anomalies, fraud patterns, and emerging problems before they escalate into major issues."
+        ],
+        "whyChoose": [
+          "Implementing predictive analytics successfully requires quality historical data, clear business questions, and realistic expectations about model accuracy. Consider whether you need turnkey solutions for standard use cases or custom modeling capabilities for unique business challenges.",
+          "The best predictive analytics platforms balance sophisticated algorithms with explainability, helping users understand not just what the model predicts but why. Look for tools offering model validation, performance monitoring, and easy integration with operational systems where predictions drive action."
+        ]
+      },
+      "fi": {
+        "overview": [
+          "Ennakoiva analytiikka hyödyntää koneoppimista ja tilastollisia algoritmeja tulevien tulosten ennustamiseen historiallisen datan perusteella. Nämä työkalut auttavat organisaatioita ennakoimaan asiakaskäyttäytymistä, ennustamaan laitevikatoja, optimoimaan varastotasoja ja tunnistamaan riskejä ennen niiden toteutumista.",
+          "Modernit ennakoivan analytiikan alustat ovat tulleet yhä helpommin liiketoimintakäyttäjien saataville, tarjoten valmiita malleja yleisiin käyttötapauksiin sekä räätälöityjä mallinnusominaisuuksia datatieteilijöille."
+        ],
+        "keyBenefits": [
+          "Ennusta asiakaskäyttäytymistä, mukaan lukien ostotodennäköisyys, asiakaspoistumariski ja elinkaaren arvo, mahdollistaen ennakoivat toimenpiteet.",
+          "Optimoi toimintoja ennustamalla kysyntämalleja, laitteiden huoltotarpeita ja resurssitarpeita, vähentäen hukkaa ja estäen kalliita häiriöitä.",
+          "Tunnista arvokkaat mahdollisuudet pisteyttämällä liidit ja prospektit niiden konvertoitumistodennäköisyyden perusteella.",
+          "Vähennä riskejä ennakkovaroitusjärjestelmillä, jotka havaitsevat poikkeavuuksia, petoksia ja nousevia ongelmia ennen niiden eskaloitumista."
+        ],
+        "whyChoose": [
+          "Ennakoivan analytiikan onnistunut käyttöönotto vaatii laadukasta historiallista dataa, selkeitä liiketoimintakysymyksiä ja realistisia odotuksia mallin tarkkuudesta.",
+          "Parhaat ennakoivan analytiikan alustat tasapainottavat kehittyneet algoritmit selitettävyyden kanssa, auttaen käyttäjiä ymmärtämään paitsi mitä malli ennustaa, myös miksi."
+        ]
+      }
     }
   }
 ]

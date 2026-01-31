@@ -3,7 +3,7 @@
     "id": "crm-software",
     "slug": "crm-software",
     "title": "CRM Software",
-    "description": "Customer Relationship Management software helps businesses manage interactions with customers and prospects.",
+    "description": "Customer Relationship Management software helps businesses manage interactions with customers and prospects, with the global CRM market valued at $65.59 billion in 2023. [S1]",
     "subcategoryIds": [
       "crm-for-startups",
       "crm-for-small-businesses",
@@ -39,7 +39,7 @@
     "id": "email-marketing",
     "slug": "email-marketing",
     "title": "Email Marketing",
-    "description": "Email marketing platforms enable businesses to create, send, and track email campaigns.",
+    "description": "Email marketing platforms enable businesses to create, send, and track email campaigns, delivering an average ROI of $36 for every $1 spent. [S1]",
     "subcategoryIds": [
       "email-marketing-for-ecommerce",
       "email-marketing-for-saas",
@@ -79,7 +79,7 @@
     "id": "project-management",
     "slug": "project-management",
     "title": "Project Management",
-    "description": "Project management tools help teams plan, organize, and track work efficiently.",
+    "description": "Project management tools help teams plan, organize, and track work efficiently, with 77% of high-performing projects using PM software. [S1]",
     "subcategoryIds": [
       "project-management-for-agencies",
       "project-management-for-developers",
@@ -102,5 +102,56 @@
       ]
     },
     "ogImageId": "project-management-og"
+  },
+  {
+    "id": "analytics-software",
+    "slug": "analytics-software",
+    "title": {
+      "en": "Analytics Software",
+      "fi": "Analytiikkaohjelmistot"
+    },
+    "description": {
+      "en": "Business analytics platforms help organizations transform data into actionable insights, with the global analytics market projected to reach $103 billion by 2027. [S1]",
+      "fi": "Liiketoiminta-analytiikka-alustat auttavat organisaatioita muuttamaan datan käyttökelpoisiksi oivalluksiksi. Globaalin analytiikkamarkkinan ennustetaan saavuttavan 103 miljardia dollaria vuoteen 2027 mennessä. [S1]"
+    },
+    "subcategoryIds": [
+      "web-analytics",
+      "business-intelligence",
+      "predictive-analytics"
+    ],
+    "content": {
+      "en": {
+        "overview": [
+          "Analytics software has become essential for modern businesses seeking to make data-driven decisions. These platforms collect, process, and visualize data from multiple sources, helping organizations understand customer behavior, optimize operations, and identify growth opportunities that would otherwise remain hidden in spreadsheets and disconnected databases.",
+          "From web analytics tracking user journeys to advanced business intelligence platforms powering executive dashboards, analytics tools serve every level of organizational decision-making. The best platforms integrate seamlessly with CRM software and project management tools to provide holistic views of business performance."
+        ],
+        "keyBenefits": [
+          "Transform raw data into visual dashboards and reports that make complex information accessible to stakeholders across the organization, from executives to front-line managers.",
+          "Track key performance indicators in real-time, enabling faster responses to changing market conditions and emerging opportunities.",
+          "Identify patterns and trends that inform strategic decisions, from product development priorities to marketing channel optimization.",
+          "Connect data from multiple sources including websites, applications, CRM systems, and operational databases into unified analytical views."
+        ],
+        "whyChoose": [
+          "Selecting the right analytics platform depends on your data complexity, technical capabilities, and specific use cases. Consider whether you need real-time analytics, advanced statistical modeling, or primarily historical reporting and dashboards.",
+          "The most effective analytics implementations combine powerful tools with clear data governance, ensuring that insights are both accurate and actionable. Look for platforms that balance sophisticated capabilities with usability for your team's skill levels."
+        ]
+      },
+      "fi": {
+        "overview": [
+          "Analytiikkaohjelmistot ovat tulleet välttämättömiksi nykyaikaisille yrityksille, jotka haluavat tehdä dataan perustuvia päätöksiä. Nämä alustat keräävät, käsittelevät ja visualisoivat tietoja useista lähteistä, auttaen organisaatioita ymmärtämään asiakaskäyttäytymistä, optimoimaan toimintoja ja tunnistamaan kasvumahdollisuuksia.",
+          "Verkkoanalytiikasta käyttäjäpolkujen seurantaan ja edistyneisiin liiketoimintatiedon hallinta-alustoihin, analytiikkatyökalut palvelevat organisaation päätöksentekoa kaikilla tasoilla. Parhaat alustat integroituvat saumattomasti CRM-ohjelmistojen ja projektinhallintatyökalujen kanssa."
+        ],
+        "keyBenefits": [
+          "Muunna raakadata visuaalisiksi koontinäytöiksi ja raporteiksi, jotka tekevät monimutkaisesta tiedosta helposti ymmärrettävää kaikille sidosryhmille johtajista kenttäpäälliköihin.",
+          "Seuraa keskeisiä suorituskykymittareita reaaliajassa, mikä mahdollistaa nopeamman reagoinnin muuttuviin markkinaolosuhteisiin.",
+          "Tunnista malleja ja trendejä, jotka ohjaavat strategisia päätöksiä tuotekehityksen prioriteeteista markkinointikanavien optimointiin.",
+          "Yhdistä tietoja useista lähteistä, mukaan lukien verkkosivustot, sovellukset, CRM-järjestelmät ja operatiiviset tietokannat yhtenäisiksi analyyttisiksi näkymiksi."
+        ],
+        "whyChoose": [
+          "Oikean analytiikka-alustan valinta riippuu datan monimutkaisuudesta, teknisistä valmiuksista ja käyttötarpeista. Harkitse, tarvitsetko reaaliaikaista analytiikkaa, edistynyttä tilastollista mallinnusta vai pääasiassa historiallista raportointia.",
+          "Tehokkaimmat analytiikkatoteutukset yhdistävät tehokkaat työkalut selkeään tiedonhallintaan varmistaen, että oivallukset ovat sekä tarkkoja että toimintakelpoisia."
+        ]
+      }
+    }
   }
 ]

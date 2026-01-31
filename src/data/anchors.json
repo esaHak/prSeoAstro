@@ -1,34 +1,118 @@
 {
   "crm-software": [
-    "CRM software",
     "customer relationship management software",
     "CRM solutions",
-    "CRM platforms"
+    "CRM platforms",
+    "CRM software"
   ],
   "email-marketing": [
     "email marketing platforms",
-    "email marketing",
+    "email marketing tools",
     "email campaign tools",
-    "email marketing tools"
+    "email marketing"
   ],
   "project-management": [
+    "project management platforms",
     "project management software",
     "project management tools",
     "project management",
-    "PM tools",
-    "project management platforms"
+    "PM tools"
   ],
   "crm-for-startups": [
+    "CRM solutions for startups",
+    "startup CRM platforms",
     "CRM for startups",
     "startup CRM"
   ],
   "crm-for-small-businesses": [
+    "small business CRM solutions",
+    "small business CRM platforms",
     "CRM for small businesses",
     "small business CRM"
   ],
+  "crm-for-enterprises": [
+    "enterprise CRM solutions",
+    "enterprise-grade CRM",
+    "CRM for enterprises",
+    "enterprise CRM"
+  ],
+  "email-marketing-for-ecommerce": [
+    "email marketing for online stores",
+    "email marketing for ecommerce",
+    "ecommerce email marketing",
+    "ecommerce email platforms"
+  ],
+  "email-marketing-for-saas": [
+    "email marketing for SaaS companies",
+    "SaaS email marketing platforms",
+    "email marketing for SaaS",
+    "SaaS email marketing"
+  ],
   "email-marketing-automation": [
-    "email automation",
+    "automated email marketing platforms",
     "email marketing automation",
-    "automated email campaigns"
+    "automated email campaigns",
+    "email automation"
+  ],
+  "project-management-for-agencies": [
+    "project management for agencies",
+    "agency project management tools",
+    "agency project management",
+    "PM tools for agencies"
+  ],
+  "project-management-for-developers": [
+    "project management for development teams",
+    "developer project management tools",
+    "project management for developers",
+    "developer PM tools"
+  ],
+  "agile-project-management": [
+    "agile project management platforms",
+    "agile project management tools",
+    "agile project management",
+    "scrum project management",
+    "agile PM tools"
+  ],
+  "free-crm-for-startups": [
+    "free CRM solutions for startups",
+    "free CRM for startups",
+    "no-cost startup CRM",
+    "free startup CRM"
+  ],
+  "crm-with-funding-tracking": [
+    "CRM with investor tracking",
+    "CRM with funding tracking",
+    "investor relationship CRM",
+    "fundraising CRM tools"
+  ],
+  "affordable-crm-for-small-businesses": [
+    "affordable CRM for small businesses",
+    "budget-friendly small business CRM",
+    "affordable small business CRM",
+    "low-cost CRM solutions"
+  ],
+  "analytics-software": [
+    "business analytics platforms",
+    "analytics software solutions",
+    "data analytics tools",
+    "analytics software"
+  ],
+  "web-analytics": [
+    "web analytics platforms",
+    "website analytics tools",
+    "web analytics solutions",
+    "web analytics"
+  ],
+  "business-intelligence": [
+    "business intelligence software",
+    "business intelligence platforms",
+    "BI tools and solutions",
+    "BI platforms"
+  ],
+  "predictive-analytics": [
+    "predictive analytics platforms",
+    "machine learning analytics",
+    "predictive modeling tools",
+    "predictive analytics"
   ]
 }
