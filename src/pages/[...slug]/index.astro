@@ -220,10 +220,10 @@ const linkContext: PageContext = {
 
 // Get localized content from database
 const localizedContent = getLocalizedContentSection(data, locale);
-const content = localizedContent || {};
+const content = localizedContent || {} as Record<string, unknown>;
 
 // Overview content with SEO terminology for internal linking opportunities
-const overviewItems: ContentItem[] = content.overview || [
+const overviewItems: ContentItem[] = (content.overview as ContentItem[]) || [
   `This comprehensive guide covers everything you need to know about ${title.toLowerCase()}. Understanding this topic is essential for anyone working with programmatic SEO, whether you're building scalable content strategies or optimizing existing pages for search engines.`,
   `You'll learn how ${title.toLowerCase()} connects to broader concepts like keyword research, search intent analysis, and content architecture. We'll explore the relationship between technical implementation and content requirements, helping you build a solid foundation for your SEO strategy.`,
   `Whether you're focused on template design, internal linking, or structured data implementation, this resource provides the context you need to make informed decisions about your programmatic SEO approach.`
@@ -231,9 +231,9 @@ const overviewItems: ContentItem[] = content.overview || [
 
 // Key Takeaways content (rendered as list)
 // Title can be customized via content.keyTakeawaysTitle
-const keyTakeawaysTitle = content.keyTakeawaysTitle || 'Key Takeaways';
-const keyTakeaways: string[] = content.keyBenefits
-  ? content.keyBenefits.filter((item): item is string => typeof item === 'string')
+const keyTakeawaysTitle = (content.keyTakeawaysTitle as string) || 'Key Takeaways';
+const keyTakeaways: string[] = (content.keyBenefits as ContentItem[] | undefined)
+  ? (content.keyBenefits as ContentItem[]).filter((item): item is string => typeof item === 'string')
   : [
       `${title} is a core component of successful programmatic SEO`,
       'Connects to keyword research and search intent analysis',
@@ -242,7 +242,7 @@ const keyTakeaways: string[] = content.keyBenefits
     ];
 
 // Why Choose content with SEO terminology for internal linking opportunities
-const whyChooseItems: ContentItem[] = content.whyChoose || [
+const whyChooseItems: ContentItem[] = (content.whyChoose as ContentItem[]) || [
   `Understanding ${title.toLowerCase()} is crucial for building effective programmatic SEO campaigns. This knowledge helps you develop better content requirements, optimize your technical implementation, and create scalable page templates that rank well in search results.`,
   `By mastering ${title.toLowerCase()}, you'll improve your ability to conduct SERP analysis, build topical authority, and implement effective internal linking strategies. These skills are foundational for anyone serious about programmatic SEO success.`
 ];
