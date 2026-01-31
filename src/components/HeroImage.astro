@@ -4,12 +4,8 @@
  * Renders optimized hero image with WebP conversion, responsive srcset,
  * and optional credit link (nofollow for third-party)
  *
- * Features:
- * - Automatic WebP format with fallback
- * - Responsive srcset for different viewport sizes
- * - Priority loading for above-the-fold images
- * - Prevents CLS with explicit dimensions
- * - Accessible credit attribution
+ * Design: Wide format (~3:1 ratio), full-width with rounded corners
+ * Matches the warm, minimal aesthetic of the design system
  */
 import type { ImageWithUrl, OptimizedImage } from '../utils/images/types';
 import { createOptimizedImage } from '../utils/images/optimization';
@@ -29,30 +25,87 @@ const optimizedImage: OptimizedImage = 'webpSrcset' in image
   : createOptimizedImage(image, {
       webp: true,
       srcset: true,
-      sizes: '100vw', // Hero images are full-width
+      sizes: '100vw',
     });
 ---
 
-<div class="hero-image-container" style="margin: 2rem 0;">
-  <OptimizedPicture
-    image={optimizedImage}
-    priority={priority}
-    style="width: 100%; height: auto; border-radius: 8px; display: block;"
-    sizes="100vw"
-  />
+<figure class="hero-image">
+  <div class="hero-image__container">
+    <OptimizedPicture
+      image={optimizedImage}
+      priority={priority}
+      class="hero-image__img"
+      sizes="100vw"
+    />
+  </div>
 
   {image.creditName && image.creditUrl && (
-    <p class="image-credit" style="margin: 0.5rem 0; font-size: 0.875rem; color: #666;">
+    <figcaption class="hero-image__credit">
       Image:
       <a
         href={image.creditUrl}
         rel="nofollow noopener noreferrer"
         target="_blank"
-        style="color: #0066cc;"
+        class="hero-image__credit-link"
       >
         {image.creditName}
       </a>
-      {image.license && ` (${image.license})`}
-    </p>
+      {image.license && <span class="hero-image__license">({image.license})</span>}
+    </figcaption>
   )}
-</div>
+</figure>
+
+<style>
+  .hero-image {
+    width: 100%;
+    margin: 0 auto var(--spacing-8, 2rem);
+    padding: 0 var(--spacing-6, 1.5rem);
+    box-sizing: border-box;
+  }
+
+  .hero-image__container {
+    position: relative;
+    width: 100%;
+    max-width: var(--content-width-wide, 1200px);
+    margin: 0 auto;
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+    background-color: var(--color-bg-secondary, #F5F0E8);
+  }
+
+  .hero-image__container :global(img),
+  .hero-image__container :global(picture) {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-image__credit {
+    margin-top: var(--spacing-3, 0.75rem);
+    font-size: var(--font-size-sm, 0.875rem);
+    color: var(--color-text-light, #999999);
+    text-align: right;
+  }
+
+  .hero-image__credit-link {
+    color: var(--color-accent-teal, #5A9E9E);
+    text-decoration: none;
+    transition: color var(--transition-fast, 150ms ease);
+  }
+
+  .hero-image__credit-link:hover {
+    color: var(--color-accent-teal-hover, #4A8E8E);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .hero-image__license {
+    margin-left: var(--spacing-1, 0.25rem);
+  }
+
+  @media (max-width: 768px) {
+    .hero-image {
+      padding: 0 var(--spacing-4, 1rem);
+    }
+  }
+</style>

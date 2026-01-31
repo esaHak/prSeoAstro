@@ -1,6 +1,9 @@
 ---
-// Root Page - Language Selector
-// Allows users to choose their preferred language
+/**
+ * Root Page - Language Selector
+ * Minimal, centered design matching the warm aesthetic
+ * Allows users to choose their preferred language
+ */
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { resolveOgImage } from '../utils/images';
@@ -21,28 +24,27 @@ const languageOptions = supportedLocales.map(locale => ({
 ---
 
 <BaseLayout
-  title="Programmatic SEO Demo"
-  description="A demonstration of pillar and cluster page structure for programmatic SEO"
+  title="Programmatic SEO Glossary"
+  description="A comprehensive resource for programmatic SEO strategies, techniques, and best practices"
   ogImage={ogImage}
+  hideNav={true}
+  hideFooter={true}
 >
-  <div style="text-align: center; padding: 3rem 1rem;">
-    <h1>Welcome / Tervetuloa</h1>
-    <p style="font-size: 1.2rem; margin: 1.5rem 0 2.5rem;">
-      Please select your language / Valitse kielesi
+  <div class="homepage">
+    <h1 class="homepage__title">Programmatic SEO Glossary</h1>
+    <p class="homepage__subtitle">
+      Select your language to explore our comprehensive SEO resources
     </p>
 
-    <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+    <div class="homepage__languages">
       {languageOptions.map((option) => (
-        <a
-          href={option.url}
-          style="display: block; padding: 2rem 3rem; background: #f9f9f9; border: 2px solid #333; border-radius: 8px; text-decoration: none; color: #333; font-size: 1.3rem; font-weight: 500; transition: all 0.2s ease;"
-        >
+        <a href={option.url} class="homepage__language-btn">
           {option.label}
         </a>
       ))}
     </div>
 
-    <p style="margin-top: 3rem; color: #666; font-size: 0.9rem;">
+    <p class="homepage__note">
       You will be redirected to the homepage in your selected language.
     </p>
   </div>

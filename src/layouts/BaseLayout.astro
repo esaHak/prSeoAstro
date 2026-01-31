@@ -1,12 +1,12 @@
 ---
 /**
  * Base Layout Component
- * Wraps all pages with common HTML structure and SEO meta tags
- * Now includes SEO component for Open Graph and Twitter Cards
- * Supports multi-locale with hreflang and language switcher
+ * Wraps all pages with common HTML structure, navigation, footer, and SEO meta tags
+ * Implements warm, minimal design system with Inter typography
  */
 import SEO from '../components/SEO.astro';
 import LanguageSwitcher from '../components/LanguageSwitcher.astro';
+import '../styles/global.css';
 import type { ImageWithUrl } from '../utils/images/types';
 import type { HreflangLink } from '../utils/i18n';
 import type { Locale } from '../utils/i18n/config';
@@ -21,11 +21,15 @@ interface Props {
   description: string;
   canonical?: string;
   noindex?: boolean;
-  ogImage: ImageWithUrl; // Required from SEO component
+  ogImage: ImageWithUrl;
   pageType?: 'website' | 'article';
   locale?: Locale;
   hreflangLinks?: HreflangLink[];
   alternateUrls?: AlternateUrl[];
+  /** Hide navigation (for homepage) */
+  hideNav?: boolean;
+  /** Hide footer (for homepage) */
+  hideFooter?: boolean;
 }
 
 const {
@@ -37,8 +41,14 @@ const {
   pageType = 'website',
   locale = 'en',
   hreflangLinks = [],
-  alternateUrls = []
+  alternateUrls = [],
+  hideNav = false,
+  hideFooter = false
 } = Astro.props;
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+const currentYear = new Date().getFullYear();
 ---
 
 <!DOCTYPE html>
@@ -54,16 +64,48 @@ const {
       locale={locale}
       hreflangLinks={hreflangLinks}
     />
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
+    {!hideNav && (
+      <nav class="site-nav">
+        <div class="site-nav__inner">
+          <a href={`${base}/${locale}/`} class="site-nav__logo">
+            Programmatic SEO Glossary
+          </a>
+          <ul class="site-nav__links">
+            <!-- Space for future nav items -->
+          </ul>
+        </div>
+      </nav>
+    )}
+
+    {alternateUrls.length > 0 && (
+      <LanguageSwitcher
+        currentLocale={locale}
+        alternateUrls={alternateUrls}
+      />
+    )}
+
     <main>
-      {alternateUrls.length > 0 && (
-        <LanguageSwitcher
-          currentLocale={locale}
-          alternateUrls={alternateUrls}
-        />
-      )}
       <slot />
     </main>
+
+    {!hideFooter && (
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <ul class="site-footer__links">
+            <li><a href={`${base}/${locale}/`} class="site-footer__link">Home</a></li>
+            <!-- Space for future footer links -->
+          </ul>
+          <p class="site-footer__copyright">
+            &copy; {currentYear} SEO Knowledge Base. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    )}
   </body>
 </html>

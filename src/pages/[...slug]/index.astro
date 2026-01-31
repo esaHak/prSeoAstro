@@ -1,11 +1,19 @@
 ---
-// Dynamic page template using relational database structure
-// Generates pages for categories and subcategories with cross-references
-// Now supports multi-locale content with optional per-page variants
+/**
+ * Dynamic page template for categories and subcategories
+ * Implements the warm, minimal design system with:
+ * - Hero section with featured image
+ * - Breadcrumb navigation
+ * - Body content with internal linking
+ * - Key takeaways section
+ * - Child categories card grid (3-col responsive)
+ * - Related categories section
+ */
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
 import ContentRenderer from '../../components/ContentRenderer.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
 import BreadcrumbSchema from '../../components/schemas/BreadcrumbSchema.astro';
 import WebPageSchema from '../../components/schemas/WebPageSchema.astro';
 import FAQPageSchema from '../../components/schemas/FAQPageSchema.astro';
@@ -14,8 +22,9 @@ import SoftwareApplicationSchema from '../../components/schemas/SoftwareApplicat
 import AggregateRatingSchema from '../../components/schemas/AggregateRatingSchema.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
-import { resolveOgImage, resolveHeroImage } from '../../utils/images';
+import { resolveOgImage, resolveHeroImage, withAbsoluteUrl, loadImageById } from '../../utils/images';
 import type { ContentItem } from '../../utils/videos/types';
+import type { ImageWithUrl } from '../../utils/images/types';
 import {
   getAvailableLocalesForEntity,
   getLocalizedField,
@@ -26,19 +35,14 @@ import {
 import { getLocalizedRichResults } from '../../utils/schemas';
 
 // Generate all static paths from relational database
-// Now includes locale-specific routes
-// Filters out draft and archived content
 export function getStaticPaths() {
-  // Helper to check if content should be published
   const isPublished = (entity: Category | Subcategory): boolean => {
-    // Default to published if no status is set
     return !entity.status || entity.status === 'published';
   };
 
   const paths = [];
 
   // Add all category pages (with locale variants)
-  // Only include published content
   for (const category of DB.getAllCategories()) {
     if (!isPublished(category)) continue;
 
@@ -57,7 +61,6 @@ export function getStaticPaths() {
   }
 
   // Add all subcategory pages (with locale variants)
-  // Only include published content
   for (const subcategory of DB.getAllSubcategories()) {
     if (!isPublished(subcategory)) continue;
 
@@ -81,7 +84,6 @@ export function getStaticPaths() {
 
 const { type, data, locale } = Astro.props;
 const rawBase = import.meta.env.BASE_URL;
-// Normalize base to never have trailing slash for consistent URL building
 const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
 const siteBase = Astro.site?.toString().replace(/\/$/, '') || 'https://prseoastro.pages.dev';
 
@@ -100,24 +102,44 @@ const title = getLocalizedField<string>(data, 'title', locale) || data.id;
 const description = getLocalizedField<string>(data, 'description', locale) || '';
 
 // Build page-specific data based on type
+interface ChildItem {
+  title: string;
+  description: string;
+  url: string;
+  image: ImageWithUrl | null;
+}
+
 let breadcrumbs: Array<{ title: string; url: string }>;
-let childItems: Array<{ title: string; description: string; url: string }> = [];
-let relatedCategories: Category[] = [];
+let childItems: ChildItem[] = [];
+let relatedItems: ChildItem[] = [];
 let parentCategory: Category | undefined;
 
 if (type === 'category') {
   const category = data as Category;
   breadcrumbs = [{ title, url: `/${locale}/${category.slug}/` }];
 
-  // Get subcategories for this category (only if they have the current locale)
+  // Get subcategories for this category
   const subcategories = DB.getSubcategoriesByCategory(category.id);
   childItems = subcategories
     .filter(sub => getAvailableLocalesForEntity(sub).includes(locale))
-    .map(sub => ({
-      title: getLocalizedField<string>(sub, 'title', locale) || sub.id,
-      description: getLocalizedField<string>(sub, 'description', locale) || '',
-      url: buildLocalizedUrl(locale, sub, base)
-    }));
+    .map(sub => {
+      // Try to get hero image for the subcategory
+      let image: ImageWithUrl | null = null;
+      if (sub.heroImageId) {
+        const img = loadImageById(sub.heroImageId);
+        if (img) image = withAbsoluteUrl(img, siteBase);
+      } else if (sub.ogImageId) {
+        const img = loadImageById(sub.ogImageId);
+        if (img) image = withAbsoluteUrl(img, siteBase);
+      }
+
+      return {
+        title: getLocalizedField<string>(sub, 'title', locale) || sub.id,
+        description: getLocalizedField<string>(sub, 'description', locale) || '',
+        url: buildLocalizedUrl(locale, sub, base),
+        image
+      };
+    });
 } else {
   const subcategory = data as Subcategory;
 
@@ -135,36 +157,59 @@ if (type === 'category') {
     };
   });
 
-  // Get child subcategories (only if they have the current locale)
+  // Get child subcategories
   const children = DB.getChildSubcategories(subcategory);
   childItems = children
     .filter(child => getAvailableLocalesForEntity(child).includes(locale))
-    .map(child => ({
-      title: getLocalizedField<string>(child, 'title', locale) || child.id,
-      description: getLocalizedField<string>(child, 'description', locale) || '',
-      url: buildLocalizedUrl(locale, child, base)
-    }));
+    .map(child => {
+      let image: ImageWithUrl | null = null;
+      if (child.heroImageId) {
+        const img = loadImageById(child.heroImageId);
+        if (img) image = withAbsoluteUrl(img, siteBase);
+      } else if (child.ogImageId) {
+        const img = loadImageById(child.ogImageId);
+        if (img) image = withAbsoluteUrl(img, siteBase);
+      }
 
-  // Get related categories (only if they have the current locale)
-  relatedCategories = DB.getRelatedCategories(subcategory)
+      return {
+        title: getLocalizedField<string>(child, 'title', locale) || child.id,
+        description: getLocalizedField<string>(child, 'description', locale) || '',
+        url: buildLocalizedUrl(locale, child, base),
+        image
+      };
+    });
+
+  // Get related categories
+  const relatedCategories = DB.getRelatedCategories(subcategory)
     .filter(cat => getAvailableLocalesForEntity(cat).includes(locale));
+
+  relatedItems = relatedCategories.map(cat => {
+    let image: ImageWithUrl | null = null;
+    if (cat.heroImageId) {
+      const img = loadImageById(cat.heroImageId);
+      if (img) image = withAbsoluteUrl(img, siteBase);
+    } else if (cat.ogImageId) {
+      const img = loadImageById(cat.ogImageId);
+      if (img) image = withAbsoluteUrl(img, siteBase);
+    }
+
+    return {
+      title: getLocalizedField<string>(cat, 'title', locale) || cat.id,
+      description: getLocalizedField<string>(cat, 'description', locale) || '',
+      url: buildLocalizedUrl(locale, cat, base),
+      image
+    };
+  });
 
   // Get parent category for image fallback
   parentCategory = DB.getCategoryById(subcategory.parentCategoryId);
 }
 
-// Pre-compute related category items for rendering
-const relatedItems = relatedCategories.map(cat => ({
-  title: getLocalizedField<string>(cat, 'title', locale) || cat.id,
-  description: getLocalizedField<string>(cat, 'description', locale) || '',
-  url: buildLocalizedUrl(locale, cat, base)
-}));
-
 // Resolve images with fallback chain
 const ogImage = resolveOgImage(data, parentCategory, siteBase);
 const heroImage = resolveHeroImage(data, siteBase);
 
-// Build page context for internal linking (now includes locale)
+// Build page context for internal linking
 const linkContext: PageContext = {
   type,
   entity: data,
@@ -173,28 +218,33 @@ const linkContext: PageContext = {
   locale
 };
 
-// Get localized content from database or use fallback templates
+// Get localized content from database
 const localizedContent = getLocalizedContentSection(data, locale);
 const content = localizedContent || {};
 
-// Overview content - now supports ContentItem[] (strings or video blocks)
+// Overview content with SEO terminology for internal linking opportunities
 const overviewItems: ContentItem[] = content.overview || [
-  `This comprehensive guide covers everything you need to know about ${title.toLowerCase()}, including key features, implementation strategies, and best practices for success. We've compiled detailed information and expert recommendations to help you make informed decisions about your tools and workflows.`,
-  `Whether you're just getting started with your first implementation or looking to optimize your existing setup, you'll find valuable insights throughout this resource. Our research-backed approach ensures you have access to accurate, reliable information that can guide your decision-making process effectively, helping you choose the right solutions for your specific needs and business objectives.`
+  `This comprehensive guide covers everything you need to know about ${title.toLowerCase()}. Understanding this topic is essential for anyone working with programmatic SEO, whether you're building scalable content strategies or optimizing existing pages for search engines.`,
+  `You'll learn how ${title.toLowerCase()} connects to broader concepts like keyword research, search intent analysis, and content architecture. We'll explore the relationship between technical implementation and content requirements, helping you build a solid foundation for your SEO strategy.`,
+  `Whether you're focused on template design, internal linking, or structured data implementation, this resource provides the context you need to make informed decisions about your programmatic SEO approach.`
 ];
 
-// Key Benefits content - still rendered as list items (does not support video blocks)
-const keyBenefitsHtml = content.keyBenefits
-  ? content.keyBenefits.filter(item => typeof item === 'string').map(b => `<li>${b}</li>`).join('\n')
-  : `<li>Comprehensive coverage of ${title.toLowerCase()}</li>
-     <li>Up-to-date information and best practices</li>
-     <li>Practical examples and use cases</li>
-     <li>Expert recommendations and insights</li>`;
+// Key Takeaways content (rendered as list)
+// Title can be customized via content.keyTakeawaysTitle
+const keyTakeawaysTitle = content.keyTakeawaysTitle || 'Key Takeaways';
+const keyTakeaways: string[] = content.keyBenefits
+  ? content.keyBenefits.filter((item): item is string => typeof item === 'string')
+  : [
+      `${title} is a core component of successful programmatic SEO`,
+      'Connects to keyword research and search intent analysis',
+      'Impacts template design and content architecture decisions',
+      'Essential for building topical authority at scale'
+    ];
 
-// Why Choose content - now supports ContentItem[] (strings or video blocks)
+// Why Choose content with SEO terminology for internal linking opportunities
 const whyChooseItems: ContentItem[] = content.whyChoose || [
-  `When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.`,
-  `Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints.`
+  `Understanding ${title.toLowerCase()} is crucial for building effective programmatic SEO campaigns. This knowledge helps you develop better content requirements, optimize your technical implementation, and create scalable page templates that rank well in search results.`,
+  `By mastering ${title.toLowerCase()}, you'll improve your ability to conduct SERP analysis, build topical authority, and implement effective internal linking strategies. These skills are foundational for anyone serious about programmatic SEO success.`
 ];
 
 // Build breadcrumb items for schema (including Home)
@@ -214,7 +264,6 @@ const dateModified = data.dateModified;
 const richResults = getLocalizedRichResults(data.richResults, locale);
 
 // Determine if page should be noindexed
-// Archived pages are kept but not indexed; draft pages are excluded entirely
 const shouldNoindex = data.status === 'archived';
 ---
 
@@ -227,6 +276,7 @@ const shouldNoindex = data.status === 'archived';
   alternateUrls={alternateUrls}
   noindex={shouldNoindex}
 >
+  <!-- Structured Data Schemas -->
   <BreadcrumbSchema items={schemaBreadcrumbs} siteBase={siteBase} />
   <WebPageSchema
     title={title}
@@ -239,7 +289,6 @@ const shouldNoindex = data.status === 'archived';
     dateModified={dateModified}
   />
 
-  {/* Rich Results Schemas - only render if data exists */}
   {richResults?.faq && richResults.faq.length > 0 && (
     <FAQPageSchema items={richResults.faq} />
   )}
@@ -293,89 +342,113 @@ const shouldNoindex = data.status === 'archived';
     />
   )}
 
-  <nav>
-    <a href={base}>Home</a>
-    {breadcrumbs.slice(0, -1).map((crumb) => (
-      <>
-        {' → '}
-        <a href={crumb.url}>{crumb.title}</a>
-      </>
-    ))}
-  </nav>
-
-  <h1>{title}</h1>
-  <p style="font-size: 1.1rem; line-height: 1.6;">{description}</p>
-
+  <!-- Hero Section -->
   {heroImage && <HeroImage image={heroImage} />}
 
-  <section style="margin: 2rem 0;">
-    <h2>Overview</h2>
-    <ContentRenderer items={overviewItems} linkContext={linkContext} />
-  </section>
+  <!-- Breadcrumbs -->
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a href={`${base}/${locale}/`} class="breadcrumbs__link">Home</a>
+        <span class="breadcrumbs__separator" aria-hidden="true">/</span>
+      </li>
+      {breadcrumbs.slice(0, -1).map((crumb) => (
+        <li class="breadcrumbs__item">
+          <a href={crumb.url} class="breadcrumbs__link">{crumb.title}</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">/</span>
+        </li>
+      ))}
+      <li class="breadcrumbs__item">
+        <span class="breadcrumbs__current" aria-current="page">
+          {breadcrumbs[breadcrumbs.length - 1]?.title || title}
+        </span>
+      </li>
+    </ol>
+  </nav>
 
+  <!-- Page Title -->
+  <header class="page-header">
+    <h1 class="page-header__title">{title}</h1>
+    <p class="page-header__description">{description}</p>
+  </header>
+
+  <!-- Main Content -->
+  <article class="content-body">
+    <section>
+      <h2>Overview</h2>
+      <ContentRenderer items={overviewItems} linkContext={linkContext} />
+    </section>
+
+    <!-- Key Takeaways -->
+    <aside class="takeaways">
+      <h3 class="takeaways__title">{keyTakeawaysTitle}</h3>
+      <ul class="takeaways__list">
+        {keyTakeaways.map((item) => (
+          <li class="takeaways__item">{item}</li>
+        ))}
+      </ul>
+    </aside>
+
+    <section>
+      <h2>Why Choose {title}?</h2>
+      <ContentRenderer items={whyChooseItems} linkContext={linkContext} />
+    </section>
+  </article>
+
+  <!-- Child Categories Grid -->
   {childItems.length > 0 && (
-    <section style="margin: 2rem 0;">
-      <h2>Explore {title} Topics</h2>
-      <p style="margin-bottom: 1.5rem;">Dive deeper into specific aspects of {title.toLowerCase()} with our detailed guides below:</p>
-
-      <div>
+    <section class="card-section">
+      <header class="card-section__header">
+        <h2 class="card-section__title">Explore {title} Topics</h2>
+        <p class="card-section__description">
+          Dive deeper into specific aspects of {title.toLowerCase()} with our detailed guides.
+        </p>
+      </header>
+      <div class="card-grid">
         {childItems.map((item) => (
-          <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
-            <h3 style="margin-top: 0;">
-              <a href={item.url} style="text-decoration: none; color: #0066cc;">
-                {item.title}
-              </a>
-            </h3>
-            <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
-              {item.description}
-            </p>
-            <p style="margin: 0.75rem 0 0 0;">
-              <a href={item.url} style="color: #0066cc;">
-                Learn more about {item.title.toLowerCase()} →
-              </a>
-            </p>
-          </article>
+          <CategoryCard
+            title={item.title}
+            description={item.description}
+            url={item.url}
+            image={item.image}
+          />
         ))}
       </div>
     </section>
   )}
 
+  <!-- Related Categories Section -->
   {relatedItems.length > 0 && (
-    <section style="margin: 2rem 0; padding: 1.5rem; background: #e8f4f8; border-radius: 8px;">
-      <h2>Related Topics</h2>
-      <p style="margin-bottom: 1rem;">You might also be interested in these related categories:</p>
-      <ul style="line-height: 1.8;">
-        {relatedItems.map((item) => (
-          <li>
-            <a href={item.url} style="color: #0066cc;">
-              {item.title}
-            </a>
-            {' - '}
-            {item.description}
-          </li>
-        ))}
-      </ul>
+    <section class="card-section card-section--related">
+      <div class="card-section__inner">
+        <header class="card-section__header">
+          <h2 class="card-section__title">Related Topics</h2>
+          <p class="card-section__description">
+            You might also be interested in these related categories.
+          </p>
+        </header>
+        <div class="card-grid">
+          {relatedItems.map((item) => (
+            <CategoryCard
+              title={item.title}
+              description={item.description}
+              url={item.url}
+              image={item.image}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   )}
 
-  <section style="margin: 2rem 0;">
-    <h2>Key Benefits</h2>
-    <ul style="line-height: 1.8;">
-      <Fragment set:html={keyBenefitsHtml} />
-    </ul>
-  </section>
-
-  <section style="margin: 2rem 0;">
-    <h2>Why Choose {title}?</h2>
-    <ContentRenderer items={whyChooseItems} linkContext={linkContext} />
-  </section>
-
-  <hr />
-  {breadcrumbs.length > 1 ? (
-    <a href={breadcrumbs[breadcrumbs.length - 2].url}>
-      ← Back to {breadcrumbs[breadcrumbs.length - 2].title}
-    </a>
-  ) : (
-    <a href={base}>← Back to Home</a>
-  )}
+  <!-- Back Navigation -->
+  <div class="back-link">
+    {breadcrumbs.length > 1 ? (
+      <a href={breadcrumbs[breadcrumbs.length - 2].url}>
+        ← Back to {breadcrumbs[breadcrumbs.length - 2].title}
+      </a>
+    ) : (
+      <a href={`${base}/${locale}/`}>← Back to Home</a>
+    )}
+  </div>
 </BaseLayout>

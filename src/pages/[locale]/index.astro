@@ -1,17 +1,21 @@
 ---
-// Locale-specific Homepage
-// Lists all top-level categories in the current locale
+/**
+ * Locale-specific Homepage
+ * Lists all top-level categories in the current locale
+ * Uses the warm, minimal design system with card grid layout
+ */
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
 import OrganizationSchema from '../../components/schemas/OrganizationSchema.astro';
 import { DB } from '../../utils/db';
-import { resolveOgImage } from '../../utils/images';
+import { resolveOgImage, loadImageById, withAbsoluteUrl } from '../../utils/images';
+import type { ImageWithUrl } from '../../utils/images/types';
 import {
   supportedLocales,
   getLocalizedField,
   getAvailableLocalesForEntity,
   buildLocalizedUrl,
-  buildHreflangLinks,
   type Locale
 } from '../../utils/i18n';
 
@@ -37,7 +41,6 @@ const hreflangLinks = [
     hreflang: loc,
     href: `${normalizedSiteBase}/${loc}/`
   })),
-  // Add x-default pointing to English version
   {
     hreflang: 'x-default',
     href: `${normalizedSiteBase}/en/`
@@ -50,37 +53,54 @@ const alternateUrls = supportedLocales.map(loc => ({
   url: `/${loc}/`
 }));
 
-// Pre-compute category data with localized fields
-// Only include categories that have content in the current locale
-const categoryItems = categories
+// Pre-compute category data with localized fields and images
+interface CategoryItem {
+  title: string;
+  description: string;
+  url: string;
+  image: ImageWithUrl | null;
+}
+
+const categoryItems: CategoryItem[] = categories
   .filter(category => getAvailableLocalesForEntity(category).includes(locale))
-  .map((category) => ({
-    title: getLocalizedField<string>(category, 'title', locale) || category.id,
-    description: getLocalizedField<string>(category, 'description', locale) || '',
-    url: buildLocalizedUrl(locale, category, base)
-  }));
+  .map((category) => {
+    // Try to get hero or OG image for the category
+    let image: ImageWithUrl | null = null;
+    if (category.heroImageId) {
+      const img = loadImageById(category.heroImageId);
+      if (img) image = withAbsoluteUrl(img, siteBase);
+    } else if (category.ogImageId) {
+      const img = loadImageById(category.ogImageId);
+      if (img) image = withAbsoluteUrl(img, siteBase);
+    }
+
+    return {
+      title: getLocalizedField<string>(category, 'title', locale) || category.id,
+      description: getLocalizedField<string>(category, 'description', locale) || '',
+      url: buildLocalizedUrl(locale, category, base),
+      image
+    };
+  });
 
 // Localized page content
 const pageContent = {
   en: {
-    title: 'Programmatic SEO Demo',
-    description: 'A demonstration of pillar and cluster page structure for programmatic SEO',
-    intro: 'This site demonstrates a pillar and cluster content structure for programmatic SEO. Explore our comprehensive guides on various software tools and platforms.',
-    browseTitle: 'Browse Our Guides',
-    browseIntro: 'Select a topic below to discover in-depth information, comparisons, and recommendations:',
-    explore: 'Explore',
-    aboutTitle: 'About This Site',
-    aboutText: 'This demonstration showcases how programmatic SEO can be implemented using Astro with a hierarchical content structure. Each page is statically generated from JSON data, ensuring fast load times and excellent SEO performance.'
+    title: 'Programmatic SEO Glossary',
+    description: 'A comprehensive resource for programmatic SEO strategies, techniques, and best practices',
+    intro: 'Welcome to our comprehensive programmatic SEO glossary. Explore in-depth guides on various topics, strategies, and best practices to help you succeed.',
+    browseTitle: 'Explore Topics',
+    browseIntro: 'Select a topic below to discover in-depth information and expert recommendations.',
+    aboutTitle: 'About This Resource',
+    aboutText: 'This glossary is designed to provide you with comprehensive, well-researched information on programmatic SEO. Each page is carefully structured to help you find exactly what you need, with clear navigation and related content suggestions.'
   },
   fi: {
-    title: 'Ohjelmallinen SEO Demo',
-    description: 'Esittely pilari- ja klusterisivurakenteesta ohjelmalliseen hakukoneoptimointiin',
-    intro: 'Tämä sivusto esittelee pilari- ja klusterisisältörakennetta ohjelmalliseen hakukoneoptimointiin. Tutustu kattaviin oppaisiin erilaisista ohjelmistotyökaluista ja alustoista.',
-    browseTitle: 'Selaa oppaitamme',
-    browseIntro: 'Valitse aihe alta löytääksesi syvällistä tietoa, vertailuja ja suosituksia:',
-    explore: 'Tutustu',
-    aboutTitle: 'Tietoa sivustosta',
-    aboutText: 'Tämä esittely näyttää, miten ohjelmallinen hakukoneoptimointi voidaan toteuttaa Astrolla hierarkkisella sisältörakenteella. Jokainen sivu generoidaan staattisesti JSON-datasta, mikä takaa nopeat latausajat ja erinomaisen SEO-suorituskyvyn.'
+    title: 'Ohjelmallisen SEO:n sanasto',
+    description: 'Kattava resurssi ohjelmalliseen hakukoneoptimointiin',
+    intro: 'Tervetuloa kattavaan ohjelmallisen SEO:n sanastoomme. Tutustu syvällisiin oppaisiin eri aiheista, strategioista ja parhaista käytännöistä menestyksesi tueksi.',
+    browseTitle: 'Selaa aiheita',
+    browseIntro: 'Valitse aihe alta löytääksesi syvällistä tietoa ja asiantuntijasuosituksia.',
+    aboutTitle: 'Tietoa resurssista',
+    aboutText: 'Tämä sanasto on suunniteltu tarjoamaan kattavaa, hyvin tutkittua tietoa ohjelmallisesta hakukoneoptimoinnista. Jokainen sivu on huolellisesti jäsennelty auttamaan sinua löytämään juuri sen, mitä tarvitset, selkeällä navigoinnilla ja aiheeseen liittyvillä sisältösuosituksilla.'
   }
 };
 
@@ -96,36 +116,38 @@ const content = pageContent[locale] || pageContent.en;
   alternateUrls={alternateUrls}
 >
   <OrganizationSchema siteBase={siteBase} />
-  <h1>{content.title}</h1>
-  <p style="font-size: 1.1rem; line-height: 1.6;">{content.intro}</p>
 
-  <section style="margin: 2rem 0;">
-    <h2>{content.browseTitle}</h2>
-    <p style="margin-bottom: 1.5rem;">{content.browseIntro}</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">{content.title}</h1>
+      <p class="hero__description">{content.intro}</p>
+    </div>
+  </section>
 
-    <div>
+  <!-- Categories Grid -->
+  <section class="card-section">
+    <header class="card-section__header">
+      <h2 class="card-section__title">{content.browseTitle}</h2>
+      <p class="card-section__description">{content.browseIntro}</p>
+    </header>
+    <div class="card-grid">
       {categoryItems.map((item) => (
-        <article style="margin-bottom: 2rem; padding: 1.5rem; background: #f9f9f9; border-left: 4px solid #333;">
-          <h3 style="margin-top: 0;">
-            <a href={item.url} style="text-decoration: none; color: #0066cc;">
-              {item.title}
-            </a>
-          </h3>
-          <p style="margin: 0.75rem 0 0 0; color: #555; line-height: 1.6;">
-            {item.description}
-          </p>
-          <p style="margin: 0.75rem 0 0 0;">
-            <a href={item.url} style="color: #0066cc;">
-              {content.explore} {item.title} →
-            </a>
-          </p>
-        </article>
+        <CategoryCard
+          title={item.title}
+          description={item.description}
+          url={item.url}
+          image={item.image}
+        />
       ))}
     </div>
   </section>
 
-  <section style="margin: 2rem 0;">
-    <h2>{content.aboutTitle}</h2>
-    <p>{content.aboutText}</p>
-  </section>
+  <!-- About Section -->
+  <article class="content-body">
+    <section>
+      <h2>{content.aboutTitle}</h2>
+      <p>{content.aboutText}</p>
+    </section>
+  </article>
 </BaseLayout>

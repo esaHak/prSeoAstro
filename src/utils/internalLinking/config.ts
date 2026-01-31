@@ -52,21 +52,21 @@ export const defaultConfig: InternalLinkingConfig = {
 
   maxLinksPerPage: 5,
   linksPerWords: 100, // 1 link per 100 words (more permissive)
-  minWordsBeforeLinking: 80, // Lower threshold for shorter pages
+  minWordsBeforeLinking: 50, // Lower threshold for shorter pages
 
   dedupeAnchors: true,
   allowSelfLink: false,
 
   relationPolicy: {
-    excludeHierarchyByDefault: true,
-    includeRelations: ['relatedCategoryIds'],
-    excludeRelations: ['parent', 'child', 'ancestor', 'descendant'],
+    excludeHierarchyByDefault: false, // Allow more linking opportunities
+    includeRelations: [], // Empty means all relations allowed (except excludeRelations)
+    excludeRelations: ['parent', 'ancestor'], // Only exclude direct parents and ancestors
   },
 
   anchorPolicy: {
     source: 'both',
     synonymsFile: 'src/data/anchors.json',
-    maxAnchorsPerTarget: 3,
+    maxAnchorsPerTarget: 5,
     match: 'phrase',
     caseSensitive: false,
   },
@@ -79,6 +79,6 @@ export const defaultConfig: InternalLinkingConfig = {
   placementPolicy: {
     oneLinkPerParagraph: false,
     skipFirstParagraph: false,
-    minParagraphWords: 15,
+    minParagraphWords: 10,
   },
 };
