@@ -19,7 +19,6 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.7.0",
-    "@rollup/rollup-linux-arm64-gnu": "^4.57.1",
     "typescript": "^5.7.3",
     "vitest": "^2.1.0"
   }
