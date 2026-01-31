@@ -1,10 +1,10 @@
 [
   {
-    "id": "example-youtube-1",
+    "id": "programmatic-seo-examples-video",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "title": "Example YouTube Video",
-    "description": "This is an example YouTube video for demonstration purposes",
+    "url": "https://www.youtube.com/watch?v=PLACEHOLDER_VIDEO_ID",
+    "title": "Programmatic SEO Success Stories - Zapier, Tripadvisor, Canva, Wise",
+    "description": "Analysis of how top companies use programmatic SEO to generate millions of organic visitors",
     "aspectRatio": "16/9",
     "privacy": {
       "mode": "lite"
@@ -12,17 +12,6 @@
     "params": {
       "autoplay": false,
       "mute": false
-    }
-  },
-  {
-    "id": "example-vimeo-1",
-    "platform": "vimeo",
-    "url": "https://vimeo.com/148751763",
-    "title": "Example Vimeo Video",
-    "description": "This is an example Vimeo video",
-    "aspectRatio": "16/9",
-    "params": {
-      "autoplay": false
     }
   }
 ]

@@ -1,160 +1,140 @@
 [
   {
-    "id": "crm-software",
-    "slug": "crm-software",
-    "title": "CRM Software",
-    "description": "Customer Relationship Management software helps businesses manage interactions with customers and prospects, with the global CRM market valued at $65.59 billion in 2023. [S1]",
+    "id": "programmatic-seo",
+    "slug": "programmatic-seo",
+    "title": "Programmatic SEO: The Complete Guide to Scalable Search",
+    "description": "Master programmatic SEO with this comprehensive guide. Learn how companies like Zapier and Tripadvisor generate millions of visitors through template-based, data-driven content at scale.",
     "subcategoryIds": [
-      "crm-for-startups",
-      "crm-for-small-businesses",
-      "crm-for-enterprises"
+      "foundational-concepts",
+      "strategic-planning",
+      "keyword-research",
+      "search-intent-analysis",
+      "topical-authority",
+      "serp-analysis",
+      "content-requirements",
+      "template-design",
+      "internal-linking",
+      "structured-data",
+      "technical-implementation",
+      "tools",
+      "monitoring"
     ],
-    "datePublished": "2024-01-15",
-    "dateModified": "2025-01-30",
+    "relatedCategoryIds": [
+      "foundational-concepts",
+      "strategic-planning",
+      "content-requirements",
+      "template-design",
+      "technical-implementation"
+    ],
+    "datePublished": "2026-01-31",
     "status": "published",
     "content": {
       "overview": [
-        "Customer Relationship Management (CRM) software has become essential for businesses of all sizes looking to streamline customer interactions, improve sales processes, and deliver exceptional customer experiences. Modern CRM platforms combine contact management, sales automation, marketing tools, and analytics into unified systems that help teams work more efficiently.",
-        {
-          "type": "video",
-          "videoId": "example-youtube-1",
-          "caption": "Watch a quick introduction to CRM software",
-          "variant": "inline",
-          "mode": "lite"
-        },
-        "Whether you're managing a handful of customers or thousands of enterprise accounts, the right CRM solution can transform how your business operates. From tracking customer communications to forecasting revenue and automating workflows, CRM software provides the foundation for sustainable growth and customer retention."
-      ],
-      "keyBenefits": [
-        "Centralize all customer data in one accessible platform, eliminating scattered spreadsheets and fragmented information across different tools and email chains.",
-        "Automate repetitive tasks like data entry, follow-up reminders, and email sequences, freeing your team to focus on building relationships and closing deals.",
-        "Gain actionable insights through analytics and reporting features that help you understand customer behavior, track sales performance, and identify growth opportunities.",
-        "Improve team collaboration with shared access to customer information, communication history, and deal status, ensuring everyone stays aligned on customer needs."
-      ],
-      "whyChoose": [
-        "Choosing the right CRM software depends on your business size, industry, and specific requirements. Consider factors like ease of use, integration capabilities with existing tools such as project management software and email marketing platforms, customization options, and scalability to support future growth.",
-        "The best CRM solutions offer flexible pricing models, robust mobile access, and strong security features to protect sensitive customer data. Many platforms now provide industry-specific features, AI-powered insights, and extensive integration ecosystems that connect with hundreds of business applications."
-      ]
-    },
-    "ogImageId": "crm-og",
-    "heroImageId": "crm-hero"
-  },
-  {
-    "id": "email-marketing",
-    "slug": "email-marketing",
-    "title": "Email Marketing",
-    "description": "Email marketing platforms enable businesses to create, send, and track email campaigns, delivering an average ROI of $36 for every $1 spent. [S1]",
-    "subcategoryIds": [
-      "email-marketing-for-ecommerce",
-      "email-marketing-for-saas",
-      "email-marketing-automation"
-    ],
-    "content": {
-      "overview": [
-        "Email marketing remains one of the most effective digital marketing channels, delivering an average ROI of $36 for every dollar spent. Modern email marketing platforms go far beyond simple bulk email sending, offering sophisticated automation, personalization, segmentation, and analytics capabilities that help businesses engage customers throughout their entire lifecycle.",
+        "Tripadvisor has over 700 million pages indexed in Google. Zapier attracts more than 16 million organic visitors monthly. Canva generates over 100 million visits through search alone. These companies share a common strategy: programmatic SEO. Rather than manually writing each page, they use templates, databases, and automation to create thousands or millions of unique, search-optimized pages that capture long-tail traffic at scale.",
         {
           "type": "image",
-          "imageId": "example-inline-remote",
-          "caption": "Email marketing campaign dashboard",
+          "imageId": "programmatic-seo-hero-diagram",
+          "caption": "How programmatic SEO transforms data into search traffic at scale",
           "align": "center"
         },
+        "Programmatic SEO is the systematic creation of large volumes of web pages using templates, structured data, and automated content generation. Each page targets a specific search query or query pattern, and the content is populated dynamically from a database rather than written individually. The approach works when you have unique data assets, clear keyword patterns with search demand, and the ability to provide genuine value to searchers on every page.",
+        "This guide covers everything you need to build a successful programmatic SEO strategy. From foundational concepts and strategic planning through technical implementation and ongoing optimization, each section builds on the previous to give you a complete framework for scaling search traffic responsibly and sustainably."
+      ],
+      "whatIsProgrammaticSEO": [
+        "At its core, programmatic SEO combines three elements: a page template defining structure and layout, a data source containing unique information for each page, and automation that brings them together. When a page is requested or generated, the system pulls relevant data and populates the template's dynamic sections, creating unique content for each variation.",
+        {
+          "type": "image",
+          "imageId": "programmatic-seo-components",
+          "caption": "The three components of programmatic SEO: templates, data, and automation",
+          "align": "center"
+        },
+        "Consider Zapier's integration pages. They have a single template structure for pages explaining how to connect two applications. Their database contains information about thousands of apps. The automation generates a unique page for every possible connection, resulting in hundreds of thousands of pages that rank for queries like 'connect Slack to Google Sheets' or 'Salesforce Mailchimp integration.' Each page provides genuine utility because the underlying data about each integration is unique and valuable.",
+        "The distinction from spam or doorway pages is crucial: every programmatic page must provide genuine value. Google's March 2024 spam policy update specifically targets 'scaled content abuse,' defining it as generating many pages primarily to manipulate search rankings rather than help users. The key question is not how content is created, but whether it serves searchers with unique, useful information."
+      ],
+      "whyProgrammaticSEOMatters": [
+        "Traditional content marketing faces inherent scaling limitations. A content team might produce 50 to 200 high-quality articles per year. Even with significant investment, manual content creation caps out at hundreds of pages. Meanwhile, long-tail searches represent the vast majority of all queries, with infinite variations that no manual approach can comprehensively address.",
+        "Programmatic SEO solves this scale problem. When Wise needs currency converter pages, they generate 8.5 million of them, covering every possible currency pair with real-time exchange rates. When Tripadvisor wants to capture 'things to do in' searches, they create pages for every city, neighborhood, and attraction type combination. The approach captures search traffic that would be impossible to pursue through traditional content creation.",
+        {
+          "type": "image",
+          "imageId": "scale-comparison-diagram",
+          "caption": "Traditional SEO scales linearly; programmatic SEO scales exponentially with data",
+          "align": "center"
+        },
+        "Beyond scale, programmatic SEO offers consistency and efficiency. Updates to template structure or data sources automatically propagate across all pages. Testing and optimization efforts multiply across thousands of pages. New opportunities can be addressed by adding data entries rather than commissioning individual content pieces."
+      ],
+      "keyBenefits": [
+        "Capture long-tail search traffic that would be impossible to pursue through manual content creation. Long-tail queries represent the majority of search volume, and programmatic approaches can address thousands of specific variations.",
+        "Scale content production from dozens to thousands or millions of pages without proportional increases in resources. Once templates and data infrastructure are built, each new page requires only a database entry.",
+        "Maintain consistency across large page sets while ensuring each page provides unique value through data-driven content variations. Templates enforce quality standards and design patterns across all pages.",
+        "Respond rapidly to new opportunities by adding data entries rather than creating individual pages from scratch. Market changes, new product variations, or geographic expansion require database updates rather than content creation projects.",
+        "Build comprehensive topical authority by covering a subject area systematically and thoroughly. Search engines recognize when a site comprehensively addresses a topic cluster, potentially boosting rankings across related queries.",
+        "Test and optimize at scale by measuring performance patterns across page sets. Changes to templates or content approaches can be validated across thousands of pages simultaneously.",
+        "Reduce per-page content costs significantly. While initial infrastructure investment is substantial, the marginal cost of each additional page approaches zero once systems are established."
+      ],
+      "realWorldSuccessStories": [
+        "Understanding how successful companies implement programmatic SEO reveals patterns you can apply to your own strategy. These examples span different industries, data types, and implementation approaches.",
         {
           "type": "video",
-          "videoId": "example-vimeo-1",
-          "caption": "Email automation workflow tutorial",
-          "variant": "inline"
+          "videoId": "programmatic-seo-examples-video",
+          "caption": "Analysis of successful programmatic SEO implementations",
+          "mode": "lite"
         },
-        "From welcome sequences and promotional campaigns to behavioral triggers and re-engagement initiatives, email marketing software enables businesses to deliver the right message to the right person at the right time. Advanced platforms integrate seamlessly with CRM software, ecommerce systems, and other marketing tools to create cohesive customer experiences."
+        "Zapier built its organic traffic foundation on integration pages. Each page explains how to connect two applications, provides setup instructions, and showcases popular workflow templates. Their data advantage comes from actual integration capabilities and user-generated workflow templates. As of recent reports, Zapier ranks for over 1.3 million keywords and attracts more than 16 million monthly organic visitors from approximately 56,000 programmatic pages.",
+        "Tripadvisor generates location-based pages at massive scale, covering cities, neighborhoods, attractions, restaurants, and hotels worldwide. Their pages combine structured location data with user-generated reviews, photos, and ratings. The user-contributed content creates unique value that competitors cannot easily replicate. Their implementation extends to highly specific pages like 'Vegan Restaurants in Downtown LA' that precisely match searcher intent.",
+        "Canva targets template-related searches with over 190,000 indexed pages and more than 2.2 million template pages in total. They create separate pages optimized for different search intents: someone searching 'create a certificate' sees design tools, while 'free certificate template' shows downloadable templates. Over 80,000 of their pages rank in the top three positions for their target keywords.",
+        "Wise (formerly TransferWise) maintains 8.5 million currency converter pages covering every possible currency pair. Each page includes live exchange rates, historical charts, and transfer cost comparisons. Their proprietary exchange rate data and fee transparency create genuine unique value that searchers cannot find elsewhere."
       ],
-      "keyBenefits": [
-        "Build targeted email campaigns using drag-and-drop editors, professional templates, and dynamic content blocks that adapt to individual recipient data and preferences.",
-        "Automate customer journeys with sophisticated workflows triggered by user behavior, purchase history, website activity, or custom events, ensuring timely and relevant communication.",
-        "Segment your audience based on demographics, engagement levels, purchase patterns, and custom attributes to deliver personalized content that resonates with each subscriber group.",
-        "Track campaign performance with detailed analytics covering open rates, click-through rates, conversion metrics, and revenue attribution to continually optimize your email strategy."
+      "coreComponents": [
+        "Successful programmatic SEO requires excellence across multiple interconnected disciplines. Each component supports the others, and weakness in any area can undermine the entire strategy.",
+        "Strategic planning determines whether programmatic SEO fits your situation. You need unique data assets, identifiable keyword patterns with search demand, technical resources for implementation, and a business model that benefits from long-tail traffic. Poor strategic decisions lead to wasted investment or policy violations.",
+        {
+          "type": "image",
+          "imageId": "programmatic-seo-framework",
+          "caption": "The programmatic SEO framework: from strategy through optimization",
+          "align": "center"
+        },
+        "Keyword research for programmatic SEO differs from traditional approaches. Instead of finding individual keywords, you identify keyword patterns that can be addressed through template variations. The goal is discovering head terms that combine with modifiers (locations, attributes, comparisons) to create thousands of targetable queries.",
+        "Search intent analysis ensures your templates match what searchers actually want. Different query patterns require different page structures, content types, and calls to action. Mismatched intent leads to poor engagement signals that harm rankings.",
+        "Content requirements define what makes programmatic content valuable rather than spammy. Every page needs sufficient unique content, clear utility, and demonstrable expertise, experience, authoritativeness, and trustworthiness. Google's helpful content system evaluates whether pages satisfy searcher needs.",
+        "Template design translates requirements into reusable page structures. Templates define static elements that remain consistent, dynamic sections populated from data, and conditional blocks that appear only when relevant. Effective templates balance consistency with genuine per-page uniqueness.",
+        "Technical implementation covers URL architecture, indexation strategy, crawl optimization, rendering approach, and data infrastructure. Large-scale programmatic sites face unique technical challenges around sitemap management, crawl budget, and performance optimization.",
+        "Internal linking architecture distributes authority across page sets and helps search engines discover content. Programmatic sites need automated linking systems that connect related pages through vertical hierarchies, horizontal relationships, and contextual connections.",
+        "Structured data and schema markup help search engines understand page content and can enable rich result features. Programmatic implementations generate schema dynamically based on page data, ensuring every page has appropriate markup.",
+        "Monitoring and optimization establish feedback loops for continuous improvement. Performance tracking identifies winning patterns and problem areas. Quality assurance prevents thin content, duplicate pages, and cannibalization issues from eroding results."
+      ],
+      "googlePolicyCompliance": [
+        "Google's policies have evolved significantly around programmatic and AI-generated content. Understanding these guidelines is essential for building sustainable programmatic SEO strategies.",
+        "The March 2024 spam policy update introduced 'scaled content abuse' as a defined violation. Google defines this as generating many pages primarily to manipulate search rankings rather than help users. The policy applies regardless of whether content is created through automation, AI, or human effort at scale.",
+        "The helpful content system evaluates whether pages demonstrate expertise and provide genuine value. Google's guidance asks whether content would satisfy someone who came directly to your site, whether you have firsthand expertise on the topic, and whether the content adds meaningful information beyond what's readily available elsewhere.",
+        "E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) signals matter for programmatic content just as they do for traditional pages. Sites must demonstrate relevant expertise, cite authoritative sources where appropriate, and build trust through accurate, transparent information.",
+        "The line between valuable programmatic content and spam depends on what unique value you add. Are you synthesizing information? Providing proprietary data? Offering expert analysis? Simple template filling with variable substitution fails this test. The 45 percent reduction in unoriginal content following the March 2024 update demonstrates Google's capability to identify and filter low-value programmatic pages."
+      ],
+      "commonMistakes": [
+        "Understanding why programmatic SEO projects fail helps you avoid the same pitfalls. Research suggests a 60 percent failure rate for implementations lacking proper foundations, and 93 percent of penalized sites showed insufficient differentiation.",
+        "Starting without unique data assets dooms projects before they begin. If your data is publicly available or easily replicable, competitors will match your pages. Successful implementations rely on proprietary databases, user-generated content, or exclusive data sources.",
+        "Creating thin template pages that differ only in variable substitution produces exactly the kind of content Google's spam policies target. Each page needs enough unique, valuable content to justify its existence.",
+        "Ignoring search intent leads to high bounce rates and poor engagement. A template designed for informational queries will fail for transactional searches. Different keyword patterns often require different template designs.",
+        "Launching thousands of pages without quality controls creates cleanup nightmares. Pages with missing data, broken functionality, or duplicate content can harm domain-wide rankings. Build quality assurance into your process from the start.",
+        "Neglecting technical SEO prevents pages from being crawled, indexed, or properly understood. Large programmatic sites face unique challenges around sitemap management, crawl budget allocation, and render performance that smaller sites never encounter."
+      ],
+      "siteGuideOverview": [
+        "This guide is organized into thirteen major sections, each covering a crucial aspect of programmatic SEO strategy and implementation. The sections build progressively from foundational concepts through technical implementation to ongoing optimization.",
+        "Foundational concepts establish the theoretical groundwork: what programmatic SEO is, how it differs from traditional SEO, how search engines work, and what Google's policies require. Start here if you're new to programmatic SEO or need to build organizational understanding.",
+        "Strategic planning sections cover business case assessment, use case identification, and risk evaluation. These help you determine whether programmatic SEO fits your situation and which approaches are most likely to succeed.",
+        "Keyword research and search intent analysis sections explain how to discover keyword patterns, evaluate search demand, and understand what content types different queries require. This research informs template design and content requirements.",
+        "Content requirements and topical authority sections address what makes programmatic content valuable, how to implement E-E-A-T signals at scale, and how to structure content architecture for topical authority.",
+        "SERP analysis and template design sections translate research into actionable page structures. You'll learn to analyze competitive landscapes, identify content format requirements, and design templates that match searcher needs.",
+        "Technical implementation sections cover URL architecture, indexation strategy, crawl optimization, rendering, and data infrastructure. These ensure your programmatic pages can be discovered, crawled, indexed, and ranked.",
+        "Internal linking and structured data sections address how to distribute authority across page sets and enhance search appearance through schema markup. Both require programmatic approaches that scale with your page count.",
+        "Tools and monitoring sections cover the platforms that make programmatic SEO possible and the measurement frameworks that enable continuous optimization. From content generation tools through SEO analysis platforms to ongoing quality assurance, these sections provide practical guidance for implementation and maintenance."
       ],
       "whyChoose": [
-        "Selecting the right email marketing platform requires evaluating your audience size, technical requirements, and marketing sophistication. Consider deliverability rates, ease of use for your team, available integrations with tools like CRM software and analytics platforms, and the level of automation support you need.",
-        "The most effective email marketing tools offer strong list management features, A/B testing capabilities, responsive design options, and comprehensive compliance tools for regulations like GDPR and CAN-SPAM. Look for platforms that provide excellent customer support and extensive learning resources to help your team maximize results."
+        "Programmatic SEO represents a significant opportunity for businesses with the right assets and capabilities. When executed well, it captures search traffic that would be impossible to pursue through traditional content creation, building sustainable organic visibility that compounds over time.",
+        "Success requires substantial investment in strategy, data infrastructure, template development, and technical implementation. It demands ongoing attention to quality assurance, policy compliance, and performance optimization. The approach is not suitable for every business or every situation.",
+        "If you have unique data assets, clear keyword patterns with search demand, technical resources for implementation, and a business model that benefits from long-tail traffic, programmatic SEO may offer exceptional returns. The following sections provide the complete framework for evaluating, planning, building, and optimizing your programmatic SEO strategy."
       ]
     },
-    "ogImageId": "email-marketing-og"
-  },
-  {
-    "id": "project-management",
-    "slug": "project-management",
-    "title": "Project Management",
-    "description": "Project management tools help teams plan, organize, and track work efficiently, with 77% of high-performing projects using PM software. [S1]",
-    "subcategoryIds": [
-      "project-management-for-agencies",
-      "project-management-for-developers",
-      "agile-project-management"
-    ],
-    "content": {
-      "overview": [
-        "Project management software has evolved from simple task lists into comprehensive collaboration platforms that help teams plan, execute, and deliver projects on time and within budget. These tools provide visibility into project status, resource allocation, deadlines, and dependencies, enabling better decision-making and reducing the chaos that often accompanies complex projects.",
-        "Modern project management platforms support multiple methodologies including Agile, Waterfall, Kanban, and hybrid approaches, giving teams the flexibility to work in ways that suit their needs. Integration with other business tools like CRM software, time tracking systems, and communication platforms creates seamless workflows that boost productivity."
-      ],
-      "keyBenefits": [
-        "Organize work with customizable views including Kanban boards, Gantt charts, calendars, and list views that let team members visualize projects in the format that works best for them.",
-        "Collaborate in real-time with features like comments, file sharing, mentions, and notifications that keep everyone informed and reduce the need for status update meetings.",
-        "Track progress with dashboards and reports that show task completion rates, resource utilization, budget burn rates, and other key metrics at a glance.",
-        "Manage resources effectively by balancing workloads, identifying bottlenecks, assigning tasks based on team member availability and skills, and preventing burnout through capacity planning."
-      ],
-      "whyChoose": [
-        "The right project management tool depends on your team size, project complexity, preferred methodology, and existing technology stack. Evaluate ease of adoption, customization options, integration capabilities with tools like email marketing platforms and analytics software, and whether the platform scales as your team grows.",
-        "Leading project management solutions offer mobile apps for on-the-go access, robust permission controls for client and stakeholder visibility, time tracking capabilities, and portfolio management features for organizations juggling multiple projects simultaneously. Consider platforms with strong security, regular updates, and active user communities for ongoing support."
-      ]
-    },
-    "ogImageId": "project-management-og"
-  },
-  {
-    "id": "analytics-software",
-    "slug": "analytics-software",
-    "title": {
-      "en": "Analytics Software",
-      "fi": "Analytiikkaohjelmistot"
-    },
-    "description": {
-      "en": "Business analytics platforms help organizations transform data into actionable insights, with the global analytics market projected to reach $103 billion by 2027. [S1]",
-      "fi": "Liiketoiminta-analytiikka-alustat auttavat organisaatioita muuttamaan datan käyttökelpoisiksi oivalluksiksi. Globaalin analytiikkamarkkinan ennustetaan saavuttavan 103 miljardia dollaria vuoteen 2027 mennessä. [S1]"
-    },
-    "subcategoryIds": [
-      "web-analytics",
-      "business-intelligence",
-      "predictive-analytics"
-    ],
-    "content": {
-      "en": {
-        "overview": [
-          "Analytics software has become essential for modern businesses seeking to make data-driven decisions. These platforms collect, process, and visualize data from multiple sources, helping organizations understand customer behavior, optimize operations, and identify growth opportunities that would otherwise remain hidden in spreadsheets and disconnected databases.",
-          "From web analytics tracking user journeys to advanced business intelligence platforms powering executive dashboards, analytics tools serve every level of organizational decision-making. The best platforms integrate seamlessly with CRM software and project management tools to provide holistic views of business performance."
-        ],
-        "keyBenefits": [
-          "Transform raw data into visual dashboards and reports that make complex information accessible to stakeholders across the organization, from executives to front-line managers.",
-          "Track key performance indicators in real-time, enabling faster responses to changing market conditions and emerging opportunities.",
-          "Identify patterns and trends that inform strategic decisions, from product development priorities to marketing channel optimization.",
-          "Connect data from multiple sources including websites, applications, CRM systems, and operational databases into unified analytical views."
-        ],
-        "whyChoose": [
-          "Selecting the right analytics platform depends on your data complexity, technical capabilities, and specific use cases. Consider whether you need real-time analytics, advanced statistical modeling, or primarily historical reporting and dashboards.",
-          "The most effective analytics implementations combine powerful tools with clear data governance, ensuring that insights are both accurate and actionable. Look for platforms that balance sophisticated capabilities with usability for your team's skill levels."
-        ]
-      },
-      "fi": {
-        "overview": [
-          "Analytiikkaohjelmistot ovat tulleet välttämättömiksi nykyaikaisille yrityksille, jotka haluavat tehdä dataan perustuvia päätöksiä. Nämä alustat keräävät, käsittelevät ja visualisoivat tietoja useista lähteistä, auttaen organisaatioita ymmärtämään asiakaskäyttäytymistä, optimoimaan toimintoja ja tunnistamaan kasvumahdollisuuksia.",
-          "Verkkoanalytiikasta käyttäjäpolkujen seurantaan ja edistyneisiin liiketoimintatiedon hallinta-alustoihin, analytiikkatyökalut palvelevat organisaation päätöksentekoa kaikilla tasoilla. Parhaat alustat integroituvat saumattomasti CRM-ohjelmistojen ja projektinhallintatyökalujen kanssa."
-        ],
-        "keyBenefits": [
-          "Muunna raakadata visuaalisiksi koontinäytöiksi ja raporteiksi, jotka tekevät monimutkaisesta tiedosta helposti ymmärrettävää kaikille sidosryhmille johtajista kenttäpäälliköihin.",
-          "Seuraa keskeisiä suorituskykymittareita reaaliajassa, mikä mahdollistaa nopeamman reagoinnin muuttuviin markkinaolosuhteisiin.",
-          "Tunnista malleja ja trendejä, jotka ohjaavat strategisia päätöksiä tuotekehityksen prioriteeteista markkinointikanavien optimointiin.",
-          "Yhdistä tietoja useista lähteistä, mukaan lukien verkkosivustot, sovellukset, CRM-järjestelmät ja operatiiviset tietokannat yhtenäisiksi analyyttisiksi näkymiksi."
-        ],
-        "whyChoose": [
-          "Oikean analytiikka-alustan valinta riippuu datan monimutkaisuudesta, teknisistä valmiuksista ja käyttötarpeista. Harkitse, tarvitsetko reaaliaikaista analytiikkaa, edistynyttä tilastollista mallinnusta vai pääasiassa historiallista raportointia.",
-          "Tehokkaimmat analytiikkatoteutukset yhdistävät tehokkaat työkalut selkeään tiedonhallintaan varmistaen, että oivallukset ovat sekä tarkkoja että toimintakelpoisia."
-        ]
-      }
-    }
+    "ogImageId": "programmatic-seo-og",
+    "heroImageId": "programmatic-seo-hero"
   }
 ]
