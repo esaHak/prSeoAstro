@@ -80,8 +80,10 @@ export function getStaticPaths() {
 }
 
 const { type, data, locale } = Astro.props;
-const base = import.meta.env.BASE_URL;
-const siteBase = Astro.site?.toString() || 'https://prseoastro.pages.dev';
+const rawBase = import.meta.env.BASE_URL;
+// Normalize base to never have trailing slash for consistent URL building
+const base = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+const siteBase = Astro.site?.toString().replace(/\/$/, '') || 'https://prseoastro.pages.dev';
 
 // Get available locales and build alternate URLs
 const availableLocales = getAvailableLocalesForEntity(data);
@@ -105,7 +107,7 @@ let parentCategory: Category | undefined;
 
 if (type === 'category') {
   const category = data as Category;
-  breadcrumbs = [{ title, url: `${base}/${locale}/${category.slug}/` }];
+  breadcrumbs = [{ title, url: `/${locale}/${category.slug}/` }];
 
   // Get subcategories for this category (only if they have the current locale)
   const subcategories = DB.getSubcategoriesByCategory(category.id);
@@ -129,7 +131,7 @@ if (type === 'category') {
 
     return {
       title: localizedTitle,
-      url: `${base}/${locale}/${crumb.path}/`
+      url: `/${locale}/${crumb.path}/`
     };
   });
 
@@ -196,13 +198,13 @@ const whyChooseItems: ContentItem[] = content.whyChoose || [
 ];
 
 // Build breadcrumb items for schema (including Home)
-const homeBreadcrumb = { title: 'Home', url: `${base}${locale}/` };
+const homeBreadcrumb = { title: 'Home', url: `/${locale}/` };
 const schemaBreadcrumbs = [homeBreadcrumb, ...breadcrumbs];
 
 // Build current page URL for schemas
 const currentPath = type === 'category'
-  ? `${base}${locale}/${data.slug}/`
-  : `${base}${locale}/${DB.getFullPath(data as Subcategory)}/`;
+  ? `/${locale}/${data.slug}/`
+  : `/${locale}/${DB.getFullPath(data as Subcategory)}/`;
 
 // Extract date fields for structured data
 const datePublished = data.datePublished;

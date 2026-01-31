@@ -189,11 +189,10 @@
     "intent types"
   ],
   "intent-modifiers": [
-    "search intent modifiers",
-    "keyword intent signals",
-    "query modifiers seo",
-    "intent modifiers",
-    "modifiers"
+    "intent keywords",
+    "search intent",
+    "journey keywords",
+    "user intent modifiers"
   ],
   "topic-clusters": [
     "topic cluster strategy",
@@ -221,70 +220,89 @@
     "google serp features",
     "featured snippet optimization",
     "serp features",
-    "search features"
+    "search features",
+    "people also ask optimization",
+    "ai overviews",
+    "local pack features",
+    "knowledge panels"
   ],
   "competitor-analysis": [
-    "seo competitor analysis",
-    "competitive analysis programmatic",
-    "serp competition analysis",
-    "competitor analysis",
-    "competitive analysis"
+    "competitor keywords",
+    "competitive analysis",
+    "keyword gap analysis",
+    "competitor research"
   ],
   "serp-derived-requirements": [
     "serp content requirements",
     "serp-derived specifications",
     "content requirements from serp",
     "serp derived requirements",
-    "requirements"
+    "requirements",
+    "template specifications",
+    "content specification"
   ],
   "quality-framework": [
     "seo content quality framework",
     "content quality standards",
     "quality framework seo",
     "quality framework",
-    "content quality"
+    "content quality",
+    "content validation",
+    "quality standards"
   ],
   "eeat": [
     "eeat seo implementation",
     "experience expertise authoritativeness trust",
     "eeat for programmatic",
     "eeat seo",
-    "eeat"
+    "eeat",
+    "author expertise",
+    "trust signals"
   ],
   "unique-value": [
     "unique content value seo",
     "content differentiation",
     "unique value programmatic",
     "unique value",
-    "content value"
+    "content value",
+    "proprietary data",
+    "user-generated content"
   ],
   "quality-problems": [
     "seo content quality issues",
     "content quality problems",
     "programmatic quality issues",
     "quality problems",
-    "content issues"
+    "content issues",
+    "thin content",
+    "duplicate content",
+    "keyword stuffing"
   ],
   "architecture": [
     "seo template architecture",
     "programmatic template structure",
     "page template design",
     "architecture",
-    "template structure"
+    "template structure",
+    "template zones",
+    "dynamic content"
   ],
   "types-by-intent": [
     "seo page template types",
     "intent-matched templates",
     "template design by intent",
     "types by intent",
-    "template types"
+    "template types",
+    "search intent templates"
   ],
   "content-blocks": [
     "template content blocks",
     "modular seo blocks",
     "content block design",
     "content blocks",
-    "template blocks"
+    "template blocks",
+    "modular content",
+    "reusable blocks"
   ],
   "vertical-linking": [
     "vertical internal linking",
@@ -468,106 +486,148 @@
   "helpful-content": [
     "google helpful content guidelines",
     "helpful content update",
-    "people-first content"
+    "people-first content",
+    "content quality requirements",
+    "site-wide ranking signal"
   ],
   "scaled-content-abuse": [
     "google scaled content abuse policy",
     "scaled content spam",
-    "march 2024 spam update"
+    "march 2024 spam update",
+    "programmatic seo compliance",
+    "content abuse penalties"
   ],
   "eeat-requirements": [
     "google eeat requirements",
     "eeat framework",
-    "experience expertise authoritativeness trustworthiness"
+    "experience expertise authoritativeness trustworthiness",
+    "quality rater guidelines",
+    "content quality signals"
   ],
   "spam-policies": [
     "google search spam policies",
     "seo spam guidelines",
-    "google webmaster guidelines"
+    "google webmaster guidelines",
+    "spam detection mechanisms",
+    "cloaking violations",
+    "doorway pages"
   ],
   "data-asset-evaluation": [
     "evaluating data assets for seo",
     "data quality assessment",
-    "seo data evaluation"
+    "seo data evaluation",
+    "proprietary data advantage",
+    "programmatic seo data requirements"
   ],
   "competitive-landscape": [
     "seo competitive landscape analysis",
     "competitive assessment seo",
-    "market competition analysis"
+    "market competition analysis",
+    "programmatic content competition",
+    "serp composition analysis"
   ],
   "resource-requirements": [
     "programmatic seo resource requirements",
     "seo implementation resources",
-    "programmatic seo budget"
+    "programmatic seo budget",
+    "seo team staffing",
+    "development effort estimation"
   ],
   "location-based": [
     "location based seo pages",
     "local landing pages",
-    "city pages seo"
+    "city pages seo",
+    "location specific content",
+    "geographic seo targeting"
   ],
   "product-variations": [
     "product variation pages seo",
     "product attribute pages",
-    "ecommerce category pages"
+    "ecommerce category pages",
+    "product cannibalization",
+    "faceted search seo"
   ],
   "integration-pages": [
     "integration pages programmatic seo",
     "software integration pages",
-    "connection landing pages"
+    "connection landing pages",
+    "api integration validation",
+    "partnership pages"
   ],
   "commercial-investigation": [
     "commercial investigation intent",
     "commercial keyword intent",
     "buyer research intent",
-    "product evaluation searches"
+    "product evaluation searches",
+    "comparison content strategy",
+    "high-intent conversion keywords",
+    "competitor comparison targeting",
+    "evaluation-stage content"
   ],
   "transactional": [
     "transactional search intent",
     "transactional keywords",
-    "commercial search intent",
-    "purchase intent queries"
+    "purchase intent modifiers",
+    "high-conversion transactional queries",
+    "action modifier keywords",
+    "checkout optimization",
+    "transaction page strategy"
   ],
   "local-intent": [
     "local search intent",
     "near me searches",
     "geographic search intent",
-    "local business searches"
+    "local business searches",
+    "city-level SEO",
+    "local pack optimization",
+    "neighborhood targeting",
+    "foot-traffic conversion"
   ],
   "news-trending-intent": [
     "news and trending search intent",
     "breaking news searches",
     "viral trend searches",
-    "time-sensitive search queries"
+    "time-sensitive search queries",
+    "103 intent strategy",
+    "programmatic 103 content"
   ],
   "entertainment-intent": [
     "entertainment search intent",
     "entertainment reviews",
     "entertainment recommendations",
-    "media discovery searches"
+    "media discovery searches",
+    "104 intent strategy",
+    "programmatic 104 content"
   ],
   "educational-intent": [
     "educational search intent",
     "how-to searches",
     "tutorial content intent",
-    "skill development queries"
+    "skill development queries",
+    "105 intent strategy",
+    "programmatic 105 content"
   ],
   "visual-media-intent": [
     "visual search intent",
     "image search intent",
     "video search intent",
-    "visual content discovery"
+    "visual content discovery",
+    "106 intent strategy",
+    "programmatic 106 content"
   ],
   "best-top-modifier": [
     "best and top search modifiers",
     "best of queries",
     "top X listicles",
-    "product comparison keywords"
+    "product comparison keywords",
+    "evaluation methodology content"
   ],
   "vs-compared-modifier": [
     "vs comparison queries",
     "compared to searches",
     "comparison keywords",
-    "product comparison intent"
+    "product comparison intent",
+    "decision support content"
   ],
   "for-audience-modifier": [
     "audience modifier queries",
@@ -819,11 +879,11 @@
     "expandable FAQ section"
   ],
   "related-content": [
-    "related content block",
-    "related pages section",
-    "similar content links",
-    "related article recommendations",
-    "content connection block"
+    "related content linking",
+    "related content internal links",
+    "relevance-based linking",
+    "semantic link recommendations",
+    "content relationship links"
   ],
   "schema-markup": [
     "schema markup template",
@@ -1331,85 +1391,110 @@
     "definitional search queries",
     "what is queries",
     "definition searches",
-    "concept explanation"
+    "concept explanation",
+    "glossary seo strategy"
   ],
   "how-to-queries": [
     "how to search queries",
     "how do I queries",
     "procedural queries",
-    "step-by-step guides"
+    "step-by-step guides",
+    "tutorial content strategy"
   ],
   "explanatory-queries": [
     "explanatory search queries",
     "why queries",
     "how does it work queries",
-    "mechanism explanation"
+    "mechanism explanation",
+    "technical documentation strategy"
   ],
   "research-queries": [
     "research search queries",
     "comparison queries",
     "best practices guides",
-    "pros and cons searches"
+    "pros and cons searches",
+    "data-driven decision support",
+    "competitive analysis content"
   ],
   "brand-queries": [
     "brand search queries",
     "brand navigation",
     "brand reviews searches",
-    "competitor comparisons"
+    "competitor comparisons",
+    "serp real estate ownership",
+    "consideration stage traffic"
   ],
   "product-specific-queries": [
     "product specific search queries",
     "product model searches",
     "product reviews",
-    "product specifications"
+    "product specifications",
+    "peak purchase intent",
+    "rich result optimization"
   ],
   "website-feature-queries": [
     "website feature search queries",
     "feature documentation",
     "how to use features",
-    "feature discovery"
+    "feature discovery",
+    "support deflection",
+    "help center optimization"
   ],
   "comparison-queries": [
     "comparison search queries",
     "vs queries",
     "product comparisons",
-    "feature comparison"
+    "feature comparison",
+    "decision-stage evaluation",
+    "objective comparison content"
   ],
   "review-queries": [
     "review search queries",
     "product reviews",
     "ratings searches",
-    "customer feedback"
+    "customer feedback",
+    "critical evaluation",
+    "hands-on testing"
   ],
   "best-queries": [
     "best search queries",
     "best products",
     "top recommendations",
-    "best of roundups"
+    "best of roundups",
+    "curation methodology",
+    "transparent recommendations"
   ],
   "alternative-queries": [
     "alternative search queries",
     "alternatives to products",
     "competitor alternatives",
-    "free alternatives"
+    "free alternatives",
+    "switching decisions",
+    "incumbent dissatisfaction"
   ],
   "purchase-queries": [
     "purchase search queries",
     "buy keywords",
     "shopping queries",
-    "purchase intent"
+    "purchase intent",
+    "conversion optimization",
+    "checkout friction"
   ],
   "pricing-queries": [
     "pricing search queries",
     "price queries",
     "cost information",
-    "pricing comparison"
+    "pricing comparison",
+    "transparent pricing",
+    "budget validation"
   ],
   "download-queries": [
     "download search queries",
     "software download",
     "free downloads",
-    "version downloads"
+    "version downloads",
+    "friction-free activation",
+    "trial adoption"
   ],
   "pillar-page-overview-content": [
     "pillar page overview",
@@ -1608,97 +1693,113 @@
     "sitemap organization",
     "crawl budget optimization",
     "content segmentation",
-    "URL grouping"
+    "URL grouping",
+    "frequency-based organization"
   ],
   "sitemap-index-structure": [
     "sitemap index",
     "index structure",
     "XML format",
-    "submission management"
+    "submission management",
+    "multiple sitemaps"
   ],
   "sitemap-update-frequency": [
     "lastmod dates",
     "crawl frequency",
     "content freshness",
-    "update patterns"
+    "update patterns",
+    "indexation speed"
   ],
   "server-side-rendering": [
     "SSR",
     "dynamic rendering",
     "server rendering",
-    "HTML delivery"
+    "HTML delivery",
+    "crawlable content"
   ],
   "static-site-generation": [
     "SSG",
     "pre-rendering",
     "static generation",
-    "build-time rendering"
+    "build-time rendering",
+    "performance optimization"
   ],
   "incremental-static-regeneration": [
     "ISR",
     "revalidation",
     "on-demand regeneration",
-    "dynamic static sites"
+    "dynamic static sites",
+    "content freshness"
   ],
   "lcp-optimization": [
     "page speed",
     "load time optimization",
     "rendering performance",
-    "image optimization"
+    "image optimization",
+    "Core Web Vitals"
   ],
   "fid-inp-optimization": [
     "interaction delay",
     "input responsiveness",
     "JavaScript optimization",
-    "task management"
+    "task management",
+    "Core Web Vitals"
   ],
   "cls-optimization": [
     "layout shift",
     "visual stability",
     "image sizing",
-    "reserved space"
+    "reserved space",
+    "Core Web Vitals"
   ],
   "content-database": [
     "database design",
     "data structure",
     "normalization",
-    "content storage"
+    "content storage",
+    "query optimization"
   ],
   "relationship-mapping": [
     "entity relationships",
     "database relationships",
     "internal linking",
-    "content hierarchy"
+    "content hierarchy",
+    "semantic connections"
   ],
   "dynamic-data-sources": [
     "API integration",
     "data synchronization",
     "external data",
-    "content freshness"
+    "content freshness",
+    "data caching"
   ],
   "headless-cms": [
     "content API",
     "CMS integration",
     "content management",
-    "decoupled architecture"
+    "decoupled architecture",
+    "multi-channel"
   ],
   "wordpress-integration": [
     "WordPress SEO",
     "custom post types",
     "automated publishing",
-    "WordPress plugins"
+    "WordPress plugins",
+    "REST API"
   ],
   "webflow-framer-integration": [
     "Webflow SEO",
     "Framer API",
     "visual builder",
-    "CMS integration"
+    "CMS integration",
+    "no-code programmatic"
   ],
   "data-driven-content": [
     "data driven seo content",
     "content based on search data",
     "keyword research strategy",
-    "search volume analysis"
+    "search volume analysis",
+    "performance measurement seo"
   ],
   "educational-content": [
     "educational content programmatic seo",
@@ -1788,12 +1889,20 @@
     "informational search intent",
     "educational keyword intent",
     "how to query targeting",
-    "informational content strategy"
+    "informational content strategy",
+    "informational vs commercial intent",
+    "topical authority clusters",
+    "programmatic educational content",
+    "featured snippet optimization"
   ],
   "navigational-intent": [
     "navigational search intent",
     "brand navigation searches",
     "brand keyword targeting",
-    "navigational seo strategy"
+    "navigational seo strategy",
+    "brand protection strategy",
+    "competitor comparison targeting",
+    "brand modifier optimization",
+    "high-conversion organic traffic"
   ]
 }

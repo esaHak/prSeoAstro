@@ -194,39 +194,31 @@ export class DB {
    * Caller should use getLocalizedField() to extract the correct title for their locale.
    */
   static getBreadcrumbs(subcategory: Subcategory): Array<{ title: Localizable<string>; slug: string; path: string }> {
-    const breadcrumbs: Array<{ title: Localizable<string>; slug: string; path: string }> = [];
+    // First, collect all entities in the chain from root to current
+    const chain: Array<Category | Subcategory> = [];
     let current: Subcategory | Category | undefined = subcategory;
-    const pathSegments: string[] = [subcategory.slug];
 
     while (current) {
+      chain.unshift(current);
       if ('parentCategoryId' in current) {
-        // It's a subcategory
-        const parent: Subcategory | Category | undefined =
-          this.getSubcategoryById(current.parentCategoryId) ||
-          this.getCategoryById(current.parentCategoryId);
-
-        breadcrumbs.unshift({
-          title: current.title,
-          slug: current.slug,
-          path: pathSegments.join('/')
-        });
-
-        if (parent && 'parentCategoryId' in parent) {
-          pathSegments.unshift(parent.slug);
-        } else if (parent) {
-          pathSegments.unshift(parent.slug);
-        }
-
-        current = parent;
+        current = this.getSubcategoryById(current.parentCategoryId) ||
+                  this.getCategoryById(current.parentCategoryId);
       } else {
-        // It's a category (root level)
-        breadcrumbs.unshift({
-          title: current.title,
-          slug: current.slug,
-          path: current.slug
-        });
         current = undefined;
       }
+    }
+
+    // Now build breadcrumbs with correct cumulative paths
+    const breadcrumbs: Array<{ title: Localizable<string>; slug: string; path: string }> = [];
+    const pathSegments: string[] = [];
+
+    for (const entity of chain) {
+      pathSegments.push(entity.slug);
+      breadcrumbs.push({
+        title: entity.title,
+        slug: entity.slug,
+        path: pathSegments.join('/')
+      });
     }
 
     return breadcrumbs;
