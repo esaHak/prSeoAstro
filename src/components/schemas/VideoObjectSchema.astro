@@ -1,0 +1,69 @@
+---
+/**
+ * VideoObject JSON-LD Schema Component
+ * Generates structured data for embedded videos
+ * @see https://schema.org/VideoObject
+ */
+
+interface Props {
+  name: string;
+  description: string;
+  thumbnailUrl: string;
+  embedUrl?: string;
+  contentUrl?: string;
+  uploadDate?: string;
+  duration?: string; // ISO 8601 duration format (e.g., "PT1M30S")
+  siteBase?: string;
+}
+
+const {
+  name,
+  description,
+  thumbnailUrl,
+  embedUrl,
+  contentUrl,
+  uploadDate,
+  duration,
+  siteBase = 'https://prseoastro.pages.dev'
+} = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Build the JSON-LD structure
+const videoObject: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": name,
+  "description": description,
+  "thumbnailUrl": thumbnailUrl
+};
+
+// Add optional fields
+if (embedUrl) {
+  videoObject.embedUrl = embedUrl;
+}
+
+if (contentUrl) {
+  videoObject.contentUrl = contentUrl;
+}
+
+if (uploadDate) {
+  videoObject.uploadDate = uploadDate;
+}
+
+if (duration) {
+  videoObject.duration = duration;
+}
+
+// Add publisher reference
+videoObject.publisher = {
+  "@type": "Organization",
+  "name": "prSeoAstro",
+  "url": normalizedBase
+};
+
+const jsonLd = JSON.stringify(videoObject);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

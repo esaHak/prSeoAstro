@@ -185,6 +185,10 @@ const schemaBreadcrumbs = [homeBreadcrumb, ...breadcrumbs];
 const currentPath = type === 'category'
   ? `${base}${locale}/${data.slug}/`
   : `${base}${locale}/${DB.getFullPath(data as Subcategory)}/`;
+
+// Extract date fields for structured data
+const datePublished = data.datePublished;
+const dateModified = data.dateModified;
 ---
 
 <BaseLayout
@@ -202,6 +206,9 @@ const currentPath = type === 'category'
     url={currentPath}
     siteBase={siteBase}
     breadcrumbs={schemaBreadcrumbs}
+    locale={locale}
+    datePublished={datePublished}
+    dateModified={dateModified}
   />
 
   <nav>

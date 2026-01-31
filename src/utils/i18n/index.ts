@@ -115,17 +115,28 @@ export interface HreflangLink {
 export function buildHreflangLinks(
   entity: Category | Subcategory,
   siteBase: string,
-  base: string = ''
+  base: string = '',
+  includeXDefault: boolean = true
 ): HreflangLink[] {
   const availableLocales = getAvailableLocalesForEntity(entity);
 
   // Normalize siteBase to avoid double slashes
   const normalizedSiteBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
 
-  return availableLocales.map(locale => ({
+  const links: HreflangLink[] = availableLocales.map(locale => ({
     hreflang: locale,
     href: `${normalizedSiteBase}${buildLocalizedUrl(locale, entity, base)}`
   }));
+
+  // Add x-default pointing to the default locale version
+  if (includeXDefault && availableLocales.includes(defaultLocale)) {
+    links.push({
+      hreflang: 'x-default',
+      href: `${normalizedSiteBase}${buildLocalizedUrl(defaultLocale, entity, base)}`
+    });
+  }
+
+  return links;
 }
 
 /**

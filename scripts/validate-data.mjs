@@ -236,6 +236,63 @@ function validateCitations(categories, subcategories) {
   return warnings;
 }
 
+/**
+ * Validate minimum word count for content quality
+ * Minimum 300 words recommended for SEO
+ */
+function validateWordCount(categories, subcategories) {
+  const warnings = [];
+  const MIN_WORDS = 300;
+
+  function countWords(content) {
+    if (!content) return 0;
+
+    let totalWords = 0;
+
+    // Content can be localized or not
+    const sections = typeof content === 'object' && !Array.isArray(content)
+      ? Object.values(content)
+      : [content];
+
+    for (const section of sections) {
+      if (typeof section === 'object' && section !== null) {
+        // Handle ContentSection (overview, keyBenefits, etc.)
+        for (const items of Object.values(section)) {
+          if (Array.isArray(items)) {
+            for (const item of items) {
+              if (typeof item === 'string') {
+                totalWords += item.split(/\s+/).filter(Boolean).length;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    return totalWords;
+  }
+
+  for (const cat of categories) {
+    const wordCount = countWords(cat.content);
+    if (wordCount > 0 && wordCount < MIN_WORDS) {
+      warnings.push(
+        `Thin content: Category "${cat.id}" has only ${wordCount} words (minimum ${MIN_WORDS} recommended)`
+      );
+    }
+  }
+
+  for (const sub of subcategories) {
+    const wordCount = countWords(sub.content);
+    if (wordCount > 0 && wordCount < MIN_WORDS) {
+      warnings.push(
+        `Thin content: Subcategory "${sub.id}" has only ${wordCount} words (minimum ${MIN_WORDS} recommended)`
+      );
+    }
+  }
+
+  return warnings;
+}
+
 function validateImages(categories, subcategories, images) {
   const errors = [];
   const imageIds = new Set(images.map(i => i.id));
@@ -330,6 +387,7 @@ function validate() {
   warnings.push(...anchorResults.warnings);
 
   warnings.push(...validateCitations(categories, subcategories));
+  warnings.push(...validateWordCount(categories, subcategories));
 
   return {
     valid: errors.length === 0,

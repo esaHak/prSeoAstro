@@ -30,11 +30,19 @@ const categories = DB.getAllCategories();
 // Resolve OG image for homepage (uses default)
 const ogImage = resolveOgImage({}, undefined, siteBase);
 
-// Build hreflang links for language switcher
-const hreflangLinks = supportedLocales.map(loc => ({
-  hreflang: loc,
-  href: `${siteBase.replace(/\/$/, '')}/${loc}/`
-}));
+// Build hreflang links for language switcher (including x-default)
+const normalizedSiteBase = siteBase.replace(/\/$/, '');
+const hreflangLinks = [
+  ...supportedLocales.map(loc => ({
+    hreflang: loc,
+    href: `${normalizedSiteBase}/${loc}/`
+  })),
+  // Add x-default pointing to English version
+  {
+    hreflang: 'x-default',
+    href: `${normalizedSiteBase}/en/`
+  }
+];
 
 // Build alternate URLs for language switcher
 const alternateUrls = supportedLocales.map(loc => ({

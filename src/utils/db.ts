@@ -17,6 +17,11 @@ export type ContentSection = {
  */
 export type Localizable<T> = T | Partial<Record<Locale, T>>;
 
+/**
+ * Content status for workflow management
+ */
+export type ContentStatus = 'draft' | 'published' | 'archived';
+
 export type Category = {
   id: string;
   slug: string;
@@ -31,6 +36,10 @@ export type Category = {
   // Video fields for Video Library
   heroVideoId?: string;    // Optional hero video
   videoIds?: string[];     // Optional video gallery
+  // Content freshness fields
+  datePublished?: string;  // ISO 8601 date (e.g., "2024-01-15")
+  dateModified?: string;   // ISO 8601 date
+  status?: ContentStatus;  // Workflow status (default: 'published')
 };
 
 export type Subcategory = {
@@ -48,6 +57,10 @@ export type Subcategory = {
   // Video fields for Video Library
   heroVideoId?: string;    // Optional hero video
   videoIds?: string[];     // Optional video gallery
+  // Content freshness fields
+  datePublished?: string;  // ISO 8601 date (e.g., "2024-01-15")
+  dateModified?: string;   // ISO 8601 date
+  status?: ContentStatus;  // Workflow status (default: 'published')
 };
 
 // Type-safe data imports
