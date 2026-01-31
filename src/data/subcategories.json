@@ -1799,7 +1799,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "search-intent-analysis-og",
+    "heroImageId": "search-intent-analysis-hero"
   },
   {
     "id": "topic-clusters",
@@ -2076,7 +2078,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "serp-analysis-og",
+    "heroImageId": "serp-analysis-hero"
   },
   {
     "id": "serp-derived-requirements",
@@ -10587,7 +10591,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "city-region-pages-og",
+    "heroImageId": "city-region-pages-hero"
   },
   {
     "id": "local-directory-pages",
@@ -10639,7 +10645,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "local-intent-og",
+    "heroImageId": "local-intent-hero"
   },
   {
     "id": "category-pages",
@@ -10692,7 +10700,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "category-hub-og",
+    "heroImageId": "category-hub-hero"
   },
   {
     "id": "filter-attribute-pages",
@@ -10745,7 +10755,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "template-design-og",
+    "heroImageId": "template-design-hero"
   },
   {
     "id": "comparison-pages",
@@ -10798,7 +10810,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "comparison-og",
+    "heroImageId": "comparison-hero"
   },
   {
     "id": "tool-integration-pages",
@@ -10851,7 +10865,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "integration-og",
+    "heroImageId": "integration-hero"
   },
   {
     "id": "api-documentation",
@@ -10904,7 +10920,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "technical-implementation-og",
+    "heroImageId": "technical-implementation-hero"
   },
   {
     "id": "workflow-pages",
@@ -10957,7 +10975,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "template-design-og",
+    "heroImageId": "template-design-hero"
   },
   {
     "id": "statistics-pages",
@@ -11010,7 +11030,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "content-requirements-og",
+    "heroImageId": "content-requirements-hero"
   },
   {
     "id": "research-aggregation",
@@ -11063,7 +11085,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "keyword-research-og",
+    "heroImageId": "keyword-research-hero"
   },
   {
     "id": "benchmark-pages",
@@ -11116,7 +11140,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "monitoring-og",
+    "heroImageId": "monitoring-hero"
   },
   {
     "id": "glossary-pages",
@@ -11169,7 +11195,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "content-requirements-og",
+    "heroImageId": "content-requirements-hero"
   },
   {
     "id": "how-to-pages",
@@ -11222,7 +11250,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "template-design-og",
+    "heroImageId": "template-design-hero"
   },
   {
     "id": "faq-aggregation",
@@ -11275,7 +11305,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "faq-og",
+    "heroImageId": "faq-hero"
   },
   {
     "id": "seed-keyword-brainstorming",
@@ -11328,7 +11360,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "google-keyword-planner-og",
+    "heroImageId": "google-keyword-planner-hero"
   },
   {
     "id": "search-console-mining",
@@ -11381,7 +11415,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "search-volume-og",
+    "heroImageId": "search-volume-hero"
   },
   {
     "id": "location-modifiers",
@@ -11434,7 +11470,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "near-me-location-modifier-og",
+    "heroImageId": "near-me-location-modifier-hero"
   },
   {
     "id": "attribute-modifiers",
@@ -11487,7 +11525,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "modifier-discovery-og",
+    "heroImageId": "modifier-discovery-hero"
   },
   {
     "id": "audience-modifiers",
@@ -11539,7 +11579,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "for-audience-modifier-og",
+    "heroImageId": "for-audience-modifier-hero"
   },
   {
     "id": "temporal-modifiers",
@@ -11591,7 +11633,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "year-modifier-og",
+    "heroImageId": "year-modifier-hero"
   },
   {
     "id": "search-volume-assessment",
@@ -11643,7 +11687,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "search-volume-og",
+    "heroImageId": "search-volume-hero"
   },
   {
     "id": "scalability-testing",
@@ -11695,7 +11741,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "pattern-validation-og",
+    "heroImageId": "pattern-validation-hero"
   },
   {
     "id": "competition-analysis",
@@ -11747,7 +11795,9 @@
         "Iterative refinement cycles improve content performance based on real-world feedback. High-performing content patterns guide future content generation. Underperforming patterns reveal optimization opportunities or misconceptions warranting strategy adjustments."
       ],
       "topicSpecificSection": []
-    }
+    },
+    "ogImageId": "keyword-difficulty-og",
+    "heroImageId": "keyword-difficulty-hero"
   },
   {
     "id": "definitional-queries",
@@ -11798,7 +11848,9 @@
         "Google's helpful content systems evaluate whether sites demonstrate topical depth and expertise across related subjects. Definitional content creates the measurable evidence of that coverage—systematic concept definitions signal that your site represents a comprehensive resource rather than thin coverage of high-value keywords. The March 2025 core update documentation specifically references 'comprehensive coverage of topics' as a positive signal.",
         "The strategic reframe for programmatic SEO: definitional content isn't about capturing 'what is X' keywords. It's about building the knowledge infrastructure that positions your site as the authoritative reference in your domain. Organizations that approach definitional content as architecture rather than keyword targeting create sustainable competitive advantages that compound over time."
       ]
-    }
+    },
+    "ogImageId": "search-intent-analysis-og",
+    "heroImageId": "search-intent-analysis-hero"
   },
   {
     "id": "how-to-queries",
@@ -11848,7 +11900,9 @@
         "Google's helpful content systems evaluate whether content serves user needs effectively. How-to content provides clear success metrics: do users complete the procedure successfully? Engagement signals like time-on-page, step completion (where trackable), and return visit patterns indicate whether how-to content actually works. Sites with high-performing how-to content build algorithmic trust that benefits broader content portfolios.",
         "The strategic reframe positions how-to content as organizational knowledge publication rather than content creation. Most organizations already possess extensive process documentation—the content management tax comes from creating searchable formats, not from generating the underlying knowledge. Programmatic infrastructure that systematizes this translation creates sustainable competitive advantages in procedural query categories."
       ]
-    }
+    },
+    "ogImageId": "search-intent-analysis-og",
+    "heroImageId": "search-intent-analysis-hero"
   },
   {
     "id": "explanatory-queries",
@@ -11898,7 +11952,9 @@
         "Google's helpful content systems evaluate content depth as a quality signal. Explanatory content that documents mechanisms provides measurable evidence of expertise that thin definitional content cannot match. Sites building content portfolios that include substantial explanatory depth establish quality signals that benefit entire site performance—not just individual explanatory pages.",
         "The strategic positioning: explanatory content represents the expertise demonstration layer that supports E-E-A-T requirements. Organizations possessing genuine subject matter expertise can document that expertise through mechanism explanations that competitors lacking equivalent expertise cannot replicate. This creates sustainable competitive advantages that scale with expertise investment rather than content volume."
       ]
-    }
+    },
+    "ogImageId": "search-intent-analysis-og",
+    "heroImageId": "search-intent-analysis-hero"
   },
   {
     "id": "research-queries",
@@ -11948,7 +12004,9 @@
         "Google's helpful content evaluation explicitly considers whether sites demonstrate expertise in their domains. Research content provides measurable evidence of expertise—organizations synthesizing industry data, comparing complex options thoughtfully, and presenting original analysis demonstrate domain knowledge algorithms reward. The March 2025 core update documentation emphasizes comprehensive coverage of topics; research content represents the deepest topical exploration available in many domains.",
         "The strategic reframe positions research content as competitive advantage infrastructure rather than content generation. Most industries produce significant research—academic publications, consulting reports, industry surveys, analyst perspectives. Organizations that systematize the aggregation and synthesis of available research into accessible, decision-support formats capture the traffic, authority, and conversion opportunities that research-intent users represent."
       ]
-    }
+    },
+    "ogImageId": "keyword-research-og",
+    "heroImageId": "keyword-research-hero"
   },
   {
     "id": "brand-queries",
@@ -11997,7 +12055,9 @@
         "Brand queries represent the highest-intent, highest-value traffic available to most organizations—users who've already decided to consider your category and are evaluating specific options. Failing to capture brand queries represents direct revenue loss. Organizations optimizing brand query SERPs improve conversion rates, reduce customer acquisition costs, and build brand preference signals that influence perception across all touchpoints.",
         "The strategic reframe positions brand query optimization as SERP real estate control rather than keyword ranking. Your brand query SERP presence communicates brand identity, competitive positioning, and company credibility to users at the moment of maximum purchase receptiveness. Organizations treating brand queries as infrastructure optimization challenge (establishing systems for SERP dominance) rather than individual keyword ranking outperform competitors who treat it as tactical execution."
       ]
-    }
+    },
+    "ogImageId": "navigational-intent-og",
+    "heroImageId": "navigational-intent-hero"
   },
   {
     "id": "product-specific-queries",
@@ -12048,7 +12108,9 @@
         "Product-specific queries represent the highest-commerce-value traffic available to e-commerce and product recommendation sites. Users at this intent stage are ready to make purchasing decisions and receptive to information supporting that decision. Sites ranking for product-specific queries influence transaction outcomes worth substantially more than generic traffic. A single product-specific conversion often exceeds the lifetime value of generic informational traffic.",
         "The strategic reframe positions product-specific content as structured data infrastructure rather than content generation. Product data already exists in merchant catalogs, specification databases, and inventory systems—the SEO task involves structuring that data for search visibility and systematizing schema generation rather than creating new information. Programmatic approaches that automate schema generation from existing product databases enable sustainable competitive advantages without proportional content creation overhead."
       ]
-    }
+    },
+    "ogImageId": "product-entity-og",
+    "heroImageId": "product-entity-hero"
   },
   {
     "id": "website-feature-queries",
@@ -12097,7 +12159,9 @@
         "Feature query optimization represents the rare SEO initiative with directly quantifiable operational ROI. Reduced support ticket volume, improved customer satisfaction, and increased feature adoption translate directly to business metrics. Organizations measuring help center traffic as a support cost reduction channel rather than pure SEO metrics realize that feature documentation optimization has meaningful financial impact.",
         "The strategic reframe positions feature documentation as customer lifecycle infrastructure rather than support overhead. Comprehensive, searchable feature documentation enables customers to help themselves—improving outcomes while reducing support costs. Organizations treating feature documentation as core customer success infrastructure rather than ancillary SEO work create sustainable competitive advantages through superior customer adoption and retention."
       ]
-    }
+    },
+    "ogImageId": "navigational-intent-og",
+    "heroImageId": "navigational-intent-hero"
   },
   {
     "id": "comparison-queries",
@@ -12140,7 +12204,9 @@
         "Comparison queries capture users at the precise moment when they're ready to make purchasing decisions—and users trust third-party objective comparisons more than vendor positioning. Sites that control comparison narratives influence purchasing outcomes more effectively than vendor marketing. This conversion influence translates directly to monetization—whether through affiliate commissions, sponsored placements, or vendor partnerships.",
         "The strategic reframe positions comparison content as decision infrastructure rather than content creation. Most industries have comparison data available—technical specifications, pricing, performance benchmarks. The SEO task involves systematizing data presentation through comparison matrices, ensuring objectivity, and maintaining currency rather than discovering original information. Programmatic approaches that automate comparison content generation from data sources enable sustainable advantage."
       ]
-    }
+    },
+    "ogImageId": "comparison-og",
+    "heroImageId": "comparison-hero"
   },
   {
     "id": "review-queries",
@@ -12183,7 +12249,9 @@
         "Review queries represent absolute final-stage purchasing decision moments. Users reading reviews are prepared to commit financially—they're seeking final validation. Sites that establish trust through balanced, detailed, credible reviews directly influence purchasing outcomes. This decision-stage influence is worth substantially more than awareness-stage content because purchasing intent is pre-qualified.",
         "The strategic reframe positions review content as trusted decision infrastructure rather than product promotion. Organizations that consistently provide balanced, detailed, critical evaluation of products and services build brand recognition and trust that drives lifetime customer value—users return to trusted reviewers for future purchasing decisions."
       ]
-    }
+    },
+    "ogImageId": "review-rating-rich-results-og",
+    "heroImageId": "review-rating-rich-results-hero"
   },
   {
     "id": "best-queries",
@@ -12226,7 +12294,9 @@
         "Best queries unlock monetization potential because users explicitly trust recommendations to guide purchasing. By providing transparent, well-justified recommendations that users can trust, you position your site to influence purchasing across entire categories. This recommendation authority is more valuable than high SERP rankings for individual products because it establishes repeatable monetization across recommendation categories.",
         "The strategic reframe positions best-of content as systematic curation infrastructure rather than content creation. The key differentiator isn't discovering new products—it's systematizing transparent evaluation methodology that users trust. Organizations establishing consistent curation frameworks execute best-of strategies at scale."
       ]
-    }
+    },
+    "ogImageId": "best-top-modifier-og",
+    "heroImageId": "best-top-modifier-hero"
   },
   {
     "id": "alternative-queries",
@@ -12270,7 +12340,9 @@
         "Alternative queries capture users at switching-decision inflection points—they've identified dissatisfaction and are exploring whether alternatives worth switching costs. This makes alternative query traffic the highest-acquisition-value traffic available to competitive vendors. By positioning your solution to address specific dissatisfaction drivers, you influence switching decisions at the moment of maximum receptiveness.",
         "The strategic reframe positions alternative content as customer acquisition infrastructure rather than marketing. Alternative content enables organic discovery by users actively seeking switching options—capturing acquisition demand that would otherwise require expensive paid advertising targeting. Organizations systematizing alternative positioning across multiple competitor comparisons create scalable customer acquisition models through organic search."
       ]
-    }
+    },
+    "ogImageId": "alternative-to-modifier-og",
+    "heroImageId": "alternative-to-modifier-hero"
   },
   {
     "id": "purchase-queries",
@@ -12313,7 +12385,9 @@
         "Purchase queries represent the absolute highest-value moments in customer journeys—users have completed evaluation and are committed to spending. Optimizing revenue capture from these moments generates outsized ROI relative to purchase-query traffic volume. A 10% conversion-rate improvement on purchase-query traffic generates more revenue than 50% traffic increases on earlier-funnel keywords.",
         "The strategic reframe positions purchase-query optimization as revenue-infrastructure development rather than pure content creation. The key differentiators—payment options, checkout flows, trust signals, load speeds—aren't content but infrastructure decisions. Organizations treating purchase-query optimization as infrastructure challenge (not content creation task) achieve sustainable conversion advantages."
       ]
-    }
+    },
+    "ogImageId": "transactional-intent-og",
+    "heroImageId": "transactional-intent-hero"
   },
   {
     "id": "pricing-queries",
@@ -12356,7 +12430,9 @@
         "Pricing queries represent the final financial validation moment. Users asking pricing questions are ready to purchase—they're confirming financial feasibility. Clear, transparent pricing information removes the final objection and converts committed buyers. Organizations systematizing transparent pricing improve conversion rates dramatically.",
         "The strategic reframe positions pricing transparency as conversion-infrastructure development rather than information provision. Transparent, accessible pricing is infrastructure that enables purchasing decisions. Organizations treating pricing transparency as infrastructure challenge rather than simple information presentation achieve sustainable conversion advantages."
       ]
-    }
+    },
+    "ogImageId": "pricing-cost-modifier-og",
+    "heroImageId": "pricing-cost-modifier-hero"
   },
   {
     "id": "download-queries",
@@ -12399,7 +12475,9 @@
         "Download queries unlock user adoption by removing friction from value access. Organizations that prioritize friction-free downloads over signup barriers increase trial adoption, which drives downstream paid conversion. The path to monetization isn't blocking free access; it's maximizing free user adoption while converting fraction of users to paid.",
         "The strategic reframe positions downloads as acquisition and monetization infrastructure rather than pure product delivery. Free, frictionless downloads are the path to building user bases. Organizations that eliminate download friction achieve larger user bases, higher trial-to-paid conversion, and ultimately better monetization than organizations requiring signup for access."
       ]
-    }
+    },
+    "ogImageId": "transactional-intent-og",
+    "heroImageId": "transactional-intent-hero"
   },
   {
     "id": "pillar-page-overview-content",
@@ -15863,7 +15941,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "foundational-concepts-og",
+    "heroImageId": "foundational-concepts-hero"
   },
   {
     "id": "structure-patterns",
@@ -15889,7 +15969,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "url-structure-patterns-og",
+    "heroImageId": "url-structure-patterns-hero"
   },
   {
     "id": "index-noindex",
@@ -15912,7 +15994,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "index-noindex-criteria-og",
+    "heroImageId": "index-noindex-criteria-hero"
   },
   {
     "id": "canonical",
@@ -15935,7 +16019,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "canonicalization-og",
+    "heroImageId": "canonicalization-hero"
   },
   {
     "id": "pagination",
@@ -15958,7 +16044,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "pagination-handling-og",
+    "heroImageId": "pagination-handling-hero"
   },
   {
     "id": "bloat-prevention",
@@ -15981,7 +16069,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "index-bloat-prevention-og",
+    "heroImageId": "index-bloat-prevention-hero"
   },
   {
     "id": "informational",
@@ -16007,7 +16097,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "informational-intent-og",
+    "heroImageId": "informational-intent-hero"
   },
   {
     "id": "navigational",
@@ -16032,7 +16124,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "navigational-intent-og",
+    "heroImageId": "navigational-intent-hero"
   },
   {
     "id": "commercial",
@@ -16058,7 +16152,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "commercial-investigation-og",
+    "heroImageId": "commercial-investigation-hero"
   },
   {
     "id": "pillar-pages",
@@ -16083,7 +16179,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "pillar-page-design-og",
+    "heroImageId": "pillar-page-design-hero"
   },
   {
     "id": "cluster-pages",
@@ -16108,7 +16206,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "cluster-page-design-og",
+    "heroImageId": "cluster-page-design-hero"
   },
   {
     "id": "hub-and-spoke",
@@ -16133,7 +16233,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "hub-and-spoke-model-og",
+    "heroImageId": "hub-and-spoke-model-hero"
   },
   {
     "id": "featured-snippets",
@@ -16158,7 +16260,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "featured-snippet-targeting-og",
+    "heroImageId": "featured-snippet-targeting-hero"
   },
   {
     "id": "json-ld",
@@ -16183,7 +16287,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "json-ld-format-og",
+    "heroImageId": "json-ld-format-hero"
   },
   {
     "id": "sitemap",
@@ -16208,7 +16314,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "sitemap-index-og",
+    "heroImageId": "sitemap-index-hero"
   },
   {
     "id": "ssr-ssg-isr",
@@ -16233,7 +16341,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "ssg-generation-og",
+    "heroImageId": "ssg-generation-hero"
   },
   {
     "id": "core-web-vitals",
@@ -16258,7 +16368,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "lcp-optimization-og",
+    "heroImageId": "lcp-optimization-hero"
   },
   {
     "id": "database-design",
@@ -16283,7 +16395,9 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "content-database-og",
+    "heroImageId": "content-database-hero"
   },
   {
     "id": "cms-integration",
@@ -16308,6 +16422,8 @@
         "Learn implementation best practices.",
         "Apply these principles to your programmatic SEO strategy."
       ]
-    }
+    },
+    "ogImageId": "wordpress-integration-og",
+    "heroImageId": "wordpress-integration-hero"
   }
 ]

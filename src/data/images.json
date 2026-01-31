@@ -7098,5 +7098,6332 @@
     "width": 1200,
     "height": 600,
     "alt": "Download page structure showing direct download buttons, version options, system requirements, and frictionless activation flow"
+  },
+  {
+    "id": "accuracy-freshness-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/accuracy-freshness-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Accuracy Freshness Hero - Hero banner illustration"
+  },
+  {
+    "id": "accuracy-freshness-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/accuracy-freshness-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Accuracy Freshness Og - Open Graph preview image"
+  },
+  {
+    "id": "ai-overview-optimization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/ai-overview-optimization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Ai Overview Optimization Hero - Hero banner illustration"
+  },
+  {
+    "id": "ai-overview-optimization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/ai-overview-optimization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Ai Overview Optimization Og - Open Graph preview image"
+  },
+  {
+    "id": "article-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/article-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Article Schema Example - Diagram"
+  },
+  {
+    "id": "article-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/article-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Article Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "article-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/article-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Article Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "authoritativeness-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/authoritativeness-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Authoritativeness Hero - Hero banner illustration"
+  },
+  {
+    "id": "authoritativeness-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/authoritativeness-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Authoritativeness Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "breadcrumb-seo-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/breadcrumb-seo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Breadcrumb Seo - Diagram"
+  },
+  {
+    "id": "breadcrumblist-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/breadcrumblist-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Breadcrumblist Schema Example - Diagram"
+  },
+  {
+    "id": "breadcrumblist-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/breadcrumblist-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Breadcrumblist Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "breadcrumblist-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/breadcrumblist-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Breadcrumblist Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "canonical-strategy-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/canonical-strategy-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Canonical Strategy Hero - Hero banner illustration"
+  },
+  {
+    "id": "canonical-strategy-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/canonical-strategy-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Canonical Strategy Og - Open Graph preview image"
+  },
+  {
+    "id": "category-hub-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/category-hub-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Category Hub Structure - Diagram"
+  },
+  {
+    "id": "child-parent-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/child-parent-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Child Parent Flow - Diagram"
+  },
+  {
+    "id": "clarity-readability-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/clarity-readability-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Clarity Readability Hero - Hero banner illustration"
+  },
+  {
+    "id": "clarity-readability-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/clarity-readability-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Clarity Readability Og - Open Graph preview image"
+  },
+  {
+    "id": "cls-optimization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/cls-optimization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cls Optimization Hero - Hero banner illustration"
+  },
+  {
+    "id": "cls-optimization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/cls-optimization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cls Optimization Og - Open Graph preview image"
+  },
+  {
+    "id": "cls-visual-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/cls-visual-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cls Visual Example - Diagram"
+  },
+  {
+    "id": "comparison-layout-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/comparison-layout.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Comparison Layout - Diagram"
+  },
+  {
+    "id": "content-database-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/content-database-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Database Hero - Hero banner illustration"
+  },
+  {
+    "id": "content-database-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/content-database-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Database Og - Open Graph preview image"
+  },
+  {
+    "id": "content-database-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/content-database-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Database Structure - Diagram"
+  },
+  {
+    "id": "contextual-placement-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/contextual-placement-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Contextual Placement Hero - Hero banner illustration"
+  },
+  {
+    "id": "contextual-placement-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/contextual-placement-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Contextual Placement Og - Open Graph preview image"
+  },
+  {
+    "id": "cousin-linking-bridge-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/cousin-linking-bridge.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cousin Linking Bridge - Diagram"
+  },
+  {
+    "id": "cross-branch-linking-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/cross-branch-linking.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cross Branch Linking - Diagram"
+  },
+  {
+    "id": "data-display-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/data-display-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Data Display Types - Diagram"
+  },
+  {
+    "id": "deep-page-support-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/deep-page-support-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Deep Page Support Hero - Hero banner illustration"
+  },
+  {
+    "id": "deep-page-support-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/deep-page-support-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Deep Page Support Og - Open Graph preview image"
+  },
+  {
+    "id": "depth-appropriateness-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/depth-appropriateness-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Depth Appropriateness Hero - Hero banner illustration"
+  },
+  {
+    "id": "depth-appropriateness-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/depth-appropriateness-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Depth Appropriateness Og - Open Graph preview image"
+  },
+  {
+    "id": "descriptive-anchors-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/descriptive-anchors-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Descriptive Anchors Hero - Hero banner illustration"
+  },
+  {
+    "id": "descriptive-anchors-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/descriptive-anchors-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Descriptive Anchors Og - Open Graph preview image"
+  },
+  {
+    "id": "dynamic-data-integration-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/dynamic-data-integration.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Dynamic Data Integration - Diagram"
+  },
+  {
+    "id": "dynamic-data-sources-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/dynamic-data-sources-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Dynamic Data Sources Hero - Hero banner illustration"
+  },
+  {
+    "id": "dynamic-data-sources-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/dynamic-data-sources-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Dynamic Data Sources Og - Open Graph preview image"
+  },
+  {
+    "id": "dynamic-schema-generation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/dynamic-schema-generation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Dynamic Schema Generation Hero - Hero banner illustration"
+  },
+  {
+    "id": "dynamic-schema-generation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/dynamic-schema-generation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Dynamic Schema Generation Og - Open Graph preview image"
+  },
+  {
+    "id": "dynamic-zones-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/dynamic-zones-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Dynamic Zones Hero - Hero banner illustration"
+  },
+  {
+    "id": "dynamic-zones-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/dynamic-zones-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Dynamic Zones Og - Open Graph preview image"
+  },
+  {
+    "id": "expertise-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/expertise-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Expertise Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "expertise-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/expertise-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Expertise Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "faq-block-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/faq-block.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Faq Block - Diagram"
+  },
+  {
+    "id": "faq-rich-results-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/faq-rich-results-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Faq Rich Results Hero - Hero banner illustration"
+  },
+  {
+    "id": "faq-rich-results-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/faq-rich-results-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Faq Rich Results Og - Open Graph preview image"
+  },
+  {
+    "id": "faq-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/faq-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Faq Schema Example - Diagram"
+  },
+  {
+    "id": "faq-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/faq-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Faq Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "faq-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/faq-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Faq Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "featured-snippet-targeting-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/featured-snippet-targeting-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Featured Snippet Targeting Hero - Hero banner illustration"
+  },
+  {
+    "id": "featured-snippet-targeting-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/featured-snippet-targeting-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Featured Snippet Targeting Og - Open Graph preview image"
+  },
+  {
+    "id": "headless-cms-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/headless-cms-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Headless Cms Architecture - Diagram"
+  },
+  {
+    "id": "headless-cms-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/headless-cms-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Headless Cms Hero - Hero banner illustration"
+  },
+  {
+    "id": "headless-cms-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/headless-cms-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Headless Cms Og - Open Graph preview image"
+  },
+  {
+    "id": "alternative-to-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/alternative-to-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Alternative To Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "body-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/body-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Body Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "cannibalization-detection-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/cannibalization-detection-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cannibalization Detection Hero - Hero banner illustration"
+  },
+  {
+    "id": "canonicalization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/canonicalization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Canonicalization Hero - Hero banner illustration"
+  },
+  {
+    "id": "city-region-pages-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/city-region-pages-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "City Region Pages Hero - Hero banner illustration"
+  },
+  {
+    "id": "cluster-page-design-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/cluster-page-design-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cluster Page Design Hero - Hero banner illustration"
+  },
+  {
+    "id": "cluster-subtopic-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/cluster-subtopic-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cluster Subtopic Hero - Hero banner illustration"
+  },
+  {
+    "id": "conditional-sections-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/conditional-sections-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Conditional Sections Hero - Hero banner illustration"
+  },
+  {
+    "id": "content-audits-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-audits-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Audits Hero - Hero banner illustration"
+  },
+  {
+    "id": "content-expansion-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-expansion-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Expansion Hero - Hero banner illustration"
+  },
+  {
+    "id": "content-parsing-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-parsing-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Parsing Hero - Hero banner illustration"
+  },
+  {
+    "id": "eeat",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-requirements/eeat.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Eeat - Hero banner illustration"
+  },
+  {
+    "id": "quality-framework",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-requirements/quality-framework.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Quality Framework - Hero banner illustration"
+  },
+  {
+    "id": "quality-problems",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-requirements/quality-problems.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Quality Problems - Hero banner illustration"
+  },
+  {
+    "id": "unique-value",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-requirements/unique-value.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Unique Value - Hero banner illustration"
+  },
+  {
+    "id": "content-requirements",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/content-requirements.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Requirements - Hero banner illustration"
+  },
+  {
+    "id": "conversion-tracking-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/conversion-tracking-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Conversion Tracking Hero - Hero banner illustration"
+  },
+  {
+    "id": "crawl-scheduling-politeness-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/crawl-scheduling-politeness-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Crawl Scheduling Politeness Hero - Hero banner illustration"
+  },
+  {
+    "id": "cross-spoke-linking-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/cross-spoke-linking-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cross Spoke Linking Hero - Hero banner illustration"
+  },
+  {
+    "id": "deduplication-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/deduplication-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Deduplication Hero - Hero banner illustration"
+  },
+  {
+    "id": "discovery-mechanisms-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/discovery-mechanisms-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Discovery Mechanisms Hero - Hero banner illustration"
+  },
+  {
+    "id": "duplicate-detection-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/duplicate-detection-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Duplicate Detection Hero - Hero banner illustration"
+  },
+  {
+    "id": "educational-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/educational-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Educational Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "experience-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/eeat/experience-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Experience Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "entertainment-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/entertainment-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Entertainment Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "footer-cta-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/footer-cta-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Footer Cta Hero - Hero banner illustration"
+  },
+  {
+    "id": "for-audience-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/for-audience-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "For Audience Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "automation-at-scale",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/automation-at-scale.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Automation At Scale - Hero banner illustration"
+  },
+  {
+    "id": "crawling",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/crawling.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Crawling - Hero banner illustration"
+  },
+  {
+    "id": "database-vs-content-driven",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/database-vs-content-driven.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Database Vs Content Driven - Hero banner illustration"
+  },
+  {
+    "id": "distinction-from-traditional-seo",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/distinction-from-traditional-seo.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Distinction From Traditional Seo - Hero banner illustration"
+  },
+  {
+    "id": "eeat-requirements-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/eeat-requirements-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Eeat Requirements Hero - Hero banner illustration"
+  },
+  {
+    "id": "google-policy-framework",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/google-policy-framework.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Google Policy Framework - Hero banner illustration"
+  },
+  {
+    "id": "helpful-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/helpful-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Helpful Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "indexing",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/indexing.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Indexing - Hero banner illustration"
+  },
+  {
+    "id": "longtail-vs-head-term",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/longtail-vs-head-term.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Longtail Vs Head Term - Hero banner illustration"
+  },
+  {
+    "id": "query-driven-architecture",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/query-driven-architecture.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Query Driven Architecture - Hero banner illustration"
+  },
+  {
+    "id": "ranking",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/ranking.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Ranking - Hero banner illustration"
+  },
+  {
+    "id": "retrieval",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/retrieval.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Retrieval - Hero banner illustration"
+  },
+  {
+    "id": "scale-vs-manual",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/scale-vs-manual.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Scale Vs Manual - Hero banner illustration"
+  },
+  {
+    "id": "scaled-content-abuse",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/scaled-content-abuse.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Scaled Content Abuse - Hero banner illustration"
+  },
+  {
+    "id": "search-engine-mechanics",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/search-engine-mechanics.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Search Engine Mechanics - Hero banner illustration"
+  },
+  {
+    "id": "serving",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/serving.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Serving - Hero banner illustration"
+  },
+  {
+    "id": "spam-policies",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/spam-policies.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Spam Policies - Hero banner illustration"
+  },
+  {
+    "id": "structured-data-integration",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/structured-data-integration.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Structured Data Integration - Hero banner illustration"
+  },
+  {
+    "id": "template-vs-individual",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts/template-vs-individual.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Template Vs Individual - Hero banner illustration"
+  },
+  {
+    "id": "foundational-concepts",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/foundational-concepts.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Foundational Concepts - Hero banner illustration"
+  },
+  {
+    "id": "free-open-source-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/free-open-source-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Free Open Source Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "freshness-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/freshness-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Freshness Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "header-navigation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/header-navigation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Header Navigation Hero - Hero banner illustration"
+  },
+  {
+    "id": "hero-section-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/hero-section-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hero Section Hero - Hero banner illustration"
+  },
+  {
+    "id": "hierarchy-depth-determination-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/hierarchy-depth-determination-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hierarchy Depth Determination Hero - Hero banner illustration"
+  },
+  {
+    "id": "hub-and-spoke-model-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/hub-and-spoke-model-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hub And Spoke Model Hero - Hero banner illustration"
+  },
+  {
+    "id": "hub-architecture-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/hub-architecture-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hub Architecture Hero - Hero banner illustration"
+  },
+  {
+    "id": "indexation-monitoring-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/indexation-monitoring-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Indexation Monitoring Hero - Hero banner illustration"
+  },
+  {
+    "id": "best-top-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/intent-modifiers/best-top-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Best Top Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "vs-compared-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/intent-modifiers/vs-compared-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Vs Compared Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "anchor-text",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/internal-linking/anchor-text.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Anchor Text - Hero banner illustration"
+  },
+  {
+    "id": "horizontal-linking",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/internal-linking/horizontal-linking.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Horizontal Linking - Hero banner illustration"
+  },
+  {
+    "id": "link-equity",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/internal-linking/link-equity.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Link Equity - Hero banner illustration"
+  },
+  {
+    "id": "vertical-linking",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/internal-linking/vertical-linking.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Vertical Linking - Hero banner illustration"
+  },
+  {
+    "id": "internal-linking",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/internal-linking.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Internal Linking - Hero banner illustration"
+  },
+  {
+    "id": "inverted-index-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/inverted-index-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Inverted Index Hero - Hero banner illustration"
+  },
+  {
+    "id": "conversion-potential-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/conversion-potential-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Conversion Potential Hero - Hero banner illustration"
+  },
+  {
+    "id": "head-terms-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/head-terms-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Head Terms Hero - Hero banner illustration"
+  },
+  {
+    "id": "keyword-difficulty-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/keyword-difficulty-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Keyword Difficulty Hero - Hero banner illustration"
+  },
+  {
+    "id": "keyword-tools",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/keyword-tools.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Keyword Tools - Hero banner illustration"
+  },
+  {
+    "id": "long-tail-definition-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/long-tail-definition-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Long Tail Definition Hero - Hero banner illustration"
+  },
+  {
+    "id": "long-tail-strategy",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/long-tail-strategy.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Long Tail Strategy - Hero banner illustration"
+  },
+  {
+    "id": "modifier-discovery-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/modifier-discovery-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Modifier Discovery Hero - Hero banner illustration"
+  },
+  {
+    "id": "pattern-discovery",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/pattern-discovery.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pattern Discovery - Hero banner illustration"
+  },
+  {
+    "id": "pattern-validation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/pattern-validation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pattern Validation Hero - Hero banner illustration"
+  },
+  {
+    "id": "search-volume-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research/search-volume-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Search Volume Hero - Hero banner illustration"
+  },
+  {
+    "id": "keyword-research",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/keyword-research.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Keyword Research - Hero banner illustration"
+  },
+  {
+    "id": "lexical-bm25-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/lexical-bm25-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Lexical Bm25 Hero - Hero banner illustration"
+  },
+  {
+    "id": "link-architecture-updates-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/link-architecture-updates-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Link Architecture Updates Hero - Hero banner illustration"
+  },
+  {
+    "id": "link-graph-analysis-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/link-graph-analysis-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Link Graph Analysis Hero - Hero banner illustration"
+  },
+  {
+    "id": "list-snippet-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/list-snippet-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "List Snippet Hero - Hero banner illustration"
+  },
+  {
+    "id": "long-tail-targeting-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/long-tail-targeting-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Long Tail Targeting Hero - Hero banner illustration"
+  },
+  {
+    "id": "mobile-friendly-test-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/mobile-friendly-test-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Mobile Friendly Test Hero - Hero banner illustration"
+  },
+  {
+    "id": "iterative-optimization",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/monitoring/iterative-optimization.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Iterative Optimization - Hero banner illustration"
+  },
+  {
+    "id": "performance-tracking",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/monitoring/performance-tracking.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Performance Tracking - Hero banner illustration"
+  },
+  {
+    "id": "quality-assurance",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/monitoring/quality-assurance.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Quality Assurance - Hero banner illustration"
+  },
+  {
+    "id": "monitoring",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/monitoring.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Monitoring - Hero banner illustration"
+  },
+  {
+    "id": "near-me-location-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/near-me-location-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Near Me Location Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "neural-semantic-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/neural-semantic-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Neural Semantic Hero - Hero banner illustration"
+  },
+  {
+    "id": "news-trending-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/news-trending-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "News Trending Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "paragraph-snippet-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/paragraph-snippet-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Paragraph Snippet Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-link-distribution-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-link-distribution-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Link Distribution Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-linkback-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-linkback-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Linkback Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-navigation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-navigation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Navigation Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-overview-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-overview-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Overview Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-overview-structure-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-overview-structure-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Overview Structure Hero - Hero banner illustration"
+  },
+  {
+    "id": "pillar-page-design-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pillar-page-design-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pillar Page Design Hero - Hero banner illustration"
+  },
+  {
+    "id": "pricing-cost-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/pricing-cost-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pricing Cost Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "programmatic-seo",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/programmatic-seo.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Programmatic Seo - Hero banner illustration"
+  },
+  {
+    "id": "quality-authority-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/quality-authority-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Quality Authority Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "query-understanding-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/query-understanding-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Query Understanding Hero - Hero banner illustration"
+  },
+  {
+    "id": "ranking-monitoring-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/ranking-monitoring-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Ranking Monitoring Hero - Hero banner illustration"
+  },
+  {
+    "id": "result-blending-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/result-blending-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Result Blending Hero - Hero banner illustration"
+  },
+  {
+    "id": "cannibalization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/risk-assessment/cannibalization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cannibalization Hero - Hero banner illustration"
+  },
+  {
+    "id": "duplicate-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/risk-assessment/duplicate-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Duplicate Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "index-bloat-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/risk-assessment/index-bloat-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Index Bloat Hero - Hero banner illustration"
+  },
+  {
+    "id": "thin-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/risk-assessment/thin-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Thin Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "commercial-investigation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent/commercial-investigation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Commercial Investigation Hero - Hero banner illustration"
+  },
+  {
+    "id": "informational-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent/informational-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Informational Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "local-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent/local-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Local Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "navigational-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent/navigational-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Navigational Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "transactional-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent/transactional-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Transactional Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "extended-types",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent-analysis/extended-types.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Extended Types - Hero banner illustration"
+  },
+  {
+    "id": "primary-categories",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent-analysis/primary-categories.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Primary Categories - Hero banner illustration"
+  },
+  {
+    "id": "search-intent-analysis",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/search-intent-analysis.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Search Intent Analysis - Hero banner illustration"
+  },
+  {
+    "id": "serp-derived-requirements",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/serp-analysis/serp-derived-requirements.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Serp Derived Requirements - Hero banner illustration"
+  },
+  {
+    "id": "serp-features",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/serp-analysis/serp-features.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Serp Features - Hero banner illustration"
+  },
+  {
+    "id": "serp-analysis",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/serp-analysis.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Serp Analysis - Hero banner illustration"
+  },
+  {
+    "id": "sidebar-elements-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/sidebar-elements-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Sidebar Elements Hero - Hero banner illustration"
+  },
+  {
+    "id": "snippet-generation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/snippet-generation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Snippet Generation Hero - Hero banner illustration"
+  },
+  {
+    "id": "spam-safety-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/spam-safety-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Spam Safety Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "spoke-design-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/spoke-design-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Spoke Design Hero - Hero banner illustration"
+  },
+  {
+    "id": "business-case",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/business-case.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Business Case - Hero banner illustration"
+  },
+  {
+    "id": "competitive-landscape",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/competitive-landscape.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Competitive Landscape - Hero banner illustration"
+  },
+  {
+    "id": "data-asset-evaluation",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/data-asset-evaluation.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Data Asset Evaluation - Hero banner illustration"
+  },
+  {
+    "id": "data-driven-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/data-driven-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Data Driven Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "educational-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/educational-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Educational Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "integration-pages",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/integration-pages.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Integration Pages - Hero banner illustration"
+  },
+  {
+    "id": "location-based",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/location-based.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Location Based - Hero banner illustration"
+  },
+  {
+    "id": "product-variations",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/product-variations.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Product Variations - Hero banner illustration"
+  },
+  {
+    "id": "resource-requirements",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/resource-requirements.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Resource Requirements - Hero banner illustration"
+  },
+  {
+    "id": "risk-assessment",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/risk-assessment.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Risk Assessment - Hero banner illustration"
+  },
+  {
+    "id": "use-cases",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning/use-cases.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Use Cases - Hero banner illustration"
+  },
+  {
+    "id": "strategic-planning",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/strategic-planning.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Strategic Planning - Hero banner illustration"
+  },
+  {
+    "id": "rich-results",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/structured-data/rich-results.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Rich Results - Hero banner illustration"
+  },
+  {
+    "id": "schema-implementation",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/structured-data/schema-implementation.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Schema Implementation - Hero banner illustration"
+  },
+  {
+    "id": "structured-data",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/structured-data.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Structured Data - Hero banner illustration"
+  },
+  {
+    "id": "subdivision-principles-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/subdivision-principles-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Subdivision Principles Hero - Hero banner illustration"
+  },
+  {
+    "id": "table-snippet-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/table-snippet-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Table Snippet Hero - Hero banner illustration"
+  },
+  {
+    "id": "crawl-optimization",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation/crawl-optimization.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Crawl Optimization - Hero banner illustration"
+  },
+  {
+    "id": "data-infrastructure",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation/data-infrastructure.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Data Infrastructure - Hero banner illustration"
+  },
+  {
+    "id": "indexation",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation/indexation.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Indexation - Hero banner illustration"
+  },
+  {
+    "id": "rendering",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation/rendering.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Rendering - Hero banner illustration"
+  },
+  {
+    "id": "url-architecture",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation/url-architecture.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Url Architecture - Hero banner illustration"
+  },
+  {
+    "id": "technical-implementation",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/technical-implementation.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Technical Implementation - Hero banner illustration"
+  },
+  {
+    "id": "architecture",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/template-design/architecture.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Architecture - Hero banner illustration"
+  },
+  {
+    "id": "content-blocks",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/template-design/content-blocks.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Blocks - Hero banner illustration"
+  },
+  {
+    "id": "types-by-intent",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/template-design/types-by-intent.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Types By Intent - Hero banner illustration"
+  },
+  {
+    "id": "template-design",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/template-design.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Template Design - Hero banner illustration"
+  },
+  {
+    "id": "template-refinement-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/template-refinement-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Template Refinement Hero - Hero banner illustration"
+  },
+  {
+    "id": "text-relevance-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/text-relevance-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Text Relevance Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "thin-content-identification-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/thin-content-identification-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Thin Content Identification Hero - Hero banner illustration"
+  },
+  {
+    "id": "answer-the-public-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/answer-the-public-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Answer The Public Hero - Hero banner illustration"
+  },
+  {
+    "id": "autocomplete-paa-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/autocomplete-paa-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Autocomplete Paa Hero - Hero banner illustration"
+  },
+  {
+    "id": "content-generation",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/content-generation.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Generation - Hero banner illustration"
+  },
+  {
+    "id": "google-keyword-planner-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/google-keyword-planner-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Google Keyword Planner Hero - Hero banner illustration"
+  },
+  {
+    "id": "semrush-ahrefs-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/semrush-ahrefs-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Semrush Ahrefs Hero - Hero banner illustration"
+  },
+  {
+    "id": "seo-analysis",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/seo-analysis.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Seo Analysis - Hero banner illustration"
+  },
+  {
+    "id": "validation-testing",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools/validation-testing.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Validation Testing - Hero banner illustration"
+  },
+  {
+    "id": "tools",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/tools.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Tools - Hero banner illustration"
+  },
+  {
+    "id": "content-hierarchy",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/topical-authority/content-hierarchy.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Content Hierarchy - Hero banner illustration"
+  },
+  {
+    "id": "semantic-relationships-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/topical-authority/semantic-relationships.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Semantic Relationships - Hero banner illustration"
+  },
+  {
+    "id": "topic-clusters",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/topical-authority/topic-clusters.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Topic Clusters - Hero banner illustration"
+  },
+  {
+    "id": "topical-authority",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/topical-authority.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Topical Authority - Hero banner illustration"
+  },
+  {
+    "id": "traffic-analysis-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/traffic-analysis-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Traffic Analysis Hero - Hero banner illustration"
+  },
+  {
+    "id": "sign-up-queries-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/transactional/sign-up-queries-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Sign Up Queries Hero - Hero banner illustration"
+  },
+  {
+    "id": "user-satisfaction-signals-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/user-satisfaction-signals-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "User Satisfaction Signals Hero - Hero banner illustration"
+  },
+  {
+    "id": "variable-depth-handling-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/variable-depth-handling-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Variable Depth Handling Hero - Hero banner illustration"
+  },
+  {
+    "id": "variable-placeholders-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/variable-placeholders-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Variable Placeholders Hero - Hero banner illustration"
+  },
+  {
+    "id": "visual-media-intent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/visual-media-intent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Visual Media Intent Hero - Hero banner illustration"
+  },
+  {
+    "id": "year-modifier-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hero/year-modifier-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Year Modifier Hero - Hero banner illustration"
+  },
+  {
+    "id": "breadcrumbs-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/breadcrumbs-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Breadcrumbs Hero - Hero banner illustration"
+  },
+  {
+    "id": "category-hub-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/category-hub-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Category Hub Hero - Hero banner illustration"
+  },
+  {
+    "id": "child-to-parent-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/child-to-parent-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Child To Parent Hero - Hero banner illustration"
+  },
+  {
+    "id": "comparison-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/comparison-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Comparison Hero - Hero banner illustration"
+  },
+  {
+    "id": "cousin-links-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/cousin-links-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cousin Links Hero - Hero banner illustration"
+  },
+  {
+    "id": "cross-branch-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/cross-branch-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Cross Branch Hero - Hero banner illustration"
+  },
+  {
+    "id": "data-display-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/data-display-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Data Display Hero - Hero banner illustration"
+  },
+  {
+    "id": "faq-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/faq-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Faq Hero - Hero banner illustration"
+  },
+  {
+    "id": "hub-equity-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/hub-equity-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hub Equity Hero - Hero banner illustration"
+  },
+  {
+    "id": "integration-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/integration-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Integration Hero - Hero banner illustration"
+  },
+  {
+    "id": "introduction-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/introduction-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Introduction Hero - Hero banner illustration"
+  },
+  {
+    "id": "location-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/location-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Location Hero - Hero banner illustration"
+  },
+  {
+    "id": "parent-to-child-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/parent-to-child-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Parent To Child Hero - Hero banner illustration"
+  },
+  {
+    "id": "product-entity-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/product-entity-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Product Entity Hero - Hero banner illustration"
+  },
+  {
+    "id": "related-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/related-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Related Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "related-content-links-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/related-content-links-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Related Content Links Hero - Hero banner illustration"
+  },
+  {
+    "id": "schema-markup-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/schema-markup-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Schema Markup Hero - Hero banner illustration"
+  },
+  {
+    "id": "sibling-links-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/sibling-links-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Sibling Links Hero - Hero banner illustration"
+  },
+  {
+    "id": "skip-level-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/skip-level-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Skip Level Hero - Hero banner illustration"
+  },
+  {
+    "id": "title-meta-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/heroes/title-meta-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Title Meta Hero - Hero banner illustration"
+  },
+  {
+    "id": "hierarchy-reflection-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/hierarchy-reflection-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Hierarchy Reflection Hero - Hero banner illustration"
+  },
+  {
+    "id": "hierarchy-reflection-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/hierarchy-reflection-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hierarchy Reflection Og - Open Graph preview image"
+  },
+  {
+    "id": "howto-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/howto-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Howto Schema Example - Diagram"
+  },
+  {
+    "id": "howto-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/howto-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Howto Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "howto-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/howto-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Howto Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "hub-equity-distribution-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/hub-equity-distribution.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hub Equity Distribution - Diagram"
+  },
+  {
+    "id": "index-bloat-prevention-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/index-bloat-prevention-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Index Bloat Prevention Hero - Hero banner illustration"
+  },
+  {
+    "id": "index-bloat-prevention-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/index-bloat-prevention-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Index Bloat Prevention Og - Open Graph preview image"
+  },
+  {
+    "id": "index-noindex-criteria-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/index-noindex-criteria-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Index Noindex Criteria Hero - Hero banner illustration"
+  },
+  {
+    "id": "index-noindex-criteria-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/index-noindex-criteria-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Index Noindex Criteria Og - Open Graph preview image"
+  },
+  {
+    "id": "information-gain-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/information-gain-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Information Gain Hero - Hero banner illustration"
+  },
+  {
+    "id": "information-gain-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/information-gain-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Information Gain Og - Open Graph preview image"
+  },
+  {
+    "id": "alternative-queries-switching-capture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/alternative-queries-switching-capture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Alternative Queries Switching Capture - Diagram"
+  },
+  {
+    "id": "anchor-text-strategies-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/anchor-text-strategies.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Anchor Text Strategies - Diagram"
+  },
+  {
+    "id": "automation-at-scale-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/automation-at-scale-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Automation At Scale Overview - Diagram"
+  },
+  {
+    "id": "best-modifier-evaluation-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/best-modifier-evaluation-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Best Modifier Evaluation Framework - Diagram"
+  },
+  {
+    "id": "best-queries-curation-authority-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/best-queries-curation-authority.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Best Queries Curation Authority - Diagram"
+  },
+  {
+    "id": "body-content-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/body-content-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Body Content Structure - Diagram"
+  },
+  {
+    "id": "brand-queries-serp-control-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/brand-queries-serp-control.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Brand Queries Serp Control - Diagram"
+  },
+  {
+    "id": "business-case-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/business-case-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Business Case Framework - Diagram"
+  },
+  {
+    "id": "cannibalization-analysis-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/cannibalization-analysis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cannibalization Analysis - Diagram"
+  },
+  {
+    "id": "cluster-subtopic-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/cluster-subtopic-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cluster Subtopic Structure - Diagram"
+  },
+  {
+    "id": "commercial-investigation-conversion-impact-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/commercial-investigation-conversion-impact.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Commercial Investigation Conversion Impact - Diagram"
+  },
+  {
+    "id": "comparison-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/comparison-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Comparison Overview - Diagram"
+  },
+  {
+    "id": "comparison-queries-decision-infrastructure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/comparison-queries-decision-infrastructure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Comparison Queries Decision Infrastructure - Diagram"
+  },
+  {
+    "id": "competitive-landscape-analysis-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/competitive-landscape-analysis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Competitive Landscape Analysis - Diagram"
+  },
+  {
+    "id": "competitive-landscape-programmatic-viability-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/competitive-landscape-programmatic-viability.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Competitive Landscape Programmatic Viability - Diagram"
+  },
+  {
+    "id": "competitor-analysis-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/competitor-analysis-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Competitor Analysis Framework - Diagram"
+  },
+  {
+    "id": "conditional-logic-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/conditional-logic-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Conditional Logic Diagram - Diagram"
+  },
+  {
+    "id": "content-audit-dashboard-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-audit-dashboard.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Audit Dashboard - Diagram"
+  },
+  {
+    "id": "content-blocks-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-blocks-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Blocks Overview - Diagram"
+  },
+  {
+    "id": "content-expansion-strategy-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-expansion-strategy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Expansion Strategy - Diagram"
+  },
+  {
+    "id": "content-generation-tools-comparison-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-generation-tools-comparison.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Generation Tools Comparison - Diagram"
+  },
+  {
+    "id": "content-generation-tools-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-generation-tools.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Generation Tools - Diagram"
+  },
+  {
+    "id": "content-hierarchy-design-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-hierarchy-design.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Hierarchy Design - Diagram"
+  },
+  {
+    "id": "content-requirements-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/content-requirements-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Content Requirements Framework - Diagram"
+  },
+  {
+    "id": "conversion-tracking-funnel-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/conversion-tracking-funnel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Conversion Tracking Funnel - Diagram"
+  },
+  {
+    "id": "crawl-optimization-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/crawl-optimization-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Crawl Optimization Overview - Diagram"
+  },
+  {
+    "id": "crawling-process-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/crawling-process-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Crawling Process Diagram - Diagram"
+  },
+  {
+    "id": "cross-spoke-network-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/cross-spoke-network.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cross Spoke Network - Diagram"
+  },
+  {
+    "id": "data-asset-checklist-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/data-asset-checklist.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Data Asset Checklist - Diagram"
+  },
+  {
+    "id": "data-asset-evaluation-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/data-asset-evaluation-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Data Asset Evaluation Framework - Diagram"
+  },
+  {
+    "id": "data-infrastructure-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/data-infrastructure-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Data Infrastructure Overview - Diagram"
+  },
+  {
+    "id": "database-vs-content-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/database-vs-content-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Database Vs Content Diagram - Diagram"
+  },
+  {
+    "id": "definitional-queries-knowledge-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/definitional-queries-knowledge-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Definitional Queries Knowledge Architecture - Diagram"
+  },
+  {
+    "id": "download-queries-activation-infrastructure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/download-queries-activation-infrastructure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Download Queries Activation Infrastructure - Diagram"
+  },
+  {
+    "id": "duplicate-content-analysis-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/duplicate-content-analysis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Duplicate Content Analysis - Diagram"
+  },
+  {
+    "id": "eeat-framework-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/eeat-framework-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Eeat Framework Diagram - Diagram"
+  },
+  {
+    "id": "eeat-signal-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/eeat-signal-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Eeat Signal Architecture - Diagram"
+  },
+  {
+    "id": "eeat-signals-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/eeat-signals-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Eeat Signals Overview - Diagram"
+  },
+  {
+    "id": "experience-signals-hierarchy-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/experience-signals-hierarchy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Experience Signals Hierarchy - Diagram"
+  },
+  {
+    "id": "explanatory-content-depth-layers-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/explanatory-content-depth-layers.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Explanatory Content Depth Layers - Diagram"
+  },
+  {
+    "id": "extended-intent-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/extended-intent-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Extended Intent Types - Diagram"
+  },
+  {
+    "id": "feature-queries-adoption-infrastructure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/feature-queries-adoption-infrastructure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Feature Queries Adoption Infrastructure - Diagram"
+  },
+  {
+    "id": "footer-cta-layout-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/footer-cta-layout.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Footer Cta Layout - Diagram"
+  },
+  {
+    "id": "foundational-concepts-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/foundational-concepts-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Foundational Concepts Overview - Diagram"
+  },
+  {
+    "id": "four-intent-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/four-intent-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Four Intent Types - Diagram"
+  },
+  {
+    "id": "head-term-modifier-matrix-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/head-term-modifier-matrix.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Head Term Modifier Matrix - Diagram"
+  },
+  {
+    "id": "header-structure-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/header-structure-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Header Structure Diagram - Diagram"
+  },
+  {
+    "id": "helpful-content-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/helpful-content-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Helpful Content Framework - Diagram"
+  },
+  {
+    "id": "helpful-content-site-level-assessment-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/helpful-content-site-level-assessment.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Helpful Content Site Level Assessment - Diagram"
+  },
+  {
+    "id": "hero-section-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/hero-section-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hero Section Example - Diagram"
+  },
+  {
+    "id": "horizontal-linking-patterns-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/horizontal-linking-patterns.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Horizontal Linking Patterns - Diagram"
+  },
+  {
+    "id": "how-to-process-documentation-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/how-to-process-documentation-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "How To Process Documentation Flow - Diagram"
+  },
+  {
+    "id": "hub-architecture-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/hub-architecture-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hub Architecture Diagram - Diagram"
+  },
+  {
+    "id": "indexation-monitoring-chart-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/indexation-monitoring-chart.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Indexation Monitoring Chart - Diagram"
+  },
+  {
+    "id": "indexation-strategy-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/indexation-strategy-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Indexation Strategy Framework - Diagram"
+  },
+  {
+    "id": "indexing-process-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/indexing-process-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Indexing Process Diagram - Diagram"
+  },
+  {
+    "id": "informational-intent-query-patterns-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/informational-intent-query-patterns.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Informational Intent Query Patterns - Diagram"
+  },
+  {
+    "id": "integration-pages-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/integration-pages-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Integration Pages Example - Diagram"
+  },
+  {
+    "id": "integration-validation-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/integration-validation-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Integration Validation Architecture - Diagram"
+  },
+  {
+    "id": "intent-modifiers-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/intent-modifiers-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Intent Modifiers Overview - Diagram"
+  },
+  {
+    "id": "internal-linking-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/internal-linking-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Internal Linking Overview - Diagram"
+  },
+  {
+    "id": "iterative-optimization-cycle-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/iterative-optimization-cycle.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Iterative Optimization Cycle - Diagram"
+  },
+  {
+    "id": "json-ld-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/json-ld-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Json Ld Example - Diagram"
+  },
+  {
+    "id": "keyword-pattern-concept-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/keyword-pattern-concept.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Keyword Pattern Concept - Diagram"
+  },
+  {
+    "id": "keyword-tools-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/keyword-tools-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Keyword Tools Overview - Diagram"
+  },
+  {
+    "id": "link-architecture-visualization-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/link-architecture-visualization.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Link Architecture Visualization - Diagram"
+  },
+  {
+    "id": "link-equity-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/link-equity-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Link Equity Flow - Diagram"
+  },
+  {
+    "id": "list-snippet-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/list-snippet-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "List Snippet Example - Diagram"
+  },
+  {
+    "id": "local-intent-growth-conversion-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/local-intent-growth-conversion.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Local Intent Growth Conversion - Diagram"
+  },
+  {
+    "id": "location-based-pages-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/location-based-pages-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Location Based Pages Example - Diagram"
+  },
+  {
+    "id": "location-pages-differentiation-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/location-pages-differentiation-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Location Pages Differentiation Architecture - Diagram"
+  },
+  {
+    "id": "long-tail-curve-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/long-tail-curve.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Long Tail Curve - Diagram"
+  },
+  {
+    "id": "long-tail-distribution-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/long-tail-distribution.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Long Tail Distribution - Diagram"
+  },
+  {
+    "id": "long-tail-keyword-spectrum-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/long-tail-keyword-spectrum.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Long Tail Keyword Spectrum - Diagram"
+  },
+  {
+    "id": "longtail-vs-head-distribution-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/longtail-vs-head-distribution.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Longtail Vs Head Distribution - Diagram"
+  },
+  {
+    "id": "mobile-friendly-test-interface-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/mobile-friendly-test-interface.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mobile Friendly Test Interface - Diagram"
+  },
+  {
+    "id": "monitoring-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/monitoring-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Monitoring Overview - Diagram"
+  },
+  {
+    "id": "navigational-intent-conversion-funnel-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/navigational-intent-conversion-funnel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Navigational Intent Conversion Funnel - Diagram"
+  },
+  {
+    "id": "paragraph-snippet-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/paragraph-snippet-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Paragraph Snippet Example - Diagram"
+  },
+  {
+    "id": "pattern-discovery-process-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/pattern-discovery-process.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pattern Discovery Process - Diagram"
+  },
+  {
+    "id": "performance-metrics-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/performance-metrics.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Performance Metrics - Diagram"
+  },
+  {
+    "id": "performance-tracking-dashboard-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/performance-tracking-dashboard.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Performance Tracking Dashboard - Diagram"
+  },
+  {
+    "id": "pillar-link-distribution-map-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/pillar-link-distribution-map.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pillar Link Distribution Map - Diagram"
+  },
+  {
+    "id": "pillar-linkback-network-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/pillar-linkback-network.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pillar Linkback Network - Diagram"
+  },
+  {
+    "id": "pillar-navigation-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/pillar-navigation-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pillar Navigation Diagram - Diagram"
+  },
+  {
+    "id": "policy-framework-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/policy-framework-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Policy Framework Overview - Diagram"
+  },
+  {
+    "id": "pricing-queries-transparency-conversion-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/pricing-queries-transparency-conversion.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pricing Queries Transparency Conversion - Diagram"
+  },
+  {
+    "id": "primary-intent-categories-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/primary-intent-categories.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Primary Intent Categories - Diagram"
+  },
+  {
+    "id": "product-specific-funnel-capture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/product-specific-funnel-capture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Product Specific Funnel Capture - Diagram"
+  },
+  {
+    "id": "product-variation-architecture-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/product-variation-architecture-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Product Variation Architecture Framework - Diagram"
+  },
+  {
+    "id": "product-variations-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/product-variations-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Product Variations Example - Diagram"
+  },
+  {
+    "id": "programmatic-seo-components-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/programmatic-seo-components.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Programmatic Seo Components - Diagram"
+  },
+  {
+    "id": "programmatic-seo-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/programmatic-seo-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Programmatic Seo Framework - Diagram"
+  },
+  {
+    "id": "programmatic-seo-hero-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/programmatic-seo-hero-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Programmatic Seo Hero Diagram - Diagram"
+  },
+  {
+    "id": "purchase-queries-revenue-capture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/purchase-queries-revenue-capture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Purchase Queries Revenue Capture - Diagram"
+  },
+  {
+    "id": "quality-assurance-process-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/quality-assurance-process.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Quality Assurance Process - Diagram"
+  },
+  {
+    "id": "quality-criteria-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/quality-criteria.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Quality Criteria - Diagram"
+  },
+  {
+    "id": "quality-framework-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/quality-framework-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Quality Framework Diagram - Diagram"
+  },
+  {
+    "id": "quality-problems-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/quality-problems-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Quality Problems Overview - Diagram"
+  },
+  {
+    "id": "query-driven-architecture-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/query-driven-architecture-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Query Driven Architecture Flow - Diagram"
+  },
+  {
+    "id": "ranking-monitoring-dashboard-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/ranking-monitoring-dashboard.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ranking Monitoring Dashboard - Diagram"
+  },
+  {
+    "id": "ranking-signals-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/ranking-signals-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ranking Signals Diagram - Diagram"
+  },
+  {
+    "id": "rendering-approaches-comparison-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/rendering-approaches-comparison.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Rendering Approaches Comparison - Diagram"
+  },
+  {
+    "id": "research-queries-competitive-intelligence-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/research-queries-competitive-intelligence.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Research Queries Competitive Intelligence - Diagram"
+  },
+  {
+    "id": "resource-requirements-breakdown-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/resource-requirements-breakdown.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Resource Requirements Breakdown - Diagram"
+  },
+  {
+    "id": "resource-requirements-comprehensive-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/resource-requirements-comprehensive.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Resource Requirements Comprehensive - Diagram"
+  },
+  {
+    "id": "retrieval-process-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/retrieval-process-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Retrieval Process Diagram - Diagram"
+  },
+  {
+    "id": "review-queries-trust-authority-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/review-queries-trust-authority.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Review Queries Trust Authority - Diagram"
+  },
+  {
+    "id": "rich-results-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/rich-results-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Rich Results Types - Diagram"
+  },
+  {
+    "id": "risk-assessment-matrix-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/risk-assessment-matrix.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Risk Assessment Matrix - Diagram"
+  },
+  {
+    "id": "scale-comparison-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/scale-comparison-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scale Comparison Diagram - Diagram"
+  },
+  {
+    "id": "scale-vs-manual-comparison-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/scale-vs-manual-comparison.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scale Vs Manual Comparison - Diagram"
+  },
+  {
+    "id": "scaled-content-abuse-pattern-analysis-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/scaled-content-abuse-pattern-analysis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scaled Content Abuse Pattern Analysis - Diagram"
+  },
+  {
+    "id": "scaled-content-policy-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/scaled-content-policy-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scaled Content Policy Diagram - Diagram"
+  },
+  {
+    "id": "schema-implementation-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/schema-implementation-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Schema Implementation Overview - Diagram"
+  },
+  {
+    "id": "search-intent-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/search-intent-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Search Intent Overview - Diagram"
+  },
+  {
+    "id": "search-pipeline-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/search-pipeline-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Search Pipeline Overview - Diagram"
+  },
+  {
+    "id": "semantic-relationship-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/semantic-relationship-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Semantic Relationship Types - Diagram"
+  },
+  {
+    "id": "semantic-relationships-2",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/semantic-relationships.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Semantic Relationships - Diagram"
+  },
+  {
+    "id": "seo-analysis-tools-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/seo-analysis-tools-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Seo Analysis Tools Overview - Diagram"
+  },
+  {
+    "id": "serp-analysis-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/serp-analysis-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Serp Analysis Overview - Diagram"
+  },
+  {
+    "id": "serp-features-landscape-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/serp-features-landscape.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Serp Features Landscape - Diagram"
+  },
+  {
+    "id": "serp-features-types-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/serp-features-types.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Serp Features Types - Diagram"
+  },
+  {
+    "id": "serp-requirements-extraction-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/serp-requirements-extraction.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Serp Requirements Extraction - Diagram"
+  },
+  {
+    "id": "serving-process-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/serving-process-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Serving Process Diagram - Diagram"
+  },
+  {
+    "id": "sidebar-design-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/sidebar-design-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Sidebar Design Example - Diagram"
+  },
+  {
+    "id": "spam-detection-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/spam-detection-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Spam Detection Architecture - Diagram"
+  },
+  {
+    "id": "spam-policies-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/spam-policies-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Spam Policies Overview - Diagram"
+  },
+  {
+    "id": "spoke-page-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/spoke-page-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Spoke Page Structure - Diagram"
+  },
+  {
+    "id": "strategic-planning-framework-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/strategic-planning-framework.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Strategic Planning Framework - Diagram"
+  },
+  {
+    "id": "structured-data-integration-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/structured-data-integration-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Structured Data Integration Flow - Diagram"
+  },
+  {
+    "id": "structured-data-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/structured-data-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Structured Data Overview - Diagram"
+  },
+  {
+    "id": "table-snippet-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/table-snippet-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Table Snippet Example - Diagram"
+  },
+  {
+    "id": "technical-implementation-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/technical-implementation-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Technical Implementation Overview - Diagram"
+  },
+  {
+    "id": "template-anatomy-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-anatomy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Anatomy - Diagram"
+  },
+  {
+    "id": "template-architecture-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-architecture-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Architecture Overview - Diagram"
+  },
+  {
+    "id": "template-design-concept-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-design-concept.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Design Concept - Diagram"
+  },
+  {
+    "id": "template-refinement-process-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-refinement-process.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Refinement Process - Diagram"
+  },
+  {
+    "id": "template-types-by-intent-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-types-by-intent.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Types By Intent - Diagram"
+  },
+  {
+    "id": "template-vs-individual-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/template-vs-individual-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Template Vs Individual Diagram - Diagram"
+  },
+  {
+    "id": "thin-content-analysis-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/thin-content-analysis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Thin Content Analysis - Diagram"
+  },
+  {
+    "id": "tools-stack-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/tools-stack-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tools Stack Overview - Diagram"
+  },
+  {
+    "id": "topic-cluster-model-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/topic-cluster-model.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Topic Cluster Model - Diagram"
+  },
+  {
+    "id": "topical-authority-concept-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/topical-authority-concept.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Topical Authority Concept - Diagram"
+  },
+  {
+    "id": "traditional-vs-programmatic-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/traditional-vs-programmatic.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Traditional Vs Programmatic - Diagram"
+  },
+  {
+    "id": "traffic-analysis-metrics-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/traffic-analysis-metrics.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Traffic Analysis Metrics - Diagram"
+  },
+  {
+    "id": "transactional-intent-modifier-impact-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/transactional-intent-modifier-impact.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Transactional Intent Modifier Impact - Diagram"
+  },
+  {
+    "id": "unique-value-sources-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/unique-value-sources.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Unique Value Sources - Diagram"
+  },
+  {
+    "id": "url-architecture-patterns-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/url-architecture-patterns.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Url Architecture Patterns - Diagram"
+  },
+  {
+    "id": "url-structure-patterns-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/url-structure-patterns.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Url Structure Patterns - Diagram"
+  },
+  {
+    "id": "use-case-examples-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/use-case-examples.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Use Case Examples - Diagram"
+  },
+  {
+    "id": "use-cases-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/use-cases-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Use Cases Overview - Diagram"
+  },
+  {
+    "id": "validation-testing-overview-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/validation-testing-overview.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Validation Testing Overview - Diagram"
+  },
+  {
+    "id": "value-sources-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/value-sources-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Value Sources Diagram - Diagram"
+  },
+  {
+    "id": "variable-placeholder-template-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/variable-placeholder-template.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Variable Placeholder Template - Diagram"
+  },
+  {
+    "id": "vertical-linking-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/vertical-linking-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Vertical Linking Diagram - Diagram"
+  },
+  {
+    "id": "vertical-linking-patterns-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/vertical-linking-patterns.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Vertical Linking Patterns - Diagram"
+  },
+  {
+    "id": "vs-comparison-infrastructure-model-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inline/vs-comparison-infrastructure-model.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Vs Comparison Infrastructure Model - Diagram"
+  },
+  {
+    "id": "inp-measurement-timeline-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/inp-measurement-timeline.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Inp Measurement Timeline - Diagram"
+  },
+  {
+    "id": "inp-optimization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/inp-optimization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Inp Optimization Hero - Hero banner illustration"
+  },
+  {
+    "id": "inp-optimization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/inp-optimization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Inp Optimization Og - Open Graph preview image"
+  },
+  {
+    "id": "integration-template-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/integration-template.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Integration Template - Diagram"
+  },
+  {
+    "id": "interactive-elements-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/interactive-elements-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Interactive Elements Hero - Hero banner illustration"
+  },
+  {
+    "id": "interactive-elements-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/interactive-elements-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Interactive Elements Og - Open Graph preview image"
+  },
+  {
+    "id": "introduction-block-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/introduction-block.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Introduction Block - Diagram"
+  },
+  {
+    "id": "isr-regeneration-flow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/isr-regeneration-flow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Isr Regeneration Flow - Diagram"
+  },
+  {
+    "id": "isr-regeneration-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/isr-regeneration-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Isr Regeneration Hero - Hero banner illustration"
+  },
+  {
+    "id": "isr-regeneration-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/isr-regeneration-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Isr Regeneration Og - Open Graph preview image"
+  },
+  {
+    "id": "json-ld-format-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/json-ld-format-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Json Ld Format Hero - Hero banner illustration"
+  },
+  {
+    "id": "json-ld-format-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/json-ld-format-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Json Ld Format Og - Open Graph preview image"
+  },
+  {
+    "id": "json-ld-nesting-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/json-ld-nesting-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Json Ld Nesting Example - Diagram"
+  },
+  {
+    "id": "json-ld-nesting-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/json-ld-nesting-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Json Ld Nesting Hero - Hero banner illustration"
+  },
+  {
+    "id": "json-ld-nesting-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/json-ld-nesting-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Json Ld Nesting Og - Open Graph preview image"
+  },
+  {
+    "id": "json-ld-syntax-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/json-ld-syntax-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Json Ld Syntax Example - Diagram"
+  },
+  {
+    "id": "json-ld-syntax-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/json-ld-syntax-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Json Ld Syntax Hero - Hero banner illustration"
+  },
+  {
+    "id": "json-ld-syntax-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/json-ld-syntax-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Json Ld Syntax Og - Open Graph preview image"
+  },
+  {
+    "id": "json-ld-validation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/json-ld-validation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Json Ld Validation Hero - Hero banner illustration"
+  },
+  {
+    "id": "json-ld-validation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/json-ld-validation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Json Ld Validation Og - Open Graph preview image"
+  },
+  {
+    "id": "json-ld-validation-tools-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/json-ld-validation-tools.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Json Ld Validation Tools - Diagram"
+  },
+  {
+    "id": "keyword-rich-anchors-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/keyword-rich-anchors-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Keyword Rich Anchors Hero - Hero banner illustration"
+  },
+  {
+    "id": "keyword-rich-anchors-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/keyword-rich-anchors-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Keyword Rich Anchors Og - Open Graph preview image"
+  },
+  {
+    "id": "keyword-stuffing-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/keyword-stuffing-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Keyword Stuffing Hero - Hero banner illustration"
+  },
+  {
+    "id": "keyword-stuffing-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/keyword-stuffing-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Keyword Stuffing Og - Open Graph preview image"
+  },
+  {
+    "id": "lcp-measurement-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/lcp-measurement-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Lcp Measurement Example - Diagram"
+  },
+  {
+    "id": "lcp-optimization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/lcp-optimization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Lcp Optimization Hero - Hero banner illustration"
+  },
+  {
+    "id": "lcp-optimization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/lcp-optimization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Lcp Optimization Og - Open Graph preview image"
+  },
+  {
+    "id": "localbusiness-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/localbusiness-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Localbusiness Schema Example - Diagram"
+  },
+  {
+    "id": "localbusiness-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/localbusiness-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Localbusiness Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "localbusiness-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/localbusiness-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Localbusiness Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "location-template-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/location-template.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Location Template - Diagram"
+  },
+  {
+    "id": "alternative-to-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/alternative-to-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Alternative To Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "body-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/body-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Body Content Og - Open Graph preview image"
+  },
+  {
+    "id": "breadcrumbs-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/breadcrumbs-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Breadcrumbs Og - Open Graph preview image"
+  },
+  {
+    "id": "cannibalization-detection-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cannibalization-detection-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cannibalization Detection Og - Open Graph preview image"
+  },
+  {
+    "id": "canonicalization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/canonicalization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Canonicalization Og - Open Graph preview image"
+  },
+  {
+    "id": "category-hub-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/category-hub-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Category Hub Og - Open Graph preview image"
+  },
+  {
+    "id": "child-to-parent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/child-to-parent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Child To Parent Og - Open Graph preview image"
+  },
+  {
+    "id": "city-region-pages-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/city-region-pages-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "City Region Pages Og - Open Graph preview image"
+  },
+  {
+    "id": "cluster-page-design-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cluster-page-design-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cluster Page Design Og - Open Graph preview image"
+  },
+  {
+    "id": "cluster-subtopic-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cluster-subtopic-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cluster Subtopic Og - Open Graph preview image"
+  },
+  {
+    "id": "comparison-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/comparison-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Comparison Og - Open Graph preview image"
+  },
+  {
+    "id": "conditional-sections-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/conditional-sections-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Conditional Sections Og - Open Graph preview image"
+  },
+  {
+    "id": "content-audits-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-audits-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Audits Og - Open Graph preview image"
+  },
+  {
+    "id": "content-expansion-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-expansion-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Expansion Og - Open Graph preview image"
+  },
+  {
+    "id": "content-parsing-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-parsing-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Parsing Og - Open Graph preview image"
+  },
+  {
+    "id": "eeat-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-requirements/eeat.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Eeat - Open Graph preview image"
+  },
+  {
+    "id": "quality-framework-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-requirements/quality-framework.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Quality Framework - Open Graph preview image"
+  },
+  {
+    "id": "quality-problems-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-requirements/quality-problems.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Quality Problems - Open Graph preview image"
+  },
+  {
+    "id": "unique-value-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-requirements/unique-value.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Unique Value - Open Graph preview image"
+  },
+  {
+    "id": "content-requirements-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/content-requirements.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Requirements - Open Graph preview image"
+  },
+  {
+    "id": "conversion-tracking-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/conversion-tracking-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Conversion Tracking Og - Open Graph preview image"
+  },
+  {
+    "id": "cousin-links-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cousin-links-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cousin Links Og - Open Graph preview image"
+  },
+  {
+    "id": "crawl-scheduling-politeness-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/crawl-scheduling-politeness-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Crawl Scheduling Politeness Og - Open Graph preview image"
+  },
+  {
+    "id": "cross-branch-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cross-branch-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cross Branch Og - Open Graph preview image"
+  },
+  {
+    "id": "cross-spoke-linking-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/cross-spoke-linking-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cross Spoke Linking Og - Open Graph preview image"
+  },
+  {
+    "id": "data-display-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/data-display-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Data Display Og - Open Graph preview image"
+  },
+  {
+    "id": "deduplication-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/deduplication-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Deduplication Og - Open Graph preview image"
+  },
+  {
+    "id": "default",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/default.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Default - Open Graph preview image"
+  },
+  {
+    "id": "discovery-mechanisms-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/discovery-mechanisms-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Discovery Mechanisms Og - Open Graph preview image"
+  },
+  {
+    "id": "duplicate-detection-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/duplicate-detection-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Duplicate Detection Og - Open Graph preview image"
+  },
+  {
+    "id": "educational-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/educational-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Educational Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "experience-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/eeat/experience-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Experience Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "entertainment-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/entertainment-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Entertainment Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "faq-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/faq-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Faq Og - Open Graph preview image"
+  },
+  {
+    "id": "footer-cta-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/footer-cta-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Footer Cta Og - Open Graph preview image"
+  },
+  {
+    "id": "for-audience-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/for-audience-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "For Audience Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "automation-at-scale-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/automation-at-scale.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Automation At Scale - Open Graph preview image"
+  },
+  {
+    "id": "crawling-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/crawling.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Crawling - Open Graph preview image"
+  },
+  {
+    "id": "database-vs-content-driven-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/database-vs-content-driven.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Database Vs Content Driven - Open Graph preview image"
+  },
+  {
+    "id": "distinction-from-traditional-seo-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/distinction-from-traditional-seo.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Distinction From Traditional Seo - Open Graph preview image"
+  },
+  {
+    "id": "eeat-requirements-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/eeat-requirements-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Eeat Requirements Og - Open Graph preview image"
+  },
+  {
+    "id": "google-policy-framework-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/google-policy-framework.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Google Policy Framework - Open Graph preview image"
+  },
+  {
+    "id": "helpful-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/helpful-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Helpful Content Og - Open Graph preview image"
+  },
+  {
+    "id": "indexing-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/indexing.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Indexing - Open Graph preview image"
+  },
+  {
+    "id": "longtail-vs-head-term-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/longtail-vs-head-term.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Longtail Vs Head Term - Open Graph preview image"
+  },
+  {
+    "id": "query-driven-architecture-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/query-driven-architecture.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Query Driven Architecture - Open Graph preview image"
+  },
+  {
+    "id": "ranking-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/ranking.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Ranking - Open Graph preview image"
+  },
+  {
+    "id": "retrieval-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/retrieval.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Retrieval - Open Graph preview image"
+  },
+  {
+    "id": "scale-vs-manual-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/scale-vs-manual.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Scale Vs Manual - Open Graph preview image"
+  },
+  {
+    "id": "scaled-content-abuse-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/scaled-content-abuse.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Scaled Content Abuse - Open Graph preview image"
+  },
+  {
+    "id": "search-engine-mechanics-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/search-engine-mechanics.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Search Engine Mechanics - Open Graph preview image"
+  },
+  {
+    "id": "serving-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/serving.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Serving - Open Graph preview image"
+  },
+  {
+    "id": "spam-policies-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/spam-policies.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Spam Policies - Open Graph preview image"
+  },
+  {
+    "id": "structured-data-integration-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/structured-data-integration.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Structured Data Integration - Open Graph preview image"
+  },
+  {
+    "id": "template-vs-individual-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts/template-vs-individual.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Template Vs Individual - Open Graph preview image"
+  },
+  {
+    "id": "foundational-concepts-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/foundational-concepts.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Foundational Concepts - Open Graph preview image"
+  },
+  {
+    "id": "free-open-source-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/free-open-source-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Free Open Source Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "freshness-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/freshness-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Freshness Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "header-navigation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/header-navigation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Header Navigation Og - Open Graph preview image"
+  },
+  {
+    "id": "hero-section-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/hero-section-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hero Section Og - Open Graph preview image"
+  },
+  {
+    "id": "hierarchy-depth-determination-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/hierarchy-depth-determination-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hierarchy Depth Determination Og - Open Graph preview image"
+  },
+  {
+    "id": "hub-and-spoke-model-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/hub-and-spoke-model-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hub And Spoke Model Og - Open Graph preview image"
+  },
+  {
+    "id": "hub-architecture-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/hub-architecture-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hub Architecture Og - Open Graph preview image"
+  },
+  {
+    "id": "hub-equity-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/hub-equity-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Hub Equity Og - Open Graph preview image"
+  },
+  {
+    "id": "indexation-monitoring-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/indexation-monitoring-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Indexation Monitoring Og - Open Graph preview image"
+  },
+  {
+    "id": "integration-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/integration-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Integration Og - Open Graph preview image"
+  },
+  {
+    "id": "best-top-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/intent-modifiers/best-top-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Best Top Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "vs-compared-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/intent-modifiers/vs-compared-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Vs Compared Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "anchor-text-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/internal-linking/anchor-text.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Anchor Text - Open Graph preview image"
+  },
+  {
+    "id": "horizontal-linking-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/internal-linking/horizontal-linking.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Horizontal Linking - Open Graph preview image"
+  },
+  {
+    "id": "link-equity-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/internal-linking/link-equity.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Link Equity - Open Graph preview image"
+  },
+  {
+    "id": "vertical-linking-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/internal-linking/vertical-linking.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Vertical Linking - Open Graph preview image"
+  },
+  {
+    "id": "internal-linking-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/internal-linking.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Internal Linking - Open Graph preview image"
+  },
+  {
+    "id": "introduction-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/introduction-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Introduction Og - Open Graph preview image"
+  },
+  {
+    "id": "inverted-index-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/inverted-index-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Inverted Index Og - Open Graph preview image"
+  },
+  {
+    "id": "conversion-potential-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/conversion-potential-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Conversion Potential Og - Open Graph preview image"
+  },
+  {
+    "id": "head-terms-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/head-terms-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Head Terms Og - Open Graph preview image"
+  },
+  {
+    "id": "keyword-difficulty-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/keyword-difficulty-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Keyword Difficulty Og - Open Graph preview image"
+  },
+  {
+    "id": "keyword-tools-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/keyword-tools.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Keyword Tools - Open Graph preview image"
+  },
+  {
+    "id": "long-tail-definition-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/long-tail-definition-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Long Tail Definition Og - Open Graph preview image"
+  },
+  {
+    "id": "long-tail-strategy-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/long-tail-strategy.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Long Tail Strategy - Open Graph preview image"
+  },
+  {
+    "id": "modifier-discovery-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/modifier-discovery-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Modifier Discovery Og - Open Graph preview image"
+  },
+  {
+    "id": "pattern-discovery-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/pattern-discovery.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pattern Discovery - Open Graph preview image"
+  },
+  {
+    "id": "pattern-validation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/pattern-validation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pattern Validation Og - Open Graph preview image"
+  },
+  {
+    "id": "search-volume-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research/search-volume-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Search Volume Og - Open Graph preview image"
+  },
+  {
+    "id": "keyword-research-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/keyword-research.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Keyword Research - Open Graph preview image"
+  },
+  {
+    "id": "lexical-bm25-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/lexical-bm25-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Lexical Bm25 Og - Open Graph preview image"
+  },
+  {
+    "id": "link-architecture-updates-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/link-architecture-updates-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Link Architecture Updates Og - Open Graph preview image"
+  },
+  {
+    "id": "link-graph-analysis-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/link-graph-analysis-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Link Graph Analysis Og - Open Graph preview image"
+  },
+  {
+    "id": "list-snippet-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/list-snippet-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "List Snippet Og - Open Graph preview image"
+  },
+  {
+    "id": "location-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/location-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Location Og - Open Graph preview image"
+  },
+  {
+    "id": "long-tail-targeting-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/long-tail-targeting-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Long Tail Targeting Og - Open Graph preview image"
+  },
+  {
+    "id": "mobile-friendly-test-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/mobile-friendly-test-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Mobile Friendly Test Og - Open Graph preview image"
+  },
+  {
+    "id": "iterative-optimization-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/monitoring/iterative-optimization.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Iterative Optimization - Open Graph preview image"
+  },
+  {
+    "id": "performance-tracking-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/monitoring/performance-tracking.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Performance Tracking - Open Graph preview image"
+  },
+  {
+    "id": "quality-assurance-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/monitoring/quality-assurance.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Quality Assurance - Open Graph preview image"
+  },
+  {
+    "id": "monitoring-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/monitoring.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Monitoring - Open Graph preview image"
+  },
+  {
+    "id": "near-me-location-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/near-me-location-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Near Me Location Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "neural-semantic-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/neural-semantic-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Neural Semantic Og - Open Graph preview image"
+  },
+  {
+    "id": "news-trending-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/news-trending-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "News Trending Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "paragraph-snippet-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/paragraph-snippet-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Paragraph Snippet Og - Open Graph preview image"
+  },
+  {
+    "id": "parent-to-child-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/parent-to-child-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Parent To Child Og - Open Graph preview image"
+  },
+  {
+    "id": "pillar-link-distribution-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pillar-link-distribution-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pillar Link Distribution Og - Open Graph preview image"
+  },
+  {
+    "id": "pillar-linkback-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pillar-linkback-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pillar Linkback Og - Open Graph preview image"
+  },
+  {
+    "id": "pillar-navigation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pillar-navigation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pillar Navigation Og - Open Graph preview image"
+  },
+  {
+    "id": "pillar-overview-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pillar-overview-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pillar Overview Content Og - Open Graph preview image"
+  },
+  {
+    "id": "pillar-page-design-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pillar-page-design-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pillar Page Design Og - Open Graph preview image"
+  },
+  {
+    "id": "pricing-cost-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/pricing-cost-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pricing Cost Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "product-entity-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/product-entity-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Product Entity Og - Open Graph preview image"
+  },
+  {
+    "id": "programmatic-seo-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/programmatic-seo.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Programmatic Seo - Open Graph preview image"
+  },
+  {
+    "id": "quality-authority-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/quality-authority-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Quality Authority Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "query-understanding-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/query-understanding-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Query Understanding Og - Open Graph preview image"
+  },
+  {
+    "id": "ranking-monitoring-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/ranking-monitoring-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Ranking Monitoring Og - Open Graph preview image"
+  },
+  {
+    "id": "related-content-links-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/related-content-links-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Related Content Links Og - Open Graph preview image"
+  },
+  {
+    "id": "related-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/related-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Related Content Og - Open Graph preview image"
+  },
+  {
+    "id": "result-blending-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/result-blending-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Result Blending Og - Open Graph preview image"
+  },
+  {
+    "id": "cannibalization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/risk-assessment/cannibalization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cannibalization Og - Open Graph preview image"
+  },
+  {
+    "id": "duplicate-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/risk-assessment/duplicate-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Duplicate Content Og - Open Graph preview image"
+  },
+  {
+    "id": "index-bloat-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/risk-assessment/index-bloat-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Index Bloat Og - Open Graph preview image"
+  },
+  {
+    "id": "thin-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/risk-assessment/thin-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Thin Content Og - Open Graph preview image"
+  },
+  {
+    "id": "schema-markup-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/schema-markup-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Schema Markup Og - Open Graph preview image"
+  },
+  {
+    "id": "commercial-investigation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent/commercial-investigation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Commercial Investigation Og - Open Graph preview image"
+  },
+  {
+    "id": "informational-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent/informational-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Informational Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "local-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent/local-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Local Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "navigational-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent/navigational-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Navigational Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "transactional-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent/transactional-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Transactional Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "extended-types-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent-analysis/extended-types.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Extended Types - Open Graph preview image"
+  },
+  {
+    "id": "primary-categories-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent-analysis/primary-categories.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Primary Categories - Open Graph preview image"
+  },
+  {
+    "id": "search-intent-analysis-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/search-intent-analysis.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Search Intent Analysis - Open Graph preview image"
+  },
+  {
+    "id": "serp-derived-requirements-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/serp-analysis/serp-derived-requirements.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Serp Derived Requirements - Open Graph preview image"
+  },
+  {
+    "id": "serp-features-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/serp-analysis/serp-features.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Serp Features - Open Graph preview image"
+  },
+  {
+    "id": "serp-analysis-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/serp-analysis.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Serp Analysis - Open Graph preview image"
+  },
+  {
+    "id": "sibling-links-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/sibling-links-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sibling Links Og - Open Graph preview image"
+  },
+  {
+    "id": "sidebar-elements-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/sidebar-elements-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sidebar Elements Og - Open Graph preview image"
+  },
+  {
+    "id": "skip-level-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/skip-level-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Skip Level Og - Open Graph preview image"
+  },
+  {
+    "id": "snippet-generation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/snippet-generation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Snippet Generation Og - Open Graph preview image"
+  },
+  {
+    "id": "spam-safety-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/spam-safety-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Spam Safety Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "spoke-design-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/spoke-design-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Spoke Design Og - Open Graph preview image"
+  },
+  {
+    "id": "business-case-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/business-case.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Business Case - Open Graph preview image"
+  },
+  {
+    "id": "competitive-landscape-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/competitive-landscape.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Competitive Landscape - Open Graph preview image"
+  },
+  {
+    "id": "data-asset-evaluation-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/data-asset-evaluation.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Data Asset Evaluation - Open Graph preview image"
+  },
+  {
+    "id": "data-driven-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/data-driven-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Data Driven Content Og - Open Graph preview image"
+  },
+  {
+    "id": "educational-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/educational-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Educational Content Og - Open Graph preview image"
+  },
+  {
+    "id": "integration-pages-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/integration-pages.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Integration Pages - Open Graph preview image"
+  },
+  {
+    "id": "location-based-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/location-based.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Location Based - Open Graph preview image"
+  },
+  {
+    "id": "product-variations-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/product-variations.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Product Variations - Open Graph preview image"
+  },
+  {
+    "id": "resource-requirements-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/resource-requirements.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Resource Requirements - Open Graph preview image"
+  },
+  {
+    "id": "risk-assessment-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/risk-assessment.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Risk Assessment - Open Graph preview image"
+  },
+  {
+    "id": "use-cases-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning/use-cases.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Use Cases - Open Graph preview image"
+  },
+  {
+    "id": "strategic-planning-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/strategic-planning.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Strategic Planning - Open Graph preview image"
+  },
+  {
+    "id": "rich-results-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/structured-data/rich-results.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Rich Results - Open Graph preview image"
+  },
+  {
+    "id": "schema-implementation-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/structured-data/schema-implementation.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Schema Implementation - Open Graph preview image"
+  },
+  {
+    "id": "structured-data-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/structured-data.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Structured Data - Open Graph preview image"
+  },
+  {
+    "id": "subdivision-principles-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/subdivision-principles-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Subdivision Principles Og - Open Graph preview image"
+  },
+  {
+    "id": "table-snippet-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/table-snippet-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Table Snippet Og - Open Graph preview image"
+  },
+  {
+    "id": "crawl-optimization-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation/crawl-optimization.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Crawl Optimization - Open Graph preview image"
+  },
+  {
+    "id": "data-infrastructure-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation/data-infrastructure.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Data Infrastructure - Open Graph preview image"
+  },
+  {
+    "id": "indexation-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation/indexation.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Indexation - Open Graph preview image"
+  },
+  {
+    "id": "rendering-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation/rendering.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Rendering - Open Graph preview image"
+  },
+  {
+    "id": "url-architecture-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation/url-architecture.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Url Architecture - Open Graph preview image"
+  },
+  {
+    "id": "technical-implementation-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/technical-implementation.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Technical Implementation - Open Graph preview image"
+  },
+  {
+    "id": "architecture-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/template-design/architecture.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Architecture - Open Graph preview image"
+  },
+  {
+    "id": "content-blocks-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/template-design/content-blocks.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Blocks - Open Graph preview image"
+  },
+  {
+    "id": "types-by-intent-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/template-design/types-by-intent.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Types By Intent - Open Graph preview image"
+  },
+  {
+    "id": "template-design-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/template-design.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Template Design - Open Graph preview image"
+  },
+  {
+    "id": "template-refinement-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/template-refinement-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Template Refinement Og - Open Graph preview image"
+  },
+  {
+    "id": "text-relevance-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/text-relevance-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Text Relevance Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "thin-content-identification-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/thin-content-identification-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Thin Content Identification Og - Open Graph preview image"
+  },
+  {
+    "id": "title-meta-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/title-meta-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Title Meta Og - Open Graph preview image"
+  },
+  {
+    "id": "answer-the-public-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/answer-the-public-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Answer The Public Og - Open Graph preview image"
+  },
+  {
+    "id": "autocomplete-paa-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/autocomplete-paa-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Autocomplete Paa Og - Open Graph preview image"
+  },
+  {
+    "id": "content-generation-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/content-generation.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Generation - Open Graph preview image"
+  },
+  {
+    "id": "google-keyword-planner-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/google-keyword-planner-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Google Keyword Planner Og - Open Graph preview image"
+  },
+  {
+    "id": "semrush-ahrefs-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/semrush-ahrefs-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Semrush Ahrefs Og - Open Graph preview image"
+  },
+  {
+    "id": "seo-analysis-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/seo-analysis.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Seo Analysis - Open Graph preview image"
+  },
+  {
+    "id": "validation-testing-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools/validation-testing.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Validation Testing - Open Graph preview image"
+  },
+  {
+    "id": "tools-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/tools.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Tools - Open Graph preview image"
+  },
+  {
+    "id": "content-hierarchy-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/topical-authority/content-hierarchy.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Content Hierarchy - Open Graph preview image"
+  },
+  {
+    "id": "semantic-relationships-3",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/topical-authority/semantic-relationships.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Semantic Relationships - Open Graph preview image"
+  },
+  {
+    "id": "topic-clusters-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/topical-authority/topic-clusters.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Topic Clusters - Open Graph preview image"
+  },
+  {
+    "id": "topical-authority-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/topical-authority.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Topical Authority - Open Graph preview image"
+  },
+  {
+    "id": "traffic-analysis-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/traffic-analysis-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Traffic Analysis Og - Open Graph preview image"
+  },
+  {
+    "id": "sign-up-queries-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/transactional/sign-up-queries-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sign Up Queries Og - Open Graph preview image"
+  },
+  {
+    "id": "user-satisfaction-signals-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/user-satisfaction-signals-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "User Satisfaction Signals Og - Open Graph preview image"
+  },
+  {
+    "id": "variable-depth-handling-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/variable-depth-handling-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Variable Depth Handling Og - Open Graph preview image"
+  },
+  {
+    "id": "variable-placeholders-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/variable-placeholders-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Variable Placeholders Og - Open Graph preview image"
+  },
+  {
+    "id": "visual-media-intent-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/visual-media-intent-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Visual Media Intent Og - Open Graph preview image"
+  },
+  {
+    "id": "year-modifier-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/og/year-modifier-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Year Modifier Og - Open Graph preview image"
+  },
+  {
+    "id": "organization-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/organization-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Organization Schema Example - Diagram"
+  },
+  {
+    "id": "organization-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/organization-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Organization Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "organization-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/organization-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Organization Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "orphan-prevention-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/orphan-prevention-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Orphan Prevention Hero - Hero banner illustration"
+  },
+  {
+    "id": "orphan-prevention-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/orphan-prevention-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Orphan Prevention Og - Open Graph preview image"
+  },
+  {
+    "id": "page-structure-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/page-structure-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Page Structure Hero - Hero banner illustration"
+  },
+  {
+    "id": "page-structure-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/page-structure-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Page Structure Og - Open Graph preview image"
+  },
+  {
+    "id": "pagination-handling-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/pagination-handling-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Pagination Handling Hero - Hero banner illustration"
+  },
+  {
+    "id": "pagination-handling-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/pagination-handling-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Pagination Handling Og - Open Graph preview image"
+  },
+  {
+    "id": "parameter-handling-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/parameter-handling-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Parameter Handling Hero - Hero banner illustration"
+  },
+  {
+    "id": "parameter-handling-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/parameter-handling-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Parameter Handling Og - Open Graph preview image"
+  },
+  {
+    "id": "parent-child-linking-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/parent-child-linking.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Parent Child Linking - Diagram"
+  },
+  {
+    "id": "product-entity-layout-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/product-entity-layout.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Product Entity Layout - Diagram"
+  },
+  {
+    "id": "product-schema-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/product-schema-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Product Schema Example - Diagram"
+  },
+  {
+    "id": "product-schema-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/product-schema-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Product Schema Hero - Hero banner illustration"
+  },
+  {
+    "id": "product-schema-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/product-schema-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Product Schema Og - Open Graph preview image"
+  },
+  {
+    "id": "proprietary-data-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/proprietary-data-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Proprietary Data Hero - Hero banner illustration"
+  },
+  {
+    "id": "proprietary-data-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/proprietary-data-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Proprietary Data Og - Open Graph preview image"
+  },
+  {
+    "id": "related-content-block-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/related-content-block.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Related Content Block - Diagram"
+  },
+  {
+    "id": "related-content-linking-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/related-content-linking.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Related Content Linking - Diagram"
+  },
+  {
+    "id": "relationship-mapping-diagram-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/relationship-mapping-diagram.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Relationship Mapping Diagram - Diagram"
+  },
+  {
+    "id": "relationship-mapping-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/relationship-mapping-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Relationship Mapping Hero - Hero banner illustration"
+  },
+  {
+    "id": "relationship-mapping-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/relationship-mapping-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Relationship Mapping Og - Open Graph preview image"
+  },
+  {
+    "id": "review-rating-rich-results-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/review-rating-rich-results-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Review Rating Rich Results Hero - Hero banner illustration"
+  },
+  {
+    "id": "review-rating-rich-results-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/review-rating-rich-results-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Review Rating Rich Results Og - Open Graph preview image"
+  },
+  {
+    "id": "schema-markup-examples-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/schema-markup-examples.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Schema Markup Examples - Diagram"
+  },
+  {
+    "id": "schema-types-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/schema-types-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Schema Types Hero - Hero banner illustration"
+  },
+  {
+    "id": "schema-types-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/schema-types-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Schema Types Og - Open Graph preview image"
+  },
+  {
+    "id": "sibling-linking-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/sibling-linking-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Sibling Linking Structure - Diagram"
+  },
+  {
+    "id": "sitemap-index-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/sitemap-index-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Sitemap Index Example - Diagram"
+  },
+  {
+    "id": "sitemap-index-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/sitemap-index-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Sitemap Index Hero - Hero banner illustration"
+  },
+  {
+    "id": "sitemap-index-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/sitemap-index-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sitemap Index Og - Open Graph preview image"
+  },
+  {
+    "id": "sitemap-segmentation-example-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/sitemap-segmentation-example.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Sitemap Segmentation Example - Diagram"
+  },
+  {
+    "id": "sitemap-segmentation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/sitemap-segmentation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Sitemap Segmentation Hero - Hero banner illustration"
+  },
+  {
+    "id": "sitemap-segmentation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/sitemap-segmentation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sitemap Segmentation Og - Open Graph preview image"
+  },
+  {
+    "id": "skip-level-structure-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/skip-level-structure.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Skip Level Structure - Diagram"
+  },
+  {
+    "id": "slug-optimization-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/slug-optimization-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Slug Optimization Hero - Hero banner illustration"
+  },
+  {
+    "id": "slug-optimization-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/slug-optimization-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Slug Optimization Og - Open Graph preview image"
+  },
+  {
+    "id": "ssg-build-process-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/ssg-build-process.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ssg Build Process - Diagram"
+  },
+  {
+    "id": "ssg-generation-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/ssg-generation-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Ssg Generation Hero - Hero banner illustration"
+  },
+  {
+    "id": "ssg-generation-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/ssg-generation-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Ssg Generation Og - Open Graph preview image"
+  },
+  {
+    "id": "ssr-rendering-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/ssr-rendering-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Ssr Rendering Hero - Hero banner illustration"
+  },
+  {
+    "id": "ssr-rendering-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/ssr-rendering-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Ssr Rendering Og - Open Graph preview image"
+  },
+  {
+    "id": "ssr-rendering-process-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/ssr-rendering-process.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ssr Rendering Process - Diagram"
+  },
+  {
+    "id": "static-zones-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/static-zones-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Static Zones Hero - Hero banner illustration"
+  },
+  {
+    "id": "static-zones-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/static-zones-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Static Zones Og - Open Graph preview image"
+  },
+  {
+    "id": "template-bloat-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/template-bloat-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Template Bloat Hero - Hero banner illustration"
+  },
+  {
+    "id": "template-bloat-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/template-bloat-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Template Bloat Og - Open Graph preview image"
+  },
+  {
+    "id": "title-meta-examples-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/title-meta-examples.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Title Meta Examples - Diagram"
+  },
+  {
+    "id": "trustworthiness-eeat-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/trustworthiness-eeat-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Trustworthiness Eeat Hero - Hero banner illustration"
+  },
+  {
+    "id": "trustworthiness-eeat-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/trustworthiness-eeat-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Trustworthiness Eeat Og - Open Graph preview image"
+  },
+  {
+    "id": "trustworthiness-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/trustworthiness-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Trustworthiness Hero - Hero banner illustration"
+  },
+  {
+    "id": "trustworthiness-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/trustworthiness-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Trustworthiness Og - Open Graph preview image"
+  },
+  {
+    "id": "unique-analysis-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/unique-analysis-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Unique Analysis Hero - Hero banner illustration"
+  },
+  {
+    "id": "unique-analysis-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/unique-analysis-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Unique Analysis Og - Open Graph preview image"
+  },
+  {
+    "id": "update-frequency-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/update-frequency-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Update Frequency Hero - Hero banner illustration"
+  },
+  {
+    "id": "update-frequency-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/update-frequency-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Update Frequency Og - Open Graph preview image"
+  },
+  {
+    "id": "update-frequency-strategy-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/update-frequency-strategy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Update Frequency Strategy - Diagram"
+  },
+  {
+    "id": "url-structure-patterns-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/url-structure-patterns-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Url Structure Patterns Hero - Hero banner illustration"
+  },
+  {
+    "id": "url-structure-patterns-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/url-structure-patterns-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Url Structure Patterns Og - Open Graph preview image"
+  },
+  {
+    "id": "user-generated-content-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/user-generated-content-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "User Generated Content Hero - Hero banner illustration"
+  },
+  {
+    "id": "user-generated-content-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/user-generated-content-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "User Generated Content Og - Open Graph preview image"
+  },
+  {
+    "id": "webflow-framer-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/webflow-framer-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Webflow Framer Hero - Hero banner illustration"
+  },
+  {
+    "id": "webflow-framer-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/webflow-framer-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Webflow Framer Og - Open Graph preview image"
+  },
+  {
+    "id": "webflow-framer-workflow-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/webflow-framer-workflow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Webflow Framer Workflow - Diagram"
+  },
+  {
+    "id": "wordpress-architecture-1",
+    "kind": "inline",
+    "sourceType": "self",
+    "src": "public/images/wordpress-architecture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Wordpress Architecture - Diagram"
+  },
+  {
+    "id": "wordpress-integration-hero-1",
+    "kind": "hero",
+    "sourceType": "self",
+    "src": "public/images/wordpress-integration-hero.webp",
+    "width": 1920,
+    "height": 600,
+    "alt": "Wordpress Integration Hero - Hero banner illustration"
+  },
+  {
+    "id": "wordpress-integration-og-1",
+    "kind": "og",
+    "sourceType": "self",
+    "src": "public/images/wordpress-integration-og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Wordpress Integration Og - Open Graph preview image"
   }
 ]
