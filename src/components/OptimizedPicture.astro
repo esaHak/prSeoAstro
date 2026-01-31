@@ -91,9 +91,9 @@ const originalMimeType = getMediaType(image.src);
     />
   )}
 
-  {/* Fallback img element */}
+  {/* Fallback img element - use relative src for local compatibility */}
   <img
-    src={image.absoluteUrl}
+    src={image.src}
     alt={image.alt}
     width={image.width}
     height={image.height}

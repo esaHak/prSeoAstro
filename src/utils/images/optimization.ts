@@ -53,37 +53,17 @@ export function getResponsiveWidths(
 /**
  * Generate srcset string for an image
  * For remote images: Uses the original URL (CDNs typically handle responsive delivery)
- * For self-hosted: Generates width descriptors for Astro's image service
+ * For self-hosted: Uses the original image path (responsive variants not pre-generated)
  */
 export function generateSrcset(
   image: ImageWithUrl,
   widths: number[],
   format?: 'webp' | 'original'
 ): string {
-  // For remote images, we can't modify the URL, so return original
-  if (image.sourceType === 'remote') {
-    return `${image.absoluteUrl} ${image.width}w`;
-  }
-
-  // For self-hosted images, generate srcset entries
-  // Note: In production, these would be processed by Astro's image service
-  // For now, we generate the srcset assuming processed images exist
-  const srcsetEntries = widths.map(width => {
-    const height = calculateHeight(image.width, image.height, width);
-
-    // Determine file extension
-    const originalExt = image.src.split('.').pop() || 'jpg';
-    const targetExt = format === 'webp' ? 'webp' : originalExt;
-
-    // Generate optimized path
-    // Astro's image service will handle the actual transformation
-    const basePath = image.src.replace(/\.[^.]+$/, '');
-    const optimizedPath = `${basePath}-${width}w.${targetExt}`;
-
-    return `${optimizedPath} ${width}w`;
-  });
-
-  return srcsetEntries.join(', ');
+  // Use the original image path for all cases
+  // Responsive image variants would need to be pre-generated
+  // For now, just use the original image with its actual width
+  return `${image.src} ${image.width}w`;
 }
 
 /**
@@ -123,7 +103,7 @@ export function createOptimizedImage(
     : '';
   const fallbackSrcset = mergedConfig.srcset
     ? generateSrcset(image, widths, 'original')
-    : `${image.absoluteUrl} ${image.width}w`;
+    : `${image.src} ${image.width}w`;
 
   // Generate sizes attribute
   const sizes = generateSizes(image.kind, mergedConfig.sizes);
@@ -199,7 +179,7 @@ export function getOptimizedImageAttributes(
   isPriority: boolean = false
 ): OptimizedImageAttributes {
   return {
-    src: image.absoluteUrl,
+    src: image.src,
     srcset: image.fallbackSrcset,
     sizes: image.sizes,
     width: image.width,
