@@ -1,0 +1,42 @@
+---
+/**
+ * FAQPage JSON-LD Schema Component
+ * Generates structured data for FAQ sections
+ * @see https://schema.org/FAQPage
+ * @see https://developers.google.com/search/docs/appearance/structured-data/faqpage
+ */
+
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  items: FAQItem[];
+}
+
+const { items } = Astro.props;
+
+// Only render if there are FAQ items
+if (items.length === 0) {
+  return null;
+}
+
+// Build the JSON-LD structure
+const faqPage = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": items.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+};
+
+const jsonLd = JSON.stringify(faqPage);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

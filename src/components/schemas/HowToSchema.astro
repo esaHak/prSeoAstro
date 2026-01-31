@@ -1,0 +1,133 @@
+---
+/**
+ * HowTo JSON-LD Schema Component
+ * Generates structured data for step-by-step guides
+ * @see https://schema.org/HowTo
+ * @see https://developers.google.com/search/docs/appearance/structured-data/how-to
+ */
+
+export interface HowToStep {
+  name: string;
+  text: string;
+  url?: string;
+  image?: string;
+}
+
+export interface HowToSupply {
+  name: string;
+  url?: string;
+}
+
+export interface HowToTool {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  name: string;
+  description: string;
+  steps: HowToStep[];
+  totalTime?: string; // ISO 8601 duration format (e.g., "PT30M" for 30 minutes)
+  estimatedCost?: {
+    currency: string;
+    value: string;
+  };
+  supply?: HowToSupply[];
+  tool?: HowToTool[];
+  image?: string;
+  siteBase?: string;
+}
+
+const {
+  name,
+  description,
+  steps,
+  totalTime,
+  estimatedCost,
+  supply,
+  tool,
+  image,
+  siteBase = 'https://prseoastro.pages.dev'
+} = Astro.props;
+
+// Only render if there are steps
+if (steps.length === 0) {
+  return null;
+}
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Build the JSON-LD structure
+const howTo: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": name,
+  "description": description,
+  "step": steps.map((step, index) => {
+    const stepData: Record<string, any> = {
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": step.name,
+      "text": step.text
+    };
+
+    if (step.url) {
+      stepData.url = step.url.startsWith('http') ? step.url : `${normalizedBase}${step.url}`;
+    }
+
+    if (step.image) {
+      stepData.image = step.image.startsWith('http') ? step.image : `${normalizedBase}${step.image}`;
+    }
+
+    return stepData;
+  })
+};
+
+// Add optional fields
+if (totalTime) {
+  howTo.totalTime = totalTime;
+}
+
+if (image) {
+  howTo.image = image.startsWith('http') ? image : `${normalizedBase}${image}`;
+}
+
+if (estimatedCost) {
+  howTo.estimatedCost = {
+    "@type": "MonetaryAmount",
+    "currency": estimatedCost.currency,
+    "value": estimatedCost.value
+  };
+}
+
+if (supply && supply.length > 0) {
+  howTo.supply = supply.map(s => {
+    const supplyData: Record<string, any> = {
+      "@type": "HowToSupply",
+      "name": s.name
+    };
+    if (s.url) {
+      supplyData.url = s.url.startsWith('http') ? s.url : `${normalizedBase}${s.url}`;
+    }
+    return supplyData;
+  });
+}
+
+if (tool && tool.length > 0) {
+  howTo.tool = tool.map(t => {
+    const toolData: Record<string, any> = {
+      "@type": "HowToTool",
+      "name": t.name
+    };
+    if (t.url) {
+      toolData.url = t.url.startsWith('http') ? t.url : `${normalizedBase}${t.url}`;
+    }
+    return toolData;
+  });
+}
+
+const jsonLd = JSON.stringify(howTo);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

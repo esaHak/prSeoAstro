@@ -9,6 +9,30 @@ export default defineConfig({
   site: 'https://prseoastro.pages.dev',
   trailingSlash: 'always',
   output: 'static',
+  image: {
+    // Enable image optimization with WebP conversion
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      },
+    },
+    // Allow remote images from trusted domains
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.cloudfront.net',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.pexels.com',
+      },
+    ],
+  },
   integrations: [
     sitemap({
       changefreq: 'weekly',

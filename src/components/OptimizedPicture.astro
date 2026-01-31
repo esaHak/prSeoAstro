@@ -1,0 +1,106 @@
+---
+/**
+ * OptimizedPicture Component
+ * Renders images with WebP format, responsive srcset, and lazy loading
+ * Uses the <picture> element for format negotiation with fallback
+ *
+ * Features:
+ * - Automatic WebP conversion with fallback
+ * - Responsive srcset generation
+ * - Native lazy loading with loading="lazy"
+ * - Proper fetchpriority for LCP optimization
+ * - Prevents CLS with explicit dimensions
+ */
+import type { OptimizedImage } from '../utils/images/types';
+import {
+  getLoadingAttribute,
+  getFetchPriority,
+  getDecodingAttribute,
+} from '../utils/images/optimization';
+
+interface Props {
+  image: OptimizedImage;
+  /** Load image with high priority (above-the-fold) */
+  priority?: boolean;
+  /** CSS class for the img element */
+  class?: string;
+  /** Inline styles for the img element */
+  style?: string;
+  /** Custom sizes attribute (overrides default) */
+  sizes?: string;
+}
+
+const {
+  image,
+  priority = false,
+  class: className = '',
+  style = '',
+  sizes: customSizes,
+} = Astro.props;
+
+// Determine loading attributes based on priority and image kind
+const loading = getLoadingAttribute(priority, image.kind);
+const fetchpriority = getFetchPriority(priority, image.kind);
+const decoding = getDecodingAttribute(priority);
+
+// Use custom sizes if provided, otherwise use optimized sizes
+const sizes = customSizes || image.sizes;
+
+// Check if WebP srcset is available
+const hasWebP = image.webpSrcset && image.webpSrcset.length > 0;
+
+// Determine original format from source
+const getMediaType = (src: string): string => {
+  const ext = src.split('.').pop()?.toLowerCase();
+  switch (ext) {
+    case 'jpg':
+    case 'jpeg':
+      return 'image/jpeg';
+    case 'png':
+      return 'image/png';
+    case 'gif':
+      return 'image/gif';
+    case 'webp':
+      return 'image/webp';
+    case 'avif':
+      return 'image/avif';
+    default:
+      return 'image/jpeg';
+  }
+};
+
+const originalMimeType = getMediaType(image.src);
+---
+
+<picture>
+  {/* WebP source for modern browsers */}
+  {hasWebP && (
+    <source
+      type="image/webp"
+      srcset={image.webpSrcset}
+      sizes={sizes}
+    />
+  )}
+
+  {/* Original format fallback with srcset */}
+  {image.fallbackSrcset && (
+    <source
+      type={originalMimeType}
+      srcset={image.fallbackSrcset}
+      sizes={sizes}
+    />
+  )}
+
+  {/* Fallback img element */}
+  <img
+    src={image.absoluteUrl}
+    alt={image.alt}
+    width={image.width}
+    height={image.height}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    class={className}
+    style={style}
+  />
+</picture>

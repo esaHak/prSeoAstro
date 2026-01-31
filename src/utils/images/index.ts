@@ -1,11 +1,16 @@
 /**
  * Image Library Utilities
- * Handles image resolution, URL generation, and validation for programmatic SEO
+ * Handles image resolution, URL generation, validation, and optimization for programmatic SEO
  */
 
 import imagesData from '../../data/images.json';
-import type { ImageRecord, ImageWithUrl, PageImageContext } from './types';
+import type { ImageRecord, ImageWithUrl, PageImageContext, OptimizedImage, ImageOptimizationConfig } from './types';
 import type { Category, Subcategory } from '../db';
+import { createOptimizedImage, getOptimizedImageAttributes } from './optimization';
+
+// Re-export optimization utilities and types
+export * from './optimization';
+export * from './types';
 
 // Type-safe data import
 export const images = imagesData as ImageRecord[];
@@ -176,3 +181,40 @@ export function validateAllImages(): void {
 
 // Run validation on import
 validateAllImages();
+
+/**
+ * Resolve and optimize hero image for a page
+ */
+export function resolveOptimizedHeroImage(
+  entity: { heroImageId?: string },
+  siteBase: string = '',
+  config?: Partial<ImageOptimizationConfig>
+): OptimizedImage | null {
+  const image = resolveHeroImage(entity, siteBase);
+  return image ? createOptimizedImage(image, config) : null;
+}
+
+/**
+ * Resolve and optimize inline images for a page
+ */
+export function resolveOptimizedInlineImages(
+  entity: { inlineImageIds?: string[] },
+  siteBase: string = '',
+  config?: Partial<ImageOptimizationConfig>
+): OptimizedImage[] {
+  const images = resolveInlineImages(entity, siteBase);
+  return images.map(img => createOptimizedImage(img, config));
+}
+
+/**
+ * Resolve a single inline image by ID and optimize it
+ */
+export function resolveOptimizedInlineImage(
+  imageId: string,
+  siteBase: string = '',
+  config?: Partial<ImageOptimizationConfig>
+): OptimizedImage | null {
+  const img = loadImageById(imageId);
+  if (!img) return null;
+  return createOptimizedImage(withAbsoluteUrl(img, siteBase), config);
+}

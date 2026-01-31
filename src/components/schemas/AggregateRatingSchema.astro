@@ -1,0 +1,87 @@
+---
+/**
+ * AggregateRating JSON-LD Schema Component
+ * Generates standalone aggregate rating structured data
+ * Can be used for products, services, organizations, etc.
+ * @see https://schema.org/AggregateRating
+ * @see https://developers.google.com/search/docs/appearance/structured-data/review-snippet
+ */
+
+export type RatedItemType = 'Product' | 'Service' | 'Organization' | 'LocalBusiness' | 'Book' | 'Course' | 'Event' | 'Recipe' | 'CreativeWork' | 'Brand' | 'Place';
+
+interface Props {
+  itemType: RatedItemType;
+  itemName: string;
+  itemDescription?: string;
+  itemUrl?: string;
+  itemImage?: string;
+  ratingValue: number;
+  ratingCount?: number;
+  reviewCount?: number;
+  bestRating?: number;
+  worstRating?: number;
+  siteBase?: string;
+}
+
+const {
+  itemType,
+  itemName,
+  itemDescription,
+  itemUrl,
+  itemImage,
+  ratingValue,
+  ratingCount,
+  reviewCount,
+  bestRating = 5,
+  worstRating = 1,
+  siteBase = 'https://prseoastro.pages.dev'
+} = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Helper to normalize URL
+function normalizeUrl(url: string): string {
+  return url.startsWith('http') ? url : `${normalizedBase}${url}`;
+}
+
+// Build the aggregate rating object
+const aggregateRating: Record<string, any> = {
+  "@type": "AggregateRating",
+  "ratingValue": ratingValue,
+  "bestRating": bestRating,
+  "worstRating": worstRating
+};
+
+if (ratingCount) {
+  aggregateRating.ratingCount = ratingCount;
+}
+
+if (reviewCount) {
+  aggregateRating.reviewCount = reviewCount;
+}
+
+// Build the rated item
+const ratedItem: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": itemType,
+  "name": itemName,
+  "aggregateRating": aggregateRating
+};
+
+if (itemDescription) {
+  ratedItem.description = itemDescription;
+}
+
+if (itemUrl) {
+  ratedItem.url = normalizeUrl(itemUrl);
+}
+
+if (itemImage) {
+  ratedItem.image = normalizeUrl(itemImage);
+}
+
+const jsonLd = JSON.stringify(ratedItem);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

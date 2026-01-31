@@ -8,6 +8,10 @@ import HeroImage from '../../components/HeroImage.astro';
 import ContentRenderer from '../../components/ContentRenderer.astro';
 import BreadcrumbSchema from '../../components/schemas/BreadcrumbSchema.astro';
 import WebPageSchema from '../../components/schemas/WebPageSchema.astro';
+import FAQPageSchema from '../../components/schemas/FAQPageSchema.astro';
+import HowToSchema from '../../components/schemas/HowToSchema.astro';
+import SoftwareApplicationSchema from '../../components/schemas/SoftwareApplicationSchema.astro';
+import AggregateRatingSchema from '../../components/schemas/AggregateRatingSchema.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
 import { resolveOgImage, resolveHeroImage } from '../../utils/images';
@@ -19,6 +23,7 @@ import {
   buildHreflangLinks,
   getLocalizedContentSection
 } from '../../utils/i18n';
+import { getLocalizedRichResults } from '../../utils/schemas';
 
 // Generate all static paths from relational database
 // Now includes locale-specific routes
@@ -203,6 +208,9 @@ const currentPath = type === 'category'
 const datePublished = data.datePublished;
 const dateModified = data.dateModified;
 
+// Get localized rich results for structured data schemas
+const richResults = getLocalizedRichResults(data.richResults, locale);
+
 // Determine if page should be noindexed
 // Archived pages are kept but not indexed; draft pages are excluded entirely
 const shouldNoindex = data.status === 'archived';
@@ -228,6 +236,60 @@ const shouldNoindex = data.status === 'archived';
     datePublished={datePublished}
     dateModified={dateModified}
   />
+
+  {/* Rich Results Schemas - only render if data exists */}
+  {richResults?.faq && richResults.faq.length > 0 && (
+    <FAQPageSchema items={richResults.faq} />
+  )}
+
+  {richResults?.howTo && richResults.howTo.steps.length > 0 && (
+    <HowToSchema
+      name={richResults.howTo.name}
+      description={richResults.howTo.description}
+      steps={richResults.howTo.steps}
+      totalTime={richResults.howTo.totalTime}
+      estimatedCost={richResults.howTo.estimatedCost}
+      supply={richResults.howTo.supply}
+      tool={richResults.howTo.tool}
+      image={richResults.howTo.image}
+      siteBase={siteBase}
+    />
+  )}
+
+  {richResults?.softwareApplication && (
+    <SoftwareApplicationSchema
+      name={richResults.softwareApplication.name}
+      description={richResults.softwareApplication.description}
+      applicationCategory={richResults.softwareApplication.applicationCategory}
+      operatingSystem={richResults.softwareApplication.operatingSystem}
+      offers={richResults.softwareApplication.offers}
+      aggregateRating={richResults.softwareApplication.aggregateRating}
+      screenshot={richResults.softwareApplication.screenshot}
+      softwareVersion={richResults.softwareApplication.softwareVersion}
+      datePublished={richResults.softwareApplication.datePublished}
+      downloadUrl={richResults.softwareApplication.downloadUrl}
+      installUrl={richResults.softwareApplication.installUrl}
+      featureList={richResults.softwareApplication.featureList}
+      requirements={richResults.softwareApplication.requirements}
+      siteBase={siteBase}
+    />
+  )}
+
+  {richResults?.aggregateRating && (
+    <AggregateRatingSchema
+      itemType={richResults.aggregateRating.itemType}
+      itemName={richResults.aggregateRating.itemName}
+      itemDescription={richResults.aggregateRating.itemDescription}
+      itemUrl={richResults.aggregateRating.itemUrl}
+      itemImage={richResults.aggregateRating.itemImage}
+      ratingValue={richResults.aggregateRating.rating.ratingValue}
+      ratingCount={richResults.aggregateRating.rating.ratingCount}
+      reviewCount={richResults.aggregateRating.rating.reviewCount}
+      bestRating={richResults.aggregateRating.rating.bestRating}
+      worstRating={richResults.aggregateRating.rating.worstRating}
+      siteBase={siteBase}
+    />
+  )}
 
   <nav>
     <a href={base}>Home</a>

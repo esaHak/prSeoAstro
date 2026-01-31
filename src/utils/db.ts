@@ -2,6 +2,7 @@ import categoriesData from '../data/categories.json';
 import subcategoriesData from '../data/subcategories.json';
 import type { ContentItem } from './videos/types';
 import type { Locale } from './i18n/config';
+import type { RichResultsConfig } from './schemas/types';
 
 export type ContentSection = {
   overview?: ContentItem[];
@@ -40,6 +41,8 @@ export type Category = {
   datePublished?: string;  // ISO 8601 date (e.g., "2024-01-15")
   dateModified?: string;   // ISO 8601 date
   status?: ContentStatus;  // Workflow status (default: 'published')
+  // Rich results for structured data
+  richResults?: Localizable<RichResultsConfig>;
 };
 
 export type Subcategory = {
@@ -61,6 +64,8 @@ export type Subcategory = {
   datePublished?: string;  // ISO 8601 date (e.g., "2024-01-15")
   dateModified?: string;   // ISO 8601 date
   status?: ContentStatus;  // Workflow status (default: 'published')
+  // Rich results for structured data
+  richResults?: Localizable<RichResultsConfig>;
 };
 
 // Type-safe data imports

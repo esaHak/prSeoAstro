@@ -1,49 +1,114 @@
 ---
 /**
  * Inline Image Component
- * Renders inline content images with lazy loading and optional credit link (nofollow)
+ * Renders optimized inline content images with WebP conversion,
+ * responsive srcset, lazy loading, and optional credit link (nofollow)
+ *
+ * Features:
+ * - Automatic WebP format with fallback
+ * - Responsive srcset for different viewport sizes
+ * - Native lazy loading for performance
+ * - Semantic HTML with figure/figcaption
+ * - Accessible credit attribution
+ * - Flexible alignment (left, right, center)
  */
-import type { ImageWithUrl } from '../utils/images/types';
+import type { ImageWithUrl, OptimizedImage } from '../utils/images/types';
+import { createOptimizedImage } from '../utils/images/optimization';
+import OptimizedPicture from './OptimizedPicture.astro';
 
 interface Props {
-  image: ImageWithUrl;
+  image: ImageWithUrl | OptimizedImage;
   align?: 'left' | 'right' | 'center';
+  caption?: string;
 }
 
-const { image, align = 'center' } = Astro.props;
+const { image, align = 'center', caption } = Astro.props;
 
-const alignmentStyles = {
-  left: 'margin: 1rem 1rem 1rem 0; float: left;',
-  right: 'margin: 1rem 0 1rem 1rem; float: right;',
-  center: 'margin: 1.5rem auto; display: block;'
+// Convert to optimized image if not already
+const optimizedImage: OptimizedImage = 'webpSrcset' in image
+  ? image
+  : createOptimizedImage(image, {
+      webp: true,
+      srcset: true,
+      sizes: '(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px',
+    });
+
+// Alignment styles for the figure element
+const alignmentStyles: Record<string, string> = {
+  left: 'margin: 1rem 1rem 1rem 0; float: left; max-width: 50%;',
+  right: 'margin: 1rem 0 1rem 1rem; float: right; max-width: 50%;',
+  center: 'margin: 1.5rem auto; display: block; max-width: 100%;'
 };
 
-const imgStyle = `${alignmentStyles[align]} max-width: 100%; height: auto; border-radius: 4px;`;
+// Image styles based on alignment
+const imgStyles: Record<string, string> = {
+  left: 'max-width: 100%; height: auto; border-radius: 4px; display: block;',
+  right: 'max-width: 100%; height: auto; border-radius: 4px; display: block;',
+  center: 'max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;'
+};
+
+// Responsive sizes based on alignment
+const responsiveSizes: Record<string, string> = {
+  left: '(max-width: 768px) 100vw, 50vw',
+  right: '(max-width: 768px) 100vw, 50vw',
+  center: '(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px'
+};
+
+// Display caption - prefer passed caption, fallback to credit
+const displayCaption = caption || (image.creditName ? undefined : undefined);
 ---
 
-<figure style="margin: 0;">
-  <img
-    src={image.absoluteUrl}
-    alt={image.alt}
-    width={image.width}
-    height={image.height}
-    loading="lazy"
-    decoding="async"
-    style={imgStyle}
+<figure style={alignmentStyles[align]}>
+  <OptimizedPicture
+    image={optimizedImage}
+    priority={false}
+    style={imgStyles[align]}
+    sizes={responsiveSizes[align]}
   />
 
-  {image.creditName && image.creditUrl && (
+  {/* Caption with optional credit */}
+  {(displayCaption || image.creditName) && (
     <figcaption style="font-size: 0.875rem; color: #666; text-align: center; margin-top: 0.5rem;">
-      Image:
-      <a
-        href={image.creditUrl}
-        rel="nofollow noopener noreferrer"
-        target="_blank"
-        style="color: #0066cc;"
-      >
-        {image.creditName}
-      </a>
-      {image.license && ` (${image.license})`}
+      {displayCaption && <span>{displayCaption}</span>}
+      {displayCaption && image.creditName && ' — '}
+      {image.creditName && image.creditUrl && (
+        <span>
+          Image:
+          <a
+            href={image.creditUrl}
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            style="color: #0066cc; margin-left: 0.25rem;"
+          >
+            {image.creditName}
+          </a>
+          {image.license && ` (${image.license})`}
+        </span>
+      )}
+      {image.creditName && !image.creditUrl && (
+        <span>
+          Image: {image.creditName}
+          {image.license && ` (${image.license})`}
+        </span>
+      )}
     </figcaption>
   )}
 </figure>
+
+<style>
+  /* Clear floats for aligned images */
+  figure::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    figure[style*="float"] {
+      float: none !important;
+      margin: 1rem auto !important;
+      max-width: 100% !important;
+    }
+  }
+</style>

@@ -1,0 +1,157 @@
+---
+/**
+ * SoftwareApplication JSON-LD Schema Component
+ * Generates structured data for software and applications
+ * @see https://schema.org/SoftwareApplication
+ * @see https://developers.google.com/search/docs/appearance/structured-data/software-app
+ */
+
+export interface SoftwareOffer {
+  price: string | number;
+  priceCurrency: string;
+  priceValidUntil?: string; // ISO 8601 date
+}
+
+export interface SoftwareRating {
+  ratingValue: number;
+  ratingCount?: number;
+  reviewCount?: number;
+  bestRating?: number;
+  worstRating?: number;
+}
+
+interface Props {
+  name: string;
+  description?: string;
+  applicationCategory?: string; // e.g., "BusinessApplication", "GameApplication"
+  operatingSystem?: string; // e.g., "Windows, macOS, Linux"
+  offers?: SoftwareOffer;
+  aggregateRating?: SoftwareRating;
+  screenshot?: string | string[];
+  softwareVersion?: string;
+  datePublished?: string;
+  downloadUrl?: string;
+  installUrl?: string;
+  featureList?: string | string[];
+  requirements?: string;
+  siteBase?: string;
+}
+
+const {
+  name,
+  description,
+  applicationCategory,
+  operatingSystem,
+  offers,
+  aggregateRating,
+  screenshot,
+  softwareVersion,
+  datePublished,
+  downloadUrl,
+  installUrl,
+  featureList,
+  requirements,
+  siteBase = 'https://prseoastro.pages.dev'
+} = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Helper to normalize URL
+function normalizeUrl(url: string): string {
+  return url.startsWith('http') ? url : `${normalizedBase}${url}`;
+}
+
+// Build the JSON-LD structure
+const softwareApp: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": name
+};
+
+// Add optional fields
+if (description) {
+  softwareApp.description = description;
+}
+
+if (applicationCategory) {
+  softwareApp.applicationCategory = applicationCategory;
+}
+
+if (operatingSystem) {
+  softwareApp.operatingSystem = operatingSystem;
+}
+
+if (softwareVersion) {
+  softwareApp.softwareVersion = softwareVersion;
+}
+
+if (datePublished) {
+  softwareApp.datePublished = datePublished;
+}
+
+if (downloadUrl) {
+  softwareApp.downloadUrl = normalizeUrl(downloadUrl);
+}
+
+if (installUrl) {
+  softwareApp.installUrl = normalizeUrl(installUrl);
+}
+
+if (requirements) {
+  softwareApp.softwareRequirements = requirements;
+}
+
+// Handle screenshot(s)
+if (screenshot) {
+  if (Array.isArray(screenshot)) {
+    softwareApp.screenshot = screenshot.map(normalizeUrl);
+  } else {
+    softwareApp.screenshot = normalizeUrl(screenshot);
+  }
+}
+
+// Handle feature list
+if (featureList) {
+  if (Array.isArray(featureList)) {
+    softwareApp.featureList = featureList.join(', ');
+  } else {
+    softwareApp.featureList = featureList;
+  }
+}
+
+// Add offers (pricing)
+if (offers) {
+  softwareApp.offers = {
+    "@type": "Offer",
+    "price": offers.price,
+    "priceCurrency": offers.priceCurrency
+  };
+
+  if (offers.priceValidUntil) {
+    softwareApp.offers.priceValidUntil = offers.priceValidUntil;
+  }
+}
+
+// Add aggregate rating
+if (aggregateRating) {
+  softwareApp.aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": aggregateRating.ratingValue,
+    "bestRating": aggregateRating.bestRating || 5,
+    "worstRating": aggregateRating.worstRating || 1
+  };
+
+  if (aggregateRating.ratingCount) {
+    softwareApp.aggregateRating.ratingCount = aggregateRating.ratingCount;
+  }
+
+  if (aggregateRating.reviewCount) {
+    softwareApp.aggregateRating.reviewCount = aggregateRating.reviewCount;
+  }
+}
+
+const jsonLd = JSON.stringify(softwareApp);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

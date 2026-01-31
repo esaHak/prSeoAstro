@@ -1,29 +1,44 @@
 ---
 /**
  * Hero Image Component
- * Renders hero image with optional credit link (nofollow for third-party)
+ * Renders optimized hero image with WebP conversion, responsive srcset,
+ * and optional credit link (nofollow for third-party)
+ *
+ * Features:
+ * - Automatic WebP format with fallback
+ * - Responsive srcset for different viewport sizes
+ * - Priority loading for above-the-fold images
+ * - Prevents CLS with explicit dimensions
+ * - Accessible credit attribution
  */
-import type { ImageWithUrl } from '../utils/images/types';
+import type { ImageWithUrl, OptimizedImage } from '../utils/images/types';
+import { createOptimizedImage } from '../utils/images/optimization';
+import OptimizedPicture from './OptimizedPicture.astro';
 
 interface Props {
-  image: ImageWithUrl;
-  priority?: boolean; // For loading="eager" vs "lazy"
+  image: ImageWithUrl | OptimizedImage;
+  /** For loading="eager" vs "lazy" - hero images default to priority */
+  priority?: boolean;
 }
 
 const { image, priority = true } = Astro.props;
 
-const loadingAttr = priority ? 'eager' : 'lazy';
+// Convert to optimized image if not already
+const optimizedImage: OptimizedImage = 'webpSrcset' in image
+  ? image
+  : createOptimizedImage(image, {
+      webp: true,
+      srcset: true,
+      sizes: '100vw', // Hero images are full-width
+    });
 ---
 
 <div class="hero-image-container" style="margin: 2rem 0;">
-  <img
-    src={image.absoluteUrl}
-    alt={image.alt}
-    width={image.width}
-    height={image.height}
-    loading={loadingAttr}
-    decoding="async"
-    style="width: 100%; height: auto; border-radius: 8px;"
+  <OptimizedPicture
+    image={optimizedImage}
+    priority={priority}
+    style="width: 100%; height: auto; border-radius: 8px; display: block;"
+    sizes="100vw"
   />
 
   {image.creditName && image.creditUrl && (
