@@ -1,0 +1,8 @@
+# Cloudflare Pages Redirects
+# Generated from src/data/redirects.json
+# Format: [source] [destination] [status]
+
+/crm-software/ /en/crm-software/ 301
+/email-marketing/ /en/email-marketing/ 301
+/project-management/ /en/project-management/ 301
+/analytics-software/ /en/analytics-software/ 301

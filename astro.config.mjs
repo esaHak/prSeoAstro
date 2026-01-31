@@ -14,6 +14,15 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
+      // Filter out pages that shouldn't be in sitemap
+      filter(page) {
+        // Exclude 404 page
+        if (page.includes('/404')) return false;
+        // Exclude root language selector (not a content page)
+        // Check both with and without trailing slash
+        if (page.replace(/\/$/, '') === 'https://prseoastro.pages.dev') return false;
+        return true;
+      },
       // Custom function to set priority based on URL depth
       serialize(item) {
         // Homepage gets highest priority

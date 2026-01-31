@@ -22,11 +22,21 @@ import {
 
 // Generate all static paths from relational database
 // Now includes locale-specific routes
+// Filters out draft and archived content
 export function getStaticPaths() {
+  // Helper to check if content should be published
+  const isPublished = (entity: Category | Subcategory): boolean => {
+    // Default to published if no status is set
+    return !entity.status || entity.status === 'published';
+  };
+
   const paths = [];
 
   // Add all category pages (with locale variants)
+  // Only include published content
   for (const category of DB.getAllCategories()) {
+    if (!isPublished(category)) continue;
+
     const availableLocales = getAvailableLocalesForEntity(category);
 
     for (const locale of availableLocales) {
@@ -42,7 +52,10 @@ export function getStaticPaths() {
   }
 
   // Add all subcategory pages (with locale variants)
+  // Only include published content
   for (const subcategory of DB.getAllSubcategories()) {
+    if (!isPublished(subcategory)) continue;
+
     const availableLocales = getAvailableLocalesForEntity(subcategory);
     const fullPath = DB.getFullPath(subcategory);
 
@@ -189,6 +202,10 @@ const currentPath = type === 'category'
 // Extract date fields for structured data
 const datePublished = data.datePublished;
 const dateModified = data.dateModified;
+
+// Determine if page should be noindexed
+// Archived pages are kept but not indexed; draft pages are excluded entirely
+const shouldNoindex = data.status === 'archived';
 ---
 
 <BaseLayout
@@ -198,6 +215,7 @@ const dateModified = data.dateModified;
   locale={locale}
   hreflangLinks={hreflangLinks}
   alternateUrls={alternateUrls}
+  noindex={shouldNoindex}
 >
   <BreadcrumbSchema items={schemaBreadcrumbs} siteBase={siteBase} />
   <WebPageSchema
