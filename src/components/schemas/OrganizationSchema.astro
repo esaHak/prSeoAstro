@@ -1,0 +1,48 @@
+---
+/**
+ * Organization JSON-LD Schema Component
+ * Generates structured data for the organization/website
+ * @see https://schema.org/Organization
+ */
+
+interface Props {
+  siteBase?: string;
+}
+
+const { siteBase = 'https://prseoastro.pages.dev' } = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Build the JSON-LD structure
+const organization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "prSeoAstro",
+  "url": normalizedBase,
+  "logo": `${normalizedBase}/images/og/default-og.jpg`,
+  "description": "A demonstration of pillar and cluster page structure for programmatic SEO",
+  "sameAs": []
+};
+
+// WebSite schema for search action
+const webSite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "prSeoAstro",
+  "url": normalizedBase,
+  "description": "Programmatic SEO demonstration with pillar and cluster content structure",
+  "inLanguage": ["en", "fi"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "prSeoAstro",
+    "url": normalizedBase
+  }
+};
+
+const jsonLdOrg = JSON.stringify(organization);
+const jsonLdSite = JSON.stringify(webSite);
+---
+
+<script type="application/ld+json" set:html={jsonLdOrg} />
+<script type="application/ld+json" set:html={jsonLdSite} />

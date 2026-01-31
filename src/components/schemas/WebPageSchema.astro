@@ -1,0 +1,84 @@
+---
+/**
+ * WebPage JSON-LD Schema Component
+ * Generates structured data for web pages
+ * @see https://schema.org/WebPage
+ */
+
+interface Props {
+  title: string;
+  description: string;
+  url: string;
+  locale?: string;
+  datePublished?: string;
+  dateModified?: string;
+  breadcrumbs?: Array<{ title: string; url: string }>;
+  siteBase?: string;
+}
+
+const {
+  title,
+  description,
+  url,
+  locale = 'en',
+  datePublished,
+  dateModified,
+  breadcrumbs = [],
+  siteBase = 'https://prseoastro.pages.dev'
+} = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Helper to normalize URL path (remove leading slash if base has no trailing)
+function normalizeUrl(path: string): string {
+  return path.startsWith('/') ? path.slice(1) : path;
+}
+
+// Build the JSON-LD structure
+const webPage: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `${normalizedBase}/${normalizeUrl(url)}`,
+  "inLanguage": locale,
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "prSeoAstro",
+    "url": normalizedBase
+  }
+};
+
+// Add dates if provided
+if (datePublished) {
+  webPage.datePublished = datePublished;
+}
+if (dateModified) {
+  webPage.dateModified = dateModified;
+}
+
+// Add breadcrumb reference if breadcrumbs exist
+if (breadcrumbs.length > 0) {
+  webPage.breadcrumb = {
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.title,
+      "item": `${normalizedBase}/${normalizeUrl(item.url)}`
+    }))
+  };
+}
+
+// Add publisher/organization reference
+webPage.publisher = {
+  "@type": "Organization",
+  "name": "prSeoAstro",
+  "url": normalizedBase
+};
+
+const jsonLd = JSON.stringify(webPage);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

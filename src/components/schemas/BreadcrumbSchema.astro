@@ -1,0 +1,43 @@
+---
+/**
+ * BreadcrumbList JSON-LD Schema Component
+ * Generates structured data for breadcrumb navigation
+ * @see https://schema.org/BreadcrumbList
+ */
+
+export interface BreadcrumbItem {
+  title: string;
+  url: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+  siteBase?: string;
+}
+
+const { items, siteBase = 'https://prseoastro.pages.dev' } = Astro.props;
+
+// Normalize siteBase
+const normalizedBase = siteBase.endsWith('/') ? siteBase.slice(0, -1) : siteBase;
+
+// Helper to normalize URL path (remove leading slash if base has no trailing)
+function normalizeUrl(url: string): string {
+  return url.startsWith('/') ? url.slice(1) : url;
+}
+
+// Build the JSON-LD structure
+const breadcrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.title,
+    "item": `${normalizedBase}/${normalizeUrl(item.url)}`
+  }))
+};
+
+const jsonLd = JSON.stringify(breadcrumbList);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

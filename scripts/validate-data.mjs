@@ -172,6 +172,40 @@ function validateAnchors(categories, subcategories, anchors) {
   return { errors, warnings };
 }
 
+function validateUniqueSlugs(categories, subcategories) {
+  const errors = [];
+
+  // Check for duplicate slugs at category level
+  const categorySlugs = new Map();
+  for (const cat of categories) {
+    if (categorySlugs.has(cat.slug)) {
+      errors.push(
+        `Duplicate slug: Categories "${cat.id}" and "${categorySlugs.get(cat.slug)}" both use slug "${cat.slug}"`
+      );
+    }
+    categorySlugs.set(cat.slug, cat.id);
+  }
+
+  // Check for duplicate slugs within the same parent
+  const slugsByParent = new Map();
+  for (const sub of subcategories) {
+    const parentKey = sub.parentCategoryId;
+    if (!slugsByParent.has(parentKey)) {
+      slugsByParent.set(parentKey, new Map());
+    }
+
+    const siblings = slugsByParent.get(parentKey);
+    if (siblings.has(sub.slug)) {
+      errors.push(
+        `Duplicate slug: Subcategories "${sub.id}" and "${siblings.get(sub.slug)}" share parent "${parentKey}" and both use slug "${sub.slug}"`
+      );
+    }
+    siblings.set(sub.slug, sub.id);
+  }
+
+  return errors;
+}
+
 function validateCitations(categories, subcategories) {
   const warnings = [];
   const citationPattern = /\[S\d+\]/;
@@ -283,6 +317,7 @@ function validate() {
   console.log(`📊 Found ${categories.length} categories, ${subcategories.length} subcategories\n`);
 
   errors.push(...validateUniqueIds(categories, subcategories));
+  errors.push(...validateUniqueSlugs(categories, subcategories));
   errors.push(...validateParentReferences(categories, subcategories));
   errors.push(...validateSubcategoryIds(categories, subcategories));
   errors.push(...validateRelatedCategoryIds(categories, subcategories));

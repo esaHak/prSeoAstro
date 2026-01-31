@@ -3,6 +3,7 @@
 // Lists all top-level categories in the current locale
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import OrganizationSchema from '../../components/schemas/OrganizationSchema.astro';
 import { DB } from '../../utils/db';
 import { resolveOgImage } from '../../utils/images';
 import {
@@ -86,6 +87,7 @@ const content = pageContent[locale] || pageContent.en;
   hreflangLinks={hreflangLinks}
   alternateUrls={alternateUrls}
 >
+  <OrganizationSchema siteBase={siteBase} />
   <h1>{content.title}</h1>
   <p style="font-size: 1.1rem; line-height: 1.6;">{content.intro}</p>
 

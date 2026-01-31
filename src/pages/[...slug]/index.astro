@@ -6,6 +6,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
 import ContentRenderer from '../../components/ContentRenderer.astro';
+import BreadcrumbSchema from '../../components/schemas/BreadcrumbSchema.astro';
+import WebPageSchema from '../../components/schemas/WebPageSchema.astro';
 import { DB, type Category, type Subcategory } from '../../utils/db';
 import type { PageContext } from '../../utils/internalLinking/targetResolver';
 import { resolveOgImage, resolveHeroImage } from '../../utils/images';
@@ -174,6 +176,15 @@ const whyChooseItems: ContentItem[] = content.whyChoose || [
   `When evaluating options for ${title.toLowerCase()}, it's important to consider various factors including functionality, scalability, ease of use, and long-term value. The right choice will integrate seamlessly with your existing tools and processes, whether you're using project management software, email marketing platforms, or other business systems. Strong integration capabilities ensure your tools work together harmoniously.`,
   `Modern businesses benefit from connected ecosystems where CRM software, project management tools, and email marketing platforms share data and insights. This integration enables better decision-making, improved team collaboration, and more effective customer engagement strategies across all touchpoints.`
 ];
+
+// Build breadcrumb items for schema (including Home)
+const homeBreadcrumb = { title: 'Home', url: `${base}${locale}/` };
+const schemaBreadcrumbs = [homeBreadcrumb, ...breadcrumbs];
+
+// Build current page URL for schemas
+const currentPath = type === 'category'
+  ? `${base}${locale}/${data.slug}/`
+  : `${base}${locale}/${DB.getFullPath(data as Subcategory)}/`;
 ---
 
 <BaseLayout
@@ -184,6 +195,15 @@ const whyChooseItems: ContentItem[] = content.whyChoose || [
   hreflangLinks={hreflangLinks}
   alternateUrls={alternateUrls}
 >
+  <BreadcrumbSchema items={schemaBreadcrumbs} siteBase={siteBase} />
+  <WebPageSchema
+    title={title}
+    description={description}
+    url={currentPath}
+    siteBase={siteBase}
+    breadcrumbs={schemaBreadcrumbs}
+  />
+
   <nav>
     <a href={base}>Home</a>
     {breadcrumbs.slice(0, -1).map((crumb) => (
